@@ -65,7 +65,7 @@ const HomePage: NextPage<Home.Props> = ({
             handle='@bits.and.atoms'
             description='Etiam rutrum metus a bibendum consectetur. '
             tags={['arte','generativo','diseño']}
-            image='http://localhost:3000/_next/image?url=https%3A%2F%2Fgig.mypinata.cloud%2Fipfs%2FQmWS6jZFNMg1UWKnC4vhcvs3V9dFEqPdaUGoL5yWvN5iQ6%2Fnft.png&w=3840&q=75'
+            image='gig.mypinata.cloud%2Fipfs%2FQmWS6jZFNMg1UWKnC4vhcvs3V9dFEqPdaUGoL5yWvN5iQ6%2Fnft.png&w=3840&q=75'
           />
           <Artist 
             name='Maw'
@@ -93,7 +93,7 @@ const HomePage: NextPage<Home.Props> = ({
           title='MAWVERSE'
           date='20 de Enero 2023'
           description='Experimento ficticcio para llenar espacio por aca'
-          image='/img/home/drop-maw-ejm.jpg'
+          image='/img/home/drop-maw-ejm.JPG'
         />
       </Stack>
 

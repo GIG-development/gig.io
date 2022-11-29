@@ -91,12 +91,6 @@ const HomePage: NextPage<Home.Props> = ({
             description='Nuestra primera colección para celebrar el lanzamiento oficial de GIG.io'
             image='/img/home/drop-gig-genesis.jpg'
           />
-          <Drop
-            title='MAWVERSE'
-            date='20 de Enero 2023'
-            description='Experimento ficticcio para llenar espacio por aca'
-            image='/img/home/drop-maw-ejm.JPG'
-          />
         </Stack>
 
         <Heading as="h2" variant="subtitle" color="brand.black">

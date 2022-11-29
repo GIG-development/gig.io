@@ -7,7 +7,6 @@ import {
     Link,
     Stack,
     Text,
-    useColorModeValue,
     useBreakpointValue
   } from '@chakra-ui/react'
 import { FC, PropsWithChildren } from 'react'

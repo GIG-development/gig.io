@@ -142,7 +142,7 @@ const Nosotros: NextPage = () => (
                         px={useBreakpointValue({ base: 4, md: 8 })}
                         >
                         <Stack maxW={'2xl'} align={'center'} spacing={6}>
-                            <Heading as="h2" size='3xl'>
+                            <Heading as="h2" size='2xl'>
                                 Manifiesto GIG
                             </Heading>
                             <Text
@@ -150,7 +150,7 @@ const Nosotros: NextPage = () => (
                                 fontWeight={400}
                                 lineHeight={1}
                                 textAlign={'center'}
-                                fontSize={useBreakpointValue({ base: 'lg', md: 'xl' })}>
+                                fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
                                     Conocemos el arduo camino que recorren los creativos para posicionarse en el mercado. Muchas veces darse a conocer y crecer en la industria es como toparse con pared. 
                             </Text>
                             <Text
@@ -158,7 +158,7 @@ const Nosotros: NextPage = () => (
                                 fontWeight={400}
                                 lineHeight={1}
                                 textAlign={'center'}
-                                fontSize={useBreakpointValue({ base: 'lg', md: 'xl' })}>
+                                fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
                                     Hay que tener los contactos adecuados, las comisiones suelen ser demasiado altas, a veces el trabajo no se valora de manera justa y encontrar buenos clientes se convierte en una tarea titánica. A esto súmale los típicos comentarios como el clásico “¿Cómo vas a vivir de eso?”
                             </Text>
                             <Text
@@ -166,7 +166,7 @@ const Nosotros: NextPage = () => (
                                 fontWeight={400}
                                 lineHeight={1}
                                 textAlign={'center'}
-                                fontSize={useBreakpointValue({ base: 'lg', md: 'xl' })}>
+                                fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
                                 Por eso, queremos que este mensaje llegue a todos los creativos (quienes expresamos nuestra esencia con ocurrencia): Vivir de lo que nos apasiona es posible y no solo eso, también es redituable.  
                             </Text>
                         </Stack>
@@ -176,16 +176,16 @@ const Nosotros: NextPage = () => (
                     <Heading as="h2" variant={'title'}>
                         Familia GIG
                     </Heading>
-                    <Text textAlign={'center'}>
+                    <Text textAlign={'center'} fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
                         Estás entrando por la puerta dimensional al ecosistema GIG en donde vas a encontrar seres extraordinarios, mentes creativas conviviendo en una comunidad enfocada en la creación de activos digitales que une a nuevos talentos, artistas, coleccionistas e inversores en Latinoamérica.
                     </Text>
-                    <Text textAlign={'center'}>
+                    <Text textAlign={'center'} fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
                         Un marketplace en donde hay música, arte visual, diseño, videojuegos, avatares, podcast, experiencias sensoriales, artículos de moda y mucho más. Un mundo en donde la creatividad está de fiesta. 
                     </Text>
-                    <Text textAlign={'center'}>
+                    <Text textAlign={'center'} fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
                         Aprovecha las oportunidades de ser visto por cientos de millones de personas gracias a la colaboración con medios masivos y participa en eventos de la industria de la tecnología y espectáculos.
                     </Text>
-                    <Text textAlign={'center'}>
+                    <Text textAlign={'center'} fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
                         Crea lo que imaginas en tus propios términos. ¿Preparado?
                     </Text>
                     <Grid
@@ -193,10 +193,11 @@ const Nosotros: NextPage = () => (
                         templateColumns={{
                         base: 'repeat(1, 1fr)',
                         sm: 'repeat(2, 1fr)',
-                        md: 'repeat(3, 1fr)',
+                        md: 'repeat(4, 1fr)',
                         }}
                         gap={{ base: '8', sm: '12', md: '16' }}>
                         <Box textAlign={'center'}>
+                            <Image src='/img/familia/nftlali.png' w={150} h={150} margin={'0 auto'} borderRadius={'full'} border={'1px solid black'} boxShadow={'4px 4px 0 0 black'} mb={2}/>
                             <Heading as={'h4'} variant={'heading4'} mb={4}>NFTLALI</Heading>
                             <Text fontSize='xs'>
                             Deidad GIGLANDIA. <br/>
@@ -205,27 +206,13 @@ const Nosotros: NextPage = () => (
                             </Text>
                         </Box>
                         <Box textAlign={'center'}>
-                            <Heading as={'h4'} variant={'heading4'} mb={4}>Eskeri Popi</Heading>
+                            <Image src='/img/familia/mujer.png' w={150} h={150} margin={'0 auto'} borderRadius={'full'} border={'1px solid black'} boxShadow={'4px 4px 0 0 black'} mb={2}/>
+                            <Heading as={'h4'} variant={'heading4'} mb={4}>Mujer</Heading>
                             <Text fontSize='xs'>
-                            Arquetipo del miedo paralizante a lo desconocido. 
-                            La tecnología descentralizada viene a remover sus nervios.
                             </Text>
                         </Box>
                         <Box textAlign={'center'}>
-                            <Heading as={'h4'} variant={'heading4'} mb={4}>Jeiter Popi</Heading>
-                            <Text fontSize='xs'>
-                            Clavado en la matrix. Está bien siguiendo órdenes.
-                            Todos tenemos un “hater” favorito, ese es Jeitre Popi.
-                            </Text>
-                        </Box>
-                        <Box textAlign={'center'}>
-                            <Heading as={'h4'} variant={'heading4'} mb={4}>Flipper</Heading>
-                            <Text fontSize='xs'>
-                            Un hombre que por ambicioso se convirtió en delfín.
-                            Flipeaba y flipeaba cuánto podía, o sea que compra barato y vende caro. 
-                            </Text>
-                        </Box>
-                        <Box textAlign={'center'}>
+                            <Image src='/img/familia/creadori.png' w={150} h={150} margin={'0 auto'} borderRadius={'full'} border={'1px solid black'} boxShadow={'4px 4px 0 0 black'} mb={2}/>
                             <Heading as={'h4'} variant={'heading4'} mb={4}>Creadori Jiménez</Heading>
                             <Text fontSize='xs'>
                             Creador de creadores. <br/>
@@ -233,10 +220,41 @@ const Nosotros: NextPage = () => (
                             </Text>
                         </Box>
                         <Box textAlign={'center'}>
+                            <Image src='/img/familia/flipper.png' w={150} h={150} margin={'0 auto'} borderRadius={'full'} border={'1px solid black'} boxShadow={'4px 4px 0 0 black'} mb={2}/>
+                            <Heading as={'h4'} variant={'heading4'} mb={4}>Flipper</Heading>
+                            <Text fontSize='xs'>
+                            Un hombre que por ambicioso se convirtió en delfín.
+                            Flipeaba y flipeaba cuánto podía, o sea que compra barato y vende caro. 
+                            </Text>
+                        </Box>
+                        <Box textAlign={'center'}>
+                            <Image src='/img/familia/eskeri.png' w={150} h={150} margin={'0 auto'} borderRadius={'full'} border={'1px solid black'} boxShadow={'4px 4px 0 0 black'} mb={2}/>
+                            <Heading as={'h4'} variant={'heading4'} mb={4}>Eskeri Popi</Heading>
+                            <Text fontSize='xs'>
+                            Arquetipo del miedo paralizante a lo desconocido. 
+                            La tecnología descentralizada viene a remover sus nervios.
+                            </Text>
+                        </Box>
+                        <Box textAlign={'center'}>
+                            <Image src='/img/familia/jeiter.png' w={150} h={150} margin={'0 auto'} borderRadius={'full'} border={'1px solid black'} boxShadow={'4px 4px 0 0 black'} mb={2}/>
+                            <Heading as={'h4'} variant={'heading4'} mb={4}>Jeiter Popi</Heading>
+                            <Text fontSize='xs'>
+                            Clavado en la matrix. Está bien siguiendo órdenes.
+                            Todos tenemos un “hater” favorito, ese es Jeitre Popi.
+                            </Text>
+                        </Box>
+                        <Box textAlign={'center'}>
+                            <Image src='/img/familia/uri.png' w={150} h={150} margin={'0 auto'} borderRadius={'full'} border={'1px solid black'} boxShadow={'4px 4px 0 0 black'} mb={2}/>
                             <Heading as={'h4'} variant={'heading4'} mb={4}>URI</Heading>
                             <Text fontSize='xs'>
                             Consciencia-mensajero-acompañante de la gran deidad.
                             Es el intermediario entre los mundos en desarrollo y NFTLALI.
+                            </Text>
+                        </Box>
+                        <Box textAlign={'center'}>
+                            <Image src='/img/familia/mapache.png' w={150} h={150} margin={'0 auto'} borderRadius={'full'} border={'1px solid black'} boxShadow={'4px 4px 0 0 black'} mb={2}/>
+                            <Heading as={'h4'} variant={'heading4'} mb={4}>Mapache</Heading>
+                            <Text fontSize='xs'>
                             </Text>
                         </Box>
                     </Grid>

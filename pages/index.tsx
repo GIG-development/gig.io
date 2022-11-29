@@ -1,12 +1,13 @@
 import {
   Heading,
   SimpleGrid,
-  Stack,
+  Stack
 } from '@chakra-ui/react';
 import { Home } from '@nft/templates'
 import Artist from 'components/Artist/Artist';
 import Drop from '../components/Drop/Drop'
 import Hero from '../components/Hero/Hero'
+import SecondaryHero from '../components/Hero/SecondaryHero'
 import Banner from '../components/Banner/Banner'
 import { NextPage } from 'next'
 import environment from '../environment'
@@ -25,10 +26,11 @@ const HomePage: NextPage<Home.Props> = ({
   tokens,
   limit,
   currentAccount,
-}) => (
+}) => {
+  return (
   <>
+    <Hero />
     <LargeLayout>
-
       <Home.Template
         currentAccount={currentAccount}
         featuredTokens={featuredTokens}
@@ -100,13 +102,13 @@ const HomePage: NextPage<Home.Props> = ({
         <Heading as="h2" variant="subtitle" color="brand.black">
             GIG Marketplace
         </Heading>
-        <Hero 
+        <SecondaryHero 
           ctaLine1='Empoderando almas'
           ctaLine2='CREATIVAS'
           description=''
           button1='Explorar'
           button2='¿Cómo funciona?'
-          image='./img/home/home_hero_video_bg.jpg'
+          image='./img/home/video.jpg'
         />
     </LargeLayout>
     
@@ -118,6 +120,6 @@ const HomePage: NextPage<Home.Props> = ({
       image={'./img/home/home_faq_banner_bg.png'}
     />
   </>
-)
+)}
 
 export default HomePage

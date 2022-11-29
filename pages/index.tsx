@@ -81,23 +81,23 @@ const HomePage: NextPage<Home.Props> = ({
       </Stack>
 
 
-      <Stack spacing={6} my={40}>
-        <Heading as="h2" variant="subtitle" color="brand.black">
-          Lanzamientos GIG
+        <Heading as="h2" variant="subtitle" color="brand.black" mt={40} mb={10}>
+            Lanzamientos GIG
         </Heading>
-        <Drop
-          title='GIG Genesis'
-          date='1 de Enero 2023'
-          description='Nuestra primera colección para celebrar el lanzamiento oficial de GIG.io'
-          image='/img/home/drop-gig-genesis.jpg'
-        />
-        <Drop
-          title='MAWVERSE'
-          date='20 de Enero 2023'
-          description='Experimento ficticcio para llenar espacio por aca'
-          image='/img/home/drop-maw-ejm.JPG'
-        />
-      </Stack>
+        <Stack spacing={12} mb={40}>
+          <Drop
+            title='GIG Genesis'
+            date='1 de Enero 2023'
+            description='Nuestra primera colección para celebrar el lanzamiento oficial de GIG.io'
+            image='/img/home/drop-gig-genesis.jpg'
+          />
+          <Drop
+            title='MAWVERSE'
+            date='20 de Enero 2023'
+            description='Experimento ficticcio para llenar espacio por aca'
+            image='/img/home/drop-maw-ejm.JPG'
+          />
+        </Stack>
 
         <Heading as="h2" variant="subtitle" color="brand.black">
             GIG Marketplace

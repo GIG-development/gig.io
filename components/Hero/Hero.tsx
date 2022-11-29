@@ -53,7 +53,7 @@ const Hero: FC = () => {
                             perfect for freelancers, agencies, and moonlighters.
                         </Text>
                         <Stack direction={{ base: 'column', md: 'row' }} spacing={4}>
-                        <Link href={'/explorar'}>
+                        <Link href={'/explore'}>
                         <Button
                             rounded={'base'}
                             size={'lg'}

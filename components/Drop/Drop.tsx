@@ -21,8 +21,8 @@ const Drop: FC<PropsWithChildren<Props>> = ({
     title, date, description, image
 }) => {
     return (
-    <Stack direction={{ base: 'column', md: 'row' }}>
-        <Flex>
+    <Stack direction={{ base: 'column', md: 'row' }} mb={12}>
+        <Flex boxSize={{base: 'xs', md: 'sm'}}>
             <Image
                 alt={'Drop Image'}
                 objectFit={'cover'}

@@ -15,6 +15,7 @@ import { useEffect, useMemo } from 'react'
 import Head from '../components/Head'
 import environment from '../environment'
 import { theme } from '../styles/theme'
+import '../styles/custom.css'
 
 NProgress.configure({ showSpinner: false })
 

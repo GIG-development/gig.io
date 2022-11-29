@@ -207,7 +207,7 @@ const Nosotros: NextPage = () => (
                         </Box>
                         <Box textAlign={'center'}>
                             <Image src='/img/familia/mujer.png' w={150} h={150} margin={'0 auto'} borderRadius={'full'} border={'1px solid black'} boxShadow={'4px 4px 0 0 black'} mb={2}/>
-                            <Heading as={'h4'} variant={'heading4'} mb={4}>Mujer</Heading>
+                            <Heading as={'h4'} variant={'heading4'} mb={4}>Galerista</Heading>
                             <Text fontSize='xs'>
                             </Text>
                         </Box>

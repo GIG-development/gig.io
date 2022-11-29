@@ -90,6 +90,7 @@ const Footer: FC<PropsWithChildren<Props>> = ({
               <ListHeader>GIG</ListHeader>
               <Link href={userProfileLink}>Mi Perfil</Link>
               <Link href={'/nosotros'}>Sobre Nosotros</Link>
+              <Link href={'/creadores'}>Creadores</Link>
               <Link href={'/familia-gig'}>Familia GIG</Link>
               <Link href={'/gigcionario'}>GIGcionario</Link>
               <Link href={'/contacto'}>Contáctanos</Link>

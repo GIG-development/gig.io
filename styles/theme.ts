@@ -1,4 +1,4 @@
-import { extendTheme, propNames, type ThemeConfig } from '@chakra-ui/react'
+import { background, extendTheme, propNames, type ThemeConfig } from '@chakra-ui/react'
 import { StyleFunctionProps } from '@chakra-ui/theme-tools'
 import { baseTheme } from '@nft/components'
 
@@ -252,7 +252,8 @@ export const theme = extendTheme({
       },
       input: {
         _focus: {
-          boxShadow: '4px 4px 0 0 black !important'
+          boxShadow: '4px 4px 0 0 black !important',
+          backgroundColor: 'white'
         },
         border: '1px solid black !important'
       },

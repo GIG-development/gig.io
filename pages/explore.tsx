@@ -8,7 +8,7 @@ import { values } from '../traits'
 export const getServerSideProps = Explorer.server(
   environment.GRAPHQL_URL,
   values,
-  environment.PAGINATION_LIMIT,
+  24, //Pagination limit
 )
 
 const ExplorePage: NextPage<Explorer.Props> = ({
@@ -27,10 +27,10 @@ const ExplorePage: NextPage<Explorer.Props> = ({
     <Explorer.Template
       filter={filter}
       traits={traits}
-      limit={limit}
-      limits={[environment.PAGINATION_LIMIT, 24, 36, 48]}
+      limit={limit || 24}
+      limits={[24, 36, 48]}
       now={now}
-      offset={offset}
+      offset={offset || 102}
       orderBy={orderBy}
       page={page}
       queryFilter={queryFilter}

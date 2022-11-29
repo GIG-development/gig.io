@@ -31,6 +31,7 @@ const Hero: FC = () => {
                             as={'span'}
                             position={'relative'}
                             color={'white'}
+                            textShadow={'1px 1px black'}
                             _after={{
                                 content: "''",
                                 width: 'full',
@@ -41,11 +42,15 @@ const Hero: FC = () => {
                                 bg: 'white',
                                 zIndex: -1,
                             }}>
-                            GIG
+                                GIG
                             </Text>
                             <br />{' '}
-                            <Text color={'brand.400'} as={'span'}>
-                            Marketplace
+                            <Text
+                            color={'brand.400'}
+                            as={'span'}
+                            textShadow={'1px 1px black'}
+                            >
+                                Marketplace
                             </Text>{' '}
                         </Heading>
                         <Text fontSize={{ base: 'md', lg: 'lg' }} color={'gray.500'}>
@@ -73,7 +78,7 @@ const Hero: FC = () => {
                         border={'1px solid black'}
                         boxShadow={'4px 4px 0 0 black'}
                         px={6}
-                        leftIcon={<PlayIcon h={4} w={4} color={'gray.300'} />}>
+                        leftIcon={<PlayIcon h={4} w={4} color={'white'} />}>
                             ¿Cómo funciona?
                         </Button>
                     </Link>

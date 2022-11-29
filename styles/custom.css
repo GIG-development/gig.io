@@ -13,3 +13,17 @@
         padding-top: 120px;
     }
 }
+#__next > div:nth-child(1) .chakra-input__group input,
+#__next > div:nth-child(1) .chakra-input__group input::placeholder,
+#__next > div:nth-child(1) .chakra-input__left-element svg{
+    color: black;
+}
+.btn{
+    background-color: #BE94FF;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-shadow: 4px 4px 0 0 black;
+    color: white;
+    font-weight: bold;
+    padding: 12px 24px;
+}

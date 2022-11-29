@@ -63,7 +63,7 @@ const Nosotros: NextPage = () => (
                         <Stack spacing={4}>
                         <Heading as={'h2'} variant={'subtitle'}>Quiénes Somos</Heading>
                         <Text color={'gray.500'} fontSize={'md'}>
-                        Más que una plataforma, somos un ecosistema enfocado en la creación de NFTs en Latinoamérica conformado por mentes creativas, coleccionistas, inversionistas y entusiastas con un objetivo común: Hacer sinergia para empoderarse creando una comunidad Web3 sostenible y autónoma. 
+                        Más que una plataforma, somos un ecosistema enfocado en la creación de NFTs en Latinoamérica conformado por mentes creativas, coleccionistas, inversionistas y entusiastas con un objetivo común: <b>Hacer sinergia para empoderarse creando una comunidad Web3 sostenible y autónoma.</b>
                         </Text>
                         </Stack>
                         <Flex>

@@ -102,7 +102,7 @@ const SecondaryHero: FC<PropsWithChildren<Props>> = ({
                     border={'1px solid black'}
                     boxShadow={'4px 4px 0 0 black'}
                     px={6}
-                    leftIcon={<PlayIcon h={4} w={4} color={'gray.300'} />}>
+                    leftIcon={<PlayIcon h={4} w={4} color={'white'} />}>
                     {button2}
                     </Button>
                 </Link>

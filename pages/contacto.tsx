@@ -25,6 +25,10 @@ const Contacto: NextPage = () => (
               Cuéntanos lo que quieras. Estamos aquí para lo que se te ofrezca, no dudes en contactarnos.<br/>
               Deja tus datos debajo y encuéntranos en redes sociales como <b>@holagig</b>
             </Text>
+            <button data-tf-slider="VNmlDfKG" data-tf-hide-headers data-tf-position="right" data-tf-button-color="#BE94FF" data-tf-iframe-props="title=Contact Form" data-tf-chat className='btn'>
+              Contáctanos
+            </button>
+            <script src="//embed.typeform.com/next/embed.js"></script>
         </Stack>
     </LargeLayout>
   </>

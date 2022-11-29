@@ -23,7 +23,7 @@ import {
     useColorModeValue,
     AspectRatio,
     useBreakpointValue
-  } from '@chakra-ui/react'
+} from '@chakra-ui/react'
 import { FC, PropsWithChildren } from 'react'
 
 type Props = {

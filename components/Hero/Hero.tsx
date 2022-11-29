@@ -8,93 +8,89 @@ import {
     Stack,
     Text,
     useBreakpointValue
-  } from '@chakra-ui/react'
-import { FC, PropsWithChildren } from 'react'
-
-type Props = {
-}
+} from '@chakra-ui/react'
+import { FC } from 'react'
   
-const Hero: FC<PropsWithChildren<Props>> = ({
-}) => {
+const Hero: FC = () => {
     return (
     <>
-    <Flex
-      w={'full'}
-      h={'60vh'}
-      backgroundImage={
-        'url(/img/home/hero_bg.jpg)'
-      }
-      backgroundSize={'cover'}
-      backgroundPosition={'center center'}
-    >
-        <Stack minH={'60vh'} minW={'100vw'} direction={{ base: 'column', md: 'row' }}>
-            <Flex p={8} flex={1} align={'center'} justify={'center'}>
-                <Stack spacing={6} w={'full'} maxW={'lg'}>
-                    <Heading fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }}>
-                        <Text
-                        as={'span'}
-                        position={'relative'}
-                        color={'white'}
-                        _after={{
-                            content: "''",
-                            width: 'full',
-                            height: useBreakpointValue({ base: '20%', md: '30%' }),
-                            position: 'absolute',
-                            bottom: 1,
-                            left: 0,
-                            bg: 'white',
-                            zIndex: -1,
-                        }}>
-                        GIG
+        <Flex
+            w={'full'}
+            h={useBreakpointValue({base:'100vh', md: '60vh'})}
+            backgroundImage={
+                'url(/img/home/hero_bg.jpg)'
+            }
+            backgroundSize={'cover'}
+            backgroundPosition={'center center'}
+        >
+            <Stack minH={'60vh'} maxW={'7xl'} direction={{ base: 'column', md: 'row' }} margin={'0 auto'}>
+                <Flex p={8} flex={1} align={'center'} justify={'center'}>
+                    <Stack spacing={6} w={'full'} maxW={'lg'}>
+                        <Heading fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }}>
+                            <Text
+                            as={'span'}
+                            position={'relative'}
+                            color={'white'}
+                            _after={{
+                                content: "''",
+                                width: 'full',
+                                height: useBreakpointValue({ base: '20%', md: '30%' }),
+                                position: 'absolute',
+                                bottom: 1,
+                                left: 0,
+                                bg: 'white',
+                                zIndex: -1,
+                            }}>
+                            GIG
+                            </Text>
+                            <br />{' '}
+                            <Text color={'brand.400'} as={'span'}>
+                            Marketplace
+                            </Text>{' '}
+                        </Heading>
+                        <Text fontSize={{ base: 'md', lg: 'lg' }} color={'gray.500'}>
+                            The project board is an exclusive resource for contract work. It&apos;s
+                            perfect for freelancers, agencies, and moonlighters.
                         </Text>
-                        <br />{' '}
-                        <Text color={'brand.400'} as={'span'}>
-                        Marketplace
-                        </Text>{' '}
-                    </Heading>
-                    <Text fontSize={{ base: 'md', lg: 'lg' }} color={'gray.500'}>
-                        The project board is an exclusive resource for contract work. It&apos;s
-                        perfect for freelancers, agencies, and moonlighters.
-                    </Text>
-                    <Stack direction={{ base: 'column', md: 'row' }} spacing={4}>
-                    <Link href={'/explorar'}>
-                    <Button
+                        <Stack direction={{ base: 'column', md: 'row' }} spacing={4}>
+                        <Link href={'/explorar'}>
+                        <Button
+                            rounded={'base'}
+                            size={'lg'}
+                            border={'1px solid black'}
+                            boxShadow={'4px 4px 0 0 black'}
+                            px={6}
+                            colorScheme={'brand'}
+                            bg={'brand.400'}
+                            _hover={{ bg: 'brand.500' }}>
+                                Explorar
+                        </Button>
+                    </Link>
+                    <Link href={'/nosotros'}>
+                        <Button
                         rounded={'base'}
                         size={'lg'}
                         border={'1px solid black'}
                         boxShadow={'4px 4px 0 0 black'}
                         px={6}
-                        colorScheme={'brand'}
-                        bg={'brand.400'}
-                        _hover={{ bg: 'brand.500' }}>
-                            Explorar
-                    </Button>
-                </Link>
-                <Link href={'/nosotros'}>
-                    <Button
-                    rounded={'base'}
-                    size={'lg'}
-                    border={'1px solid black'}
-                    boxShadow={'4px 4px 0 0 black'}
-                    px={6}
-                    leftIcon={<PlayIcon h={4} w={4} color={'gray.300'} />}>
-                        ¿Cómo funciona?
-                    </Button>
-                </Link>
+                        leftIcon={<PlayIcon h={4} w={4} color={'gray.300'} />}>
+                            ¿Cómo funciona?
+                        </Button>
+                    </Link>
+                        </Stack>
                     </Stack>
-                </Stack>
-            </Flex>
-            <Flex flex={1}>
-                <Image
-                alt={'Main Hero Animation'}
-                objectFit={'cover'}
-                src={
-                    '/img/familia/nftlali.png'
-                }
-                />
-            </Flex>
-        </Stack>
-    </Flex>
+                </Flex>
+                <Flex flex={1}>
+                    <Image
+                    alt={'Main Hero Animation'}
+                    objectFit={'cover'}
+                    src={
+                        '/img/familia/nftlali.png'
+                    }
+                    />
+                </Flex>
+            </Stack>
+        </Flex>
     </>
     )
 }

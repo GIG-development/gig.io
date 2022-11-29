@@ -5,7 +5,8 @@ import {
     Text,
     Img,
     Flex,
-    useColorModeValue
+    useColorModeValue,
+    useBreakpointValue
   } from '@chakra-ui/react';
 import { FC, PropsWithChildren } from 'react'
 
@@ -27,7 +28,7 @@ const Artist: FC<PropsWithChildren<Props>> = ({
     return (
         <Flex justify={'center'}>
             <Box
-                w="sm"
+                w="xs"
                 rounded={'base'}
                 my={2}
                 overflow={'hidden'}
@@ -35,7 +36,7 @@ const Artist: FC<PropsWithChildren<Props>> = ({
                 border={'1px'}
                 borderColor="black"
                 boxShadow={useColorModeValue('4px 4px 0 black', '4px 4px 0 black')}>
-                <Box h={'280px'} borderBottom={'1px'} borderColor="black">
+                <Box h={useBreakpointValue({base: '280px', md: '280px'})} borderBottom={'1px'} borderColor="black">
                     <Img
                         src={image}
                         roundedTop={'sm'}

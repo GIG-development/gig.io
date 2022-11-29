@@ -34,16 +34,16 @@ const Banner: FC<PropsWithChildren<Props>> = ({
                 backgroundImage={
                     `url(${image})`
                 }
-                backgroundSize={'70%'}
+                backgroundSize={useBreakpointValue({ base: '100%', md: '70%' })}
                 backgroundPosition={'center center'}
                 backgroundRepeat={'no-repeat'}>
                 <VStack
                     w={'full'}
                     justify={'center'}
-                    px={useBreakpointValue({ base: 4, md: 8 })}
+                    px={useBreakpointValue({ base: 'sm', md: 8 })}
                     >
                     <Stack maxW={'2xl'} align={'center'} spacing={6}>
-                        <Heading as="h2" size='3xl'>
+                        <Heading as="h2" size={useBreakpointValue({ base: 'xl', md: '3xl' })}>
                             {cta}
                         </Heading>
                         <Text
@@ -51,10 +51,10 @@ const Banner: FC<PropsWithChildren<Props>> = ({
                             fontWeight={400}
                             lineHeight={1}
                             align={'center'}
-                            fontSize={useBreakpointValue({ base: 'lg', md: 'xl' })}>
+                            fontSize={useBreakpointValue({ base: 'md', md: 'xl' })}>
                             {description}
                         </Text>
-                        <Stack spacing={6} direction={'row'}>
+                        <Stack spacing={6} direction={useBreakpointValue({ base: 'column', md: 'row' })}>
                             <Link href={'/tutoriales'}>
                                 <Button
                                 bg={'brand.500'}

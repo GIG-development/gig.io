@@ -1,6 +1,5 @@
 import {
   Accordion,
-  Link,
   Heading, 
   Stack
 } from '@chakra-ui/react'
@@ -89,16 +88,7 @@ const Gigcionario: NextPage = () => (
                 question={'Royalties'}
                 answer={'Las regalías que se pagan a los creadores. Lo maravilloso es que en el mundo de los tokens no fungibles. Hablamos de regalías perpetuas, ya que cada vez que se venda dicho NFT, el autor se llevará el porcentaje de dicha venta que se haya establecido previamente en el contrato inteligente. Estas comisiones se establecen alrededor del 5% al 10% del valor del token.'}
               />
-
-
             </Accordion>
-            
-
-
-
-
-
-
         </Stack>
     </LargeLayout>
   </>

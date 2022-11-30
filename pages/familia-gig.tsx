@@ -43,7 +43,7 @@ const FamiliaGIG: NextPage = () => (
                 }}
                 gap={{ base: '8', sm: '12', md: '16' }}>
                 <Box textAlign={'center'}>
-                    <Image src='/img/familia/nftlali.png' w={150} h={150} margin={'0 auto'} borderRadius={'full'} border={'1px solid black'} boxShadow={'4px 4px 0 0 black'} mb={2}/>
+                    <Image alt="NFTLALI" src='/img/familia/nftlali.png' w={150} h={150} margin={'0 auto'} borderRadius={'full'} border={'1px solid black'} boxShadow={'4px 4px 0 0 black'} mb={2}/>
                     <Heading as={'h4'} variant={'heading4'} mb={4}>NFTLALI</Heading>
                     <Text fontSize='xs'>
                     Deidad GIGLANDIA. <br/>
@@ -52,14 +52,14 @@ const FamiliaGIG: NextPage = () => (
                     </Text>
                 </Box>
                 <Box textAlign={'center'}>
-                    <Image src='/img/familia/mujer.png' w={150} h={150} margin={'0 auto'} borderRadius={'full'} border={'1px solid black'} boxShadow={'4px 4px 0 0 black'} mb={2}/>
+                    <Image alt="Mamá Doris" src='/img/familia/mamadori.png' w={150} h={150} margin={'0 auto'} borderRadius={'full'} border={'1px solid black'} boxShadow={'4px 4px 0 0 black'} mb={2}/>
                     <Heading as={'h4'} variant={'heading4'} mb={4}>Mamá Doris</Heading>
                     <Text fontSize='xs'>
                     Mujer de mundo; curadora, intelectual, en tendencia. Dedicada en cuerpo y alma a identificar las mejores piezas y ofrecerlas al mejor postor.
                     </Text>
                 </Box>
                 <Box textAlign={'center'}>
-                    <Image src='/img/familia/creadori.png' w={150} h={150} margin={'0 auto'} borderRadius={'full'} border={'1px solid black'} boxShadow={'4px 4px 0 0 black'} mb={2}/>
+                    <Image alt="Creadori Jiménez" src='/img/familia/creadori.png' w={150} h={150} margin={'0 auto'} borderRadius={'full'} border={'1px solid black'} boxShadow={'4px 4px 0 0 black'} mb={2}/>
                     <Heading as={'h4'} variant={'heading4'} mb={4}>Creadori Jiménez</Heading>
                     <Text fontSize='xs'>
                     Creador de creadores. <br/>
@@ -67,7 +67,7 @@ const FamiliaGIG: NextPage = () => (
                     </Text>
                 </Box>
                 <Box textAlign={'center'}>
-                    <Image src='/img/familia/flipper.png' w={150} h={150} margin={'0 auto'} borderRadius={'full'} border={'1px solid black'} boxShadow={'4px 4px 0 0 black'} mb={2}/>
+                    <Image alt="Flipper" src='/img/familia/flipper.png' w={150} h={150} margin={'0 auto'} borderRadius={'full'} border={'1px solid black'} boxShadow={'4px 4px 0 0 black'} mb={2}/>
                     <Heading as={'h4'} variant={'heading4'} mb={4}>Flipper</Heading>
                     <Text fontSize='xs'>
                     Un hombre que por ambicioso se convirtió en delfín.
@@ -75,7 +75,7 @@ const FamiliaGIG: NextPage = () => (
                     </Text>
                 </Box>
                 <Box textAlign={'center'}>
-                    <Image src='/img/familia/eskeri.png' w={150} h={150} margin={'0 auto'} borderRadius={'full'} border={'1px solid black'} boxShadow={'4px 4px 0 0 black'} mb={2}/>
+                    <Image alt="Eskeri Popi" src='/img/familia/eskeri.png' w={150} h={150} margin={'0 auto'} borderRadius={'full'} border={'1px solid black'} boxShadow={'4px 4px 0 0 black'} mb={2}/>
                     <Heading as={'h4'} variant={'heading4'} mb={4}>Eskeri Popi</Heading>
                     <Text fontSize='xs'>
                     Arquetipo del miedo paralizante a lo desconocido. 
@@ -83,7 +83,7 @@ const FamiliaGIG: NextPage = () => (
                     </Text>
                 </Box>
                 <Box textAlign={'center'}>
-                    <Image src='/img/familia/jeiter.png' w={150} h={150} margin={'0 auto'} borderRadius={'full'} border={'1px solid black'} boxShadow={'4px 4px 0 0 black'} mb={2}/>
+                    <Image alt="Jeiter Popi" src='/img/familia/jeiter.png' w={150} h={150} margin={'0 auto'} borderRadius={'full'} border={'1px solid black'} boxShadow={'4px 4px 0 0 black'} mb={2}/>
                     <Heading as={'h4'} variant={'heading4'} mb={4}>Jeiter Popi</Heading>
                     <Text fontSize='xs'>
                     Clavado en la matrix. Está bien siguiendo órdenes.
@@ -91,7 +91,7 @@ const FamiliaGIG: NextPage = () => (
                     </Text>
                 </Box>
                 <Box textAlign={'center'}>
-                    <Image src='/img/familia/uri.png' w={150} h={150} margin={'0 auto'} borderRadius={'full'} border={'1px solid black'} boxShadow={'4px 4px 0 0 black'} mb={2}/>
+                    <Image alt="URI" src='/img/familia/uri.png' w={150} h={150} margin={'0 auto'} borderRadius={'full'} border={'1px solid black'} boxShadow={'4px 4px 0 0 black'} mb={2}/>
                     <Heading as={'h4'} variant={'heading4'} mb={4}>URI</Heading>
                     <Text fontSize='xs'>
                     Consciencia-mensajero-acompañante de la gran deidad.
@@ -99,7 +99,7 @@ const FamiliaGIG: NextPage = () => (
                     </Text>
                 </Box>
                 <Box textAlign={'center'}>
-                    <Image src='/img/familia/mapache.png' w={150} h={150} margin={'0 auto'} borderRadius={'full'} border={'1px solid black'} boxShadow={'4px 4px 0 0 black'} mb={2}/>
+                    <Image alt="Papá Che" src='/img/familia/mapache.png' w={150} h={150} margin={'0 auto'} borderRadius={'full'} border={'1px solid black'} boxShadow={'4px 4px 0 0 black'} mb={2}/>
                     <Heading as={'h4'} variant={'heading4'} mb={4}>Papá Che</Heading>
                     <Text fontSize='xs'>
                     Coleccionista nato. Vive con una obsesión desmesurada por hallar lo mejor de lo mejor y compartir genialidades creativas fuera de este mundo. 

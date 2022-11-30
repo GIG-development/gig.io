@@ -15,7 +15,7 @@ const Custom404: NextPage = () => (
             description=""
         />
         <Stack spacing={6} mb={20} align={'center'}>
-            <Image src={'/img/404/404.png'} w={'60%'}/>
+            <Image src={'/img/404/404.png'} w={'60%'} alt="404"/>
             <Heading variant={'subtitle'}>
                 Lo sentimos, no encontramos lo que estás buscando.
             </Heading>

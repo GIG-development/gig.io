@@ -21,18 +21,17 @@ const Drop: FC<PropsWithChildren<Props>> = ({
     title, date, description, image
 }) => {
     return (
-    <Stack direction={{ base: 'column', md: 'row' }} mb={12}>
-        <Flex boxSize={{base: 'xs', md: 'sm'}}>
-            <Image
-                alt={'Drop Image'}
-                objectFit={'cover'}
-                borderRadius={'base'}
-                border={'1px solid black'}
-                boxShadow={'4px 4px 0 0 black'}
-                src={image}
-            />
-        </Flex>
-        <Flex p={8} flex={'0 0 60%'} align={'center'} justify={'center'}>
+    <Stack direction={{ base: 'column', md: 'row' }} mb={12} align={'center'}>
+        <Image
+            alt={'Drop Image'}
+            objectFit={'cover'}
+            maxW={{base: 72, md: 'sm'}}
+            borderRadius={'base'}
+            border={'1px solid black'}
+            boxShadow={'4px 4px 0 0 black'}
+            src={image}
+        />
+        <Flex p={8} flex={{base: '0 0 100%', md: '0 0 60%'}} align={'center'} justify={'center'}>
             <Stack spacing={6} w={'full'}>
             <Heading fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }}>
                 <Text

@@ -85,7 +85,7 @@ const Hero: FC<PropsWithChildren<Props>> = ({
                         </Text>
                         <Stack direction={{ base: 'column', md: 'row' }} spacing={4}>
                             { (button_1!=='' && button_1_link!=='')  && 
-                                <Link href={`${button_1_link}`}>
+                                <Link href={button_1_link}>
                                     <Button
                                         rounded={'base'}
                                         size={'lg'}
@@ -100,7 +100,7 @@ const Hero: FC<PropsWithChildren<Props>> = ({
                                 </Link>
                             }
                             { (button_2!=='' && button_2_link!=='') && 
-                                <Link href={`${button_2_link}`}>
+                                <Link href={button_2_link}>
                                     <Button
                                     rounded={'base'}
                                     size={'lg'}

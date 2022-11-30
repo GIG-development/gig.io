@@ -26,32 +26,35 @@ import {
 import { FC, PropsWithChildren } from 'react'
 
 type Props = {
-    ctaLine1: string
-    ctaLine2?: string
+    ctaLine_1: string
+    ctaLine_2?: string
     description: string
-    button1: string
-    button2: string
-    image?: string
+    button_1?: string
+    button_1_link?: string
+    button_2?: string
+    button_2_link?: string
+    image: string
 }
   
 const SecondaryHero: FC<PropsWithChildren<Props>> = ({
-    ctaLine1,
-    ctaLine2,
+    ctaLine_1,
+    ctaLine_2 = '',
     description,
-    button1,
-    button2,
+    button_1 = '',
+    button_1_link = '',
+    button_2 = '',
+    button_2_link = '',
     image
 }) => {
     const {isOpen, onOpen, onClose} = useDisclosure()
     return (
     <>
         <Stack
-        maxW={'7xl'}
-        align={'center'}
-        spacing={{ base: 8, md: 10 }}
-        py={{ base: 8, md: 28 }}
+        maxW={{base: 72, md: '7xl'}}
+        spacing={{ base: 4, md: 6 }}
+        py={{ base: 4, md: 20 }}
         direction={{ base: 'column', md: 'row' }}>
-            <Stack flex={1} spacing={{ base: 5, md: 10 }}>
+            <Stack flex={1} spacing={{ base: 4, md: 6 }}>
                 <Heading
                 lineHeight={1.1}
                 fontWeight={600}
@@ -69,43 +72,52 @@ const SecondaryHero: FC<PropsWithChildren<Props>> = ({
                         bg: 'brand.400',
                         zIndex: -1,
                         }}>
-                        {ctaLine1}
+                        {ctaLine_1}
                     </Text>
                     <br />
-                    <Text as={'span'} color={'brand.400'}>
-                        {ctaLine2}
-                    </Text>
+                    {ctaLine_2!=='' && 
+                        <>
+                        <Text as={'span'} color={'brand.400'}>
+                            {ctaLine_2}
+                        </Text>
+                        </>
+                    }
                 </Heading>
                 <Text color={'gray.500'}>
                 {description}
                 </Text>
                 <Stack
                 spacing={{ base: 4, sm: 6 }}
-                direction={{ base: 'column', sm: 'row' }}>
-                <Link href={'/explore'}>
-                    <Button
+                direction={{ base: 'column', sm: 'row' }}
+                >
+                    { (button_1!=='' && button_1_link!=='')  && 
+                    <Link href={button_1_link}>
+                        <Button
+                            rounded={'base'}
+                            size={'lg'}
+                            border={'1px solid black'}
+                            boxShadow={'4px 4px 0 0 black'}
+                            px={6}
+                            colorScheme={'brand'}
+                            bg={'brand.400'}
+                            _hover={{ bg: 'brand.500' }}>
+                            {button_1}
+                        </Button>
+                    </Link>
+                    }
+                    { (button_2!=='' && button_2_link!=='')  && 
+                    <Link href={button_2_link}>
+                        <Button
                         rounded={'base'}
                         size={'lg'}
                         border={'1px solid black'}
                         boxShadow={'4px 4px 0 0 black'}
                         px={6}
-                        colorScheme={'brand'}
-                        bg={'brand.400'}
-                        _hover={{ bg: 'brand.500' }}>
-                        {button1}
-                    </Button>
-                </Link>
-                <Link href={'/nosotros'}>
-                    <Button
-                    rounded={'base'}
-                    size={'lg'}
-                    border={'1px solid black'}
-                    boxShadow={'4px 4px 0 0 black'}
-                    px={6}
-                    leftIcon={<PlayIcon h={4} w={4} color={'white'} />}>
-                    {button2}
-                    </Button>
-                </Link>
+                        leftIcon={<PlayIcon h={4} w={4} color={'white'} />}>
+                        {button_2}
+                        </Button>
+                    </Link>
+                    }
                 </Stack>
             </Stack>
             <Flex
@@ -122,42 +134,43 @@ const SecondaryHero: FC<PropsWithChildren<Props>> = ({
                 left={0}
                 zIndex={-1}
                 color={useColorModeValue('brand.500', 'brand.500')}
-                />
+            />
                 <Box
-                position={'relative'}
-                height={'300px'}
-                borderRadius={'base'}
-                border={'1px solid black'}
-                boxShadow={'4px 4px 0 0 black'}
-                width={'full'}
-                overflow={'hidden'}>
-                <IconButton
-                    aria-label={'Play Button'}
-                    variant={'icon'}
-                    _hover={{ bg: 'transparent' }}
-                    icon={<PlayIcon w={12} h={12} />}
-                    size={'lg'}
-                    color={'brand.500'}
-                    backgroundColor={'white'}
-                    borderRadius={'full'}
-                    position={'absolute'}
-                    left={'50%'}
-                    top={'50%'}
-                    transform={'translateX(-50%) translateY(-50%)'}
-                    style={{borderRadius: '50%'}}
-                    onClick={onOpen}
-                    cursor={'pointer'}
-                />
-                <Image
-                    alt={'Hero Image'}
-                    fit={'cover'}
-                    align={'center'}
-                    w={'100%'}
-                    h={'100%'}
-                    src={image}
-                    onClick={onOpen}
-                    cursor={'pointer'}
-                />
+                    position={'relative'}
+                    height={'300px'}
+                    borderRadius={'base'}
+                    border={'1px solid black'}
+                    boxShadow={'4px 4px 0 0 black'}
+                    width={'full'}
+                    overflow={'hidden'}
+                >
+                    <IconButton
+                        aria-label={'Play Button'}
+                        variant={'icon'}
+                        _hover={{ bg: 'transparent' }}
+                        icon={<PlayIcon w={12} h={12} />}
+                        size={'lg'}
+                        color={'brand.500'}
+                        backgroundColor={'white'}
+                        borderRadius={'full'}
+                        position={'absolute'}
+                        left={'50%'}
+                        top={'50%'}
+                        transform={'translateX(-50%) translateY(-50%)'}
+                        style={{borderRadius: '50%'}}
+                        onClick={onOpen}
+                        cursor={'pointer'}
+                    />
+                    <Image
+                        alt={'Hero Image'}
+                        fit={'cover'}
+                        align={'center'}
+                        w={'100%'}
+                        h={'100%'}
+                        src={image}
+                        onClick={onOpen}
+                        cursor={'pointer'}
+                    />
                 </Box>
             </Flex>
         </Stack>

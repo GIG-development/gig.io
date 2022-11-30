@@ -28,7 +28,7 @@ const Artist: FC<PropsWithChildren<Props>> = ({
     return (
         <Flex justify={'center'}>
             <Box
-                w="xs"
+                w="sm"
                 rounded={'base'}
                 my={2}
                 overflow={'hidden'}

@@ -1,6 +1,7 @@
 import {
   Heading, 
-  Stack
+  Stack,
+  Text
 } from '@chakra-ui/react'
 import Head from '../components/Head'
 import LargeLayout from '../layouts/large'
@@ -17,7 +18,9 @@ const Tutoriales: NextPage = () => (
             <Heading as={'h1'} variant="title">
               Tutoriales
             </Heading>
-
+            <Text>
+              Estamos trabajando en nuestros primeros tutoriales, mantente al pendiente.
+            </Text>
         </Stack>
     </LargeLayout>
   </>

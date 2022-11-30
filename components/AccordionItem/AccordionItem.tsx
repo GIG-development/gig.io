@@ -3,7 +3,8 @@ import {
     AccordionButton,
     AccordionPanel,
     AccordionIcon,
-    Box
+    Box,
+    Heading
   } from '@chakra-ui/react'
 import { FC, PropsWithChildren } from 'react'
 type Props = {
@@ -20,7 +21,9 @@ const AccordionItem: FC<PropsWithChildren<Props>> = ({
             <h2>
                 <AccordionButton>
                 <Box flex='1' textAlign='left'>
+                    <Heading variant={'heading3'}>
                     {question}
+                    </Heading>
                 </Box>
                 <AccordionIcon />
                 </AccordionButton>

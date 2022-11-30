@@ -61,18 +61,18 @@ const Nosotros: NextPage = () => (
                 <Container maxW={'full'} py={12}>
                     <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
                         <Stack spacing={4}>
-                        <Heading as={'h2'} variant={'subtitle'}>Quiénes Somos</Heading>
-                        <Text color={'gray.500'} fontSize={'md'}>
-                        Más que una plataforma, somos un ecosistema enfocado en la creación de NFTs en Latinoamérica conformado por mentes creativas, coleccionistas, inversionistas y entusiastas con un objetivo común: <b>Hacer sinergia para empoderarse creando una comunidad Web3 sostenible y autónoma.</b>
-                        </Text>
+                            <Heading as={'h2'} variant={'subtitle'}>Quiénes Somos</Heading>
+                            <Text color={'gray.500'} fontSize={'md'}>
+                            Más que una plataforma, somos un ecosistema enfocado en la creación de NFTs en Latinoamérica conformado por mentes creativas, coleccionistas, inversionistas y entusiastas con un objetivo común: <b>Hacer sinergia para empoderarse creando una comunidad Web3 sostenible y autónoma.</b>
+                            </Text>
                         </Stack>
                         <Flex>
-                        <Image
-                            rounded={'md'}
-                            alt={'Quienes somos'}
-                            src={''}
-                            objectFit={'cover'}
-                        />
+                            <Image
+                                rounded={'md'}
+                                alt={'Quienes somos'}
+                                src={''}
+                                objectFit={'cover'}
+                            />
                         </Flex>
                     </SimpleGrid>
                 </Container>
@@ -141,33 +141,28 @@ const Nosotros: NextPage = () => (
                         justify={'center'}
                         px={useBreakpointValue({ base: 4, md: 8 })}
                         >
-                        <Stack maxW={'2xl'} align={'center'} spacing={6}>
+                        <Stack maxW={'2xl'} align={'center'} spacing={6} mt={'-80px'}>
                             <Heading as="h2" size='2xl'>
                                 Manifiesto GIG
                             </Heading>
                             <Text
                                 color={'brand.black'}
-                                fontWeight={400}
-                                lineHeight={1}
                                 textAlign={'center'}
                                 fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
                                     Conocemos el arduo camino que recorren los creativos para posicionarse en el mercado. Muchas veces darse a conocer y crecer en la industria es como toparse con pared. 
                             </Text>
                             <Text
                                 color={'brand.black'}
-                                fontWeight={400}
-                                lineHeight={1}
                                 textAlign={'center'}
                                 fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
                                     Hay que tener los contactos adecuados, las comisiones suelen ser demasiado altas, a veces el trabajo no se valora de manera justa y encontrar buenos clientes se convierte en una tarea titánica. A esto súmale los típicos comentarios como el clásico “¿Cómo vas a vivir de eso?”
                             </Text>
                             <Text
                                 color={'brand.black'}
-                                fontWeight={400}
-                                lineHeight={1}
                                 textAlign={'center'}
                                 fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
-                                Por eso, queremos que este mensaje llegue a todos los creativos (quienes expresamos nuestra esencia con ocurrencia): Vivir de lo que nos apasiona es posible y no solo eso, también es redituable.  
+                                Por eso, queremos que este mensaje llegue a todos los creativos (quienes expresamos nuestra esencia con ocurrencia):
+                                <br/><b>Vivir de lo que nos apasiona es posible y no solo eso, también es redituable.</b> 
                             </Text>
                         </Stack>
                     </VStack>
@@ -207,8 +202,9 @@ const Nosotros: NextPage = () => (
                         </Box>
                         <Box textAlign={'center'}>
                             <Image src='/img/familia/mujer.png' w={150} h={150} margin={'0 auto'} borderRadius={'full'} border={'1px solid black'} boxShadow={'4px 4px 0 0 black'} mb={2}/>
-                            <Heading as={'h4'} variant={'heading4'} mb={4}>Galerista</Heading>
+                            <Heading as={'h4'} variant={'heading4'} mb={4}>Mamá Doris</Heading>
                             <Text fontSize='xs'>
+                            Mujer de mundo; curadora, intelectual, en tendencia. Dedicada en cuerpo y alma a identificar las mejores piezas y ofrecerlas al mejor postor.
                             </Text>
                         </Box>
                         <Box textAlign={'center'}>
@@ -253,14 +249,15 @@ const Nosotros: NextPage = () => (
                         </Box>
                         <Box textAlign={'center'}>
                             <Image src='/img/familia/mapache.png' w={150} h={150} margin={'0 auto'} borderRadius={'full'} border={'1px solid black'} boxShadow={'4px 4px 0 0 black'} mb={2}/>
-                            <Heading as={'h4'} variant={'heading4'} mb={4}>Mapache</Heading>
+                            <Heading as={'h4'} variant={'heading4'} mb={4}>Papá Che</Heading>
                             <Text fontSize='xs'>
+                            Coleccionista nato. Vive con una obsesión desmesurada por hallar lo mejor de lo mejor y compartir genialidades creativas fuera de este mundo. 
                             </Text>
                         </Box>
                     </Grid>
                     <Link href='/familia-gig'>
                         <Button colorScheme="brand" size="lg" w={'fit-content'}>
-                            Conoce a toda la familia
+                            Conoce más sobre la Familia GIG
                         </Button>
                     </Link>
                 </Stack>

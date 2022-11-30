@@ -29,7 +29,17 @@ const HomePage: NextPage<Home.Props> = ({
 }) => {
   return (
   <>
-    <Hero />
+    <Hero 
+      bg={'/img/home/hero_bg.jpg'}
+      ctaLine_1={'GIG'}
+      ctaLine_2={'Marketplace'}
+      description={'Necesitamos alguna frase interesante para poner aquí'}
+      button_1={'Explorar'}
+      button_1_link={'/explore'}
+      button_2={'Quiénes Somos'}
+      button_2_link={'/nosotros'}
+      image={'/img/familia/nftlali.png'}
+    />
     <LargeLayout>
       <Home.Template
         currentAccount={currentAccount}

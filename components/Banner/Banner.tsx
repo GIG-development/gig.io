@@ -29,6 +29,8 @@ const Banner: FC<PropsWithChildren<Props>> = ({
         <Flex
             w={'full'}
             h={{base: '50vh', md: '80vh'}}
+            align={'center'}
+            justify={'center'}
             backgroundImage={
                 `url(${image})`
             }
@@ -37,12 +39,12 @@ const Banner: FC<PropsWithChildren<Props>> = ({
             backgroundRepeat={'no-repeat'}
         >
             <Stack
-                w={'7xl'}
-                justify={'center'}
-                align={'center'}
+                w={{base: 'xs', md: '7xl'}}
                 spacing={6}
+                align={'center'}
+                mt={'-60px'}
             >
-                <Heading as="h2" size={useBreakpointValue({ base: 'xl', md: '3xl' })}>
+                <Heading as="h2" size={useBreakpointValue({ base: 'lg', md: '3xl' })}>
                     {cta}
                 </Heading>
                 <Text

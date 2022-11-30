@@ -5,7 +5,6 @@ import {
     Heading,
     Link,
     Text,
-    VStack,
     useBreakpointValue
   } from '@chakra-ui/react';
 import { FC, PropsWithChildren } from 'react'

@@ -15,7 +15,7 @@ const TerminosLegales: NextPage = () => (
         />
         <Stack spacing={6} mb={20}>
             <Heading as={'h1'} variant="title">
-              Terminos Legales
+              Términos Legales
             </Heading>
 
         </Stack>

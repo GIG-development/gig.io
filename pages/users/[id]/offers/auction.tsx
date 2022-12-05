@@ -18,27 +18,29 @@ const AuctionPage: NextPage<UserAuctions.Props> = ({
   orderBy,
   userAddress,
 }) => (
-  <LargeLayout>
-    <Head
-      title={meta.title}
-      description={meta.description}
-      image={meta.image}
-    />
+  <div id="user-subastas">
+    <LargeLayout>
+      <Head
+        title={meta.title}
+        description={meta.description}
+        image={meta.image}
+      />
 
-    <UserAuctions.Template
-      explorer={{
-        name: environment.BLOCKCHAIN_EXPLORER_NAME,
-        url: environment.BLOCKCHAIN_EXPLORER_URL,
-      }}
-      limit={limit}
-      limits={[environment.PAGINATION_LIMIT, 24, 36, 48]}
-      now={now}
-      offset={offset}
-      orderBy={orderBy}
-      page={page}
-      userAddress={userAddress}
-    />
-  </LargeLayout>
+      <UserAuctions.Template
+        explorer={{
+          name: environment.BLOCKCHAIN_EXPLORER_NAME,
+          url: environment.BLOCKCHAIN_EXPLORER_URL,
+        }}
+        limit={limit}
+        limits={[environment.PAGINATION_LIMIT, 24, 36, 48]}
+        now={now}
+        offset={offset}
+        orderBy={orderBy}
+        page={page}
+        userAddress={userAddress}
+      />
+    </LargeLayout>
+  </div>
 )
 
 export default AuctionPage

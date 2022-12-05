@@ -18,7 +18,7 @@ const OnSalePage: NextPage<UserOnSaleAssets.Props> = ({
   orderBy,
   userAddress,
 }) => (
-  <div id="user-perfil">
+  <div id="user-onsale">
     <LargeLayout>
       <Head
         title={meta.title}

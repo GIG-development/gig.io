@@ -12,7 +12,7 @@ const DetailPage: NextPage<AssetDetail.Props> = ({
   meta,
   currentAccount,
 }) => (
-  <div id="user-tokens">
+  <div id="user-token-detail">
   <LargeLayout>
     <Head
       title={meta.title}

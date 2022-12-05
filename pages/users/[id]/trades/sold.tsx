@@ -18,27 +18,29 @@ const TradeSoldPage: NextPage<UserTradeSold.Props> = ({
   orderBy,
   userAddress,
 }) => (
-  <LargeLayout>
-    <Head
-      title={meta.title}
-      description={meta.description}
-      image={meta.image}
-    />
+  <div id="user-vendidos">
+    <LargeLayout>
+      <Head
+        title={meta.title}
+        description={meta.description}
+        image={meta.image}
+      />
 
-    <UserTradeSold.Template
-      explorer={{
-        name: environment.BLOCKCHAIN_EXPLORER_NAME,
-        url: environment.BLOCKCHAIN_EXPLORER_URL,
-      }}
-      limit={limit}
-      now={now}
-      limits={[environment.PAGINATION_LIMIT, 24, 36, 48]}
-      offset={offset}
-      orderBy={orderBy}
-      page={page}
-      userAddress={userAddress}
-    />
-  </LargeLayout>
+      <UserTradeSold.Template
+        explorer={{
+          name: environment.BLOCKCHAIN_EXPLORER_NAME,
+          url: environment.BLOCKCHAIN_EXPLORER_URL,
+        }}
+        limit={limit}
+        now={now}
+        limits={[environment.PAGINATION_LIMIT, 24, 36, 48]}
+        offset={offset}
+        orderBy={orderBy}
+        page={page}
+        userAddress={userAddress}
+      />
+    </LargeLayout>
+  </div>
 )
 
 export default TradeSoldPage

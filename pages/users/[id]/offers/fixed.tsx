@@ -18,26 +18,28 @@ const FixedPricePage: NextPage<UserFixedPrices.Props> = ({
   orderBy,
   userAddress,
 }) => (
-  <LargeLayout>
-    <Head
-      title={meta.title}
-      description={meta.description}
-      image={meta.image}
-    />
-    <UserFixedPrices.Template
-      explorer={{
-        name: environment.BLOCKCHAIN_EXPLORER_NAME,
-        url: environment.BLOCKCHAIN_EXPLORER_URL,
-      }}
-      limit={limit}
-      limits={[environment.PAGINATION_LIMIT, 24, 36, 48]}
-      now={now}
-      offset={offset}
-      orderBy={orderBy}
-      page={page}
-      userAddress={userAddress}
-    />
-  </LargeLayout>
+  <div id="user-subasta-fija">
+    <LargeLayout>
+      <Head
+        title={meta.title}
+        description={meta.description}
+        image={meta.image}
+      />
+      <UserFixedPrices.Template
+        explorer={{
+          name: environment.BLOCKCHAIN_EXPLORER_NAME,
+          url: environment.BLOCKCHAIN_EXPLORER_URL,
+        }}
+        limit={limit}
+        limits={[environment.PAGINATION_LIMIT, 24, 36, 48]}
+        now={now}
+        offset={offset}
+        orderBy={orderBy}
+        page={page}
+        userAddress={userAddress}
+      />
+    </LargeLayout>
+  </div>
 )
 
 export default FixedPricePage

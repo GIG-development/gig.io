@@ -16,7 +16,7 @@
         left: 50%;
     }
     /*Main content block*/
-    #__next > main{
+    #__next > div:nth-child(2) > main{
         padding-top: 120px;
     }
     #__next > #home > main {

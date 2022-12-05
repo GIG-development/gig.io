@@ -16,13 +16,6 @@ import {
 import Head from '../components/Head'
 import { NextPage } from 'next'
 import LargeLayout from '../layouts/large'
-import { ReactElement } from 'react'
-
-interface FeatureProps {
-    text: string;
-    iconBg: string;
-    icon?: ReactElement;
-  }
   
 const Nosotros: NextPage = () => (
     <div id="nosotros">

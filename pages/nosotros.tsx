@@ -66,11 +66,11 @@ const Nosotros: NextPage = () => (
                             Más que una plataforma, somos un ecosistema enfocado en la creación de NFTs en Latinoamérica conformado por mentes creativas, coleccionistas, inversionistas y entusiastas con un objetivo común: <b>Hacer sinergia para empoderarse creando una comunidad Web3 sostenible y autónoma.</b>
                             </Text>
                         </Stack>
-                        <Flex>
+                        <Flex maxW={"300px"}>
                             <Image
                                 rounded={'md'}
                                 alt={'Quienes somos'}
-                                src={'/img/nosotros/quienes_somos.png'}
+                                src={'/img/home/main_hero_img.png'}
                                 objectFit={'cover'}
                             />
                         </Flex>
@@ -78,13 +78,13 @@ const Nosotros: NextPage = () => (
                 </Container>
                 <Container maxW={'full'} py={12}>
                     <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
-                        <Flex>
-                        <Image
-                            rounded={'md'}
-                            alt={'Como funciona'}
-                            src={'/img/nosotros/como_funciona.png'}
-                            objectFit={'cover'}
-                        />
+                        <Flex maxW={"300px"}>
+                            <Image
+                                rounded={'md'}
+                                alt={'Como funciona'}
+                                src={'/img/nosotros/como_funciona.png'}
+                                objectFit={'cover'}
+                            />
                         </Flex>
                         <Stack spacing={4}>
                         <Heading as={'h2'} variant={'subtitle'}>Cómo Funciona</Heading>

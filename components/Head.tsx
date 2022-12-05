@@ -5,12 +5,14 @@ import environment from '../environment'
 type Props = {
   title: string
   description?: string
+  keywords?: string
   image?: string
 }
 
 const Head: FC<PropsWithChildren<Props>> = ({
   title,
   description,
+  keywords,
   image,
   children,
 }) => {
@@ -26,6 +28,7 @@ const Head: FC<PropsWithChildren<Props>> = ({
           <meta name="twitter:description" content={description} />
         </>
       )}
+      <meta name="keywords" content={keywords!=='' ? keywords : 'nfts, marketplace, latam, artistas digitales, ganar royalties, arte, latinoamerica, plataforma de venta de arte digital'} />
       <meta
         property="og:image"
         content={image || `${environment.BASE_URL}/og-image.jpg`}

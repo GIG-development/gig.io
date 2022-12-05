@@ -20,18 +20,18 @@ const tfButton = <><button data-tf-popup="eyQRCt11" data-tf-hide-headers data-tf
 const Creadores: NextPage = () => (
   <>
   <Hero 
-    bg={'/img/home/hero_bg.jpg'}
+    bg={'/img/home/main_hero_bg.jpg'}
     ctaLine_1={'GIG'}
     ctaLine_2={'Creators Lab'}
     description={'Revela tu creatividad y únete a la primera comunidad de talento latino basado en NFTs. Sé parte de esta era creativa y genera impacto mientras creas un mejor futuro.'}
     isSpecialButton={true}
     specialButton={tfButton}
-    image={'/img/familia/creadori.png'}
+    image={'/img/familia/mamadori.png'}
   />
     <LargeLayout>
         <Head
             title="Creadores"
-            description=""
+            description="Gana más por tu talento y pertenece a una gran comunidad de líderes, coleccionistas, inversionistas y creadores de la web3."
         />
         <Stack spacing={6} my={20}>
 
@@ -42,11 +42,11 @@ const Creadores: NextPage = () => (
                   No necesitas ser experto, estamos contigo desde la conceptualización hasta la promoción de tus NFTs. Solo trae tus ganas de entrar al espacio cripto en una comunidad de creativos geniales.
                   </Text>
               </Stack>
-              <Flex>
+              <Flex maxW={"300px"}>
                   <Image
                       rounded={'md'}
                       alt={'Creadores'}
-                      src={''}
+                      src={'/img/familia/creadori.png'}
                       objectFit={'cover'}
                   />
               </Flex>
@@ -91,12 +91,12 @@ const Creadores: NextPage = () => (
 
             <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10} pt={20}>
               <Flex>
-                  <Image
-                      rounded={'md'}
-                      alt={'Como funciona'}
-                      src={''}
-                      objectFit={'cover'}
-                  />
+              <Image
+                  rounded={'md'}
+                  alt={'Como funciona'}
+                  src={'/img/nosotros/como_funciona.png'}
+                  objectFit={'cover'}
+              />
               </Flex>
               <Stack spacing={4}>
                   <Heading as={'h2'} variant={'subtitle'}>¿Cómo funciona?</Heading>

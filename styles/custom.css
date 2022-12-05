@@ -46,3 +46,12 @@
     border-radius: 4px;
     box-shadow: 4px 4px 0 0 black;
 }
+#home > main > div:nth-child(2) > div > div > div > div > div > a {
+    background-color: #BE94FF;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-shadow: 4px 4px 0 0 black;
+    color: white;
+    font-weight: bold;
+    padding: 12px 24px;
+}

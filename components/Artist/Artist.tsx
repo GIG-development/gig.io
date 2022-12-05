@@ -66,6 +66,7 @@ const Artist: FC<PropsWithChildren<Props>> = ({
                                         bg="white"
                                         rounded={'base'}
                                         border='1px solid black'
+                                        boxShadow='4px 4px 0 0 black'
                                         display={'inline-block'}
                                         px={2}
                                         py={1}

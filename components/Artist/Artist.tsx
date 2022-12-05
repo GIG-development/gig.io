@@ -53,31 +53,32 @@ const Artist: FC<PropsWithChildren<Props>> = ({
                     <Heading color={'black'} fontSize={'sm'} noOfLines={1}>
                         {handle}
                     </Heading>
-                    <Text color={'gray.500'} fontSize={'sm'} noOfLines={2} mt={2} h={'52px'}>
+                    <Text color={'gray.500'} fontSize={'xs'} noOfLines={2} mt={2} h={'60px'}>
                         {description}
                     </Text>
-                    <Box mt={2}>
-                        {tags.map((tag)=>{
-                            return (
-                                <Box
-                                    key={tag}
-                                    bg="white"
-                                    rounded={'base'}
-                                    border='1px solid black'
-                                    display={'inline-block'}
-                                    px={2}
-                                    py={1}
-                                    color="brand.black"
-                                    mr={2}
-                                    mb={2}>
-                                    <Text fontSize={'xs'} fontWeight="medium">
-                                        {tag}
-                                    </Text>
-                                </Box>
-                            )
-                        })}
-                    </Box>
-                    <Flex  mt={2}>
+
+                    <Flex alignContent='space-between' mt={2}>
+                        <Box mt={2}>
+                            {tags.map((tag)=>{
+                                return (
+                                    <Box
+                                        key={tag}
+                                        bg="white"
+                                        rounded={'base'}
+                                        border='1px solid black'
+                                        display={'inline-block'}
+                                        px={2}
+                                        py={1}
+                                        color="brand.black"
+                                        mr={2}
+                                        mb={2}>
+                                        <Text fontSize={'xs'} fontWeight="medium">
+                                            {tag}
+                                        </Text>
+                                    </Box>
+                                )
+                            })}
+                        </Box>
                         <Button w={'full'}>Ver Perfil</Button>
                     </Flex>
                 </Box>

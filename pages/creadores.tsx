@@ -46,7 +46,7 @@ const Creadores: NextPage = () => (
                   <Image
                       rounded={'md'}
                       alt={'Creadores'}
-                      src={'/img/familia/creadori.png'}
+                      src={'/img/nosotros/como_funciona.png'}
                       objectFit={'cover'}
                   />
               </Flex>

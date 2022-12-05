@@ -59,18 +59,19 @@ const Nosotros: NextPage = () => (
                     Sobre Nosotros
                 </Heading>
                 <Container maxW={'full'} py={12}>
-                    <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
+                    <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10} alignContent='center' justifyContent='center' align-items='center'>
                         <Stack spacing={4}>
                             <Heading as={'h2'} variant={'subtitle'}>Quiénes Somos</Heading>
                             <Text color={'gray.500'} fontSize={'md'}>
                             Más que una plataforma, somos un ecosistema enfocado en la creación de NFTs en Latinoamérica conformado por mentes creativas, coleccionistas, inversionistas y entusiastas con un objetivo común: <b>Hacer sinergia para empoderarse creando una comunidad Web3 sostenible y autónoma.</b>
                             </Text>
                         </Stack>
-                        <Flex maxW={"300px"}>
+                        <Flex>
                             <Image
                                 rounded={'md'}
                                 alt={'Quienes somos'}
                                 src={'/img/home/main_hero_img.png'}
+                                maxW={"300px"}
                                 objectFit={'cover'}
                             />
                         </Flex>
@@ -78,11 +79,12 @@ const Nosotros: NextPage = () => (
                 </Container>
                 <Container maxW={'full'} py={12}>
                     <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
-                        <Flex maxW={"300px"}>
+                        <Flex>
                             <Image
                                 rounded={'md'}
                                 alt={'Como funciona'}
                                 src={'/img/nosotros/como_funciona.png'}
+                                maxW={"300px"}
                                 objectFit={'cover'}
                             />
                         </Flex>
@@ -97,36 +99,7 @@ const Nosotros: NextPage = () => (
                         </Stack>
                     </SimpleGrid>
                 </Container>
-
-                <Heading as={'h2'} variant={'subtitle'}>Beneficios</Heading>
-                <Stack
-                    direction={'row'}
-                    spacing={4}
-                    divider={
-                    <StackDivider
-                        borderColor={useColorModeValue('gray.100', 'gray.700')}
-                    />
-                    }>
-                    <Feature
-                    icon={
-                        <Icon as={IoAnalyticsSharp} color={'yellow.500'} w={5} h={5} />
-                    }
-                    iconBg={useColorModeValue('yellow.100', 'yellow.900')}
-                    text={'Business Planning'}
-                    />
-                    <Feature
-                    icon={<Icon as={IoLogoBitcoin} color={'green.500'} w={5} h={5} />}
-                    iconBg={useColorModeValue('green.100', 'green.900')}
-                    text={'Financial Planning'}
-                    />
-                    <Feature
-                    icon={
-                        <Icon as={IoSearchSharp} color={'purple.500'} w={5} h={5} />
-                    }
-                    iconBg={useColorModeValue('purple.100', 'purple.900')}
-                    text={'Market Analysis'}
-                    />
-                </Stack>
+                
                 <Flex
                     w={'full'}
                     h={'100vh'}

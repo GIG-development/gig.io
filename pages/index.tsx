@@ -79,8 +79,8 @@ const HomePage: NextPage<Home.Props> = ({
             <Artist 
               name='p1xelfool'
               handle='@p1xelfool'
-              description='Internet artist since 3001 *///////// father of multidimentional entities'
-              tags={['arte digital','animation','']}
+              description='Internet artist since 3001 */ father of multidimentional entities'
+              tags={['arte digital','animation']}
               image='https://p1xelfool.com/images/soul.gif'
             />
             <Artist 

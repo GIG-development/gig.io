@@ -57,8 +57,8 @@ const Artist: FC<PropsWithChildren<Props>> = ({
                         {description}
                     </Text>
 
-                    <Flex alignContent='space-between' mt={2}>
-                        <Box mt={2}>
+                    <Flex alignContent='space-between' direction='column' mt={2}>
+                        <Box mt={2} h={'72px'}>
                             {tags.map((tag)=>{
                                 return (
                                     <Box

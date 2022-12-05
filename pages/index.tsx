@@ -28,7 +28,7 @@ const HomePage: NextPage<Home.Props> = ({
   currentAccount,
 }) => {
   return (
-  <>
+  <div id="home">
     <Hero 
       bg={'/img/home/main_hero_bg.jpg'}
       ctaLine_1={'GIG'}
@@ -132,7 +132,7 @@ const HomePage: NextPage<Home.Props> = ({
       button2='Preguntas frecuentes'
       image={'./img/home/home_faq_banner_bg.png'}
     />
-  </>
+  </div>
 )}
 
 export default HomePage

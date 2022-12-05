@@ -16,10 +16,11 @@
         left: 50%;
     }
     /*Main content block*/
-    #__next > main {
+    #__next > div:nth-child(2) > main {
         padding-top: 120px;
     }
-    #__next > #home > main {
+    #__next > #home > #main-hero > div,
+    #__next > #creadores > #main-hero > div{
         padding-top: 40px;
         overflow: hidden;
     }

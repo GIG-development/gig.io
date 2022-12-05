@@ -48,11 +48,11 @@ const Feature = ({ text, icon, iconBg }: FeatureProps) => {
 };
   
 const Nosotros: NextPage = () => (
-    <>
+    <div id="nosotros">
         <LargeLayout>
         <Head
             title="Sobre Nosotros"
-            description=""
+            description="Te ayudamos a materializar tu imaginación y monetizar tus proyectos. Estamos contigo desde la ideación, producción, promoción y venta de tus NFTs."
         />
         <Stack spacing={6} mb={20}>
                 <Heading as={'h1'} variant="title">
@@ -263,7 +263,7 @@ const Nosotros: NextPage = () => (
                 </Stack>
             </Stack>
         </LargeLayout>
-    </>
+    </div>
 )
 
 export default Nosotros

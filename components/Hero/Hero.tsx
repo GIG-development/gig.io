@@ -38,7 +38,7 @@ const Hero: FC<PropsWithChildren<Props>> = ({
     image
 }) => {
     return (
-    <>
+    <div id="main-hero">
         <Flex
             w={'full'}
             h={useBreakpointValue({base:'100vh', md: '60vh'})}
@@ -130,7 +130,7 @@ const Hero: FC<PropsWithChildren<Props>> = ({
                 </Flex>
             </Stack>
         </Flex>
-    </>
+    </div>
     )
 }
   

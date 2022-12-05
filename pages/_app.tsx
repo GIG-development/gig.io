@@ -77,7 +77,7 @@ function MyApp({ Component, pageProps }: AppProps): JSX.Element {
         <meta name="application-name" content="GIG" />
 
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://holagig.io" />
+        <meta property="og:url" content="https://gig.io" />
 
         <meta name="twitter:card" content="summary" />
       </Head>

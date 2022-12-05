@@ -10,16 +10,10 @@ import {
     Heading,
     Text,
     Stack,
-    StackDivider,
-    Icon,
     VStack,
-    useColorModeValue,
     useBreakpointValue
 } from '@chakra-ui/react';
 import Head from '../components/Head'
-import {IoAnalyticsSharp} from '@react-icons/all-files/io5/IoAnalyticsSharp';
-import {IoLogoBitcoin} from '@react-icons/all-files/io5/IoLogoBitcoin';
-import {IoSearchSharp} from '@react-icons/all-files/io5/IoSearchSharp';
 import { NextPage } from 'next'
 import LargeLayout from '../layouts/large'
 import { ReactElement } from 'react'
@@ -29,23 +23,6 @@ interface FeatureProps {
     iconBg: string;
     icon?: ReactElement;
   }
-
-const Feature = ({ text, icon, iconBg }: FeatureProps) => {
-    return (
-    <Stack direction={'row'} align={'center'}>
-        <Flex
-        w={8}
-        h={8}
-        align={'center'}
-        justify={'center'}
-        rounded={'full'}
-        bg={iconBg}>
-        {icon}
-        </Flex>
-        <Text fontWeight={600}>{text}</Text>
-    </Stack>
-    );
-};
   
 const Nosotros: NextPage = () => (
     <div id="nosotros">

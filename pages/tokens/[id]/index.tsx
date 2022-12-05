@@ -12,6 +12,7 @@ const DetailPage: NextPage<AssetDetail.Props> = ({
   meta,
   currentAccount,
 }) => (
+  <div id="user-tokens">
   <LargeLayout>
     <Head
       title={meta.title}
@@ -29,6 +30,7 @@ const DetailPage: NextPage<AssetDetail.Props> = ({
       reportEmail={environment.REPORT_EMAIL}
     />
   </LargeLayout>
+  </div>
 )
 
 export default DetailPage

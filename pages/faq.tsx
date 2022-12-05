@@ -11,7 +11,7 @@ import { NextPage } from 'next'
 import environment from 'environment'
   
 const FAQ: NextPage = () => (
-  <>
+  <div id="faqs">
     <LargeLayout>
         <Head
             title="Preguntas Frecuentes"
@@ -64,7 +64,7 @@ const FAQ: NextPage = () => (
             </Heading>
         </Stack>
     </LargeLayout>
-  </>
+  </div>
 )
 
 export default FAQ

@@ -18,22 +18,24 @@ const CreatedPage: NextPage<UserCreatedAssets.Props> = ({
   orderBy,
   userAddress,
 }) => (
-  <LargeLayout>
-    <Head
-      title={meta.title}
-      description={meta.description}
-      image={meta.image}
-    />
-    <UserCreatedAssets.Template
-      limit={limit}
-      limits={[environment.PAGINATION_LIMIT, 24, 36, 48]}
-      now={now}
-      offset={offset}
-      orderBy={orderBy}
-      page={page}
-      userAddress={userAddress}
-    />
-  </LargeLayout>
+  <div id="user-creados">
+    <LargeLayout>
+      <Head
+        title={meta.title}
+        description={meta.description}
+        image={meta.image}
+      />
+      <UserCreatedAssets.Template
+        limit={limit}
+        limits={[environment.PAGINATION_LIMIT, 24, 36, 48]}
+        now={now}
+        offset={offset}
+        orderBy={orderBy}
+        page={page}
+        userAddress={userAddress}
+      />
+    </LargeLayout>
+  </div>
 )
 
 export default CreatedPage

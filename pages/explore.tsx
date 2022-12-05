@@ -22,21 +22,23 @@ const ExplorePage: NextPage<Explorer.Props> = ({
   page,
   orderBy,
 }) => (
-  <LargeLayout>
-    <Head title="Explore Collectibles" />
-    <Explorer.Template
-      filter={filter}
-      traits={traits}
-      limit={limit || 24}
-      limits={[24, 36, 48]}
-      now={now}
-      offset={offset}
-      orderBy={orderBy}
-      page={page}
-      queryFilter={queryFilter}
-      search={search}
-    />
-  </LargeLayout>
+  <div id="explore">
+    <LargeLayout>
+      <Head title="Explore Collectibles" />
+      <Explorer.Template
+        filter={filter}
+        traits={traits}
+        limit={limit || 24}
+        limits={[24, 36, 48]}
+        now={now}
+        offset={offset}
+        orderBy={orderBy}
+        page={page}
+        queryFilter={queryFilter}
+        search={search}
+      />
+    </LargeLayout>
+  </div>
 )
 
 export default ExplorePage

@@ -18,22 +18,24 @@ const OwnedPage: NextPage<UserOwnedAssets.Props> = ({
   orderBy,
   userAddress,
 }) => (
-  <LargeLayout>
-    <Head
-      title={meta.title}
-      description={meta.description}
-      image={meta.image}
-    />
-    <UserOwnedAssets.Template
-      limit={limit}
-      limits={[environment.PAGINATION_LIMIT, 24, 36, 48]}
-      now={now}
-      offset={offset}
-      orderBy={orderBy}
-      page={page}
-      userAddress={userAddress}
-    />
-  </LargeLayout>
+  <div id="user-assets">
+    <LargeLayout>
+      <Head
+        title={meta.title}
+        description={meta.description}
+        image={meta.image}
+      />
+      <UserOwnedAssets.Template
+        limit={limit}
+        limits={[environment.PAGINATION_LIMIT, 24, 36, 48]}
+        now={now}
+        offset={offset}
+        orderBy={orderBy}
+        page={page}
+        userAddress={userAddress}
+      />
+    </LargeLayout>
+  </div>
 )
 
 export default OwnedPage

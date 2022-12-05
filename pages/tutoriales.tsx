@@ -8,7 +8,7 @@ import LargeLayout from '../layouts/large'
 import { NextPage } from 'next'
   
 const Tutoriales: NextPage = () => (
-  <>
+  <div id="tutoriales">
     <LargeLayout>
         <Head
             title="Tutoriales"
@@ -23,7 +23,7 @@ const Tutoriales: NextPage = () => (
             </Text>
         </Stack>
     </LargeLayout>
-  </>
+  </div>
 )
 
 export default Tutoriales

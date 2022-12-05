@@ -7,6 +7,7 @@ import SmallLayout from '../../../layouts/small'
 export const getServerSideProps = Bid.server(environment.GRAPHQL_URL)
 
 const BidPage: NextPage<Bid.Props> = ({ now, assetId, meta }) => (
+  <div id="user-propuestas">
   <SmallLayout>
     <Head
       title={meta.title}
@@ -32,6 +33,7 @@ const BidPage: NextPage<Bid.Props> = ({ now, assetId, meta }) => (
       }}
     />
   </SmallLayout>
+  </div>
 )
 
 export default BidPage

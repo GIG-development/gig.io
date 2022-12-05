@@ -12,7 +12,7 @@ import LargeLayout from '../layouts/large'
 import { NextPage } from 'next'
   
 const FamiliaGIG: NextPage = () => (
-  <>
+  <div id="familia">
     <LargeLayout>
         <Head
             title="Familia GIG"
@@ -108,7 +108,7 @@ const FamiliaGIG: NextPage = () => (
             </Grid>
         </Stack>
     </LargeLayout>
-  </>
+  </div>
 )
 
 export default FamiliaGIG

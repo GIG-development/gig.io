@@ -8,7 +8,7 @@ import LargeLayout from '../layouts/large'
 import { NextPage } from 'next'
   
 const Contacto: NextPage = () => (
-  <>
+  <div id="contacto">
     <LargeLayout>
         <Head
             title="Contacto"
@@ -31,7 +31,7 @@ const Contacto: NextPage = () => (
             <script src="//embed.typeform.com/next/embed.js"></script>
         </Stack>
     </LargeLayout>
-  </>
+  </div>
 )
 
 export default Contacto

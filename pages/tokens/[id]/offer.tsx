@@ -12,25 +12,27 @@ const OfferPage: NextPage<OfferForm.Props> = ({
   meta,
   currentAccount,
 }) => (
-  <SmallLayout>
-    <Head
-      title={meta.title}
-      description={meta.description}
-      image={meta.image}
-    />
+  <div id="user-ofertas">
+    <SmallLayout>
+      <Head
+        title={meta.title}
+        description={meta.description}
+        image={meta.image}
+      />
 
-    <OfferForm.Template
-      currentAccount={currentAccount}
-      assetId={assetId}
-      now={now}
-      explorer={{
-        name: environment.BLOCKCHAIN_EXPLORER_NAME,
-        url: environment.BLOCKCHAIN_EXPLORER_URL,
-      }}
-      auctionValidity={environment.AUCTION_VALIDITY_IN_SECONDS}
-      offerValidity={environment.OFFER_VALIDITY_IN_SECONDS}
-    />
-  </SmallLayout>
+      <OfferForm.Template
+        currentAccount={currentAccount}
+        assetId={assetId}
+        now={now}
+        explorer={{
+          name: environment.BLOCKCHAIN_EXPLORER_NAME,
+          url: environment.BLOCKCHAIN_EXPLORER_URL,
+        }}
+        auctionValidity={environment.AUCTION_VALIDITY_IN_SECONDS}
+        offerValidity={environment.OFFER_VALIDITY_IN_SECONDS}
+      />
+    </SmallLayout>
+  </div>
 )
 
 export default OfferPage

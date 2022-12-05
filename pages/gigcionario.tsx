@@ -9,7 +9,7 @@ import LargeLayout from '../layouts/large'
 import { NextPage } from 'next'
   
 const Gigcionario: NextPage = () => (
-  <>
+  <div id="giccionario">
     <LargeLayout>
         <Head
             title="GIGcionario"
@@ -91,7 +91,7 @@ const Gigcionario: NextPage = () => (
             </Accordion>
         </Stack>
     </LargeLayout>
-  </>
+  </div>
 )
 
 export default Gigcionario

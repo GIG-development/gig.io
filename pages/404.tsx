@@ -10,7 +10,7 @@ import LargeLayout from '../layouts/large'
 import { NextPage } from 'next'
 
 const Custom404: NextPage = () => (
-<>
+<div id="notFound">
     <LargeLayout>
         <Head
             title="FamiliaGIG"
@@ -26,7 +26,7 @@ const Custom404: NextPage = () => (
             </Link>
         </Stack>
     </LargeLayout>
-</>
+</div>
 )
 
 export default Custom404

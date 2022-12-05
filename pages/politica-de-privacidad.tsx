@@ -7,7 +7,7 @@ import LargeLayout from '../layouts/large'
 import { NextPage } from 'next'
   
 const Privacidad: NextPage = () => (
-  <>
+  <div id="politicas">
     <LargeLayout>
         <Head
             title="Privacidad"
@@ -20,7 +20,7 @@ const Privacidad: NextPage = () => (
 
         </Stack>
     </LargeLayout>
-  </>
+  </div>
 )
 
 export default Privacidad

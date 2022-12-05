@@ -7,7 +7,7 @@ import LargeLayout from '../layouts/large'
 import { NextPage } from 'next'
   
 const Condiciones: NextPage = () => (
-  <>
+  <div id="condiciones">
     <LargeLayout>
         <Head
             title="Condiciones"
@@ -20,7 +20,7 @@ const Condiciones: NextPage = () => (
 
         </Stack>
     </LargeLayout>
-  </>
+  </div>
 )
 
 export default Condiciones

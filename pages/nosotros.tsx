@@ -70,7 +70,7 @@ const Nosotros: NextPage = () => (
                             <Image
                                 rounded={'md'}
                                 alt={'Quienes somos'}
-                                src={''}
+                                src={'/img/nosotros/quienes_somos.png'}
                                 objectFit={'cover'}
                             />
                         </Flex>
@@ -82,7 +82,7 @@ const Nosotros: NextPage = () => (
                         <Image
                             rounded={'md'}
                             alt={'Como funciona'}
-                            src={''}
+                            src={'/img/nosotros/como_funciona.png'}
                             objectFit={'cover'}
                         />
                         </Flex>

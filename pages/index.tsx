@@ -30,7 +30,7 @@ const HomePage: NextPage<Home.Props> = ({
   return (
   <>
     <Hero 
-      bg={'/img/home/hero_bg.jpg'}
+      bg={'/img/home/main_hero_bg.jpg'}
       ctaLine_1={'GIG'}
       ctaLine_2={'Marketplace'}
       description={'Necesitamos alguna frase interesante para poner aquí'}
@@ -38,7 +38,7 @@ const HomePage: NextPage<Home.Props> = ({
       button_1_link={'/explore'}
       button_2={'Quiénes Somos'}
       button_2_link={'/nosotros'}
-      image={'/img/familia/nftlali.png'}
+      image={'/img/home/main_hero_img.png'}
     />
 
     <LargeLayout>
@@ -61,11 +61,27 @@ const HomePage: NextPage<Home.Props> = ({
           </Heading>
           <SimpleGrid spacing={6} columns={{sm: 2, md: 3, lg: 4}}>
             <Artist 
-              name='Hannah James'
-              handle='@hannahjames'
-              description='Actriz, música, escritora y artista.'
-              tags={['arte','fotografía','música']}
-              image='https://images.unsplash.com/photo-1520810627419-35e362c5dc07?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&ixid=eyJhcHBfaWQiOjE3Nzg0fQ'
+              name='Ocote'
+              handle='@el_ocote'
+              description='🌵🗿📡Artesanía digital👇🏼'
+              tags={['arte digital','gráfica','street art']}
+              image='https://static.wixstatic.com/media/c3f0a4_a145f2389cc94bb6abe7606468d67129~mv2.jpg/v1/crop/x_74,y_67,w_2213,h_2203/fill/w_565,h_565,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/19_Territorio.jpg'
+            />
+            <Artist 
+              name='ilithya'
+              handle='@ilithya_rocks'
+              description='Music inspired art + tech 🤘🏽
+              💫 Creations with programming + algorithms
+              🖤 Mexican based in Hamburg'
+              tags={['música','multimedia','creative coding']}
+              image='https://gig-io.vercel.app/_next/image?url=https%3A%2F%2Fgig.mypinata.cloud%2Fipfs%2FQmQCSR8mayBTYsR4aWQV8pExSWQVGiqFXGWr63kyepR9GH%2Fnft.png&w=640&q=75'
+            />
+            <Artist 
+              name='p1xelfool'
+              handle='@p1xelfool'
+              description='Internet artist since 3001 *///////// father of multidimentional entities'
+              tags={['arte digital','animation','']}
+              image='https://p1xelfool.com/images/soul.gif'
             />
             <Artist 
               name='Maw'

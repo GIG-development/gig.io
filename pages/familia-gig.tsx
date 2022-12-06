@@ -22,10 +22,10 @@ const FamiliaGIG: NextPage = () => (
             <Heading as={'h1'} variant="title">
               Familia GIG
             </Heading>
-            <Text textAlign={'center'} fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
+            <Text fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
                 Estás entrando por la puerta dimensional al ecosistema GIG en donde vas a encontrar seres extraordinarios, mentes creativas conviviendo en una comunidad enfocada en la creación de activos digitales que une a nuevos talentos, artistas, coleccionistas e inversores en Latinoamérica.
             </Text>
-            <Text textAlign={'center'} fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
+            <Text fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
                 Te presentamos a cada uno de los miembros de nuestra familia para que los conozcas mejor.
             </Text>
             <Stack>
@@ -33,7 +33,7 @@ const FamiliaGIG: NextPage = () => (
                     templateColumns={{
                     base: 'repeat(1, 1fr)',
                     sm: 'repeat(2, 1fr)',
-                    md: 'repeat(4, 1fr)',
+                    md: '1fr 2fr 1fr 1fr',
                     }}
                     textAlign={'center'}
                 >

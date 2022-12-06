@@ -31,10 +31,11 @@ const FamiliaGIG: NextPage = () => (
             <Stack>
                 <Grid py={20}
                     templateColumns={{
-                    base: 'repeat(1, 1fr)',
-                    sm: 'repeat(2, 1fr)',
-                    md: '1fr 2fr 1fr 1fr',
+                        base: 'repeat(1, 1fr)',
+                        sm: 'repeat(2, 1fr)',
+                        md: '1fr 2fr 1fr 1fr',
                     }}
+                    gap={8}
                 >
                     <Image alt="NFTLALI" src='/img/familia/nftlali.png' w={200} h={200} margin={'0 auto'} borderRadius={'full'} border={'1px solid black'} boxShadow={'4px 4px 0 0 black'} mb={2}/>
                     <Box>

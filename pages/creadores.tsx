@@ -26,7 +26,7 @@ const Creadores: NextPage = () => (
       description={'Revela tu creatividad y únete a la primera comunidad de talento latino basado en NFTs. Sé parte de esta era creativa y genera impacto mientras creas un mejor futuro.'}
       isSpecialButton={true}
       specialButton={tfButton}
-      image={'/img/familia/mamadori.png'}
+      image={'/img/creadores/hero.png'}
     />
     <LargeLayout>
         <Head
@@ -53,7 +53,7 @@ const Creadores: NextPage = () => (
           </SimpleGrid>
 
             <Heading as={'h2'} variant="heading1" py={20} textAlign={'center'}>
-            Codéate con artistas prestigiosos, coleccionistas y curadores reconocidos, así como otras mentes creativas como tú
+            Codéate con artistas prestigiosos, coleccionistas, curadores reconocidos y otras mentes creativas como tú
             </Heading>
 
             <Grid templateColumns='repeat(3, 1fr)' gap={4}>
@@ -79,12 +79,10 @@ const Creadores: NextPage = () => (
                 Ser parte de la comunidad te da Beneficios:
                 </Heading>
                 <Text>
-                  <ul>
-                    <li>Experiencias inmersivas</li>
-                    <li>Accesos preferenciales</li>
-                    <li>Descuentos a exposiciones</li>
-                    <li>Promo en medios masivos y más</li>
-                  </ul>
+                  Experiencias inmersivas<br/>
+                  Accesos preferenciales<br/>
+                  Descuentos a exposiciones<br/>
+                  Promo en medios masivos y más<br/>
                 </Text>
               </Box>
             </Grid>

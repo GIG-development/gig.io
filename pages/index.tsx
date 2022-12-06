@@ -31,9 +31,9 @@ const HomePage: NextPage<Home.Props> = ({
   <div id="home">
     <Hero 
       bg={'/img/home/main_hero_bg.jpg'}
-      ctaLine_1={'GIG'}
-      ctaLine_2={'Marketplace'}
-      description={'Empodera tu creatividad y construye tu futuro ideal. Conceptualiza, crea, vende, subasta tus NFTs y proyecto. De cero al metaverso.'}
+      ctaLine_1={'GIG Marketplace'}
+      ctaLine_2={'Empodera tu creatividad y construye tu futuro ideal'}
+      description={'Conceptualiza, crea, vende, subasta tus NFTs y proyecto. De cero al metaverso.'}
       button_1={'Explorar'}
       button_1_link={'/explore'}
       button_2={'Quiénes Somos'}

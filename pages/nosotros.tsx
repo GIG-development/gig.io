@@ -47,6 +47,17 @@ const Nosotros: NextPage = () => (
                         </Flex>
                     </SimpleGrid>
                 </Container>
+                <Container>
+                    <Text textAlign={'center'} fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
+                        Somos un marketplace en donde hay música, arte visual, diseño, videojuegos, avatares, podcast, experiencias sensoriales, artículos de moda y mucho más. Un mundo en donde la creatividad está de fiesta. 
+                    </Text>
+                    <Text textAlign={'center'} fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
+                        Aprovecha las oportunidades de ser visto por cientos de millones de personas gracias a la colaboración con medios masivos y participa en eventos de la industria de la tecnología y espectáculos.
+                    </Text>
+                    <Text textAlign={'center'} fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
+                        Crea lo que imaginas en tus propios términos. ¿Preparado?
+                    </Text>
+                </Container>
                 <Container maxW={'full'} py={12}>
                     <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10} alignContent='center'>
                         <Flex justifyContent='center' align-items='center'>
@@ -118,14 +129,9 @@ const Nosotros: NextPage = () => (
                         Estás entrando por la puerta dimensional al ecosistema GIG en donde vas a encontrar seres extraordinarios, mentes creativas conviviendo en una comunidad enfocada en la creación de activos digitales que une a nuevos talentos, artistas, coleccionistas e inversores en Latinoamérica.
                     </Text>
                     <Text textAlign={'center'} fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
-                        Un marketplace en donde hay música, arte visual, diseño, videojuegos, avatares, podcast, experiencias sensoriales, artículos de moda y mucho más. Un mundo en donde la creatividad está de fiesta. 
+                    Aprovechando que estás aquí, te presentamos a la familia GIG.
                     </Text>
-                    <Text textAlign={'center'} fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
-                        Aprovecha las oportunidades de ser visto por cientos de millones de personas gracias a la colaboración con medios masivos y participa en eventos de la industria de la tecnología y espectáculos.
-                    </Text>
-                    <Text textAlign={'center'} fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
-                        Crea lo que imaginas en tus propios términos. ¿Preparado?
-                    </Text>
+
                     <Grid
                         py={20}
                         templateColumns={{

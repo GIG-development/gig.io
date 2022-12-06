@@ -35,11 +35,10 @@ const FamiliaGIG: NextPage = () => (
                     sm: 'repeat(2, 1fr)',
                     md: '1fr 2fr 1fr 1fr',
                     }}
-                    textAlign={'center'}
                 >
                     <Image alt="NFTLALI" src='/img/familia/nftlali.png' w={200} h={200} margin={'0 auto'} borderRadius={'full'} border={'1px solid black'} boxShadow={'4px 4px 0 0 black'} mb={2}/>
                     <Box>
-                        <Heading as={'h4'} variant={'heading3'} mb={4}>NFTLALI</Heading>
+                        <Heading as={'h4'} variant={'heading3'} mb={4}><b>NFTLALI</b></Heading>
                         <Text fontSize='xs'>
                         Vivía sola en GIGTOPIA desde el comienzo de los tiempos. Un ser omnipresente que elige mostrarse con forma humana. Habla todos los idiomas de todos los universos (lo hace al mismo tiempo) y suena algo como: BURUDS IJK DSBU, por eso creó a un acompañante muy especial, URI, que con forma de robot es en realidad una extensión de su consciencia, le ayuda a decodificar mensajes y le comunica el punto de vista de otros mundos en desarrollo.
                         </Text>

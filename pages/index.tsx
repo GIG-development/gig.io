@@ -106,9 +106,16 @@ const HomePage: NextPage<Home.Props> = ({
       </Stack>
     </LargeLayout>
 
-    <Stack spacing={12} mb={40} backgroundColor={'gray.400'} w={'full'}>
+    <Stack spacing={12} mb={40} backgroundColor={'gray.200'} w={'full'} _after={{
+      position: 'absolute',
+      bottom: '-50px',
+      width: '50px',
+      height: '50px',
+      backgroundColor: 'gray.200'
+      transform: 'rotate(45deg)'
+    }}>
       <LargeLayout>
-        <Heading as="h2" variant="subtitle" color="brand.black">
+        <Heading as="h2" variant="subtitle" color="white">
             GIG Marketplace
         </Heading>
         <SecondaryHero 

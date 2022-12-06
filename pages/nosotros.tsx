@@ -41,18 +41,18 @@ const Nosotros: NextPage = () => (
                                 rounded={'md'}
                                 alt={'Quienes somos'}
                                 src={'/img/home/main_hero_img.png'}
-                                maxW={"300px"}
+                                maxW={"340px"}
                                 objectFit={'cover'}
                             />
                         </Flex>
                     </SimpleGrid>
                 </Container>
-                <Container maxW={'full'} py={12}>
+                <Container maxW={'full'}>
                     <Text textAlign={'center'} fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
                         Somos un marketplace en donde hay música, arte visual, diseño, videojuegos, avatares, podcast, experiencias sensoriales, artículos de moda y mucho más. Un mundo en donde la creatividad está de fiesta. Aprovecha las oportunidades de ser visto por cientos de millones de personas gracias a la colaboración con medios masivos y participa en eventos de la industria de la tecnología y espectáculos.
                     </Text>
-                    <Text textAlign={'center'} fontSize={useBreakpointValue({ base: 'md', md: 'lg' })}>
-                        Crea lo que imaginas en tus propios términos. ¿Preparado?
+                    <Text textAlign={'center'} fontSize={useBreakpointValue({ base: 'md', md: 'lg' })} pt={4}>
+                        <b>Crea lo que imaginas en tus propios términos. ¿Preparado?</b>
                     </Text>
                 </Container>
                 <Container maxW={'full'} py={12}>
@@ -62,7 +62,7 @@ const Nosotros: NextPage = () => (
                                 rounded={'md'}
                                 alt={'Como funciona'}
                                 src={'/img/nosotros/como_funciona.png'}
-                                maxW={"300px"}
+                                maxW={"340px"}
                                 objectFit={'cover'}
                             />
                         </Flex>

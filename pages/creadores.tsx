@@ -42,12 +42,13 @@ const Creadores: NextPage = () => (
                   No necesitas ser experto, estamos contigo desde la conceptualización hasta la promoción de tus NFTs. Solo trae tus ganas de entrar al espacio cripto en una comunidad de creativos geniales.
                   </Text>
               </Stack>
-              <Flex maxW={"300px"}>
+              <Flex textAlign={'center'} justifyContent={'center'}>
                   <Image
                       rounded={'md'}
                       alt={'Creadores'}
                       src={'/img/nosotros/como_funciona.png'}
                       objectFit={'cover'}
+                      maxW={"300px"}
                   />
               </Flex>
           </SimpleGrid>
@@ -58,27 +59,27 @@ const Creadores: NextPage = () => (
 
             <Grid templateColumns='repeat(3, 1fr)' gap={4}>
               <Box textAlign={'center'}>
-                <Heading as={'h2'} variant="heading1">
+                <Heading as={'h2'} variant="heading2">
                 Promoción en medios masivos
                 </Heading>
-                <Text>
+                <Text fontSize={{base: 'xs', md: 'sm'}}>
                 Pon a tus obras maestras a recorrer los mundos y sé parte de esta evolución tecnológica.
                 </Text>
               </Box>
               <Box textAlign={'center'}>
-                <Heading as={'h2'} variant="heading1">
+                <Heading as={'h2'} variant="heading2">
                 Simplificamos lo complejo 
                 </Heading>
-                <Text>
+                <Text fontSize={{base: 'xs', md: 'sm'}}>
                 Para que te dediques a lo tuyo.
                 Subir NFTs es más fácil que hacer enchiladas.
                 </Text>
               </Box>
               <Box textAlign={'center'}>
-                <Heading as={'h2'} variant="heading1">
+                <Heading as={'h2'} variant="heading2">
                 Ser parte de la comunidad te da Beneficios:
                 </Heading>
-                <Text>
+                <Text fontSize={{base: 'xs', md: 'sm'}}>
                   Experiencias inmersivas<br/>
                   Accesos preferenciales<br/>
                   Descuentos a exposiciones<br/>
@@ -88,13 +89,14 @@ const Creadores: NextPage = () => (
             </Grid>
 
             <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10} pt={20}>
-              <Flex>
-              <Image
-                  rounded={'md'}
-                  alt={'Como funciona'}
-                  src={'/img/nosotros/como_funciona.png'}
-                  objectFit={'cover'}
-              />
+              <Flex textAlign={'center'} justifyContent={'center'}>
+                <Image
+                    rounded={'md'}
+                    alt={'Como funciona'}
+                    src={'/img/nosotros/como_funciona.png'}
+                    objectFit={'cover'}
+                    maxW={'340px'}
+                />
               </Flex>
               <Stack spacing={4}>
                   <Heading as={'h2'} variant={'subtitle'}>¿Cómo funciona?</Heading>

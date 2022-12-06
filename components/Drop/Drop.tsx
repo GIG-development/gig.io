@@ -6,7 +6,6 @@ import {
     Image,
     Stack,
     Text,
-    useBreakpointValue,
 } from '@chakra-ui/react';
 import { FC, PropsWithChildren } from 'react'
 

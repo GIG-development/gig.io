@@ -49,7 +49,7 @@ const Hero: FC<PropsWithChildren<Props>> = ({
             <Stack minH={'60vh'} maxW={'7xl'} direction={{ base: 'column', md: 'row' }} margin={'0 auto'}>
                 <Flex p={8} flex={1} align={'center'} justify={'center'}>
                     <Stack spacing={6} w={'full'} maxW={'lg'}>
-                        <Heading fontSize={{ base: '2xl', md: '4xl', lg: '2.6rem' }}>
+                        <Heading fontSize={{ base: '3xl', md: '4xl', lg: '2.6rem' }}>
                             <Text
                             as={'span'}
                             position={'relative'}
@@ -69,7 +69,7 @@ const Hero: FC<PropsWithChildren<Props>> = ({
                             </>
                             }
                         </Heading>
-                        <Text fontSize={{ base: 'md', lg: 'lg' }} color={'white'}>
+                        <Text fontSize={{ base: 'lg', lg: 'lg' }} color={'white'}>
                                 {description}
                         </Text>
                         <Stack direction={{ base: 'column', md: 'row' }} spacing={4}>
@@ -114,7 +114,7 @@ const Hero: FC<PropsWithChildren<Props>> = ({
                         alt={'Main Hero Animation'}
                         objectFit={'cover'}
                         src={image}
-                        padding={'80px 0 0'}
+                        padding={{base: '0', md: '80px 0 0'}}
                         />       
                     }
                 </Flex>

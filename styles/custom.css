@@ -37,6 +37,11 @@
     color: black;
 }
 
+/*Main Hero*/
+#main-hero{
+    overflow: hidden;
+}
+
 /* Slider */
 #home > main > header > div > div > div > div > div > a > span > img {
     min-width: calc(100% - 8px) !important;

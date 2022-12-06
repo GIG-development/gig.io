@@ -41,7 +41,7 @@ const Hero: FC<PropsWithChildren<Props>> = ({
     <div id="main-hero">
         <Flex
             w={'full'}
-            h={useBreakpointValue({base:'100vh', md: '60vh'})}
+            h={useBreakpointValue({base:'100vh', md: '64vh'})}
             backgroundImage={`url(${bg})`}
             backgroundSize={'cover'}
             backgroundPosition={'center center'}
@@ -54,7 +54,6 @@ const Hero: FC<PropsWithChildren<Props>> = ({
                             as={'span'}
                             position={'relative'}
                             color={'white'}
-                            textShadow={'1px 1px black'}
                             _after={{
                                 content: "''",
                                 width: 'full',
@@ -71,16 +70,15 @@ const Hero: FC<PropsWithChildren<Props>> = ({
                             {ctaLine_2!=='' && 
                                 <>
                                     <Text
-                                    color={'brand.400'}
+                                    color={'white'}
                                     as={'span'}
-                                    textShadow={'1px 1px black'}
                                     >
                                         {ctaLine_2}
                                     </Text>{' '}
                                 </>
                             }
                         </Heading>
-                        <Text fontSize={{ base: 'md', lg: 'lg' }} color={'gray.500'}>
+                        <Text fontSize={{ base: 'md', lg: 'lg' }} color={'white'}>
                                 {description}
                         </Text>
                         <Stack direction={{ base: 'column', md: 'row' }} spacing={4}>
@@ -125,6 +123,7 @@ const Hero: FC<PropsWithChildren<Props>> = ({
                         alt={'Main Hero Animation'}
                         objectFit={'cover'}
                         src={image}
+                        padding={'40px'}
                         />       
                     }
                 </Flex>

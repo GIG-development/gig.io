@@ -37,16 +37,7 @@ const Drop: FC<PropsWithChildren<Props>> = ({
                 <Text
                 as={'span'}
                 position={'relative'}
-                _after={{
-                    content: "''",
-                    width: 'full',
-                    height: useBreakpointValue({ base: '20%', md: '30%' }),
-                    position: 'absolute',
-                    bottom: 1,
-                    left: 0,
-                    bg: 'brand.400',
-                    zIndex: -1,
-                }}>
+                >
                 {title}
                 </Text>
                 <br />{' '}

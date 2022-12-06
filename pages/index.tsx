@@ -31,8 +31,8 @@ const HomePage: NextPage<Home.Props> = ({
   <div id="home">
     <Hero 
       bg={'/img/home/main_hero_bg.jpg'}
-      ctaLine_1={'GIG Marketplace'}
-      ctaLine_2={'Empodera tu creatividad y construye tu futuro ideal'}
+      ctaLine_1={'Empodera tu creatividad'}
+      ctaLine_2={'y construye tu futuro ideal'}
       description={'Conceptualiza, crea, vende, subasta tus NFTs y proyecto. De cero al metaverso.'}
       button_1={'Explorar'}
       button_1_link={'/explore'}
@@ -104,33 +104,29 @@ const HomePage: NextPage<Home.Props> = ({
             image='/img/home/drop-gig-genesis.jpg'
           />
       </Stack>
-
-      <Stack spacing={12} mb={40}>
-        <Heading as="h2" variant="subtitle" color="brand.black">
-            GIG Marketplace
-        </Heading>
-        <Stack align={'center'}>
-          <SecondaryHero 
-            ctaLine_1='Empoderando almas'
-            ctaLine_2='CREATIVAS'
-            description=''
-            button_1='Explorar'
-            button_1_link='/explore'
-            button_2='¿Cómo funciona?'
-            button_2_link='/nosotros'
-            image='./img/home/video.jpg'
-          />
-        </Stack>
-      </Stack>
-
     </LargeLayout>
+
+    <Stack spacing={12} mb={40}>
+      <Heading as="h2" variant="subtitle" color="brand.black">
+          GIG Marketplace
+      </Heading>
+      <SecondaryHero 
+        ctaLine_1='Empoderando almas'
+        ctaLine_2='CREATIVAS'
+        description=''
+        button_1='Explorar'
+        button_1_link='/explore'
+        button_2='¿Cómo funciona?'
+        button_2_link='/nosotros'
+        image='./img/home/video.jpg'
+      />
+    </Stack>
     
     <Banner
       cta='¿Quieres saber más?'
       description='Tenemos varios tutoriales que pueden ayudarte a tener todo mas claro'
       button1='Visita nuestros tutoriales'
       button2='Preguntas frecuentes'
-      image={'./img/home/home_faq_banner_bg.png'}
     />
   </div>
 )}

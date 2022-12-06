@@ -104,6 +104,9 @@
 }
 
 /*Secondary Hero in Home*/
+#home__section-video{
+    position: relative;
+}
 #home__section-video::after{
     content: '';
     position: absolute;

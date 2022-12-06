@@ -66,7 +66,7 @@ const SecondaryHero: FC<PropsWithChildren<Props>> = ({
                     </Text>{' '}
                     {ctaLine_2!=='' && 
                         <>
-                        <Text as={'span'} color={'black'}>
+                        <Text as={'span'} fontWeight={'700'} color={'black'}>
                             {ctaLine_2}
                         </Text>
                         </>

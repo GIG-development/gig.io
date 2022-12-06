@@ -123,9 +123,6 @@ const Nosotros: NextPage = () => (
                         Familia GIG
                     </Heading>
                     <Text textAlign={'center'} fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
-                        Estás entrando por la puerta dimensional al ecosistema GIG en donde vas a encontrar seres extraordinarios, mentes creativas conviviendo en una comunidad enfocada en la creación de activos digitales que une a nuevos talentos, artistas, coleccionistas e inversores en Latinoamérica.
-                    </Text>
-                    <Text textAlign={'center'} fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
                     Aprovechando que estás aquí, te presentamos a la familia GIG.
                     </Text>
 

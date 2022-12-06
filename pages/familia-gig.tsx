@@ -26,13 +26,7 @@ const FamiliaGIG: NextPage = () => (
                 Estás entrando por la puerta dimensional al ecosistema GIG en donde vas a encontrar seres extraordinarios, mentes creativas conviviendo en una comunidad enfocada en la creación de activos digitales que une a nuevos talentos, artistas, coleccionistas e inversores en Latinoamérica.
             </Text>
             <Text textAlign={'center'} fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
-                Un marketplace en donde hay música, arte visual, diseño, videojuegos, avatares, podcast, experiencias sensoriales, artículos de moda y mucho más. Un mundo en donde la creatividad está de fiesta. 
-            </Text>
-            <Text textAlign={'center'} fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
-                Aprovecha las oportunidades de ser visto por cientos de millones de personas gracias a la colaboración con medios masivos y participa en eventos de la industria de la tecnología y espectáculos.
-            </Text>
-            <Text textAlign={'center'} fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
-                Crea lo que imaginas en tus propios términos. ¿Preparado?
+                Te presentamos a cada uno de los miembros de nuestra familia para que los conozcas mejor.
             </Text>
             <Grid
                 py={20}
@@ -46,63 +40,58 @@ const FamiliaGIG: NextPage = () => (
                     <Image alt="NFTLALI" src='/img/familia/nftlali.png' w={150} h={150} margin={'0 auto'} borderRadius={'full'} border={'1px solid black'} boxShadow={'4px 4px 0 0 black'} mb={2}/>
                     <Heading as={'h4'} variant={'heading4'} mb={4}>NFTLALI</Heading>
                     <Text fontSize='xs'>
-                    Deidad GIGLANDIA. <br/>
-                    Tiene una misión interplanetaria que aún no puede revelar.
-                    Poco a poco irá insertando mensajes escondidos.
+                    Vivía sola en GIGTOPIA desde el comienzo de los tiempos. Un ser omnipresente que elige mostrarse con forma humana. Habla todos los idiomas de todos los universos (lo hace al mismo tiempo) y suena algo como: BURUDS IJK DSBU, por eso creó a un acompañante muy especial, URI, que con forma de robot es en realidad una extensión de su consciencia, le ayuda a decodificar mensajes y le comunica el punto de vista de otros mundos en desarrollo.
                     </Text>
                 </Box>
                 <Box textAlign={'center'}>
                     <Image alt="Mamá Doris" src='/img/familia/mamadori.png' w={150} h={150} margin={'0 auto'} borderRadius={'full'} border={'1px solid black'} boxShadow={'4px 4px 0 0 black'} mb={2}/>
                     <Heading as={'h4'} variant={'heading4'} mb={4}>Mamá Doris</Heading>
                     <Text fontSize='xs'>
-                    Mujer de mundo; curadora, intelectual, en tendencia. Dedicada en cuerpo y alma a identificar las mejores piezas y ofrecerlas al mejor postor.
+                    No es una deidad, pero como si lo fuera en el mundo del arte y la creatividad. Curadora culta, intelectual, en tendencia. Se regodea con los ponentes número 1 del sector, toda una mujer de mundo. Dedicada en cuerpo y alma a identificar las mejores piezas y a ofrecerlas al mejor postor y por si fuera poco, es madre y los tiene bien alimentados (bebiendo jugos cold press y galletas cero gluten).
                     </Text>
                 </Box>
                 <Box textAlign={'center'}>
                     <Image alt="Creadori Jiménez" src='/img/familia/creadori.png' w={150} h={150} margin={'0 auto'} borderRadius={'full'} border={'1px solid black'} boxShadow={'4px 4px 0 0 black'} mb={2}/>
                     <Heading as={'h4'} variant={'heading4'} mb={4}>Creadori Jiménez</Heading>
                     <Text fontSize='xs'>
-                    Creador de creadores. <br/>
-                    Su glitch lo lleva a mutar como camaleón creativo y logra todas las artes, creatividades y ocurrencias.
+                    Tiene el don de materializar la imaginación. Apasionado por la libertad de expresión, se transforma en cada uno de los seres creativos del universo, de esta manera absorbe todas las capacidades que le llegan del espacio. Al entrar en estado de trance creativo, se expresa a través de sus herramientas maestras.
                     </Text>
                 </Box>
                 <Box textAlign={'center'}>
                     <Image alt="Flipper" src='/img/familia/flipper.png' w={150} h={150} margin={'0 auto'} borderRadius={'full'} border={'1px solid black'} boxShadow={'4px 4px 0 0 black'} mb={2}/>
                     <Heading as={'h4'} variant={'heading4'} mb={4}>Flipper</Heading>
                     <Text fontSize='xs'>
-                    Un hombre que por ambicioso se convirtió en delfín.
-                    Flipeaba y flipeaba cuánto podía, o sea que compra barato y vende caro. 
+                    Érase un hombre que se convirtió en pez y vive más contento y ambicioso. Se dedica a comprar barato y vender caro. Un martes cualquiera, le cayó el Chahuistle y se empezó a convertir en un bonito delfín. Le gusta ajuarearse y disfruta la vida de lujos y despilfarro. A la fecha nadie sabe si un castigo lo llevó a convertirse en lo que ahora es o si se clavó tanto que su mente superó la matrix. 
+                    <br/><b>Próxima ambición: Convertirse en ballena.</b>
                     </Text>
                 </Box>
                 <Box textAlign={'center'}>
                     <Image alt="Eskeri Popi" src='/img/familia/eskeri.png' w={150} h={150} margin={'0 auto'} borderRadius={'full'} border={'1px solid black'} boxShadow={'4px 4px 0 0 black'} mb={2}/>
                     <Heading as={'h4'} variant={'heading4'} mb={4}>Eskeri Popi</Heading>
                     <Text fontSize='xs'>
-                    Arquetipo del miedo paralizante a lo desconocido. 
-                    La tecnología descentralizada viene a remover sus nervios.
+                    Vive literalmente con el sudor en la frente y en otros lugares (varios). Tiene miedo de lo desconocido, tiene miedo de lo que conoce. Tiene miedo de que le roben lo suyo, tiene miedo de no triunfar, miedo a las lagartijas y a su sombra misma, sobre todo tiene miedo a los NFTs porque son muy nuevos. Cree que puede fallar si migra a la tecnología descentralizada. 
                     </Text>
                 </Box>
                 <Box textAlign={'center'}>
                     <Image alt="Jeiter Popi" src='/img/familia/jeiter.png' w={150} h={150} margin={'0 auto'} borderRadius={'full'} border={'1px solid black'} boxShadow={'4px 4px 0 0 black'} mb={2}/>
                     <Heading as={'h4'} variant={'heading4'} mb={4}>Jeiter Popi</Heading>
                     <Text fontSize='xs'>
-                    Clavado en la matrix. Está bien siguiendo órdenes.
-                    Todos tenemos un “hater” favorito, ese es Jeitre Popi.
+                    Clavado en la matrix. Este querido “hater” se hace siempre presente en las comunidades, demostrando su rechazo y repulsión por lo que desconoce y va en contra de sus ideas. Por cada diez palabras, mínimo tres son de odio. 
+                    Haciéndonos amigos, nos dimos cuenta que debajo de esa gruesa capa de ira, se esconde un pequeño niño inseguro, envidioso y con falta de amor.
                     </Text>
                 </Box>
                 <Box textAlign={'center'}>
                     <Image alt="URI" src='/img/familia/uri.png' w={150} h={150} margin={'0 auto'} borderRadius={'full'} border={'1px solid black'} boxShadow={'4px 4px 0 0 black'} mb={2}/>
                     <Heading as={'h4'} variant={'heading4'} mb={4}>URI</Heading>
                     <Text fontSize='xs'>
-                    Consciencia-mensajero-acompañante de la gran deidad.
-                    Es el intermediario entre los mundos en desarrollo y NFTLALI.
+                    Pequeñín en tamaño, majestuoso de pensamiento. Sus procesos son calculados, tan es así que tiene un margen de error prácticamente nulo, digamos que es como un Google transuniversal. Casi siempre lo podrás encontrar cerca de TLALI (su creadora). Se susurran al oído cual enamorados, pero más allá de eso, URI es consciencia-mensajero-acompañante de la gran deidad.
                     </Text>
                 </Box>
                 <Box textAlign={'center'}>
                     <Image alt="Papá Che" src='/img/familia/mapache.png' w={150} h={150} margin={'0 auto'} borderRadius={'full'} border={'1px solid black'} boxShadow={'4px 4px 0 0 black'} mb={2}/>
                     <Heading as={'h4'} variant={'heading4'} mb={4}>Papá Che</Heading>
                     <Text fontSize='xs'>
-                    Coleccionista nato. Vive con una obsesión desmesurada por hallar lo mejor de lo mejor y compartir genialidades creativas fuera de este mundo. 
+                    Si quieres encontrar el tesoro es a Papá Che a quién debes llamar. Lo suyo es hallar lo mejor de lo mejor, la crema y nata de los proyectos, que no solamente guarda en los recovecos de su habitación, sino que los muestra sin tapujos a su comunidad. Obsesionado por encontrar y compartir genialidades creativas fuera de lo común.  
                     </Text>
                 </Box>
             </Grid>

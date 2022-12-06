@@ -15,6 +15,7 @@ const CreatePage: NextPage<AssetForm.Props> = ({
   currentAccount,
   traits,
 }) => (
+  <div id="crear-detalles">
   <SmallLayout>
     <Head
       title="Create Collectible"
@@ -41,6 +42,7 @@ const CreatePage: NextPage<AssetForm.Props> = ({
       reportEmail={environment.REPORT_EMAIL}
     />
   </SmallLayout>
+  </div>
 )
 
 export default CreatePage

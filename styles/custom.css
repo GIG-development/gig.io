@@ -32,33 +32,28 @@
     color: black;
 }
 
-#home > main > header > div > div div > div > a > span > img {
+/* Slider */
+#home > main > header > div > div > div div > div > a > span > img {
+    min-width: calc(100% - 4px);
+    max-width: calc(100% - 4px);
+    min-height: calc(100% - 4px);
+    max-height: calc(100% - 4px);
     border: 1px solid black;
     border-radius: 4px;
     box-shadow: 4px 4px 0 0 black;
 }
 
-#home > main > div:nth-child(2) > div > div {
+/*Subastas*/
+
+#home>main>div:nth-child(2)>div>div>div>div>div {
     border: 1px solid black !important;
     border-radius: 4px;
     box-shadow: 4px 4px 0 0 black;
 }
 
-#home > main > div:nth-child(2) > div > div > div > a > span > img {
+#home>main>div:nth-child(2)>div>div>div>div>div > a > span > img {
     border-bottom: 1px solid black !important;
 }
 
-#home > main > div:nth-child(2) > div > div > div > div > div > span {
-    border: 1px solid black;
-    border-radius: 4px;
-    box-shadow: 4px 4px 0 0 black;
-}
-#home > main > div:nth-child(2) > div > div > div > div > div > a {
-    background-color: #BE94FF;
-    border: 1px solid black;
-    border-radius: 4px;
-    box-shadow: 4px 4px 0 0 black;
-    color: white;
-    font-weight: bold;
-    padding: 12px 24px;
-}
+
+/*Featured*/

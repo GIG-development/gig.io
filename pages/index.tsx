@@ -33,7 +33,7 @@ const HomePage: NextPage<Home.Props> = ({
       bg={'/img/home/main_hero_bg.jpg'}
       ctaLine_1={'GIG'}
       ctaLine_2={'Marketplace'}
-      description={'Necesitamos alguna frase interesante para poner aquí'}
+      description={'"Empodera tu creatividad y construye tu futuro ideal. Conceptualiza, crea, vende, subasta tus NFTs y proyecto. De cero al metaverso."'}
       button_1={'Explorar'}
       button_1_link={'/explore'}
       button_2={'Quiénes Somos'}
@@ -100,7 +100,7 @@ const HomePage: NextPage<Home.Props> = ({
           <Drop
             title='GIG Genesis'
             date='1 de Enero 2023'
-            description='Nuestra primera colección para celebrar el lanzamiento oficial de GIG.io'
+            description='GIG Génesis es una colección de personajes de GIGverso que trae una misión: Empoderar almas creativas empezando por LATAM a través de la conexión con líderes de la industria, eventos especiales, drops, experiencias inmersivas y más.'
             image='/img/home/drop-gig-genesis.jpg'
           />
       </Stack>

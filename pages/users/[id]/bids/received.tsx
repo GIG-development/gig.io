@@ -18,7 +18,7 @@ const BidReceivedPage: NextPage<UserBidReceived.Props> = ({
   orderBy,
   userAddress,
 }) => (
-  <div id="user-oferyas-recibidas">
+  <div id="user-ofertas-recibidas">
     <LargeLayout>
       <Head
         title={meta.title}

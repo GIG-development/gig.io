@@ -182,7 +182,7 @@ const SecondaryHero: FC<PropsWithChildren<Props>> = ({
                 <ModalBody>
                     <AspectRatio maxW={'100%'} ratio={16/9}>
                         <video
-                            src='/img/home/GIG.mp4' autoPlay controls={false}
+                            src='/img/home/video.mp4' autoPlay controls={false}
                         />
                     </AspectRatio>
                 </ModalBody>

@@ -109,9 +109,11 @@ const Footer: FC<PropsWithChildren<Props>> = ({
                 <SocialButton label={'Twitter'} href={'https://twitter.com/holagig'}>
                   <FaTwitter />
                 </SocialButton>
+                {/*
                 <SocialButton label={'YouTube'} href={'https://youtube.com/holagig'}>
                   <FaYoutube />
                 </SocialButton>
+                */}
                 <SocialButton label={'Instagram'} href={'https://instagram.com/holagig'}>
                   <FaInstagram />
                 </SocialButton>

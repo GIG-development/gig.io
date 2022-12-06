@@ -47,7 +47,7 @@ const Nosotros: NextPage = () => (
                         </Flex>
                     </SimpleGrid>
                 </Container>
-                <Container>
+                <Container maxW={'full'} py={12}>
                     <Text textAlign={'center'} fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
                         Somos un marketplace en donde hay música, arte visual, diseño, videojuegos, avatares, podcast, experiencias sensoriales, artículos de moda y mucho más. Un mundo en donde la creatividad está de fiesta. 
                     </Text>

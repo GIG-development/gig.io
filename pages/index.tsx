@@ -111,7 +111,7 @@ const HomePage: NextPage<Home.Props> = ({
       bottom: '-50px',
       width: '50px',
       height: '50px',
-      backgroundColor: 'gray.200'
+      backgroundColor: 'gray.200',
       transform: 'rotate(45deg)'
     }}>
       <LargeLayout>

@@ -9,6 +9,9 @@
     text-align: center;
     justify-content: center;
 }
+.btn:hover{
+    background-color: #BE94FF;
+}
 @media screen and (min-width: 1024px){
     /*Header*/
     #__next > div:nth-child(1) {
@@ -65,6 +68,9 @@
     text-align: center;
     justify-content: center;
 }
+#home>main>div.chakra-stack:nth-child(2)>div>div>div>div>div > div > div > a.chakra-link:hover{
+    background-color: #BE94FF;
+}
 /*Featured*/
 #home>main>div.chakra-stack:nth-child(3)>div:nth-child(2) > div > div{
     border: 1px solid black !important;
@@ -92,4 +98,7 @@
     padding: 12px 24px;
     text-align: center;
     justify-content: center;
+}
+#home>main>div.chakra-stack:nth-child(3)>div:nth-child(2) > div > div > div.chakra-stack > div > a.chakra-link:hover{
+    background-color: #BE94FF;
 }

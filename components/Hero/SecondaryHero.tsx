@@ -20,7 +20,6 @@ import {
     AspectRatio,
     useBreakpointValue
 } from '@chakra-ui/react'
-import LargeLayout from '../../layouts/large'
 import { FC, PropsWithChildren } from 'react'
 
 type Props = {
@@ -46,10 +45,9 @@ const SecondaryHero: FC<PropsWithChildren<Props>> = ({
 }) => {
     const {isOpen, onOpen, onClose} = useDisclosure()
     return (
-    <LargeLayout>
+    <>
         <Stack
         align={'center'}
-        backgroundColor={'gray.400'}
         maxW={{base: 72, md: '7xl'}}
         spacing={{ base: 4, md: 6 }}
         py={{ base: 4, md: 20 }}
@@ -172,7 +170,7 @@ const SecondaryHero: FC<PropsWithChildren<Props>> = ({
                 </ModalFooter>
             </ModalContent>
         </Modal>
-    </LargeLayout>
+    </>
     )
 }
   

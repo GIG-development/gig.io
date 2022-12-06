@@ -49,33 +49,24 @@ const Hero: FC<PropsWithChildren<Props>> = ({
             <Stack minH={'60vh'} maxW={'7xl'} direction={{ base: 'column', md: 'row' }} margin={'0 auto'}>
                 <Flex p={8} flex={1} align={'center'} justify={'center'}>
                     <Stack spacing={6} w={'full'} maxW={'lg'}>
-                        <Heading fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}>
+                        <Heading fontSize={{ base: '2xl', md: '4xl', lg: '2.6rem' }}>
                             <Text
                             as={'span'}
                             position={'relative'}
                             color={'white'}
-                            _after={{
-                                content: "''",
-                                width: 'full',
-                                height: useBreakpointValue({ base: '20%', md: '30%' }),
-                                position: 'absolute',
-                                bottom: 1,
-                                left: 0,
-                                bg: 'white',
-                                zIndex: -1,
-                            }}>
+                            >
                                 {ctaLine_1}
                             </Text>
-                            <br />{' '}
+                            {' '}
                             {ctaLine_2!=='' && 
-                                <>
-                                    <Text
-                                    color={'white'}
-                                    as={'span'}
-                                    >
-                                        {ctaLine_2}
-                                    </Text>{' '}
-                                </>
+                            <>
+                                <Text
+                                color={'white'}
+                                as={'span'}
+                                >
+                                    {ctaLine_2}
+                                </Text>{' '}
+                            </>
                             }
                         </Heading>
                         <Text fontSize={{ base: 'md', lg: 'lg' }} color={'white'}>

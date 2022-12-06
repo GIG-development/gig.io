@@ -69,7 +69,7 @@ function MyApp({ Component, pageProps }: AppProps): JSX.Element {
   return (
     <>
       <Head
-        title="GIG"
+        title="Home"
         description="#1 NFT Marketplace in LATAM"
         image="/og-image.jpg"
       >

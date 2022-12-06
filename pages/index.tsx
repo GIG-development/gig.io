@@ -106,20 +106,22 @@ const HomePage: NextPage<Home.Props> = ({
       </Stack>
     </LargeLayout>
 
-    <Stack spacing={12} mb={40}>
-      <Heading as="h2" variant="subtitle" color="brand.black">
-          GIG Marketplace
-      </Heading>
-      <SecondaryHero 
-        ctaLine_1='Empoderando almas'
-        ctaLine_2='CREATIVAS'
-        description=''
-        button_1='Explorar'
-        button_1_link='/explore'
-        button_2='¿Cómo funciona?'
-        button_2_link='/nosotros'
-        image='./img/home/video.jpg'
-      />
+    <Stack spacing={12} mb={40} backgroundColor={'gray.400'} w={'full'}>
+      <LargeLayout>
+        <Heading as="h2" variant="subtitle" color="brand.black">
+            GIG Marketplace
+        </Heading>
+        <SecondaryHero 
+          ctaLine_1='Empoderando almas'
+          ctaLine_2='CREATIVAS'
+          description=''
+          button_1='Explorar'
+          button_1_link='/explore'
+          button_2='¿Cómo funciona?'
+          button_2_link='/nosotros'
+          image='./img/home/video.jpg'
+        />
+      </LargeLayout>
     </Stack>
     
     <Banner

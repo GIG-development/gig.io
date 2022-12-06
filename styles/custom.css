@@ -80,7 +80,8 @@
 #home>main>div.chakra-stack:nth-child(3)>div:nth-child(2) > div > div > a > span > img {
     border-bottom: 1px solid black !important;
 }
-#home>main>div.chakra-stack:nth-child(3)>div:nth-child(2) > div > div > div.chakra-stack > div > span {
+#home>main>div.chakra-stack:nth-child(3)>div:nth-child(2) > div > div > div.chakra-stack > div > span,
+#home>main>div.chakra-stack:nth-child(3)>div:nth-child(2) > div > div > div.chakra-stack > div > div {
     width: 100%;
     text-align: center;
     justify-content: center;

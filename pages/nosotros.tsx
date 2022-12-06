@@ -49,12 +49,9 @@ const Nosotros: NextPage = () => (
                 </Container>
                 <Container maxW={'full'} py={12}>
                     <Text textAlign={'center'} fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
-                        Somos un marketplace en donde hay música, arte visual, diseño, videojuegos, avatares, podcast, experiencias sensoriales, artículos de moda y mucho más. Un mundo en donde la creatividad está de fiesta. 
+                        Somos un marketplace en donde hay música, arte visual, diseño, videojuegos, avatares, podcast, experiencias sensoriales, artículos de moda y mucho más. Un mundo en donde la creatividad está de fiesta. Aprovecha las oportunidades de ser visto por cientos de millones de personas gracias a la colaboración con medios masivos y participa en eventos de la industria de la tecnología y espectáculos.
                     </Text>
-                    <Text textAlign={'center'} fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
-                        Aprovecha las oportunidades de ser visto por cientos de millones de personas gracias a la colaboración con medios masivos y participa en eventos de la industria de la tecnología y espectáculos.
-                    </Text>
-                    <Text textAlign={'center'} fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
+                    <Text textAlign={'center'} fontSize={useBreakpointValue({ base: 'md', md: 'lg' })}>
                         Crea lo que imaginas en tus propios términos. ¿Preparado?
                     </Text>
                 </Container>

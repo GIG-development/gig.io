@@ -26,7 +26,7 @@
     }
     #__next > #home > #main-hero > div,
     #__next > #creadores > #main-hero > div{
-        padding-top: 40px;
+        padding-top: 0px;
         overflow: hidden;
     }
 }

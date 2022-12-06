@@ -37,7 +37,7 @@ const FamiliaGIG: NextPage = () => (
                     }}
                     textAlign={'center'}
                 >
-                    <Image alt="NFTLALI" src='/img/familia/nftlali.png' w={150} h={150} margin={'0 auto'} borderRadius={'full'} border={'1px solid black'} boxShadow={'4px 4px 0 0 black'} mb={2}/>
+                    <Image alt="NFTLALI" src='/img/familia/nftlali.png' w={200} h={200} margin={'0 auto'} borderRadius={'full'} border={'1px solid black'} boxShadow={'4px 4px 0 0 black'} mb={2}/>
                     <Box>
                         <Heading as={'h4'} variant={'heading3'} mb={4}>NFTLALI</Heading>
                         <Text fontSize='xs'>
@@ -46,17 +46,17 @@ const FamiliaGIG: NextPage = () => (
                     </Box>
                     <Box>
                         <Heading as={'h5'} variant={'heading4'} mb={4}>Poderes</Heading>
-                        <ul>
-                            <li>Inspiración </li>
-                            <li>Intención</li>
-                            <li>Creatividad</li>
-                        </ul>
+                        <Text fontSize='xs'>
+                            Inspiración<br/>
+                            Intención<br/>
+                            Creatividad
+                        </Text>
                     </Box>
                     <Box>
                         <Heading as={'h5'} variant={'heading4'} mb={4}>Debilidades</Heading>
-                        <ul>
-                            <li>Adivina... ninguna</li>
-                        </ul>
+                        <Text fontSize='xs'>
+                            Adivina... ninguna
+                        </Text>
                     </Box>
                 </Grid>
                 <Box textAlign={'center'}>

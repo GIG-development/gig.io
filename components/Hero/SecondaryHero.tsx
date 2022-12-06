@@ -17,7 +17,6 @@ import {
     ModalBody,
     ModalCloseButton,
     useDisclosure,
-    useColorModeValue,
     AspectRatio,
     useBreakpointValue
 } from '@chakra-ui/react'

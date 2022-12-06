@@ -15,7 +15,7 @@ import AccordionItem from '../components/AccordionItem/AccordionItem'
 import LargeLayout from '../layouts/large'
 import { NextPage } from 'next'
 
-const tfButton = <><button data-tf-popup="eyQRCt11" data-tf-hide-headers data-tf-iframe-props="title=Registration Form" data-tf-medium="snippet" className="btn">Aquí inicia el viaje</button><script src="//embed.typeform.com/next/embed.js"></script></>
+const tfButton = <><button data-tf-popup="eyQRCt11" data-tf-hide-headers data-tf-iframe-props="title=Registration Form" data-tf-medium="snippet" className="btn">Inicia el viaje aquí</button><script src="//embed.typeform.com/next/embed.js"></script></>
     
 const Creadores: NextPage = () => (
   <div id="creadores">
@@ -71,8 +71,7 @@ const Creadores: NextPage = () => (
                 Simplificamos lo complejo 
                 </Heading>
                 <Text fontSize={{base: 'xs', md: 'sm'}}>
-                Para que te dediques a lo tuyo.
-                Subir NFTs es más fácil que hacer enchiladas.
+                Para que te dediques a lo tuyo. Subir NFTs será más fácil que hacer enchiladas.
                 </Text>
               </Box>
               <Box textAlign={'center'}>
@@ -101,8 +100,9 @@ const Creadores: NextPage = () => (
               <Stack spacing={4}>
                   <Heading as={'h2'} variant={'subtitle'}>¿Cómo funciona?</Heading>
                   <Text color={'gray.500'} fontSize={'md'}>
-                  Tanto si tienes NFTs, si solo tienes proyectos o activos, hasta si tienes una idea ganadora y la quieres digitalizar, aquí todos juegan. 
-                  La única regla es verificarte como creativo pues estarás entrando a una comunidad segura y sostenible.
+                  Aquí todos juegan. Ya sea que tengas NFTs, proyectos, activos o incluso si estás en la fase de las ideas y te quieres digitalizar. La única regla es verificarte como creativo pues estarás entrando a una comunidad segura y sostenible.
+                  Después podrás crear, comprar y vender NFT estableciendo tus precios y regalías.  
+                  Así de fácil. 
                   </Text>
               </Stack>
           </SimpleGrid>

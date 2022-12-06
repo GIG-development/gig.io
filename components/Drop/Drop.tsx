@@ -41,7 +41,7 @@ const Drop: FC<PropsWithChildren<Props>> = ({
                 </Text>
                 <br />{' '}
             </Heading>
-            <Text fontSize={{ base: 'md', lg: 'lg' }} color={'gray.500'}>
+            <Text fontSize={{ base: 'sm', lg: 'md' }} color={'gray.500'}>
                 {description}
             </Text>
             <Box

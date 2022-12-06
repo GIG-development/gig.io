@@ -26,7 +26,7 @@ const Nosotros: NextPage = () => (
         />
         <Stack spacing={6} mb={20}>
                 <Heading as={'h1'} variant="title">
-                    Sobre Nosotros
+                    Nosotros
                 </Heading>
                 <Container maxW={'full'} py={12}>
                     <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10} alignContent='center'>

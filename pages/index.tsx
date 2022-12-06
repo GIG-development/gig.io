@@ -106,7 +106,7 @@ const HomePage: NextPage<Home.Props> = ({
       </Stack>
     </LargeLayout>
 
-    <Stack spacing={12} mb={40} backgroundColor={'gray.200'} w={'full'} id='home__section-video'>
+    <Stack spacing={12} mb={40} backgroundColor={'gray.100'} w={'full'} id='home__section-video'>
       <LargeLayout>
         <Heading as="h2" variant="subtitle" color="black">
             GIG Marketplace

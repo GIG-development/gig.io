@@ -87,7 +87,6 @@
     justify-content: center;
     border: 1px solid black !important;
     border-radius: 4px !important;
-    box-shadow: 4px 4px 0 0 black !important;
 }
 #home>main>div.chakra-stack:nth-child(3)>div:nth-child(2) > div > div > div.chakra-stack > div > a.chakra-link{
     background-color: #CEAFFF;

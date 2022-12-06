@@ -28,7 +28,7 @@ const Banner: FC<PropsWithChildren<Props>> = ({
         <>
         <Flex
             w={'full'}
-            h={{base: '50vh', md: '80vh'}}
+            h={{base: '50vh', md: '40vh'}}
             align={'center'}
             justify={'center'}
             backgroundImage={

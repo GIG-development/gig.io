@@ -106,21 +106,14 @@ const HomePage: NextPage<Home.Props> = ({
       </Stack>
     </LargeLayout>
 
-    <Stack spacing={12} mb={40} backgroundColor={'gray.200'} w={'full'} _after={{
-      position: 'absolute',
-      bottom: '-50px',
-      width: '50px',
-      height: '50px',
-      backgroundColor: 'gray.200',
-      transform: 'rotate(45deg)'
-    }}>
+    <Stack spacing={12} mb={40} backgroundColor={'gray.200'} w={'full'} id='home__section-video'>
       <LargeLayout>
         <Heading as="h2" variant="subtitle" color="white">
             GIG Marketplace
         </Heading>
         <SecondaryHero 
           ctaLine_1='Empoderando almas'
-          ctaLine_2='CREATIVAS'
+          ctaLine_2='Creativas'
           description=''
           button_1='Explorar'
           button_1_link='/explore'

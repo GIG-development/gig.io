@@ -39,13 +39,13 @@ const FamiliaGIG: NextPage = () => (
                 >
                     <Image alt="NFTLALI" src='/img/familia/nftlali.png' w={150} h={150} margin={'0 auto'} borderRadius={'full'} border={'1px solid black'} boxShadow={'4px 4px 0 0 black'} mb={2}/>
                     <Box>
-                        <Heading as={'h4'} variant={'heading4'} mb={4}>NFTLALI</Heading>
+                        <Heading as={'h4'} variant={'heading3'} mb={4}>NFTLALI</Heading>
                         <Text fontSize='xs'>
                         Vivía sola en GIGTOPIA desde el comienzo de los tiempos. Un ser omnipresente que elige mostrarse con forma humana. Habla todos los idiomas de todos los universos (lo hace al mismo tiempo) y suena algo como: BURUDS IJK DSBU, por eso creó a un acompañante muy especial, URI, que con forma de robot es en realidad una extensión de su consciencia, le ayuda a decodificar mensajes y le comunica el punto de vista de otros mundos en desarrollo.
                         </Text>
                     </Box>
                     <Box>
-                        <Heading as={'h5'} variant={'heading5'} mb={4}>Poderes</Heading>
+                        <Heading as={'h5'} variant={'heading4'} mb={4}>Poderes</Heading>
                         <ul>
                             <li>Inspiración </li>
                             <li>Intención</li>
@@ -53,7 +53,7 @@ const FamiliaGIG: NextPage = () => (
                         </ul>
                     </Box>
                     <Box>
-                        <Heading as={'h5'} variant={'heading5'} mb={4}>Debilidades</Heading>
+                        <Heading as={'h5'} variant={'heading4'} mb={4}>Debilidades</Heading>
                         <ul>
                             <li>Adivina... ninguna</li>
                         </ul>

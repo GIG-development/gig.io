@@ -28,21 +28,37 @@ const FamiliaGIG: NextPage = () => (
             <Text textAlign={'center'} fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
                 Te presentamos a cada uno de los miembros de nuestra familia para que los conozcas mejor.
             </Text>
-            <Grid
-                py={20}
-                templateColumns={{
-                  base: 'repeat(1, 1fr)',
-                  sm: 'repeat(2, 1fr)',
-                  md: 'repeat(4, 1fr)',
-                }}
-                gap={{ base: '8', sm: '12', md: '16' }}>
-                <Box textAlign={'center'}>
+            <Stack>
+                <Grid py={20}
+                    templateColumns={{
+                    base: 'repeat(1, 1fr)',
+                    sm: 'repeat(2, 1fr)',
+                    md: 'repeat(4, 1fr)',
+                    }}
+                    textAlign={'center'}
+                >
                     <Image alt="NFTLALI" src='/img/familia/nftlali.png' w={150} h={150} margin={'0 auto'} borderRadius={'full'} border={'1px solid black'} boxShadow={'4px 4px 0 0 black'} mb={2}/>
-                    <Heading as={'h4'} variant={'heading4'} mb={4}>NFTLALI</Heading>
-                    <Text fontSize='xs'>
-                    Vivía sola en GIGTOPIA desde el comienzo de los tiempos. Un ser omnipresente que elige mostrarse con forma humana. Habla todos los idiomas de todos los universos (lo hace al mismo tiempo) y suena algo como: BURUDS IJK DSBU, por eso creó a un acompañante muy especial, URI, que con forma de robot es en realidad una extensión de su consciencia, le ayuda a decodificar mensajes y le comunica el punto de vista de otros mundos en desarrollo.
-                    </Text>
-                </Box>
+                    <>
+                        <Heading as={'h4'} variant={'heading4'} mb={4}>NFTLALI</Heading>
+                        <Text fontSize='xs'>
+                        Vivía sola en GIGTOPIA desde el comienzo de los tiempos. Un ser omnipresente que elige mostrarse con forma humana. Habla todos los idiomas de todos los universos (lo hace al mismo tiempo) y suena algo como: BURUDS IJK DSBU, por eso creó a un acompañante muy especial, URI, que con forma de robot es en realidad una extensión de su consciencia, le ayuda a decodificar mensajes y le comunica el punto de vista de otros mundos en desarrollo.
+                        </Text>
+                    </>
+                    <>
+                        <Heading as={'h5'} variant={'heading5'} mb={4}>Poderes</Heading>
+                        <ul>
+                            <li>Inspiración </li>
+                            <li>Intención</li>
+                            <li>Creatividad</li>
+                        </ul>
+                    </>
+                    <>
+                        <Heading as={'h5'} variant={'heading5'} mb={4}>Debilidades</Heading>
+                        <ul>
+                            <li>Adivina... ninguna</li>
+                        </ul>
+                    </>
+                </Grid>
                 <Box textAlign={'center'}>
                     <Image alt="Mamá Doris" src='/img/familia/mamadori.png' w={150} h={150} margin={'0 auto'} borderRadius={'full'} border={'1px solid black'} boxShadow={'4px 4px 0 0 black'} mb={2}/>
                     <Heading as={'h4'} variant={'heading4'} mb={4}>Mamá Doris</Heading>
@@ -94,7 +110,7 @@ const FamiliaGIG: NextPage = () => (
                     Si quieres encontrar el tesoro es a Papá Che a quién debes llamar. Lo suyo es hallar lo mejor de lo mejor, la crema y nata de los proyectos, que no solamente guarda en los recovecos de su habitación, sino que los muestra sin tapujos a su comunidad. Obsesionado por encontrar y compartir genialidades creativas fuera de lo común.  
                     </Text>
                 </Box>
-            </Grid>
+            </Stack>
         </Stack>
     </LargeLayout>
   </div>

@@ -37,17 +37,24 @@ const FamiliaGIG: NextPage = () => (
                     }}
                     gap={8}
                 >
-                    <Image alt="NFTLALI" src='/img/familia/nftlali.png' w={200} h={200} margin={'0 auto'} borderRadius={'full'} border={'1px solid black'} boxShadow={'4px 4px 0 0 black'} mb={2}/>
-                    <Stack direction={'row'}>
+                    <Image
+                        alt="NFTLALI"
+                        src='/img/familia/nftlali.png'
+                        w={200}
+                        h={200}
+                        margin={'0 auto'}
+                        mb={2}
+                    />
+                    <Stack direction={'column'}>
                         <Box>
                             <Heading as={'h4'} variant={'heading3'} mb={4}><b>NFTLALI</b></Heading>
                             <Text fontSize='xs'>
                             Vivía sola en GIGTOPIA desde el comienzo de los tiempos. Un ser omnipresente que elige mostrarse con forma humana. Habla todos los idiomas de todos los universos (lo hace al mismo tiempo) y suena algo como: BURUDS IJK DSBU, por eso creó a un acompañante muy especial, URI, que con forma de robot es en realidad una extensión de su consciencia, le ayuda a decodificar mensajes y le comunica el punto de vista de otros mundos en desarrollo.
                             </Text>
                         </Box>
-                        <Stack direction={'column'}>
+                        <Stack direction={'row'} spacing={12}>
                             <Box>
-                                <Heading as={'h5'} variant={'heading4'} mb={4}>Poderes</Heading>
+                                <Heading as={'h5'} variant={'heading4'}>Poderes</Heading>
                                 <Text fontSize='xs'>
                                     Inspiración<br/>
                                     Intención<br/>
@@ -55,7 +62,7 @@ const FamiliaGIG: NextPage = () => (
                                 </Text>
                             </Box>
                             <Box>
-                                <Heading as={'h5'} variant={'heading4'} mb={4}>Debilidades</Heading>
+                                <Heading as={'h5'} variant={'heading4'}>Debilidades</Heading>
                                 <Text fontSize='xs'>
                                     Adivina... ninguna
                                 </Text>

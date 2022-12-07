@@ -73,12 +73,14 @@ const Footer: FC<PropsWithChildren<Props>> = ({
             spacing={8}>
             <Stack spacing={6}>
               <Box>
-                <Image
-                    alt={'GIG Logo'}
-                    w={'150px'}
-                    h={'80px'}
-                    src={'./logo_beta.png'}
-                />
+                <Link href='/' title="GIG Marketplace | Inicio">
+                  <Image
+                      alt={'GIG Logo'}
+                      w={'150px'}
+                      h={'80px'}
+                      src={'./logo_beta.png'}
+                  />
+                </Link>
               </Box>
               <Text fontSize={'xs'}>
                 Somos una plataforma descentralizada que empodera almas creativas.
@@ -119,7 +121,7 @@ const Footer: FC<PropsWithChildren<Props>> = ({
             </Stack>
           </SimpleGrid>
           
-          <Text fontSize={'sm'} textAlign={'center'}>
+          <Text pt={20} fontSize={'sm'} textAlign={'center'}>
             © 2022 GIG. Todos los derechos reservados
           </Text>
         </Container>

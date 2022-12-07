@@ -131,7 +131,7 @@
     box-shadow: 4px 4px 0 0 black;
     width: 200px;
 }
-#menu-button-27 {
+#explore main > div:nth-child(2) > div > div:nth-child(1) > div > div > div:nth-child(2) button {
     border: 1px solid black;
     box-shadow: 4px 4px 0 0 black;
 }
@@ -141,6 +141,7 @@
 #explore main aside label.chakra-checkbox:focus {
     box-shadow: 4px 4px 0 0 black;
 }
-#explore main > div:nth-child(2) > div > div:nth-child(2) {
+#explore main > div:nth-child(2) > div > div:nth-child(2) div{
     border: 1px solid black;
+    box-shadow: 4px 4px 0 0 black;
 }

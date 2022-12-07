@@ -34,6 +34,8 @@ const Nosotros: NextPage = () => (
                             <Heading as={'h2'} variant={'subtitle'}>Quiénes Somos</Heading>
                             <Text color={'gray.500'} fontSize={'md'}>
                             Más que una plataforma, somos un ecosistema enfocado en la creación de NFTs en Latinoamérica conformado por mentes creativas, coleccionistas, inversionistas y entusiastas con un objetivo común: <b>Hacer sinergia para empoderarse creando una comunidad Web3 sostenible y autónoma.</b>
+                            <br/><br/>
+                            Somos un marketplace en donde hay música, arte visual, diseño, videojuegos, avatares, podcast, experiencias sensoriales, artículos de moda y mucho más. Un mundo en donde la creatividad está de fiesta.
                             </Text>
                         </Stack>
                         <Flex justifyContent='center' align-items='center'>
@@ -49,7 +51,7 @@ const Nosotros: NextPage = () => (
                 </Container>
                 <Container maxW={'full'}>
                     <Text textAlign={'center'} fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
-                        Somos un marketplace en donde hay música, arte visual, diseño, videojuegos, avatares, podcast, experiencias sensoriales, artículos de moda y mucho más. Un mundo en donde la creatividad está de fiesta. Aprovecha las oportunidades de ser visto por cientos de millones de personas gracias a la colaboración con medios masivos y participa en eventos de la industria de la tecnología y espectáculos.
+                         Aprovecha las oportunidades de ser visto por cientos de millones de personas gracias a la colaboración con medios masivos y participa en eventos de la industria de la tecnología y espectáculos.
                     </Text>
                     <Text textAlign={'center'} fontSize={useBreakpointValue({ base: 'md', md: 'lg' })} pt={4}>
                         <b>Crea lo que imaginas en tus propios términos. ¿Preparado?</b>

@@ -33,7 +33,7 @@ const HomePage: NextPage<Home.Props> = ({
       bg={'/img/home/main_hero_bg.jpg'}
       ctaLine_1={'Empodera tu creatividad'}
       ctaLine_2={'y construye tu futuro ideal'}
-      description={'Conceptualiza, crea, vende, subasta tus NFTs y proyecto. De cero al metaverso.'}
+      description={'Explora, crea, vende y subasta NFTs de forma fácil y rápida.'}
       button_1={'Explorar'}
       button_1_link={'/explore'}
       button_2={'Quiénes Somos'}
@@ -106,7 +106,7 @@ const HomePage: NextPage<Home.Props> = ({
       </Stack>
     </LargeLayout>
 
-    <Stack spacing={12} mb={40} backgroundColor={'gray.100'} w={'full'} id='home__section-video'>
+    <Stack spacing={12} mb={10} backgroundColor={'gray.100'} w={'full'} id='home__section-video'>
       <LargeLayout>
         <Heading as="h2" variant="subtitle" color="black">
             GIG Marketplace

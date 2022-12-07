@@ -126,7 +126,7 @@
 }
 
 /*EXPLORE*/
-#explore main aside button {
+#explore main aside form > div:nth-child(1) button {
     border: 1px solid black;
     border-radius: 4px;
     box-shadow: 4px 4px 0 0 black;
@@ -150,7 +150,7 @@
     box-shadow: 4px 4px 0 0 black;
 }
 #explore main > div:nth-child(2) > div > div:nth-child(2) > div > div > a > span > img {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid black !important;
 }
 #explore main > div:nth-child(2) > div > div:nth-child(2){
     align-items: flex-start !important;

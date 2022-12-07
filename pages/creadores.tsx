@@ -121,8 +121,16 @@ const Creadores: NextPage = () => (
                 answer={'Para nuevos talentos, artistas, coleccionistas, inversores en Latinoamérica y todas las almas creativas que buscan un futuro mejor.'}
               />
               <AccordionItem
-                question={'¿Tengo que ser Latinx para unirme?'}
+                question={'¿Tengo que ser Latin@ para unirme?'}
                 answer={'Sabemos que en Latinoamérica hay un mundo de creatividad sin descubrir, por eso iniciamos en México y Latam, pero no somos excluyentes. Si tienes un gran proyecto y quieres ser parte de esta evolución, más que bienvenidx.'}
+              />
+              <AccordionItem
+                question={'¿Mi proyecto vivirá solamente en GIG?'}
+                answer={'Si subiste tu proyecto a través de GIG, éste aparecerá bajo contrato de GIG, sin embargo cualquier Marketplace que soporte Ethereum puede listar tus NFTs.'}
+              />
+              <AccordionItem
+                question={'¿Qué tipo de proyectos puedo subir?'}
+                answer={'Prácticamente todos los formatos son bienvenidos: Arte digital, música, esculturas, videos, libros, videos. Coleccionables digitales como objetos, tarjetas, skins, avatares. Videojuegos y lo relativo a ellos. Certificados y títulos. Objetos físicos. Tickets o entradas a eventos. (Nos reservamos el derecho de admitir proyectos que pudieran ir en perjuicio de alguna persona o institución.)'}
               />
             </Accordion>
 

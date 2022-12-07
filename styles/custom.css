@@ -12,15 +12,16 @@
 .btn:hover{
     background-color: #BE94FF;
 }
+
 @media screen and (min-width: 1024px){
-    /*Header*/
+    /*Header
     #__next > div:nth-child(1) {
         position: absolute;
         width: 100%;
         transform: translateX(-50%);
         left: 50%;
-    }
-    /*Main content block*/
+    }*/
+    /*Main content block
     #__next > div:nth-child(2) > main {
         padding-top: 120px;
     }
@@ -28,8 +29,9 @@
     #__next > #creadores > #main-hero > div{
         padding-top: 0px;
         overflow: hidden;
-    }
+    }*/
 }
+
 /*Header search input*/
 #__next > div:nth-child(1) .chakra-input__group input,
 #__next > div:nth-child(1) .chakra-input__group input::placeholder,

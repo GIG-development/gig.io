@@ -60,7 +60,7 @@ const FAQ: NextPage = () => (
               />
             </Accordion>
             <Heading as={'h4'} variant={'heading4'} textAlign={'center'}>
-            Si tienes otras dudas o comentarios, contáctanos a <Link href={`mailto:${environment.REPORT_EMAIL}`}>{environment.REPORT_EMAIL}</Link> o <Link href={'/tutoriales'}>visita nuestros tutoriales</Link>
+            Si tienes otras preguntas o comentarios, visita <Link href={'/tutoriales'}>nuestros tutoriales</Link> o contáctanos a <Link href={`mailto:${environment.REPORT_EMAIL}`}>{environment.REPORT_EMAIL}</Link>
             </Heading>
         </Stack>
     </LargeLayout>

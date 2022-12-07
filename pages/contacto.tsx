@@ -22,8 +22,8 @@ const Contacto: NextPage = () => (
               ¿Quieres establecer contacto cercano del tercer tipo con el equipo GIG?
             </Heading>
             <Text textAlign={'center'}>
-              Cuéntanos lo que quieras. Estamos aquí para lo que se te ofrezca, no dudes en contactarnos.<br/>
-              Deja tus datos debajo y encuéntranos en redes sociales como <b>@holagig</b>
+              Cuéntanos lo que quieras. Estamos aquí para escucharte (ó leerte).<br/>
+              Encuéntranos en redes sociales como <b>@holagig</b>
             </Text>
             <button data-tf-slider="VNmlDfKG" data-tf-hide-headers data-tf-position="right" data-tf-button-color="#BE94FF" data-tf-iframe-props="title=Contact Form" data-tf-chat className='btn'>
               Escríbenos aquí

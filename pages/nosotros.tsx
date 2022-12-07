@@ -123,7 +123,7 @@ const Nosotros: NextPage = () => (
                         Familia GIG
                     </Heading>
                     <Text textAlign={'center'} fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
-                    Aprovechando que estás aquí, te presentamos a la familia GIG.
+                    Aún estás curioseando y llegaste a GIGVERSO. Aprovechando que estás aquí, te presentamos a la familia GIG.
                     </Text>
 
                     <Grid

@@ -10,6 +10,8 @@ import {
 import Head from '../components/Head'
 import LargeLayout from '../layouts/large'
 import { NextPage } from 'next'
+import Lottie from 'react-lottie-player';
+import NFTLali from '../public/img/animaciones/NFTLALI.json'
   
 const FamiliaGIG: NextPage = () => (
   <div id="familia">
@@ -37,22 +39,20 @@ const FamiliaGIG: NextPage = () => (
                     }}
                     gap={8}
                 >
-                    <Image
-                        alt="NFTLALI"
-                        src='/img/familia/nftlali.png'
-                        w={200}
-                        h={200}
-                        margin={'0 auto'}
-                        mb={2}
+                    <Lottie
+                        loop={true}
+                        animationData={NFTLali}
+                        play
+                        style={{ width: 600, height: 600 }}
                     />
                     <Stack direction={'column'}>
                         <Box>
-                            <Heading as={'h4'} variant={'heading3'} mb={4}><b>NFTLALI</b></Heading>
+                            <Heading as={'h4'} variant={'heading3'} mb={4}><b>NFTLali</b></Heading>
                             <Text fontSize='xs'>
                             Vivía sola en GIGTOPIA desde el comienzo de los tiempos. Un ser omnipresente que elige mostrarse con forma humana. Habla todos los idiomas de todos los universos (lo hace al mismo tiempo) y suena algo como: BURUDS IJK DSBU, por eso creó a un acompañante muy especial, URI, que con forma de robot es en realidad una extensión de su consciencia, le ayuda a decodificar mensajes y le comunica el punto de vista de otros mundos en desarrollo.
                             </Text>
                         </Box>
-                        <Stack direction={'row'} spacing={12}>
+                        <Stack direction={'row'} spacing={12} pt={20}>
                             <Box>
                                 <Heading as={'h5'} variant={'heading4'}>Poderes</Heading>
                                 <Text fontSize='xs'>

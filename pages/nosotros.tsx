@@ -137,8 +137,8 @@ const Nosotros: NextPage = () => (
                         }}
                         gap={{ base: '8', sm: '12', md: '16' }}>
                         <Box textAlign={'center'}>
-                            <Image alt="NFTLALI" src='/img/familia/nftlali.png' w={150} h={150} margin={'0 auto'} borderRadius={'full'} border={'1px solid black'} boxShadow={'4px 4px 0 0 black'} mb={2}/>
-                            <Heading as={'h4'} variant={'heading4'} mb={4}>NFTLALI</Heading>
+                            <Image alt="NFTLali" src='/img/familia/nftlali.png' w={150} h={150} margin={'0 auto'} borderRadius={'full'} border={'1px solid black'} boxShadow={'4px 4px 0 0 black'} mb={2}/>
+                            <Heading as={'h4'} variant={'heading4'} mb={4}>NFTLali</Heading>
                             <Text fontSize='xs'>
                             Deidad GIGLANDIA. <br/>
                             Tiene una misión interplanetaria que aún no puede revelar.

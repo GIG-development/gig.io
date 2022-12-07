@@ -37,7 +37,7 @@ const FamiliaGIG: NextPage = () => (
                 Te presentamos a cada uno de los miembros de nuestra familia para que los conozcas mejor.
             </Text>
             <Stack>
-                <Grid py={20}
+                <Grid py={5}
                     templateColumns={{
                         base: 'repeat(1, 1fr)',
                         sm: 'repeat(2, 1fr)',
@@ -76,7 +76,7 @@ const FamiliaGIG: NextPage = () => (
                         </Stack>
                     </Stack>
                 </Grid>
-                <Grid py={20}
+                <Grid py={5}
                     templateColumns={{
                         base: 'repeat(1, 1fr)',
                         sm: 'repeat(2, 1fr)',
@@ -101,19 +101,22 @@ const FamiliaGIG: NextPage = () => (
                             <Box>
                                 <Heading as={'h5'} variant={'heading4'}>Poderes</Heading>
                                 <Text fontSize='xs'>
-                                    
+                                Vista de águila<br/>
+                                Zipper de opiniones<br/>
+                                Pase VIP
                                 </Text>
                             </Box>
                             <Box>
                                 <Heading as={'h5'} variant={'heading4'}>Debilidades</Heading>
                                 <Text fontSize='xs'>
-                                    
+                                Torbellino de anulación<br/>
+                                Egoitis - Inflamación del ego
                                 </Text>
                             </Box>
                         </Stack>
                     </Stack>
                 </Grid>
-                <Grid py={20}
+                <Grid py={5}
                     templateColumns={{
                         base: 'repeat(1, 1fr)',
                         sm: 'repeat(2, 1fr)',
@@ -138,19 +141,22 @@ const FamiliaGIG: NextPage = () => (
                             <Box>
                                 <Heading as={'h5'} variant={'heading4'}>Poderes</Heading>
                                 <Text fontSize='xs'>
-                                    
+                                Art Attack<br/>
+                                Creación mágica<br/>
+                                Onda innovadora
                                 </Text>
                             </Box>
                             <Box>
                                 <Heading as={'h5'} variant={'heading4'}>Debilidades</Heading>
                                 <Text fontSize='xs'>
-                                    
+                                Puño de duda<br/>
+                                Golpe de locura
                                 </Text>
                             </Box>
                         </Stack>
                     </Stack>
                 </Grid>
-                <Grid py={20}
+                <Grid py={5}
                     templateColumns={{
                         base: 'repeat(1, 1fr)',
                         sm: 'repeat(2, 1fr)',
@@ -176,19 +182,22 @@ const FamiliaGIG: NextPage = () => (
                             <Box>
                                 <Heading as={'h5'} variant={'heading4'}>Poderes</Heading>
                                 <Text fontSize='xs'>
-                                    
+                                Cartera jugosa<br/>
+                                Olfato de perro<br/>
+                                Colmillo de oro
                                 </Text>
                             </Box>
                             <Box>
                                 <Heading as={'h5'} variant={'heading4'}>Debilidades</Heading>
                                 <Text fontSize='xs'>
-                                    
+                                Impulsividad<br/>
+                                Orejas de burro 
                                 </Text>
                             </Box>
                         </Stack>
                     </Stack>
                 </Grid>
-                <Grid py={20}
+                <Grid py={5}
                     templateColumns={{
                         base: 'repeat(1, 1fr)',
                         sm: 'repeat(2, 1fr)',
@@ -213,13 +222,17 @@ const FamiliaGIG: NextPage = () => (
                             <Box>
                                 <Heading as={'h5'} variant={'heading4'}>Poderes</Heading>
                                 <Text fontSize='xs'>
-                                    
+                                Incertidumbre<br/>
+                                Lluvia de lágrimas<br/>
+                                Soledad
                                 </Text>
                             </Box>
                             <Box>
                                 <Heading as={'h5'} variant={'heading4'}>Debilidades</Heading>
                                 <Text fontSize='xs'>
-                                    
+                                Golpe de fé<br/>
+                                Onda innovadora<br/>
+                                Golpe descapitalizador   
                                 </Text>
                             </Box>
                         </Stack>
@@ -251,19 +264,22 @@ const FamiliaGIG: NextPage = () => (
                             <Box>
                                 <Heading as={'h5'} variant={'heading4'}>Poderes</Heading>
                                 <Text fontSize='xs'>
-                                    
+                                Odio extremo<br/>
+                                Meteorito de comments<br/>
+                                Puño negativo
                                 </Text>
                             </Box>
                             <Box>
                                 <Heading as={'h5'} variant={'heading4'}>Debilidades</Heading>
                                 <Text fontSize='xs'>
-                                    
+                                Ceguera<br/>
+                                Golpe de razonamiento
                                 </Text>
                             </Box>
                         </Stack>
                     </Stack>
                 </Grid>
-                <Grid py={20}
+                <Grid py={5}
                     templateColumns={{
                         base: 'repeat(1, 1fr)',
                         sm: 'repeat(2, 1fr)',
@@ -288,19 +304,22 @@ const FamiliaGIG: NextPage = () => (
                             <Box>
                                 <Heading as={'h5'} variant={'heading4'}>Poderes</Heading>
                                 <Text fontSize='xs'>
-                                    
+                                Antimateria<br/>
+                                Teletransportación<br/>
+                                Pepe grillo
                                 </Text>
                             </Box>
                             <Box>
                                 <Heading as={'h5'} variant={'heading4'}>Debilidades</Heading>
                                 <Text fontSize='xs'>
-                                    
+                                Pisotón<br/>
+                                Sobrecarga 
                                 </Text>
                             </Box>
                         </Stack>
                     </Stack>
                 </Grid>
-                <Grid py={20}
+                <Grid py={5}
                     templateColumns={{
                         base: 'repeat(1, 1fr)',
                         sm: 'repeat(2, 1fr)',
@@ -325,13 +344,17 @@ const FamiliaGIG: NextPage = () => (
                             <Box>
                                 <Heading as={'h5'} variant={'heading4'}>Poderes</Heading>
                                 <Text fontSize='xs'>
-                                    
+                                Exhibicionista de colecciones<br/>
+                                Empoderador<br/>
+                                Dopamina suprema
                                 </Text>
                             </Box>
                             <Box>
                                 <Heading as={'h5'} variant={'heading4'}>Debilidades</Heading>
                                 <Text fontSize='xs'>
-                                    
+                                Explosiones súbitas<br/>
+                                Pérdida de criterio<br/>
+                                Acumulador
                                 </Text>
                             </Box>
                         </Stack>

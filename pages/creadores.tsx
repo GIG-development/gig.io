@@ -48,7 +48,7 @@ const Creadores: NextPage = () => (
                       alt={'Creadores'}
                       src={'/img/creadores/decodificamos_ideas.png'}
                       objectFit={'cover'}
-                      maxW={"220px"}
+                      maxW={"180px"}
                   />
               </Flex>
           </SimpleGrid>
@@ -94,7 +94,7 @@ const Creadores: NextPage = () => (
                     alt={'Como funciona'}
                     src={'/img/creadores/como_funciona.png'}
                     objectFit={'cover'}
-                    maxW={'180px'}
+                    maxW={'140px'}
                 />
               </Flex>
               <Stack spacing={4}>
@@ -107,7 +107,7 @@ const Creadores: NextPage = () => (
                   
               </Stack>
           </SimpleGrid>
-          
+
           <Heading as={'h2'} variant="heading1" pt={20}>
           Preguntas frecuentes
           </Heading>

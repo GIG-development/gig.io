@@ -114,7 +114,7 @@ const HomePage: NextPage<Home.Props> = ({
         <SecondaryHero 
           ctaLine_1='Empoderando almas'
           ctaLine_2='Creativas'
-          description=''
+          description='No necesitas ser experto, estamos contigo desde la conceptualización hasta la promoción de tus NFTs. Solo trae tus ganas de entrar al espacio cripto en una comunidad de creativos geniales.'
           button_1='Explorar'
           button_1_link='/explore'
           button_2='¿Cómo funciona?'

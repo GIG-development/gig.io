@@ -2,6 +2,7 @@ import {
     Button,
     Heading,
     Link,
+    Text,
     Stack
 } from '@chakra-ui/react'
 import Head from '../components/Head'
@@ -17,8 +18,11 @@ const Custom500: NextPage = () => (
         />
         <Stack spacing={6} mb={20} align={'center'}>
             <Heading variant={'subtitle'} textAlign={'center'}>
-                Lo sentimos, hemos tenido un error. Si el error persiste, por favor repórtalo a <Link href='mailto:soporte@gig.io'>soporte@gig.io</Link> o en nuestra <Link href='/contacto'>página de contacto</Link>
+                Lo sentimos, hemos tenido un error
             </Heading>
+            <Text>
+                Si el error persiste, por favor repórtalo a <Link href='mailto:soporte@gig.io'>soporte@gig.io</Link> o en nuestra <Link href='/contacto'>página de contacto</Link>
+            </Text>
             <Link href='/'>
                 <Button>Volver al inicio</Button>
             </Link>

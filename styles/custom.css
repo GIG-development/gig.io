@@ -124,3 +124,14 @@
     background-color: #F3F4F6;
     transform: rotate(45deg);
 }
+
+/*EXPLORE*/
+#explore main aside button {
+    border: 1px solid black;
+    box-shadow: 4px 4px 0 0 black;
+    width: 200px;
+}
+#explore main > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div > div > div > div:nth-child(2) > button {
+    border: 1px solid black;
+    box-shadow: 4px 4px 0 0 black;
+}

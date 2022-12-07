@@ -42,13 +42,13 @@ const Creadores: NextPage = () => (
                   No necesitas ser experto, estamos contigo desde la conceptualización hasta la promoción de tus NFTs. Solo trae tus ganas de entrar al espacio cripto en una comunidad de creativos geniales.
                   </Text>
               </Stack>
-              <Flex textAlign={'center'} justifyContent={'center'}>
+              <Flex maxW={"300px"} textAlign={'center'} justifyContent={'center'}>
                   <Image
                       rounded={'md'}
                       alt={'Creadores'}
                       src={'/img/creadores/decodificamos_ideas.png'}
                       objectFit={'cover'}
-                      maxW={"300px"}
+                      maxW={"220px"}
                   />
               </Flex>
           </SimpleGrid>
@@ -104,36 +104,33 @@ const Creadores: NextPage = () => (
                   Después podrás crear, comprar y vender NFT estableciendo tus precios y regalías.  
                   Así de fácil. 
                   </Text>
+                  <Heading as={'h2'} variant="heading1" pt={20}>
+                  Preguntas frecuentes
+                  </Heading>
+                  <Accordion>
+                    <AccordionItem
+                      question={'¿Necesito saber de cripto antes de empezar?'}
+                      answer={'Para nada en lo absoluto. Nosotros te ayudamos a conceptualizar tus ideas.'}
+                    />
+                    <AccordionItem
+                      question={'¿Para quién es?'}
+                      answer={'Para nuevos talentos, artistas, coleccionistas, inversores en Latinoamérica y todas las almas creativas que buscan un futuro mejor.'}
+                    />
+                    <AccordionItem
+                      question={'¿Tengo que ser Latin@ para unirme?'}
+                      answer={'Sabemos que en Latinoamérica hay un mundo de creatividad sin descubrir, por eso iniciamos en México y Latam, pero no somos excluyentes. Si tienes un gran proyecto y quieres ser parte de esta evolución, más que bienvenidx.'}
+                    />
+                    <AccordionItem
+                      question={'¿Mi proyecto vivirá solamente en GIG?'}
+                      answer={'Si subiste tu proyecto a través de GIG, éste aparecerá bajo contrato de GIG, sin embargo cualquier Marketplace que soporte Ethereum puede listar tus NFTs.'}
+                    />
+                    <AccordionItem
+                      question={'¿Qué tipo de proyectos puedo subir?'}
+                      answer={'Prácticamente todos los formatos son bienvenidos: Arte digital, música, esculturas, videos, libros, videos. Coleccionables digitales como objetos, tarjetas, skins, avatares. Videojuegos y lo relativo a ellos. Certificados y títulos. Objetos físicos. Tickets o entradas a eventos. (Nos reservamos el derecho de admitir proyectos que pudieran ir en perjuicio de alguna persona o institución.)'}
+                    />
+                  </Accordion>
               </Stack>
           </SimpleGrid>
-
-            <Heading as={'h2'} variant="heading1" pt={20}>
-            Preguntas frecuentes
-            </Heading>
-
-            <Accordion>
-              <AccordionItem
-                question={'¿Necesito saber de cripto antes de empezar?'}
-                answer={'Para nada en lo absoluto. Nosotros te ayudamos a conceptualizar tus ideas.'}
-              />
-              <AccordionItem
-                question={'¿Para quién es?'}
-                answer={'Para nuevos talentos, artistas, coleccionistas, inversores en Latinoamérica y todas las almas creativas que buscan un futuro mejor.'}
-              />
-              <AccordionItem
-                question={'¿Tengo que ser Latin@ para unirme?'}
-                answer={'Sabemos que en Latinoamérica hay un mundo de creatividad sin descubrir, por eso iniciamos en México y Latam, pero no somos excluyentes. Si tienes un gran proyecto y quieres ser parte de esta evolución, más que bienvenidx.'}
-              />
-              <AccordionItem
-                question={'¿Mi proyecto vivirá solamente en GIG?'}
-                answer={'Si subiste tu proyecto a través de GIG, éste aparecerá bajo contrato de GIG, sin embargo cualquier Marketplace que soporte Ethereum puede listar tus NFTs.'}
-              />
-              <AccordionItem
-                question={'¿Qué tipo de proyectos puedo subir?'}
-                answer={'Prácticamente todos los formatos son bienvenidos: Arte digital, música, esculturas, videos, libros, videos. Coleccionables digitales como objetos, tarjetas, skins, avatares. Videojuegos y lo relativo a ellos. Certificados y títulos. Objetos físicos. Tickets o entradas a eventos. (Nos reservamos el derecho de admitir proyectos que pudieran ir en perjuicio de alguna persona o institución.)'}
-              />
-            </Accordion>
-
         </Stack>
     </LargeLayout>
   </div>

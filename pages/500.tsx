@@ -9,17 +9,16 @@ import Head from '../components/Head'
 import LargeLayout from '../layouts/large'
 import { NextPage } from 'next'
 
-const Custom404: NextPage = () => (
-<div id="notFound">
+const Custom500: NextPage = () => (
+<div id="server-error">
     <LargeLayout>
         <Head
-            title="Error 404"
+            title="Error 500"
             description=""
         />
         <Stack spacing={6} mb={20} align={'center'}>
-            <Image src={'/img/404/404.png'} w={'60%'} alt="404"/>
             <Heading variant={'subtitle'} textAlign={'center'}>
-                Lo sentimos, no encontramos lo que estás buscando.
+                Lo sentimos, hemos tenido un error. Si el error persiste, por favor repórtalo a <Link href='mailto:soporte@gig.io'>soporte@gig.io</Link> o en nuestra <Link href='/contacto'>página de contacto</Link>
             </Heading>
             <Link href='/'>
                 <Button>Volver al inicio</Button>
@@ -29,4 +28,4 @@ const Custom404: NextPage = () => (
 </div>
 )
 
-export default Custom404
+export default Custom500

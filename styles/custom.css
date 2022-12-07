@@ -155,7 +155,7 @@
 #explore main > div:nth-child(2) > div > div:nth-child(2){
     align-items: flex-start !important;
 }
-#explore main > div:nth-child(2) > div > div:nth-child(2) > div > div {
+#explore main > div:nth-child(2) > div > div:nth-child(2) > div.chakra-stack > div {
     border: none !important;
     box-shadow: none !important;
 }

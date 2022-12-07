@@ -251,6 +251,10 @@ export const theme = extendTheme({
         bg: props.colorMode === 'dark' ? 'white' : 'white'
       },
       input: {
+        _hover: {
+          boxShadow: '4px 4px 0 0 black !important',
+          backgroundColor: 'white'
+        },
         _focus: {
           boxShadow: '4px 4px 0 0 black !important',
           backgroundColor: 'white'

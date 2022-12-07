@@ -46,7 +46,7 @@ const Creadores: NextPage = () => (
                   <Image
                       rounded={'md'}
                       alt={'Creadores'}
-                      src={'/img/nosotros/como_funciona.png'}
+                      src={'/img/creadores/decodificamos_ideas.png'}
                       objectFit={'cover'}
                       maxW={"300px"}
                   />
@@ -92,7 +92,7 @@ const Creadores: NextPage = () => (
                 <Image
                     rounded={'md'}
                     alt={'Como funciona'}
-                    src={'/img/nosotros/como_funciona.png'}
+                    src={'/img/creadores/como_funciona.png'}
                     objectFit={'cover'}
                     maxW={'340px'}
                 />

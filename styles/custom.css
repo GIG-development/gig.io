@@ -152,3 +152,10 @@
 #explore main > div:nth-child(2) > div > div:nth-child(2) > div > div > a > span > img {
     border-bottom: 1px solid black;
 }
+#explore main > div:nth-child(2) > div > div:nth-child(2){
+    align-items: flex-start !important;
+}
+#explore main > div:nth-child(2) > div > div:nth-child(2) > div > div {
+    border: none !important;
+    box-shadow: none !important;
+}

@@ -114,7 +114,7 @@ const Hero: FC<PropsWithChildren<Props>> = ({
                         alt={'Main Hero Animation'}
                         objectFit={'cover'}
                         src={image}
-                        padding={{base: '0', md: '80px 0 0'}}
+                        padding={{base: '0', md: '40px 0'}}
                         />       
                     }
                 </Flex>

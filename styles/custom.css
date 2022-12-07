@@ -128,20 +128,27 @@
 /*EXPLORE*/
 #explore main aside button {
     border: 1px solid black;
+    border-radius: 4px;
     box-shadow: 4px 4px 0 0 black;
     width: 200px;
 }
 #explore main > div:nth-child(2) > div > div:nth-child(1) > div > div > div:nth-child(2) button {
     border: 1px solid black;
+    border-radius: 4px;
     box-shadow: 4px 4px 0 0 black;
 }
 #explore main aside label.chakra-checkbox {
     border: 1px solid black;
+    border-radius: 4px;
 }
-#explore main aside label.chakra-checkbox:focus {
+#explore main aside label.chakra-checkbox:hover {
     box-shadow: 4px 4px 0 0 black;
 }
-#explore main > div:nth-child(2) > div > div:nth-child(2) div{
+#explore main > div:nth-child(2) > div > div:nth-child(2) > div > div{
     border: 1px solid black;
+    border-radius: 4px;
     box-shadow: 4px 4px 0 0 black;
+}
+#explore main > div:nth-child(2) > div > div:nth-child(2) > div > div > a > span > img {
+    border-bottom: 1px solid black;
 }

@@ -69,7 +69,7 @@ const Footer: FC<PropsWithChildren<Props>> = ({
         padding={'20px'}>
         <Container as={Stack} maxW={'6xl'} py={10}>
           <SimpleGrid
-            templateColumns={{ sm: '1fr 1fr', md: '2fr 1fr 1fr 2fr' }}
+            templateColumns={{ sm: '1fr 1fr', md: '2fr 1fr 1fr 1fr' }}
             spacing={8}>
             <Stack spacing={6}>
               <Box>
@@ -120,7 +120,6 @@ const Footer: FC<PropsWithChildren<Props>> = ({
           </SimpleGrid>
           
           <Text fontSize={'sm'} textAlign={'center'}>
-            <br/><br/><br/><br/><br/>
             © 2022 GIG. Todos los derechos reservados
           </Text>
         </Container>

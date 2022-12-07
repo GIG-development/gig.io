@@ -103,9 +103,9 @@ const Footer: FC<PropsWithChildren<Props>> = ({
               <Link href={'/condiciones-de-uso'}>Condiciones de Uso</Link>
               <Link href={'/politica-de-privacidad'}>Política de Privacidad</Link>
             </Stack>
-            <Stack alignItems={'flex-end'} alignContent={'space-between'}>
+            <Stack alignItems={{base:'center', md: 'flex-end'}} alignContent={'space-between'}>
             
-              <Stack direction={'row'} spacing={6} align={'flex-end'}>
+              <Stack direction={'row'} spacing={6} align={{base:'center', md: 'flex-end'}}>
                 <SocialButton label={'Twitter'} href={'https://twitter.com/holagig'}>
                   <FaTwitter />
                 </SocialButton>
@@ -116,12 +116,13 @@ const Footer: FC<PropsWithChildren<Props>> = ({
                   <FaInstagram />
                 </SocialButton>
               </Stack>
-              <Text fontSize={'sm'}>
-                <br/><br/><br/><br/><br/>
-                © 2022 GIG. Todos los derechos reservados
-              </Text>
             </Stack>
           </SimpleGrid>
+          
+          <Text fontSize={'sm'} textAlign={'center'}>
+            <br/><br/><br/><br/><br/>
+            © 2022 GIG. Todos los derechos reservados
+          </Text>
         </Container>
       </Box>
     );

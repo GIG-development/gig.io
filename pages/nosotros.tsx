@@ -6,7 +6,6 @@ import {
     Heading,
     Text,
     Stack,
-    VStack,
     useBreakpointValue
 } from '@chakra-ui/react';
 import Head from '../components/Head'
@@ -37,7 +36,7 @@ const Nosotros: NextPage = () => (
                         </Flex>
                         <Stack spacing={4}>
                             <Heading as={'h2'} variant={'subtitle'}>Quiénes Somos</Heading>
-                            <Text color={'gray.500'} fontSize={'md'}>
+                            <Text color={'gray.500'} fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
                             Más que una plataforma, somos un ecosistema enfocado en la creación de NFTs en Latinoamérica conformado por mentes creativas, coleccionistas, inversionistas y entusiastas con un objetivo común: <b>Hacer sinergia para empoderarse creando una comunidad Web3 sostenible y autónoma.</b>
                             <br/><br/>
                             Somos un marketplace en donde hay música, arte visual, diseño, videojuegos, avatares, podcast, experiencias sensoriales, artículos de moda y mucho más. Un mundo en donde la creatividad está de fiesta.
@@ -45,41 +44,34 @@ const Nosotros: NextPage = () => (
                         </Stack>
                     </SimpleGrid>
                 </Container>
-                <Flex
-                    w={'full'}
-                    py={40}
-                >
-                    <VStack
-                        w={'full'}
-                        justify={'center'}
-                        px={useBreakpointValue({ base: 4, md: 8 })}
-                    >
-                        <Stack maxW={'2xl'} align={'center'} spacing={6}>
-                            <Heading as="h2" size='2xl'>
-                                Manifiesto GIG
-                            </Heading>
-                            <Text
-                                color={'brand.black'}
-                                textAlign={'center'}
-                                fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
+                <Container maxW={'full'} py={12}>
+                    <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10} alignContent='center'>
+                        <Stack spacing={4}>
+                            <Heading as={'h2'} variant={'subtitle'}>Manifiesto GIG</Heading>
+                            <Text color={'gray.500'} fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
                                     Conocemos el arduo camino que recorren los creativos para posicionarse en el mercado. Muchas veces darse a conocer y crecer en la industria es como toparse con pared. 
                             </Text>
-                            <Text
-                                color={'brand.black'}
-                                textAlign={'center'}
-                                fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
+                            <Text color={'gray.500'} fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
                                     Hay que tener los contactos adecuados, las comisiones suelen ser demasiado altas, a veces el trabajo no se valora de manera justa y encontrar buenos clientes se convierte en una tarea titánica. A esto súmale los típicos comentarios como el clásico “¿Cómo vas a vivir de eso?”
                             </Text>
-                            <Text
-                                color={'brand.black'}
-                                textAlign={'center'}
-                                fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
+                            <Text color={'gray.500'} fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
                                 Por eso, queremos que este mensaje llegue a todos los creativos (quienes expresamos nuestra esencia con ocurrencia):
-                                <br/><b>Vivir de lo que nos apasiona es posible y no solo eso, también es redituable.</b> 
+                                <br/>
+                                <b>Vivir de lo que nos apasiona es posible y no solo eso, también es redituable.</b> 
                             </Text>
                         </Stack>
-                    </VStack>
-                </Flex>
+                        <Flex justifyContent='center' align-items='center'>
+                            <Image
+                                rounded={'md'}
+                                alt={'Manifiesto'}
+                                src={'/img/nosotros/manifiesto.png'}
+                                maxW={"340px"}
+                                objectFit={'cover'}
+                            />
+                        </Flex>
+                    </SimpleGrid>
+                </Container>
+                
                 <Container maxW={'full'} py={12}>
                     <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10} alignContent='center'>
                         <Flex justifyContent='center' align-items='center'>
@@ -93,10 +85,10 @@ const Nosotros: NextPage = () => (
                         </Flex>
                         <Stack spacing={4}>
                         <Heading as={'h2'} variant={'subtitle'}>Cómo Funciona</Heading>
-                        <Text color={'gray.500'} fontSize={'md'}>
+                        <Text color={'gray.500'} fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
                         Te apoyamos durante todo el recorrido de generación de tus proyectos criptográficos, desde la conceptualización hasta su lanzamiento y promoción. Puedes confiar en la calidad de los activos en nuestra plataforma, ya que verificamos a cada creador para asegurarnos de que tengan una trayectoría sólida y piezas auténticas.
                         </Text>
-                        <Text color={'gray.500'} fontSize={'md'}>
+                        <Text color={'gray.500'} fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
                         Trabajamos en simplificar los procesos para que puedas enfocarte en desarrollar tus proyectos y crecer tus colecciones. 
                         </Text>
                         </Stack>

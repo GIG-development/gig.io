@@ -110,11 +110,11 @@ const Creadores: NextPage = () => (
             </Box>
           </Grid>
 
-          <Heading as={'h2'} variant="heading1" py={20} textAlign={'center'}>
+          <Heading as={'h2'} variant="heading1" py={12} textAlign={'center'}>
           Codéate con artistas prestigiosos, coleccionistas, curadores reconocidos y otras mentes creativas como tú
           </Heading>
 
-          <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10} pt={20}>
+          <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10} pt={12}>
             <Flex textAlign={'center'} justifyContent={'center'}>
               <Image
                   rounded={'md'}

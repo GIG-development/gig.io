@@ -105,17 +105,18 @@ const Footer: FC<PropsWithChildren<Props>> = ({
               <Link href={'/condiciones-de-uso'}>Condiciones de Uso</Link>
               <Link href={'/politica-de-privacidad'}>Política de Privacidad</Link>
             </Stack>
-            <Stack alignItems={{base:'center', md: 'flex-end'}} alignContent={'space-between'}>
+            <Stack align={'flex-start'}>
+              <ListHeader>Síguenos</ListHeader>
             
-              <Stack direction={'row'} spacing={6} align={{base:'center', md: 'flex-end'}}>
+              <Stack direction={'column'} spacing={6} align={'flex-start'}>
                 <SocialButton label={'Twitter'} href={'https://twitter.com/holagig'}>
-                  <FaTwitter />
+                  <FaTwitter /> Twitter
                 </SocialButton>
                 <SocialButton label={'YouTube'} href={'https://youtube.com/holagig'}>
-                  <FaYoutube />
+                  <FaYoutube /> Youtube
                 </SocialButton>
                 <SocialButton label={'Instagram'} href={'https://instagram.com/holagig'}>
-                  <FaInstagram />
+                  <FaInstagram /> Instagram
                 </SocialButton>
               </Stack>
             </Stack>

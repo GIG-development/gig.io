@@ -59,7 +59,7 @@ const Creadores: NextPage = () => (
                 <Image
                     rounded={'md'}
                     alt={'Creadores'}
-                    src={'/img/familia/URI.png'}
+                    src={'/img/familia/uri.png'}
                     objectFit={'cover'}
                     maxW={"180px"}
                 />
@@ -76,7 +76,7 @@ const Creadores: NextPage = () => (
                 <Image
                     rounded={'md'}
                     alt={'Creadores'}
-                    src={'/img/familia/URI.png'}
+                    src={'/img/familia/uri.png'}
                     objectFit={'cover'}
                     maxW={"180px"}
                 />
@@ -93,7 +93,7 @@ const Creadores: NextPage = () => (
                 <Image
                     rounded={'md'}
                     alt={'Creadores'}
-                    src={'/img/familia/URI.png'}
+                    src={'/img/familia/uri.png'}
                     objectFit={'cover'}
                     maxW={"180px"}
                 />

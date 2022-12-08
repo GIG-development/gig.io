@@ -20,7 +20,7 @@ const Nosotros: NextPage = () => (
             title="Sobre Nosotros"
             description="Te ayudamos a materializar tu imaginación y monetizar tus proyectos. Estamos contigo desde la ideación, producción, promoción y venta de tus NFTs."
         />
-        <Stack spacing={6} mb={20}>
+            <Stack spacing={6} mb={20}>
                 <Heading as={'h1'} variant="title">
                     Nosotros
                 </Heading>
@@ -48,15 +48,13 @@ const Nosotros: NextPage = () => (
                 <Flex
                     w={'full'}
                     py={40}
-                    backgroundSize={'70%'}
-                    backgroundPosition={'center center'}
-                    backgroundRepeat={'no-repeat'}>
+                >
                     <VStack
                         w={'full'}
                         justify={'center'}
                         px={useBreakpointValue({ base: 4, md: 8 })}
-                        >
-                        <Stack maxW={'2xl'} align={'center'} spacing={6} mt={'-80px'}>
+                    >
+                        <Stack maxW={'2xl'} align={'center'} spacing={6}>
                             <Heading as="h2" size='2xl'>
                                 Manifiesto GIG
                             </Heading>

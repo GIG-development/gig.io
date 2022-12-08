@@ -65,7 +65,7 @@ const Nosotros: NextPage = () => (
                                 rounded={'md'}
                                 alt={'Manifiesto'}
                                 src={'/img/nosotros/manifiesto.png'}
-                                maxW={"340px"}
+                                maxW={"200px"}
                                 objectFit={'cover'}
                             />
                         </Flex>

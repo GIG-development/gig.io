@@ -41,7 +41,7 @@ const Hero: FC<PropsWithChildren<Props>> = ({
     <div id="main-hero">
         <Flex
             w={'full'}
-            h={useBreakpointValue({base:'110vh', md: '64vh'})}
+            h={useBreakpointValue({base:'64vh', sm: '11vh', md: '64vh'})}
             backgroundImage={`url(${bg})`}
             backgroundSize={'cover'}
             backgroundPosition={'center center'}
@@ -114,7 +114,7 @@ const Hero: FC<PropsWithChildren<Props>> = ({
                         <Image
                         alt={'Main Hero Animation'}
                         objectFit={'cover'}
-                        w={{base: '70%', md: '100%'}}
+                        w={{base: '70%', md: '68%'}}
                         margin={'0 auto'}
                         src={image}
                         padding={{base: '0', md: '40px 0 0'}}

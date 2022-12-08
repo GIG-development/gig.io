@@ -95,11 +95,11 @@ function MyApp({ Component, pageProps }: AppProps): JSX.Element {
             allowTopUp={false}
             logo={{ path: '/logo_beta.png', width: 100, height: 53 }}
             multiLang={{
-              pathname: '/es-mx',
-              locale: 'es-mx',
+              pathname: '/',
+              locale: 'en',
               choices: [
-                {value: 'es-mx', label: 'es'},
-                {value: 'en', label: 'en'},
+                {value: 'es-mx', label: 'ES'},
+                {value: 'en', label: 'EN'},
                 { label: '日本語', value: 'ja' },
                 { label: '中文', value: 'zh-cn' },
               ]

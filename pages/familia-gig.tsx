@@ -36,7 +36,7 @@ const FamiliaGIG: NextPage = () => (
             <Text fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
                 Te presentamos a cada uno de los miembros de nuestra familia para que los conozcas mejor.
             </Text>
-            <Stack>
+            <Stack alignItems={'center'}>
                 <Grid py={4}
                     templateColumns={{
                         base: 'repeat(1, 1fr)',
@@ -45,7 +45,6 @@ const FamiliaGIG: NextPage = () => (
                     }}
                     gap={8}
                     maxW={'720px'}
-                    margin={'0 auto'}
                 >
                     <Lottie
                         loop={true}
@@ -85,8 +84,7 @@ const FamiliaGIG: NextPage = () => (
                         md: '1fr 3fr',
                     }}
                     gap={8}
-                    maxW={'600px'}
-                    margin={'0 auto'}
+                    maxW={'720px'}
                 >
                     <Lottie
                         loop={true}
@@ -127,8 +125,7 @@ const FamiliaGIG: NextPage = () => (
                         md: '1fr 3fr',
                     }}
                     gap={8}
-                    maxW={'600px'}
-                    margin={'0 auto'}
+                    maxW={'720px'}
                 >
                     <Lottie
                         loop={true}
@@ -169,8 +166,7 @@ const FamiliaGIG: NextPage = () => (
                         md: '1fr 3fr',
                     }}
                     gap={8}
-                    maxW={'600px'}
-                    margin={'0 auto'}
+                    maxW={'720px'}
                 >
                     <Lottie
                         loop={true}
@@ -212,8 +208,7 @@ const FamiliaGIG: NextPage = () => (
                         md: '1fr 3fr',
                     }}
                     gap={8}
-                    maxW={'600px'}
-                    margin={'0 auto'}
+                    maxW={'720px'}
                 >
                     <Lottie
                         loop={true}
@@ -255,8 +250,7 @@ const FamiliaGIG: NextPage = () => (
                         md: '1fr 3fr',
                     }}
                     gap={8}
-                    maxW={'600px'}
-                    margin={'0 auto'}
+                    maxW={'720px'}
                 >
                     <Lottie
                         loop={true}
@@ -298,8 +292,7 @@ const FamiliaGIG: NextPage = () => (
                         md: '1fr 3fr',
                     }}
                     gap={8}
-                    maxW={'600px'}
-                    margin={'0 auto'}
+                    maxW={'720px'}
                 >
                     <Lottie
                         loop={true}
@@ -340,8 +333,7 @@ const FamiliaGIG: NextPage = () => (
                         md: '1fr 3fr',
                     }}
                     gap={8}
-                    maxW={'600px'}
-                    margin={'0 auto'}
+                    maxW={'720px'}
                 >
                     <Lottie
                         loop={true}

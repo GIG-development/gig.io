@@ -44,7 +44,7 @@ const Nosotros: NextPage = () => (
                         </Stack>
                     </SimpleGrid>
                 </Container>
-                <Container maxW={'full'} py={12}>
+                <Container maxW={'full'} pb={12}>
                     <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10} alignContent='center'>
                         <Stack spacing={4}>
                             <Heading as={'h2'} variant={'subtitle'}>Manifiesto GIG</Heading>
@@ -72,7 +72,7 @@ const Nosotros: NextPage = () => (
                     </SimpleGrid>
                 </Container>
                 
-                <Container maxW={'full'} py={12}>
+                <Container maxW={'full'} pb={12}>
                     <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10} alignContent='center'>
                         <Flex justifyContent='center' align-items='center'>
                             <Image

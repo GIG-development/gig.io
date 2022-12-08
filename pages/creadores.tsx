@@ -53,59 +53,80 @@ const Creadores: NextPage = () => (
               </Flex>
           </SimpleGrid>
 
-            <Heading as={'h2'} variant="heading1" py={20} textAlign={'center'}>
-            Codéate con artistas prestigiosos, coleccionistas, curadores reconocidos y otras mentes creativas como tú
-            </Heading>
-
-            <Grid templateColumns='repeat(3, 1fr)' gap={4}>
-              <Box textAlign={'center'}>
-                <Heading as={'h2'} variant="heading2">
-                Promoción en medios masivos
-                </Heading>
-                <Text fontSize={{base: 'xs', md: 'sm'}}>
-                Pon a tus obras maestras a recorrer los mundos y sé parte de esta evolución tecnológica.
-                </Text>
-              </Box>
-              <Box textAlign={'center'}>
-                <Heading as={'h2'} variant="heading2">
-                Simplificamos lo complejo 
-                </Heading>
-                <Text fontSize={{base: 'xs', md: 'sm'}}>
-                Para que te dediques a lo tuyo. Subir NFTs será más fácil que hacer enchiladas.
-                </Text>
-              </Box>
-              <Box textAlign={'center'}>
-                <Heading as={'h2'} variant="heading2">
-                Ser parte de la comunidad te da Beneficios:
-                </Heading>
-                <Text fontSize={{base: 'xs', md: 'sm'}}>
-                  Experiencias inmersivas<br/>
-                  Accesos preferenciales<br/>
-                  Descuentos a exposiciones<br/>
-                  Promo en medios masivos y más<br/>
-                </Text>
-              </Box>
-            </Grid>
-
-            <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10} pt={20}>
-              <Flex textAlign={'center'} justifyContent={'center'}>
+          <Grid templateColumns='repeat(3, 1fr)' gap={4}>
+            <Box textAlign={'center'}>
                 <Image
                     rounded={'md'}
-                    alt={'Como funciona'}
-                    src={'/img/creadores/como_funciona.png'}
+                    alt={'Creadores'}
+                    src={'/img/familia/URI.png'}
                     objectFit={'cover'}
-                    maxW={'140px'}
+                    maxW={"180px"}
                 />
-              </Flex>
-              <Stack spacing={4}>
-                  <Heading as={'h2'} variant={'subtitle'}>¿Cómo funciona?</Heading>
-                  <Text color={'gray.500'} fontSize={'md'}>
-                  Aquí todos juegan. Ya sea que tengas NFTs, proyectos, activos o incluso si estás en la fase de las ideas y te quieres digitalizar. La única regla es verificarte como creativo pues estarás entrando a una comunidad segura y sostenible.
-                  Después podrás crear, comprar y vender NFT estableciendo tus precios y regalías.  
-                  Así de fácil. 
-                  </Text>
-                  
-              </Stack>
+              <Heading as={'h2'} variant="heading2">
+              Promoción en medios masivos
+              </Heading>
+              <Text fontSize={{base: 'xs', md: 'sm'}}>
+              Pon a tus obras maestras a recorrer los mundos y sé parte de esta evolución tecnológica.
+              </Text>
+            </Box>
+            <Box textAlign={'center'}>
+                <Image
+                    rounded={'md'}
+                    alt={'Creadores'}
+                    src={'/img/familia/URI.png'}
+                    objectFit={'cover'}
+                    maxW={"180px"}
+                />
+              <Heading as={'h2'} variant="heading2">
+              Simplificamos lo complejo 
+              </Heading>
+              <Text fontSize={{base: 'xs', md: 'sm'}}>
+              Para que te dediques a lo tuyo. Subir NFTs será más fácil que hacer enchiladas.
+              </Text>
+            </Box>
+            <Box textAlign={'center'}>
+                <Image
+                    rounded={'md'}
+                    alt={'Creadores'}
+                    src={'/img/familia/URI.png'}
+                    objectFit={'cover'}
+                    maxW={"180px"}
+                />
+              <Heading as={'h2'} variant="heading2">
+              Ser parte de la comunidad te da Beneficios:
+              </Heading>
+              <Text fontSize={{base: 'xs', md: 'sm'}}>
+                Experiencias inmersivas<br/>
+                Accesos preferenciales<br/>
+                Descuentos a exposiciones<br/>
+                Promo en medios masivos y más<br/>
+              </Text>
+            </Box>
+          </Grid>
+
+          <Heading as={'h2'} variant="heading1" py={20} textAlign={'center'}>
+          Codéate con artistas prestigiosos, coleccionistas, curadores reconocidos y otras mentes creativas como tú
+          </Heading>
+
+          <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10} pt={20}>
+            <Flex textAlign={'center'} justifyContent={'center'}>
+              <Image
+                  rounded={'md'}
+                  alt={'Como funciona'}
+                  src={'/img/creadores/como_funciona.png'}
+                  objectFit={'cover'}
+                  maxW={'140px'}
+              />
+            </Flex>
+            <Stack spacing={4}>
+                <Heading as={'h2'} variant={'subtitle'}>¿Cómo funciona?</Heading>
+                <Text color={'gray.500'} fontSize={'md'}>
+                Aquí todos juegan. Ya sea que tengas NFTs, proyectos, activos o incluso si estás en la fase de las ideas y te quieres digitalizar. La única regla es verificarte como creativo pues estarás entrando a una comunidad segura y sostenible.
+                Después podrás crear, comprar y vender NFT estableciendo tus precios y regalías.  
+                Así de fácil. 
+                </Text>
+                
+            </Stack>
           </SimpleGrid>
 
           <Heading as={'h2'} variant="heading1" pt={20}>

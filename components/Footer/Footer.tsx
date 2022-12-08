@@ -109,15 +109,24 @@ const Footer: FC<PropsWithChildren<Props>> = ({
               <ListHeader>Síguenos</ListHeader>
             
               <Stack direction={'column'} spacing={6} align={'flex-start'}>
-                <SocialButton label={'Twitter'} href={'https://twitter.com/holagig'}>
-                  <FaTwitter /> 
-                </SocialButton><Link href={'https://twitter.com/holagig'}>Twitter</Link>
-                <SocialButton label={'YouTube'} href={'https://youtube.com/holagig'}>
-                  <FaYoutube /> 
-                </SocialButton><Link href={'https://youtube.com/holagig'}>Youtube</Link>
-                <SocialButton label={'Instagram'} href={'https://instagram.com/holagig'}>
-                  <FaInstagram /> 
-                </SocialButton><Link href={'https://instagram.com/holagig'}>Instagram</Link>
+                <Box>
+                  <SocialButton label={'Twitter'} href={'https://twitter.com/holagig'}>
+                    <FaTwitter /> 
+                  </SocialButton>
+                  <Link href={'https://twitter.com/holagig'}>Twitter</Link>
+                </Box>
+                <Box>
+                  <SocialButton label={'YouTube'} href={'https://youtube.com/holagig'}>
+                    <FaYoutube /> 
+                  </SocialButton>
+                  <Link href={'https://youtube.com/holagig'}>Youtube</Link>
+                </Box>
+                <Box>
+                  <SocialButton label={'Instagram'} href={'https://instagram.com/holagig'}>
+                    <FaInstagram /> 
+                  </SocialButton>
+                  <Link href={'https://instagram.com/holagig'}>Instagram</Link>
+                </Box>
               </Stack>
             </Stack>
           </SimpleGrid>

@@ -1,12 +1,8 @@
 import {
-    Box,
-    Button,
     Container,
     SimpleGrid,
     Image,
     Flex,
-    Link,
-    Grid,
     Heading,
     Text,
     Stack,

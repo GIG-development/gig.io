@@ -53,8 +53,9 @@ const Creadores: NextPage = () => (
               </Flex>
           </SimpleGrid>
 
-          <Grid templateColumns='repeat(3, 1fr)' gap={4}>
+          <Grid templateColumns='repeat(3, 1fr)' gap={4} mt={12}>
             <Box textAlign={'center'}>
+              <Flex textAlign={'center'} justifyContent={'center'}>
                 <Image
                     rounded={'md'}
                     alt={'Creadores'}
@@ -62,6 +63,7 @@ const Creadores: NextPage = () => (
                     objectFit={'cover'}
                     maxW={"180px"}
                 />
+              </Flex>
               <Heading as={'h2'} variant="heading2">
               Promoción en medios masivos
               </Heading>
@@ -70,6 +72,7 @@ const Creadores: NextPage = () => (
               </Text>
             </Box>
             <Box textAlign={'center'}>
+            <Flex textAlign={'center'} justifyContent={'center'}>
                 <Image
                     rounded={'md'}
                     alt={'Creadores'}
@@ -77,6 +80,7 @@ const Creadores: NextPage = () => (
                     objectFit={'cover'}
                     maxW={"180px"}
                 />
+              </Flex>
               <Heading as={'h2'} variant="heading2">
               Simplificamos lo complejo 
               </Heading>
@@ -85,6 +89,7 @@ const Creadores: NextPage = () => (
               </Text>
             </Box>
             <Box textAlign={'center'}>
+            <Flex textAlign={'center'} justifyContent={'center'}>
                 <Image
                     rounded={'md'}
                     alt={'Creadores'}
@@ -92,6 +97,7 @@ const Creadores: NextPage = () => (
                     objectFit={'cover'}
                     maxW={"180px"}
                 />
+              </Flex>
               <Heading as={'h2'} variant="heading2">
               Ser parte de la comunidad te da Beneficios:
               </Heading>

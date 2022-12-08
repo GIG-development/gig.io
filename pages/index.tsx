@@ -93,7 +93,7 @@ const HomePage: NextPage<Home.Props> = ({
 
       <Stack spacing={12} mb={40}>
           <Heading as="h2" variant="subtitle" color="brand.black" mt={40} mb={10}>
-              Lanzamientos GIG
+              GIG Labs
           </Heading>
           <Drop
             title='GIG Genesis'

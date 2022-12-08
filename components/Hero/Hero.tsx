@@ -49,7 +49,7 @@ const Hero: FC<PropsWithChildren<Props>> = ({
             <Stack minH={'60vh'} maxW={'7xl'} direction={{ base: 'column', md: 'row' }} margin={'0 auto'}>
                 <Flex p={8} flex={1} align={'center'} justify={'center'}>
                     <Stack spacing={6} w={'full'} maxW={'lg'}>
-                        <Heading fontSize={{ base: '3xl', md: '4xl', lg: '2.6rem' }}>
+                        <Heading fontSize={{ base: '3xl', md: '4xl', lg: '6xl' }}>
                             <Text
                             as={'span'}
                             position={'relative'}

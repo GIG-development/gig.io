@@ -13,7 +13,6 @@ import NProgress from 'nprogress'
 import 'nprogress/nprogress.css'
 import { useEffect, useMemo } from 'react'
 import Head from '../components/Head'
-import ChatWindow from '../components/ChatWindow'
 import environment from '../environment'
 import { theme } from '../styles/theme'
 import '../styles/custom.css'
@@ -92,7 +91,6 @@ function MyApp({ Component, pageProps }: AppProps): JSX.Element {
         bugsnagAPIKey={environment.BUGSNAG_API_KEY}
         theme={theme}
       >
-        <ChatWindow>
           <Navbar
             allowTopUp={false}
             logo={{ path: '/logo_beta.png', width: 100, height: 53 }}
@@ -123,7 +121,6 @@ function MyApp({ Component, pageProps }: AppProps): JSX.Element {
           />
           <Component {...pageProps} />
           <Footer userProfileLink={userProfileLink}/>
-        </ChatWindow>
       </LiteflowNFTApp>
     </>
   )

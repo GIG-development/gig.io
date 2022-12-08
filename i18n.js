@@ -1,20 +1,19 @@
 module.exports = {
-  locales: ["en", "es-mx"],
-  defaultLocale: "es-mx",
+  locales: ['es-mx', 'en', 'ja', 'zh-cn'],
+  defaultLocale: 'es-mx',
   pages: {
-    "*": ["templates", "components"],
+    '*': ['templates', 'components'],
   },
   loadLocaleFrom: async (lang, ns) => {
-    const general = require(`@nft/${ns}/locales/${lang}/${ns}.json`);
+    const general = require(`@nft/${ns}/locales/${lang}/${ns}.json`)
     try {
-      const overrides = require(`./locales/${lang}/${ns}.json`);
-      // TODO: Add deep merge instead of merge so we can override absolutely everything
+      const overrides = require(`./locales/${lang}/${ns}.json`)
       return {
         ...general,
         ...overrides,
-      };
+      }
     } catch (e) {
-      return general;
+      return general
     }
   },
-};
+}

@@ -47,7 +47,7 @@ const Nosotros: NextPage = () => (
                 </Container>
                 <Flex
                     w={'full'}
-                    h={'100vh'}
+                    py={40}
                     backgroundSize={'70%'}
                     backgroundPosition={'center center'}
                     backgroundRepeat={'no-repeat'}>

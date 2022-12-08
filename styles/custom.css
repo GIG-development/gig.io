@@ -56,15 +56,16 @@
 }
 
 /*Subastas*/
-#home>main>div.chakra-stack:nth-child(2)>div>div>div>div>div {
+
+#home>main>div.chakra-stack:nth-child(3)>div>div:nth-child(1)>div>div>div {
     border: 1px solid black !important;
     border-radius: 4px !important;
     box-shadow: 4px 4px 0 0 black !important;
 }
-#home>main>div.chakra-stack:nth-child(2)>div>div>div>div>div > a > span > img {
+#home>main>div.chakra-stack:nth-child(3)>div>div:nth-child(1)>div>div>div > a > span > img {
     border-bottom: 1px solid black !important;
 }
-#home>main>div.chakra-stack:nth-child(2)>div>div>div>div>div > div > div > a.chakra-link {
+#home>main>div.chakra-stack:nth-child(3)>div>div:nth-child(1)>div>div>div > div > div > a.chakra-link {
     background-color: #CEAFFF;
     border: 1px solid black;
     border-radius: 4px;
@@ -75,27 +76,28 @@
     text-align: center;
     justify-content: center;
 }
-#home>main>div.chakra-stack:nth-child(2)>div>div>div>div>div > div > div > a.chakra-link:hover{
+#home>main>div.chakra-stack:nth-child(3)>div>div:nth-child(1)>div>div>div > div > div > a.chakra-link:hover{
     background-color: #BE94FF;
 }
+
 /*Featured*/
-#home>main>div.chakra-stack:nth-child(3)>div:nth-child(2) > div > div{
+#home>main>div.chakra-stack:nth-child(4)>div:nth-child(2) > div > div{
     border: 1px solid black !important;
     border-radius: 4px !important;
     box-shadow: 4px 4px 0 0 black !important;
 }
-#home>main>div.chakra-stack:nth-child(3)>div:nth-child(2) > div > div > a > span > img {
+#home>main>div.chakra-stack:nth-child(4)>div:nth-child(2) > div > div > a > span > img {
     border-bottom: 1px solid black !important;
 }
-#home>main>div.chakra-stack:nth-child(3)>div:nth-child(2) > div > div > div.chakra-stack > div > span,
-#home>main>div.chakra-stack:nth-child(3)>div:nth-child(2) > div > div > div.chakra-stack > div > div {
+#home>main>div.chakra-stack:nth-child(4)>div:nth-child(2) > div > div > div.chakra-stack > div > span,
+#home>main>div.chakra-stack:nth-child(4)>div:nth-child(2) > div > div > div.chakra-stack > div > div {
     width: 100%;
     text-align: center;
     justify-content: center;
     border: 1px solid black !important;
     border-radius: 4px !important;
 }
-#home>main>div.chakra-stack:nth-child(3)>div:nth-child(2) > div > div > div.chakra-stack > div > a.chakra-link{
+#home>main>div.chakra-stack:nth-child(4)>div:nth-child(2) > div > div > div.chakra-stack > div > a.chakra-link{
     background-color: #CEAFFF;
     border: 1px solid black;
     border-radius: 4px;
@@ -106,7 +108,7 @@
     text-align: center;
     justify-content: center;
 }
-#home>main>div.chakra-stack:nth-child(3)>div:nth-child(2) > div > div > div.chakra-stack > div > a.chakra-link:hover{
+#home>main>div.chakra-stack:nth-child(4)>div:nth-child(2) > div > div > div.chakra-stack > div > a.chakra-link:hover{
     background-color: #BE94FF;
 }
 

@@ -41,7 +41,7 @@ const HomePage: NextPage<Home.Props> = ({
 
     <LargeLayout>
 
-      <Stack spacing={6} mt={20}>
+      <Stack spacing={6} mt={20} mb={40}>
           <Heading as="h2" variant="subtitle" color="brand.black">
             Artistas Destacados
           </Heading>

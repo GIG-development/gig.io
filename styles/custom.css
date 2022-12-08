@@ -161,7 +161,10 @@
     border: none !important;
     box-shadow: none !important;
 }
-
+/*Creadores*/
+#creadores #main-hero img {
+    width: 70%;
+}
 /*CREAR*/
 #crear main > div > a{
     border: 1px solid black;

@@ -41,12 +41,12 @@ const Hero: FC<PropsWithChildren<Props>> = ({
     <div id="main-hero">
         <Flex
             w={'full'}
-            h={useBreakpointValue({base:'110vh', md: '64vh'})}
+            h={useBreakpointValue({base:'calc(100vh - 64px)', md: '64vh'})}
             backgroundImage={`url(${bg})`}
             backgroundSize={'cover'}
             backgroundPosition={'center center'}
         >
-            <Stack minH={'60vh'} maxW={'7xl'} direction={{ base: 'column', md: 'row' }} margin={'0 auto'}>
+            <Stack minH={'64vh'} maxW={'7xl'} direction={{ base: 'column', md: 'row' }} margin={'0 auto'}>
                 <Flex p={8} flex={1} align={'center'} justify={'center'}>
                     <Stack spacing={6} w={'full'} maxW={'lg'}>
                         <Heading fontSize={{ base: '4xl', md: '5xl', lg: '6xl' }}>
@@ -116,6 +116,7 @@ const Hero: FC<PropsWithChildren<Props>> = ({
                         objectFit={'cover'}
                         src={image}
                         padding={{base: '0', md: '40px 0 0'}}
+                        margin={'0 auto'}
                         />       
                     }
                 </Flex>

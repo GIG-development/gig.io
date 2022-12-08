@@ -162,8 +162,10 @@
     box-shadow: none !important;
 }
 /*Creadores*/
-#creadores #main-hero img {
-    width: 70%;
+@media screen and (min-width: 1024px){
+    #creadores #main-hero img {
+        width: 70%;
+    }
 }
 /*CREAR*/
 #crear main > div > a{

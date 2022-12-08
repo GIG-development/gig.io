@@ -113,7 +113,6 @@ const Hero: FC<PropsWithChildren<Props>> = ({
                     {image!=='' &&
                         <Image
                         alt={'Main Hero Animation'}
-                        objectFit={'cover'}
                         w={{base: '70%', md: '68%'}}
                         margin={'0 auto'}
                         src={image}

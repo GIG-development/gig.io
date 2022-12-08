@@ -88,7 +88,7 @@ const SecondaryHero: FC<PropsWithChildren<Props>> = ({
                             boxShadow={'4px 4px 0 0 black'}
                             px={6}
                             colorScheme={'brand'}
-                            bg={'brand.400'}
+                            bg={'brand.600'}
                             _hover={{ bg: 'brand.500' }}>
                             {button_1}
                         </Button>
@@ -102,7 +102,9 @@ const SecondaryHero: FC<PropsWithChildren<Props>> = ({
                         border={'1px solid black'}
                         boxShadow={'4px 4px 0 0 black'}
                         px={6}
-                        >
+                        colorScheme={'gray'}
+                        bg={'gray.400'}
+                        _hover={{ bg: 'gray.600' }}>
                         {button_2}
                         </Button>
                     </Link>

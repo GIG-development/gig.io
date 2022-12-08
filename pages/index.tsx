@@ -119,10 +119,8 @@ const HomePage: NextPage<Home.Props> = ({
           ctaLine_1='Empoderando almas'
           ctaLine_2='Creativas'
           description='No necesitas ser experto, estamos contigo desde la conceptualización hasta la promoción de tus NFTs. Solo trae tus ganas de entrar al espacio cripto en una comunidad de creativos geniales.'
-          button_1='Explorar'
-          button_1_link='/explore'
-          button_2='¿Cómo funciona?'
-          button_2_link='/nosotros'
+          button_1='¿Cómo funciona?'
+          button_1_link='/nosotros'
           image='./img/home/video.jpg'
         />
       </LargeLayout>

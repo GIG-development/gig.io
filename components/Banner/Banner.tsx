@@ -58,23 +58,23 @@ const Banner: FC<PropsWithChildren<Props>> = ({
                 <Stack spacing={6} direction={useBreakpointValue({ base: 'column', md: 'row' })} align={'center'}>
                     <Link href={'/tutoriales'}>
                         <Button
-                        bg={'brand.500'}
+                        bg={'brand.600'}
                         rounded={'base'}
                         color={'white'}
                         border={'1px solid black'}
                         boxShadow={'4px 4px 0 0 black'}
-                        _hover={{ bg: 'brand.600' }}>
+                        _hover={{ bg: 'brand.500' }}>
                         {button1}
                         </Button>
                     </Link>
                     <Link href={'/faq'}>
                         <Button
-                        bg={'brand.400'}
+                        bg={'gray.400'}
                         rounded={'base'}
                         color={'white'}
                         border={'1px solid black'}
                         boxShadow={'4px 4px 0 0 black'}
-                        _hover={{ bg: 'brand.600' }}>
+                        _hover={{ bg: 'gray.600' }}>
                         {button2}
                         </Button>
                     </Link>

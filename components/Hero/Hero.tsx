@@ -54,6 +54,7 @@ const Hero: FC<PropsWithChildren<Props>> = ({
                             as={'span'}
                             position={'relative'}
                             color={'white'}
+                            fontWeight={'300'}
                             >
                                 {ctaLine_1}
                             </Text>

@@ -31,29 +31,15 @@ const HomePage: NextPage<Home.Props> = ({
   <div id="home">
     <Hero 
       bg={'/img/home/main_hero_bg.jpg'}
-      ctaLine_1={'Empodera tu creatividad'}
-      ctaLine_2={'y construye tu futuro ideal'}
-      description={'Explora, crea, vende y subasta NFTs de forma fácil y rápida.'}
+      ctaLine_1={'Empodera tu'}
+      ctaLine_2={'CREATIVIDAD'}
+      description={'Explora, compra, crea, subasta y vende NFTs de forma fácil, rápida y segura.'}
       button_1={'Explorar'}
       button_1_link={'/explore'}
-      button_2={'Quiénes Somos'}
-      button_2_link={'/nosotros'}
       image={'/img/home/main_hero_img.png'}
     />
 
     <LargeLayout>
-
-      <Home.Template
-        currentAccount={currentAccount}
-        featuredTokens={featuredTokens}
-        limit={limit}
-        now={now}
-        tokens={tokens}
-        explorer={{
-          name: environment.BLOCKCHAIN_EXPLORER_NAME,
-          url: environment.BLOCKCHAIN_EXPLORER_URL,
-        }}
-      />
 
       <Stack spacing={6} mt={20}>
           <Heading as="h2" variant="subtitle" color="brand.black">
@@ -92,6 +78,18 @@ const HomePage: NextPage<Home.Props> = ({
             />
           </SimpleGrid>
       </Stack>
+
+      <Home.Template
+        currentAccount={currentAccount}
+        featuredTokens={featuredTokens}
+        limit={limit}
+        now={now}
+        tokens={tokens}
+        explorer={{
+          name: environment.BLOCKCHAIN_EXPLORER_NAME,
+          url: environment.BLOCKCHAIN_EXPLORER_URL,
+        }}
+      />
 
       <Stack spacing={12} mb={40}>
           <Heading as="h2" variant="subtitle" color="brand.black" mt={40} mb={10}>

@@ -41,7 +41,7 @@ const Hero: FC<PropsWithChildren<Props>> = ({
     <div id="main-hero">
         <Flex
             w={'full'}
-            h={useBreakpointValue({base:'64vh', sm: '110vh', md: '64vh'})}
+            h={useBreakpointValue({base:'64vh', xs: '100vh', sm: '100vh', md: '64vh'})}
             backgroundImage={`url(${bg})`}
             backgroundSize={'cover'}
             backgroundPosition={'center center'}

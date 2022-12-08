@@ -51,12 +51,12 @@ const Creadores: NextPage = () => (
                       alt={'Creadores'}
                       src={'/img/creadores/decodificamos_ideas.png'}
                       objectFit={'cover'}
-                      maxW={"180px"}
+                      maxW={"220px"}
                   />
               </Flex>
           </SimpleGrid>
 
-          <Grid templateColumns='repeat(3, 1fr)' gap={4} mt={20}>
+          <Grid templateColumns={{base: '1fr', md: 'repeat(3, 1fr)'}} gap={4} mt={20}>
             <Box textAlign={'center'}>
               <Flex textAlign={'center'} justifyContent={'center'}>
                 <Image

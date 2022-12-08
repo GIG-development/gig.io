@@ -55,8 +55,8 @@ const SecondaryHero: FC<PropsWithChildren<Props>> = ({
             <Stack flex={1} spacing={{ base: 4, md: 6 }}>
                 <Heading
                 lineHeight={1.1}
-                fontWeight={600}
-                fontSize={{ base: '2xl', sm: '3xl', lg: '4xl' }}>
+                fontWeight={400}
+                fontSize={{ base: '3xl', sm: '4xl', lg: '4xl' }}>
                     <Text
                         as={'span'}
                         position={'relative'}

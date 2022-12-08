@@ -53,7 +53,7 @@ const Creadores: NextPage = () => (
               </Flex>
           </SimpleGrid>
 
-          <Grid templateColumns='repeat(3, 1fr)' gap={4} mt={12}>
+          <Grid templateColumns='repeat(3, 1fr)' gap={4} mt={20}>
             <Box textAlign={'center'}>
               <Flex textAlign={'center'} justifyContent={'center'}>
                 <Image

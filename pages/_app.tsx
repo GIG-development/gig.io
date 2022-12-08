@@ -13,6 +13,7 @@ import NProgress from 'nprogress'
 import 'nprogress/nprogress.css'
 import { useEffect, useMemo } from 'react'
 import Head from '../components/Head'
+import ChatWindow from '../components/ChatWindow'
 import environment from '../environment'
 import { theme } from '../styles/theme'
 import '../styles/custom.css'
@@ -91,34 +92,38 @@ function MyApp({ Component, pageProps }: AppProps): JSX.Element {
         bugsnagAPIKey={environment.BUGSNAG_API_KEY}
         theme={theme}
       >
-        <Navbar
-          allowTopUp={false}
-          logo={{ path: '/logo_beta.png', width: 100, height: 53 }}
-          /*multiLang={{
-            pathname: '/es-mx',
-            locale: 'es-mx',
-            choices: [
-              {value: 'es-mx', label: 'ES'},
-              {value: 'en', label: 'EN'}
-            ]
-          }}*/
-          router={{
-            asPath: router.asPath,
-            isReady: router.isReady,
-            push: router.push,
-            query: router.query,
-            events: router.events,
-          }}
-          login={{
-            email: false,
-            metamask: true,
-            walletConnect: true,
-            coinbase: true,
-            networkName: environment.NETWORK_NAME,
-          }}
-        />
-        <Component {...pageProps} />
-        <Footer userProfileLink={userProfileLink}/>
+        <ChatWindow>
+          <Navbar
+            allowTopUp={false}
+            logo={{ path: '/logo_beta.png', width: 100, height: 53 }}
+            multiLang={{
+              pathname: '/es-mx',
+              locale: 'es-mx',
+              choices: [
+                {value: 'es-mx', label: 'es'},
+                {value: 'en', label: 'en'},
+                { label: '日本語', value: 'ja' },
+                { label: '中文', value: 'zh-cn' },
+              ]
+            }}
+            router={{
+              asPath: router.asPath,
+              isReady: router.isReady,
+              push: router.push,
+              query: router.query,
+              events: router.events,
+            }}
+            login={{
+              email: false,
+              metamask: true,
+              walletConnect: true,
+              coinbase: true,
+              networkName: environment.NETWORK_NAME,
+            }}
+          />
+          <Component {...pageProps} />
+          <Footer userProfileLink={userProfileLink}/>
+        </ChatWindow>
       </LiteflowNFTApp>
     </>
   )

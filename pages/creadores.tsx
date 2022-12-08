@@ -41,6 +41,9 @@ const Creadores: NextPage = () => (
                   <Text color={'gray.500'} fontSize={'md'}>
                   No necesitas ser experto, estamos contigo desde la conceptualización hasta la promoción de tus NFTs. Solo trae tus ganas de entrar al espacio cripto en una comunidad de creativos geniales.
                   </Text>
+                  <Heading as={'span'} variant="heading2">
+                  Codéate con artistas prestigiosos, coleccionistas, curadores reconocidos y otras mentes creativas como tú
+                  </Heading>
               </Stack>
               <Flex textAlign={'center'} justifyContent={'center'}>
                   <Image
@@ -109,10 +112,6 @@ const Creadores: NextPage = () => (
               </Text>
             </Box>
           </Grid>
-
-          <Heading as={'h2'} variant="heading1" py={12} textAlign={'center'}>
-          Codéate con artistas prestigiosos, coleccionistas, curadores reconocidos y otras mentes creativas como tú
-          </Heading>
 
           <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10} pt={12}>
             <Flex textAlign={'center'} justifyContent={'center'}>

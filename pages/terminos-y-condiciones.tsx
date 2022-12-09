@@ -19,7 +19,7 @@ const TerminosLegales: NextPage = () => (
               Términos Legales y Condiciones de Uso
             </Heading>
             <Box minH={'100vh'}>
-              <iframe src="/GIG_terminos-y-condiciones.pdf" frameborder="0" style={{height: "100%"}}></iframe>
+              <iframe src="/GIG_terminos-y-condiciones.pdf" frameborder="0"></iframe>
             </Box>
 
         </Stack>

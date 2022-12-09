@@ -95,15 +95,14 @@ const Footer: FC<PropsWithChildren<Props>> = ({
               <Link href={'/creadores'}>Creadores</Link>
               <Link href={'/familia-gig'}>Familia GIG</Link>
               <Link href={'/gigcionario'}>GIGcionario</Link>
-              <Link href={'/contacto'}>Contáctanos</Link>
             </Stack>
             <Stack align={'flex-start'}>
               <ListHeader>Soporte</ListHeader>
               <Link href={'/tutoriales'}>Tutoriales</Link>
               <Link href={'/faq'}>Preguntas Frecuentes</Link>
-              <Link href={'/terminos-legales'}>Términos Legales</Link>
-              <Link href={'/condiciones-de-uso'}>Condiciones de Uso</Link>
+              <Link href={'/terminos-y-condiciones'}>Términos y Condiciones</Link>
               <Link href={'/politica-de-privacidad'}>Política de Privacidad</Link>
+              <Link href={'/contacto'}>Contáctanos</Link>
             </Stack>
             <Stack align={'flex-start'}>
               <ListHeader>Síguenos</ListHeader>

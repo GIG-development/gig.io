@@ -10,8 +10,8 @@ const Condiciones: NextPage = () => (
   <div id="condiciones">
     <LargeLayout>
         <Head
-            title="Condiciones"
-            description=""
+            title="Condiciones de Uso de la Plataforma"
+            description="Lee los términos y condiciones con atención para hacer el mejor uso de los Servicios de GIG."
         />
         <Stack spacing={6} mb={20}>
             <Heading as={'h1'} variant="title">

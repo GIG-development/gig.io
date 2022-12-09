@@ -13,7 +13,7 @@ const Gigcionario: NextPage = () => (
     <LargeLayout>
         <Head
             title="GIGcionario"
-            description=""
+            description="Glosario NFT, blockchain, crypto, drop... No te quedes con la duda. Aprende los conceptos principales de la Web 3 de manera práctica y entendible."
         />
         <Stack spacing={6} mb={20}>
             <Heading as={'h1'} variant="title">

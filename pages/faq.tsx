@@ -15,7 +15,7 @@ const FAQ: NextPage = () => (
     <LargeLayout>
         <Head
             title="Preguntas Frecuentes"
-            description=""
+            description="Encuentra las respuestas que necesitas para entrar al metaverso creando NFTs de tus proyectos con confianza."
         />
         <Stack spacing={6} mb={20}>
             <Heading as={'h1'} variant="title">

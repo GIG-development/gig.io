@@ -7,7 +7,10 @@ import SmallLayout from '../layouts/small'
 const LoginPage: NextPage = () => (
   <div id="login">
     <SmallLayout>
-      <Head title="Login" />
+      <Head
+        title="Login"
+        description="Únete al primer marketplace de Latinoamérica en donde puedes crear NFTs seguro y fácil. "
+      />
       <Login.Template
         email={false}
         metamask={true}

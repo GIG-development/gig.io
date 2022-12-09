@@ -18,7 +18,7 @@ const Head: FC<PropsWithChildren<Props>> = ({
 }) => {
   return (
     <NextHead>
-      <title>{title} | GIG - Marketplace #1 de NFTs en LATAM</title>
+      <title>{title} | GIG - Más que un marketplace, la mejor comunidad NFT de creativos en Latinoamérica</title>
       <meta property="og:title" content={title} />
       <meta name="twitter:title" content={title} />
       {description && (

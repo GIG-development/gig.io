@@ -70,7 +70,7 @@ function MyApp({ Component, pageProps }: AppProps): JSX.Element {
     <>
       <Head
         title="Home"
-        description="#1 NFT Marketplace in LATAM"
+        description="Únete al Marketplace no. 1 de latinoamérica para crear NFTs de manera fácil y segura."
         image="/og-image.jpg"
       >
         <meta name="author" content="GIG" />

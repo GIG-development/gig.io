@@ -24,7 +24,7 @@ const FamiliaGIG: NextPage = () => (
     <LargeLayout>
         <Head
             title="Familia GIG"
-            description=""
+            description="Únete a la comunidad de creativos marketplace no. 1 de Latinoamérica en donde puedes crear NFTs seguro y fácil."
         />
         <Stack spacing={6} mb={20}>
             <Heading as={'h1'} variant="title">

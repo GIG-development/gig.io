@@ -13,7 +13,7 @@ const Tutoriales: NextPage = () => (
     <LargeLayout>
         <Head
             title="Tutoriales"
-            description=""
+            description="Sigue estos pasos para que tu camino por el ecosistema cripto sea lo más amigable. No necesitas ser experto, solo necesitas tu talento."
         />
         <Stack spacing={6} mb={20}>
             <Heading as={'h1'} variant="title">
@@ -24,7 +24,7 @@ const Tutoriales: NextPage = () => (
             </Heading>
             <Text>
               <ol>
-                <li>En el menú, dale clic al botón Iniciar sesión (Para ello requieres tener una wallet (cartera digital) aquí se van a guardar todas tus criptomonedas y tokens)</li>
+                <li>En el menú, dale clic al botón Iniciar sesión. Para ello requieres tener una wallet (cartera digital) aquí se van a guardar todas tus criptomonedas y tokens.</li>
                 <li>Si no tienes una, elige la de tu preferencia. Sigue los pasos, tendrás que descargar la cartera, ya sea que estés en tu cel o compu, elige en dónde descargar. Añádelo como extensión.</li>
                 <li>Al crear tu cartera, te va a dar una frase semilla y NUNCA la vayas a compartir. Se recomienda que la copies en físico y no en digital. También deberás crear una contraseña para facil acceso a tu wallet.</li>
                 <li>De vuelta a lo importante, una vez que diste clic en Inicio, el portal te arrojó las opciones de Wallet a elegir. Deberás conectar esta wallet, así se te generará un perfil y comienza la aventura.</li>
@@ -76,19 +76,21 @@ const Tutoriales: NextPage = () => (
               Quiero comprar NFTs.
             </Heading>
             <Text>
-              <ul>
+              <ol>
                 <li>Da clic en el botón del menú que dice Explorar, te llevará a la página con los NFTs verificados. Algunos de éstos estarán disponibles en modo subasta y otros en venta. Para aquellos que estén bajo subasta, en el precio deberás poner lo que estás dispuesto a pagar. Es fundamental que tengas un balance en tu perfil para que puedas realizar las transacciones que quieras. </li>
-                <li>Ojo: Fíjate muy bien en qué moneda está cotizado, no te vayas a hacer bolas. Vas a requerir tener comprado WETH en tu cuenta porque con esta criptomoneda estaremos realizando las operaciones.</li>
-              </ul>
+                <br/>
+                Ojo: Fíjate muy bien en qué moneda está cotizado, no te vayas a hacer bolas. Vas a requerir tener comprado WETH en tu cuenta porque con esta criptomoneda estaremos realizando las operaciones.
+              </ol>
             </Text>
             
             <Heading as={'h2'} variant="subtitle">
               Quiero vender NFTs.
             </Heading>
             <Text>
-              <ul>
+              <ol>
                 <li>Es tan sencillo como subir productos a otros mercados digitales en mercados como Amazon, Mercado Libre o EBay. Una vez que tienes cargado tu NFT, si lo quieres vender es indispensable que des clic en el botón: Poner a la venta, de lo contrario, solo va a estar en exhibición. Finalmente, deberás ponerle precio a tu trabajo. Tú lo determinas. Recuerda que puedes basarte en el mercado para que sea una cantidad razonable y que al mismo tiempo ganes lo que desees. Como último paso, deberás seleccionar si lo pondrás a la venta o como subasta.</li>
-              </ul>
+              </ol>
+            <br/>
             Y así empieza la magia. 
             <br/>
             Nota: Debes de tomar en cuenta las blockchain con que serán compatibles, dependiendo de ello también se determinarán las comisiones.

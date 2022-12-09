@@ -12,7 +12,7 @@ const Contacto: NextPage = () => (
     <LargeLayout>
         <Head
             title="Contacto"
-            description=""
+            description="Experto, amateur o entusiasta de la industria NFT y la web 3.0, queremos escucharte. Encuéntranos aquí: soporte@gig.io"
         />
         <Stack spacing={6} mb={20} align={'center'}>
             <Heading as={'h1'} variant="title">

@@ -10,8 +10,8 @@ const Privacidad: NextPage = () => (
   <div id="politicas">
     <LargeLayout>
         <Head
-            title="Privacidad"
-            description=""
+            title="Políticas de Privacidad"
+            description="Navega y realiza transacciones de forma segura en la red. Protegemos tus datos y de toda la comunidad."
         />
         <Stack spacing={6} mb={20}>
             <Heading as={'h1'} variant="title">

@@ -10,8 +10,8 @@ const TerminosLegales: NextPage = () => (
   <div id="terminos">
     <LargeLayout>
         <Head
-            title="TerminosLegales"
-            description=""
+            title="Términos Legales"
+            description="No olvides revisar los términos y condiciones para evitarte cualquier inconveniente."
         />
         <Stack spacing={6} mb={20}>
             <Heading as={'h1'} variant="title">

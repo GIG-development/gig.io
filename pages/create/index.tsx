@@ -10,8 +10,8 @@ const CreatePage: NextPage = () => (
   <div id="crear">
     <SmallLayout>
       <Head
-        title="Crea un NFT"
-        description=""
+        title="Crear un NFT"
+        description="Crea, vende, subasta, colecciona NFTs y coleccionables digitales a tu nivel."
       />
       <TypeSelector.Template
         restrictMintToVerifiedAccount={true}

@@ -24,7 +24,10 @@ const ExplorePage: NextPage<Explorer.Props> = ({
 }) => (
   <div id="explore">
     <LargeLayout>
-      <Head title="Explore Collectibles" />
+      <Head
+        title="Explore Collectibles"
+        description="Encuentra y colecciona NFTs de valor, coleccionables digitales: arte visual, diseño, videojuegos, avatares, música, experiencias sensoriales y mucho más."
+      />
       <Explorer.Template
         filter={filter}
         traits={traits}

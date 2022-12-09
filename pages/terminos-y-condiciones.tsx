@@ -1,4 +1,5 @@
 import {
+  Box,
   Heading, 
   Stack
 } from '@chakra-ui/react'
@@ -17,6 +18,9 @@ const TerminosLegales: NextPage = () => (
             <Heading as={'h1'} variant="title">
               Términos Legales y Condiciones de Uso
             </Heading>
+            <Box minH={'100vh'}>
+              <iframe src="/GIG_terminos-y-condiciones.pdf" frameborder="0" style="height:100%"></iframe>
+            </Box>
 
         </Stack>
     </LargeLayout>

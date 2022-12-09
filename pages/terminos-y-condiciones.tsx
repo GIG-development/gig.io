@@ -18,7 +18,7 @@ const TerminosLegales: NextPage = () => (
             <Heading as={'h1'} variant="title">
               Términos Legales y Condiciones de Uso
             </Heading>
-            <iframe src="/GIG_terminos-y-condiciones.pdf" frameborder="0" style="height:100%;"></iframe>
+            <iframe src="/GIG_terminos-y-condiciones.pdf" frameborder="0"></iframe>
         </Stack>
     </LargeLayout>
   </div>

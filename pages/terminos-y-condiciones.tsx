@@ -1,5 +1,4 @@
 import {
-  Box,
   Heading, 
   Stack
 } from '@chakra-ui/react'

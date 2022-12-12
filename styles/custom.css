@@ -167,6 +167,21 @@
 #explore main > div:nth-child(2) > div > div:nth-child(2){
     align-items: flex-start !important;
 }
+#explore main > div:nth-child(2) > div > div:nth-child(2) > div:nth-child(1) > div > div.chakra-stack > div > span,
+#explore main > div:nth-child(2) > div > div:nth-child(2) > div:nth-child(1) > div > div.chakra-stack > div > div {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+#explore main > div:nth-child(2) > div > div:nth-child(2) > div:nth-child(1) > div > div.chakra-stack > div > a.chakra-link{
+    border-radius: 9999px;
+    background-color: #CEAFFF;
+    color: white;
+    font-weight: bold;
+    padding: 12px 24px;
+    text-align: center;
+    justify-content: center;
+}
 /*
 #explore main > div:nth-child(2) > div > div:nth-child(2) > div.chakra-stack > div {
     border: none !important;

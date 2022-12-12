@@ -43,7 +43,7 @@ const Head: FC<PropsWithChildren<Props>> = ({
       <link
         rel="apple-touch-icon"
         href={`${environment.BASE_URL}/apple-touch-icon.png`}
-      >
+      />
       {children}
     </NextHead>
   )

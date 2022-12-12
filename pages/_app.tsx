@@ -71,7 +71,6 @@ function MyApp({ Component, pageProps }: AppProps): JSX.Element {
       <Head
         title="Home"
         description="Únete al Marketplace no. 1 de latinoamérica para crear NFTs de manera fácil y segura."
-        image="/og-image.jpg"
       >
         <meta name="author" content="GIG" />
         <meta name="application-name" content="GIG" />
@@ -93,7 +92,7 @@ function MyApp({ Component, pageProps }: AppProps): JSX.Element {
       >
           <Navbar
             allowTopUp={false}
-            logo={{ path: '/logo_beta.png', width: 100, height: 53 }}
+            logo={{ path: '/logo_beta_bn.png', width: 100, height: 53 }}
             multiLang={{
               pathname: router.pathname,
               locale: router.locale,

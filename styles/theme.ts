@@ -70,9 +70,11 @@ const components = {
   },
   Button: {
     baseStyle: {
-      rounded: 'base',
+      rounded: 'full',
+      /*
       border: '1px solid black',
       boxShadow: '4px 4px 0 0 black'
+      */
     },
     variants: {
       'outline': {
@@ -250,7 +252,7 @@ export const theme = extendTheme({
       body: {
         bg: props.colorMode === 'dark' ? 'white' : 'white'
       },
-      input: {
+      input: {/*
         _hover: {
           boxShadow: '4px 4px 0 0 black !important',
           backgroundColor: 'white'
@@ -259,7 +261,7 @@ export const theme = extendTheme({
           boxShadow: '4px 4px 0 0 black !important',
           backgroundColor: 'white'
         },
-        border: '1px solid black !important'
+        border: '1px solid black !important' */
       },
       h1: {
         color: props.colorMode === 'dark' ? 'brand.black' : 'brand.black'

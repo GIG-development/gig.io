@@ -78,7 +78,7 @@ const Footer: FC<PropsWithChildren<Props>> = ({
                       alt={'GIG Logo'}
                       w={'150px'}
                       h={'80px'}
-                      src={'./logo_beta_footer.png'}
+                      src={'./logo_beta_bn.png'}
                   />
                 </Link>
               </Box>
@@ -100,8 +100,8 @@ const Footer: FC<PropsWithChildren<Props>> = ({
               <ListHeader>Soporte</ListHeader>
               <Link href={'/tutoriales'}>Tutoriales</Link>
               <Link href={'/faq'}>Preguntas Frecuentes</Link>
-              <Link href={'/terminos-y-condiciones'}>Términos y Condiciones</Link>
-              <Link href={'/politica-de-privacidad'}>Política de Privacidad</Link>
+              <Link href={'/GIG_terminos-y-condiciones.pdf'}>Términos y Condiciones</Link>
+              <Link href={'/GIG_terminos-y-condiciones.pdf'}>Política de Privacidad</Link>
               <Link href={'/contacto'}>Contáctanos</Link>
             </Stack>
             <Stack align={'flex-start'}>

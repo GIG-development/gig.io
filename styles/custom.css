@@ -44,7 +44,7 @@
     overflow: hidden;
 }
 
-/* Slider */
+/* Slider 
 #home > main > header > div > div > div > div > div > a > span > img {
     min-width: calc(100% - 8px) !important;
     max-width: calc(100% - 8px) !important;
@@ -54,8 +54,9 @@
     border-radius: 4px !important;
     box-shadow: 4px 4px 0 0 black !important;
 }
+*/
 
-/*Subastas*/
+/*Subastas
 
 #home>main>div.chakra-stack:nth-child(3)>div>div:nth-child(1)>div>div>div {
     border: 1px solid black !important;
@@ -64,12 +65,14 @@
 }
 #home>main>div.chakra-stack:nth-child(3)>div>div:nth-child(1)>div>div>div > a > span > img {
     border-bottom: 1px solid black !important;
-}
+}*/
 #home>main>div.chakra-stack:nth-child(3)>div>div:nth-child(1)>div>div>div > div > div > a.chakra-link {
-    background-color: #CEAFFF;
+    /*
     border: 1px solid black;
     border-radius: 4px;
     box-shadow: 4px 4px 0 0 black;
+    */
+    background-color: #CEAFFF;
     color: white;
     font-weight: bold;
     padding: 12px 12px;
@@ -80,7 +83,8 @@
     background-color: #BE94FF;
 }
 
-/*Featured*/
+
+/*Featured
 #home>main>div.chakra-stack:nth-child(4)>div:nth-child(2) > div > div{
     border: 1px solid black !important;
     border-radius: 4px !important;
@@ -88,20 +92,24 @@
 }
 #home>main>div.chakra-stack:nth-child(4)>div:nth-child(2) > div > div > a > span > img {
     border-bottom: 1px solid black !important;
-}
+}*/
 #home>main>div.chakra-stack:nth-child(4)>div:nth-child(2) > div > div > div.chakra-stack > div > span,
 #home>main>div.chakra-stack:nth-child(4)>div:nth-child(2) > div > div > div.chakra-stack > div > div {
     width: 100%;
     text-align: center;
     justify-content: center;
+    /*
     border: 1px solid black !important;
     border-radius: 4px !important;
+    */
 }
 #home>main>div.chakra-stack:nth-child(4)>div:nth-child(2) > div > div > div.chakra-stack > div > a.chakra-link{
-    background-color: #CEAFFF;
+    /*
     border: 1px solid black;
     border-radius: 4px;
     box-shadow: 4px 4px 0 0 black;
+    */
+    background-color: #CEAFFF;
     color: white;
     font-weight: bold;
     padding: 12px 24px;
@@ -129,11 +137,14 @@
 
 /*EXPLORE*/
 #explore main aside form > div:nth-child(1) button {
+    /*
     border: 1px solid black;
     border-radius: 4px;
     box-shadow: 4px 4px 0 0 black;
+    */
     width: 200px;
 }
+/*
 #explore main > div:nth-child(2) > div > div:nth-child(1) > div > div > div:nth-child(2) button {
     border: 1px solid black;
     border-radius: 4px;
@@ -154,22 +165,33 @@
 #explore main > div:nth-child(2) > div > div:nth-child(2) > div > div > a > span > img {
     border-bottom: 1px solid black !important;
 }
+*/
 #explore main > div:nth-child(2) > div > div:nth-child(2){
     align-items: flex-start !important;
 }
+/*
 #explore main > div:nth-child(2) > div > div:nth-child(2) > div.chakra-stack > div {
     border: none !important;
     box-shadow: none !important;
 }
+*/
+
 /*Creadores*/
 @media screen and (min-width: 1024px){
     #creadores #main-hero img {
         width: 70%;
     }
 }
-/*CREAR*/
+
+/*CREAR
 #crear main > div > a{
     border: 1px solid black;
     border-radius: 4px;
     box-shadow: 4px 4px 0 0 black;
+}
+*/
+
+/*TERMINOS Y CONDICIONES*/
+#terminos main iframe {
+    height: 111vh;
 }

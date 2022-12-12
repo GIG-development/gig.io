@@ -10,7 +10,7 @@ import {
     Text
 } from '@chakra-ui/react'
 import Head from '../components/Head'
-import Hero from '../components/Hero/Hero'
+import AnimatedHero from '../components/Hero/AnimatedHero'
 import AccordionItem from '../components/AccordionItem/AccordionItem'
 import LargeLayout from '../layouts/large'
 import { NextPage } from 'next'
@@ -19,14 +19,14 @@ const tfButton = <><button data-tf-popup="eyQRCt11" data-tf-hide-headers data-tf
     
 const Creadores: NextPage = () => (
   <div id="creadores">
-    <Hero 
+    <AnimatedHero 
       bg={'/img/home/main_hero_bg.jpg'}
       ctaLine_1={'GIG'}
       ctaLine_2={'Creators Lab'}
       description={'Revela tu creatividad y únete a la primera comunidad de talento latino basado en NFTs. Sé parte de esta era creativa y genera impacto mientras creas un mejor futuro.'}
       isSpecialButton={true}
       specialButton={tfButton}
-      image={'/img/creadores/hero.png'}
+      animation={'/img/animaciones/creadores_hero.json'}
     />
     <LargeLayout>
         <Head

@@ -25,17 +25,17 @@ type Props = {
 }
   
 const Hero: FC<PropsWithChildren<Props>> = ({
-    bg,
-    ctaLine_1,
+    bg = '',
+    ctaLine_1 = '',
     ctaLine_2 = '',
-    description,
+    description = '',
     button_1 = '',
     button_1_link = '',
     button_2 = '',
     button_2_link = '',
     isSpecialButton = false,
     specialButton = '',
-    image
+    image = ''
 }) => {
     return (
     <div id="main-hero">

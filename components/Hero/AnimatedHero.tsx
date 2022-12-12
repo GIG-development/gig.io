@@ -21,7 +21,7 @@ type Props = {
     button_2_link?: string
     isSpecialButton?: boolean
     specialButton?: ReactElement<any,any>
-    animation?: string
+    animation?: any
 }
   
 const AnimatedHero: FC<PropsWithChildren<Props>> = ({

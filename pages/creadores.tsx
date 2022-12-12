@@ -14,6 +14,7 @@ import AnimatedHero from '../components/Hero/AnimatedHero'
 import AccordionItem from '../components/AccordionItem/AccordionItem'
 import LargeLayout from '../layouts/large'
 import { NextPage } from 'next'
+import NFTLaliAnimation from '/img/animaciones/creadores_hero.json'
 
 const tfButton = <><button data-tf-popup="eyQRCt11" data-tf-hide-headers data-tf-iframe-props="title=Registration Form" data-tf-medium="snippet" className="btn">Inicia el viaje aquí</button><script src="//embed.typeform.com/next/embed.js"></script></>
     
@@ -26,7 +27,7 @@ const Creadores: NextPage = () => (
       description={'Revela tu creatividad y únete a la primera comunidad de talento latino basado en NFTs. Sé parte de esta era creativa y genera impacto mientras creas un mejor futuro.'}
       isSpecialButton={true}
       specialButton={tfButton}
-      animation={'/img/animaciones/creadores_hero.json'}
+      animation={NFTLaliAnimation}
     />
     <LargeLayout>
         <Head

@@ -1,8 +1,10 @@
 .btn{
-    background-color: #CEAFFF;
+    /*
     border: 1px solid black;
     border-radius: 4px;
     box-shadow: 4px 4px 0 0 black;
+    */
+    background-color: #CEAFFF;
     color: white;
     font-weight: bold;
     padding: 12px 24px;
@@ -69,9 +71,9 @@
 #home>main>div.chakra-stack:nth-child(3)>div>div:nth-child(1)>div>div>div > div > div > a.chakra-link {
     /*
     border: 1px solid black;
-    border-radius: 4px;
     box-shadow: 4px 4px 0 0 black;
     */
+    border-radius: 9999px;
     background-color: #CEAFFF;
     color: white;
     font-weight: bold;
@@ -106,9 +108,9 @@
 #home>main>div.chakra-stack:nth-child(4)>div:nth-child(2) > div > div > div.chakra-stack > div > a.chakra-link{
     /*
     border: 1px solid black;
-    border-radius: 4px;
     box-shadow: 4px 4px 0 0 black;
     */
+    border-radius: 9999px;
     background-color: #CEAFFF;
     color: white;
     font-weight: bold;
@@ -181,17 +183,4 @@
     #creadores #main-hero img {
         width: 70%;
     }
-}
-
-/*CREAR
-#crear main > div > a{
-    border: 1px solid black;
-    border-radius: 4px;
-    box-shadow: 4px 4px 0 0 black;
-}
-*/
-
-/*TERMINOS Y CONDICIONES*/
-#terminos main iframe {
-    height: 111vh;
 }

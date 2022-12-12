@@ -26,8 +26,6 @@ const Drop: FC<PropsWithChildren<Props>> = ({
             objectFit={'cover'}
             maxW={{base: 72, md: 'sm'}}
             borderRadius={'base'}
-            border={'1px solid black'}
-            boxShadow={'4px 4px 0 0 black'}
             src={image}
         />
         <Flex p={8} flex={{base: '0 0 100%', md: '0 0 60%'}} align={'center'} justify={'center'}>
@@ -48,7 +46,7 @@ const Drop: FC<PropsWithChildren<Props>> = ({
                 bg="white"
                 rounded={'base'}
                 border='1px solid'
-                borderColor={'brand.black'}
+                borderColor={'gray.200'}
                 display={'inline-block'}
                 w={'fit-content'}
                 px={2}
@@ -63,10 +61,10 @@ const Drop: FC<PropsWithChildren<Props>> = ({
             <Stack direction={{ base: 'column', md: 'row' }} spacing={4}>
                 <Button
                 rounded={'base'}
-                bg={'brand.400'}
+                bg={'brand.500'}
                 color={'white'}
                 _hover={{
-                    bg: 'brand.500',
+                    bg: 'brand.600',
                 }}>
                 Ver colección
                 </Button>

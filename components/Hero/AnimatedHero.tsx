@@ -77,10 +77,8 @@ const AnimatedHero: FC<PropsWithChildren<Props>> = ({
                             { (button_1!=='' && button_1_link!=='')  && 
                                 <Link href={button_1_link}>
                                     <Button
-                                        rounded={'base'}
+                                        rounded={'full'}
                                         size={'lg'}
-                                        border={'1px solid black'}
-                                        boxShadow={'4px 4px 0 0 black'}
                                         px={6}
                                         colorScheme={'brand'}
                                         bg={'brand.400'}
@@ -92,10 +90,8 @@ const AnimatedHero: FC<PropsWithChildren<Props>> = ({
                             { (button_2!=='' && button_2_link!=='') && 
                                 <Link href={button_2_link}>
                                     <Button
-                                    rounded={'base'}
+                                    rounded={'full'}
                                     size={'lg'}
-                                    border={'1px solid black'}
-                                    boxShadow={'4px 4px 0 0 black'}
                                     px={6}>
                                         {button_2}
                                     </Button>

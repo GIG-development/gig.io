@@ -33,9 +33,7 @@ const Artist: FC<PropsWithChildren<Props>> = ({
                 my={2}
                 overflow={'hidden'}
                 bg="white"
-                border={'1px'}
-                borderColor="black"
-                boxShadow={useColorModeValue('4px 4px 0 black', '4px 4px 0 black')}>
+                >
                 <Box h={useBreakpointValue({base: '280px', md: '280px'})} borderBottom={'1px'} borderColor="black">
                     <Img
                         src={image}
@@ -64,8 +62,8 @@ const Artist: FC<PropsWithChildren<Props>> = ({
                                     <Box
                                         key={tag}
                                         bg="white"
-                                        rounded={'base'}
-                                        border='1px solid black'
+                                        rounded={'full'}
+                                        border='1px solid #E5E7Eb'
                                         display={'inline-block'}
                                         px={2}
                                         py={1}

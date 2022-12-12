@@ -77,14 +77,12 @@ const Hero: FC<PropsWithChildren<Props>> = ({
                             { (button_1!=='' && button_1_link!=='')  && 
                                 <Link href={button_1_link}>
                                     <Button
-                                        rounded={'base'}
+                                        rounded={'full'}
                                         size={'lg'}
-                                        border={'1px solid black'}
-                                        boxShadow={'4px 4px 0 0 black'}
                                         px={6}
                                         colorScheme={'brand'}
-                                        bg={'brand.400'}
-                                        _hover={{ bg: 'brand.500' }}>
+                                        bg={'brand.500'}
+                                        _hover={{ bg: 'brand.600' }}>
                                             {button_1}
                                     </Button>
                                 </Link>
@@ -92,11 +90,12 @@ const Hero: FC<PropsWithChildren<Props>> = ({
                             { (button_2!=='' && button_2_link!=='') && 
                                 <Link href={button_2_link}>
                                     <Button
-                                    rounded={'base'}
+                                    rounded={'full'}
                                     size={'lg'}
-                                    border={'1px solid black'}
-                                    boxShadow={'4px 4px 0 0 black'}
-                                    px={6}>
+                                    px={6}
+                                    colorScheme={'gray'}
+                                    bg={'gray.400'}
+                                    _hover={{ bg: 'gray.600' }}>
                                         {button_2}
                                     </Button>
                                 </Link>

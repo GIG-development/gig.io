@@ -227,10 +227,10 @@ const radii = {
   sm: '2px',
   base: '4px',
   md: '6px',
-  lg: '6px',
-  xl: '6px',
-  '2xl': '6px',
-  '3xl': '6px',
+  lg: '8px',
+  xl: '10px',
+  '2xl': '12px',
+  '3xl': '14px',
   full: '9999px',
 }
 

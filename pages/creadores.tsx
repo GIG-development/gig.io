@@ -14,7 +14,7 @@ import AnimatedHero from '../components/Hero/AnimatedHero'
 import AccordionItem from '../components/AccordionItem/AccordionItem'
 import LargeLayout from '../layouts/large'
 import { NextPage } from 'next'
-import NFTLaliAnimation from '/img/animaciones/creadores_hero.json'
+import NFTLaliAnimation from '../public/img/animaciones/creadores_hero.json'
 
 const tfButton = <><button data-tf-popup="eyQRCt11" data-tf-hide-headers data-tf-iframe-props="title=Registration Form" data-tf-medium="snippet" className="btn">Inicia el viaje aquí</button><script src="//embed.typeform.com/next/embed.js"></script></>
     

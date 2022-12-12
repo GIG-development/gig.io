@@ -68,6 +68,12 @@
 #home>main>div.chakra-stack:nth-child(3)>div>div:nth-child(1)>div>div>div > a > span > img {
     border-bottom: 1px solid black !important;
 }*/
+#home>main>div.chakra-stack:nth-child(3)>div>div:nth-child(1)>div>div>div > div > div > span,
+#home>main>div.chakra-stack:nth-child(3)>div>div:nth-child(1)>div>div>div > div > div > div {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
 #home>main>div.chakra-stack:nth-child(3)>div>div:nth-child(1)>div>div>div > div > div > a.chakra-link {
     /*
     border: 1px solid black;

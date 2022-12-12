@@ -60,7 +60,7 @@ const Drop: FC<PropsWithChildren<Props>> = ({
             </Box>
             <Stack direction={{ base: 'column', md: 'row' }} spacing={4}>
                 <Button
-                rounded={'base'}
+                rounded={'full'}
                 bg={'brand.500'}
                 color={'white'}
                 _hover={{

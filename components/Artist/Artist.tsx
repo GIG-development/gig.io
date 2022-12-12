@@ -32,6 +32,8 @@ const Artist: FC<PropsWithChildren<Props>> = ({
                 my={2}
                 overflow={'hidden'}
                 bg="white"
+                border='1px solid'
+                borderColor='gray.200'
                 >
                 <Box h={useBreakpointValue({base: '280px', md: '280px'})} borderBottom={'1px'} borderColor="black">
                     <Img

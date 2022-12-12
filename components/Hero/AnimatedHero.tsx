@@ -70,7 +70,7 @@ const AnimatedHero: FC<PropsWithChildren<Props>> = ({
                             </>
                             }
                         </Heading>
-                        <Text fontSize={{ base: 'lg', lg: 'lg' }} color={'white'}>
+                        <Text fontSize={{ base: 'lg', lg: 'lg' }} color={'white'} mt={2}>
                                 {description}
                         </Text>
                         <Stack direction={{ base: 'column', md: 'row' }} spacing={4}>
@@ -111,7 +111,7 @@ const AnimatedHero: FC<PropsWithChildren<Props>> = ({
                             loop={true}
                             animationData={animation}
                             play
-                            style={{ width: 480, height: 480 }}
+                            style={{ width: 480, height: 480, paddingTop: 40 }}
                         />
                     }
                 </Flex>

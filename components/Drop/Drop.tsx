@@ -44,7 +44,7 @@ const Drop: FC<PropsWithChildren<Props>> = ({
             </Text>
             <Box
                 bg="white"
-                rounded={'base'}
+                rounded={'full'}
                 border='1px solid'
                 borderColor={'gray.200'}
                 display={'inline-block'}

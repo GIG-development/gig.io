@@ -5,7 +5,6 @@ import {
     Text,
     Img,
     Flex,
-    useColorModeValue,
     useBreakpointValue
   } from '@chakra-ui/react';
 import { FC, PropsWithChildren } from 'react'

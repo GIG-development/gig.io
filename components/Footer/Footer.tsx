@@ -89,7 +89,7 @@ const Footer: FC<PropsWithChildren<Props>> = ({
               </Text>
             </Stack>
             <Stack align={'flex-start'}>
-              <ListHeader>GIG</ListHeader>
+              <ListHeader>Navega</ListHeader>
               <Link href={userProfileLink}>Mi Perfil</Link>
               <Link href={'/nosotros'}>Sobre Nosotros</Link>
               <Link href={'/creadores'}>Creadores</Link>

@@ -115,7 +115,7 @@ const Hero: FC<PropsWithChildren<Props>> = ({
                             src={image}
                             w={'auto'}
                             h={'100%'}
-                            maxW={'100%'}
+                            maxW={'646px'}
                         />       
                     }
                 </Flex>

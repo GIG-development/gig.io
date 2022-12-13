@@ -111,11 +111,10 @@ const Hero: FC<PropsWithChildren<Props>> = ({
                 <Flex flex={1} minW={'fit-content'}>
                     {image!=='' &&
                         <Image
-                        alt={'Main Hero Animation'}
-                        objectFit={'cover'}
-                        src={image}
-                        padding={{base: '0', md: '40px 0 0'}}
-                        margin={'0 auto'}
+                            alt={'Main Hero Animation'}
+                            src={image}
+                            w={'auto'}
+                            h={'100%'}
                         />       
                     }
                 </Flex>

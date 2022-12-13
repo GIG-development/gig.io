@@ -100,12 +100,14 @@ const HomePage: NextPage<Home.Props> = ({
             date='1 de Enero 2023'
             description='GIG Génesis es una colección de personajes de GIGverso que trae una misión: Empoderar almas creativas empezando por LATAM a través de la conexión con líderes de la industria, eventos especiales, drops, experiencias inmersivas y más.'
             image='/img/drops/drop-gig-genesis.jpg'
+            link='https://gig.io'
           />
           <Drop
             title='Maxas Génesis'
-            date='4 de Febrero 2023'
+            date='10 de Febrero 2023'
             description=''
             image='/img/drops/drop-maxas-genesis.jpg'
+            link='https://maxas.xyz'
           />
       </Stack>
     </LargeLayout>

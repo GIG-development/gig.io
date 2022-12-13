@@ -4,6 +4,7 @@ import {
     Flex,
     Heading,
     Image,
+    Link,
     Stack,
     Text,
 } from '@chakra-ui/react';
@@ -14,10 +15,11 @@ type Props = {
     date: string
     description: string
     image: string
+    link: string
 }
   
 const Drop: FC<PropsWithChildren<Props>> = ({
-    title, date, description, image
+    title, date, description, image, link
 }) => {
     return (
     <Stack direction={{ base: 'column', md: 'row' }} mb={12} align={'center'}>
@@ -59,15 +61,17 @@ const Drop: FC<PropsWithChildren<Props>> = ({
                 </Text>
             </Box>
             <Stack direction={{ base: 'column', md: 'row' }} spacing={4}>
-                <Button
-                rounded={'full'}
-                bg={'brand.500'}
-                color={'white'}
-                _hover={{
-                    bg: 'brand.600',
-                }}>
-                Ver colección
-                </Button>
+                <Link href={link}>
+                    <Button
+                    rounded={'full'}
+                    bg={'brand.500'}
+                    color={'white'}
+                    _hover={{
+                        bg: 'brand.600',
+                    }}>
+                    Ver colección
+                    </Button>
+                </Link>
             </Stack>
             </Stack>
         </Flex>

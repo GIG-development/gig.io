@@ -43,7 +43,7 @@ const Creadores: NextPage = () => (
           <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
               <Stack spacing={4}>
                   <Heading as={'h2'} variant={'subtitle'}>Decodificamos juntos tus ideas</Heading>
-                  <Text color={'gray.500'} fontSize={'md'}>
+                  <Text color={'gray.500'} fontSize={{base: 'sm', md: 'md'}}>
                   No necesitas ser experto, estamos contigo desde la conceptualización hasta la promoción de tus NFTs. Solo trae tus ganas de entrar al espacio cripto en una comunidad de creativos geniales.
                   </Text>
                   <Heading as={'span'} variant="heading2">
@@ -73,7 +73,7 @@ const Creadores: NextPage = () => (
             </Flex>
             <Stack spacing={4}>
                 <Heading as={'h2'} variant={'subtitle'}>¿Cómo funciona?</Heading>
-                <Text color={'gray.500'} fontSize={'md'}>
+                <Text color={'gray.500'} fontSize={{base: 'sm', md: 'md'}}>
                 Aquí todos juegan. Ya sea que tengas NFTs, proyectos, activos o incluso si estás en la fase de las ideas y te quieres digitalizar. La única regla es verificarte como creativo pues estarás entrando a una comunidad segura y sostenible.
                 Después podrás crear, comprar y vender NFT estableciendo tus precios y regalías.  
                 Así de fácil. 
@@ -165,7 +165,7 @@ const Creadores: NextPage = () => (
           <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
               <Stack spacing={4}>
                   <Heading as={'h2'} variant={'subtitle'}>Promoción en medios masivos</Heading>
-                  <Text color={'gray.500'} fontSize={'md'}>
+                  <Text color={'gray.500'} fontSize={{base: 'sm', md: 'md'}}>
                   Pon a tus obras maestras a recorrer los mundos y sé parte de esta evolución tecnológica.
                   </Text>
               </Stack>
@@ -190,7 +190,7 @@ const Creadores: NextPage = () => (
             </Flex>
             <Stack spacing={4}>
                 <Heading as={'h2'} variant={'subtitle'}>Simplificamos lo complejo</Heading>
-                <Text color={'gray.500'} fontSize={'md'}>
+                <Text color={'gray.500'} fontSize={{base: 'sm', md: 'md'}}>
                 Para que te dediques a lo tuyo. Subir NFTs será más fácil que nunca.
                 </Text>
                 

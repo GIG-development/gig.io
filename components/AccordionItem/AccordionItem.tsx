@@ -4,7 +4,8 @@ import {
     AccordionPanel,
     AccordionIcon,
     Box,
-    Heading
+    Heading,
+    Text
   } from '@chakra-ui/react'
 import { FC, PropsWithChildren } from 'react'
 type Props = {
@@ -29,7 +30,9 @@ const AccordionItem: FC<PropsWithChildren<Props>> = ({
                 </AccordionButton>
             </h2>
             <AccordionPanel pb={4}>
-                {answer}
+                <Text color={'gray.500'} fontSize={{base: 'sm', md: 'md'}}>
+                    {answer}
+                </Text>
             </AccordionPanel>
         </AI>
     )

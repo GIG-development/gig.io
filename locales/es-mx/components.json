@@ -18,6 +18,28 @@
         "ctaLine2": "CREATIVIDAD",
         "description": "Explora, compra, crea, subasta y vende NFTs de forma fácil, rápida y segura.",
         "button": "Explorar"
+      },
+      "featuredArtists": {
+        "title":"Artistas Destacados",
+        "artistProfileButton": "Ver Perfil"
+      },
+      "gigLabs": {
+        "title": "GIG Labs",
+        "launchDate": "Lanzamiento",
+        "dropButton": "Ver Colección"
+      },
+      "secondaryHero": {
+        "title": "GIG Marketplace",
+        "ctaLine1": "Empoderando almas",
+        "ctaLine2": "Creativas",
+        "description": "No necesitas ser experto, estamos contigo desde la conceptualización hasta la promoción de tus NFTs. Solo trae tus ganas de entrar al espacio cripto en una comunidad de creativos geniales.",
+        "button": "¿Cómo funciona?"
+      },
+      "banner": {
+        "title": "¿Quieres saber más?",
+        "text": "Tenemos varios tutoriales que pueden ayudarte a tener todo mas claro",
+        "button1": "Visita nuestros tutoriales",
+        "button2": "Preguntas frecuentes"
       }
     }
 }

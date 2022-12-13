@@ -9,6 +9,7 @@ import {
     Text,
 } from '@chakra-ui/react';
 import { FC, PropsWithChildren } from 'react'
+import useTranslation from 'next-translate/useTranslation'
 
 type Props = {
     title: string
@@ -21,6 +22,7 @@ type Props = {
 const Drop: FC<PropsWithChildren<Props>> = ({
     title, date, description, image, link
 }) => {
+    const { t } = useTranslation('components')
     return (
     <Stack direction={{ base: 'column', md: 'row' }} mb={12} align={'center'}>
         <Image
@@ -57,7 +59,7 @@ const Drop: FC<PropsWithChildren<Props>> = ({
                 mr={2}
                 mb={2}>
                 <Text fontSize={'sm'} fontWeight="700">
-                    Lanzamiento: {date}
+                    {t('home.gigLabs.launchDate')}: {date}
                 </Text>
             </Box>
             <Stack direction={{ base: 'column', md: 'row' }} spacing={4}>
@@ -69,7 +71,7 @@ const Drop: FC<PropsWithChildren<Props>> = ({
                     _hover={{
                         bg: 'brand.600',
                     }}>
-                    Ver colección
+                        {t('home.gigLabs.dropButton')}
                     </Button>
                 </Link>
             </Stack>

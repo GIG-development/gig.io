@@ -45,7 +45,7 @@ const HomePage: NextPage<Home.Props> = ({
 
       <Stack spacing={6} mt={20} mb={40}>
           <Heading as="h2" variant="subtitle" color="brand.black">
-            Artistas Destacados
+            {t('home.featuredArtists.title')}
           </Heading>
           <SimpleGrid spacing={6} columns={{sm: 2, md: 3, lg: 4}}>
             <Artist 
@@ -54,6 +54,7 @@ const HomePage: NextPage<Home.Props> = ({
               description='🌵🗿📡Artesanía digital👇🏼'
               tags={['arte digital','gráfica','street art']}
               image='https://static.wixstatic.com/media/c3f0a4_a145f2389cc94bb6abe7606468d67129~mv2.jpg/v1/crop/x_74,y_67,w_2213,h_2203/fill/w_565,h_565,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/19_Territorio.jpg'
+              link={'https://testnet.gig.io/users/0x6458a79eb4ef3f6982ff4fe270f43fd6ec9f30c1'}
             />
             <Artist 
               name='ilithya'
@@ -63,6 +64,7 @@ const HomePage: NextPage<Home.Props> = ({
               🖤 Mexican based in Hamburg'
               tags={['música','multimedia','creative coding']}
               image='https://gig-io.vercel.app/_next/image?url=https%3A%2F%2Fgig.mypinata.cloud%2Fipfs%2FQmQCSR8mayBTYsR4aWQV8pExSWQVGiqFXGWr63kyepR9GH%2Fnft.png&w=640&q=75'
+              link={'https://testnet.gig.io/users/0x6458a79eb4ef3f6982ff4fe270f43fd6ec9f30c1'}
             />
             <Artist 
               name='p1xelfool'
@@ -70,6 +72,7 @@ const HomePage: NextPage<Home.Props> = ({
               description='Internet artist since 3001 */ father of multidimentional entities'
               tags={['arte digital','animation']}
               image='https://p1xelfool.com/images/soul.gif'
+              link={'https://testnet.gig.io/users/0x6458a79eb4ef3f6982ff4fe270f43fd6ec9f30c1'}
             />
             <Artist 
               name='Maw'
@@ -77,6 +80,7 @@ const HomePage: NextPage<Home.Props> = ({
               description='Desarrollador web y creative coder'
               tags={['desarrollo web','diseño']}
               image='https://maw.dev/images/fbtw.jpg'
+              link={'https://testnet.gig.io/users/0x6458a79eb4ef3f6982ff4fe270f43fd6ec9f30c1'}
             />
           </SimpleGrid>
       </Stack>
@@ -95,7 +99,7 @@ const HomePage: NextPage<Home.Props> = ({
 
       <Stack spacing={12} mb={40}>
           <Heading as="h2" variant="subtitle" color="brand.black" mt={40} mb={10}>
-              GIG Labs
+            {t('home.gigLabs.title')}
           </Heading>
           <Drop
             title='GIG Series Génesis'
@@ -117,13 +121,13 @@ const HomePage: NextPage<Home.Props> = ({
     <Stack spacing={12} mb={10} backgroundColor={'gray.100'} w={'full'} id='home__section-video'>
       <LargeLayout>
         <Heading as="h2" variant="subtitle" color="black">
-            GIG Marketplace
+            {t('home.secondaryHero.title')}
         </Heading>
         <SecondaryHero 
-          ctaLine_1='Empoderando almas'
-          ctaLine_2='Creativas'
-          description='No necesitas ser experto, estamos contigo desde la conceptualización hasta la promoción de tus NFTs. Solo trae tus ganas de entrar al espacio cripto en una comunidad de creativos geniales.'
-          button_1='¿Cómo funciona?'
+          ctaLine_1={t('home.secondaryHero.ctaLine1')}
+          ctaLine_2={t('home.secondaryHero.ctaLine2')}
+          description={t('home.secondaryHero.description')}
+          button_1={t('home.secondaryHero.button')}
           button_1_link='/nosotros'
           image='./img/home/video.jpg'
         />
@@ -131,10 +135,10 @@ const HomePage: NextPage<Home.Props> = ({
     </Stack>
     
     <Banner
-      cta='¿Quieres saber más?'
-      description='Tenemos varios tutoriales que pueden ayudarte a tener todo mas claro'
-      button1='Visita nuestros tutoriales'
-      button2='Preguntas frecuentes'
+      cta={t('home.banner.title')}
+      description={t('home.banner.text')}
+      button1={t('home.banner.button1')}
+      button2={t('home.banner.button2')}
     />
   </div>
 )}

@@ -5,9 +5,11 @@ import {
     Text,
     Img,
     Flex,
+    Link,
     useBreakpointValue
   } from '@chakra-ui/react';
 import { FC, PropsWithChildren } from 'react'
+import useTranslation from 'next-translate/useTranslation'
 
 type Props = {
     name: string
@@ -15,6 +17,7 @@ type Props = {
     description: string
     tags: string[]
     image?: string
+    link: string
 }
   
 const Artist: FC<PropsWithChildren<Props>> = ({
@@ -22,8 +25,10 @@ const Artist: FC<PropsWithChildren<Props>> = ({
     handle,
     description,
     tags,
-    image
+    image,
+    link
 }) => {
+    const { t } = useTranslation('components')
     return (
         <Flex justify={'center'}>
             <Box
@@ -78,7 +83,9 @@ const Artist: FC<PropsWithChildren<Props>> = ({
                                 )
                             })}
                         </Box>
-                        <Button w={'full'}>Ver Perfil</Button>
+                        <Link href={link}>
+                            <Button w={'full'}>{t('home.featuredArtists.artistProfileButton')}</Button>
+                        </Link>
                     </Flex>
                 </Box>
             </Box>

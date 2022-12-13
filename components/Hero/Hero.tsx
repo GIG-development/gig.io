@@ -113,7 +113,7 @@ const Hero: FC<PropsWithChildren<Props>> = ({
                         <Image
                             alt={'Main Hero Animation'}
                             src={image}
-                            w={'fit-content'}
+                            w={{base: '100%', md: 'fit-content'}}
                             maxW={'646px'}
                         />       
                     }

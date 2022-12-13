@@ -1,3 +1,6 @@
+#__next main {
+    min-height: calc(100vh - 488px);
+}
 .btn{
     border-radius: 9999px;
     background-color: #CEAFFF;

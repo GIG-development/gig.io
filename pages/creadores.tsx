@@ -46,13 +46,12 @@ const Creadores: NextPage = () => (
                   <Text color={'gray.500'} fontSize={{base: 'sm', md: 'md'}}>
                   No necesitas ser experto, estamos contigo desde la conceptualización hasta la promoción de tus NFTs. Solo trae tus ganas de entrar al espacio cripto en una comunidad de creativos geniales.
                   </Text>
-                  <Heading as={'span'} variant="heading2">
+                  <Text color={'gray.800'} fontWeight={700} fontSize={{base: 'sm', md: 'md'}}>
                   Codéate con artistas prestigiosos, coleccionistas, curadores reconocidos y otras mentes creativas como tú
-                  </Heading>
+                  </Text>
               </Stack>
               <Flex textAlign={'center'} justifyContent={'center'}>
                   <Image
-                      rounded={'md'}
                       alt={'Creadores'}
                       src={'/img/creadores/decodificamos_ideas.png'}
                       objectFit={'cover'}
@@ -68,7 +67,7 @@ const Creadores: NextPage = () => (
                   loop={true}
                   animationData={CreadoriComoFunciona}
                   play
-                  style={{ width: '380px', height: '100%', marginTop: '-70px' }}
+                  style={{ width: '380px', height: '100%' }}
               />
             </Flex>
             <Stack spacing={4}>
@@ -94,8 +93,7 @@ const Creadores: NextPage = () => (
               <Box textAlign={'center'}>
                 <Flex textAlign={'center'} justifyContent={'center'}>
                     <Image
-                        rounded={'md'}
-                        alt={'Creadores'}
+                        alt={'Beneficios'}
                         src={'/img/familia/uri.png'}
                         objectFit={'cover'}
                         maxW={"180px"}
@@ -110,8 +108,7 @@ const Creadores: NextPage = () => (
               <Box textAlign={'center'}>
                 <Flex textAlign={'center'} justifyContent={'center'}>
                     <Image
-                        rounded={'md'}
-                        alt={'Creadores'}
+                        alt={'Beneficios'}
                         src={'/img/familia/uri.png'}
                         objectFit={'cover'}
                         maxW={"180px"}
@@ -126,8 +123,7 @@ const Creadores: NextPage = () => (
               <Box textAlign={'center'}>
                 <Flex textAlign={'center'} justifyContent={'center'}>
                   <Image
-                      rounded={'md'}
-                      alt={'Creadores'}
+                      alt={'Beneficios'}
                       src={'/img/familia/uri.png'}
                       objectFit={'cover'}
                       maxW={"180px"}
@@ -142,8 +138,7 @@ const Creadores: NextPage = () => (
               <Box textAlign={'center'}>
                 <Flex textAlign={'center'} justifyContent={'center'}>
                   <Image
-                      rounded={'md'}
-                      alt={'Creadores'}
+                      alt={'Beneficios'}
                       src={'/img/familia/uri.png'}
                       objectFit={'cover'}
                       maxW={"180px"}
@@ -174,7 +169,7 @@ const Creadores: NextPage = () => (
                     loop={true}
                     animationData={JeiterPromocion}
                     play
-                    style={{ width: '280px', height: '100%', marginTop: '-40px' }}
+                    style={{ width: '280px', height: '100%' }}
                 />
               </Flex>
           </SimpleGrid>
@@ -185,7 +180,7 @@ const Creadores: NextPage = () => (
                   loop={true}
                   animationData={PapacheLentes}
                   play
-                  style={{ width: '280px', height: '100%', marginTop: '-40px' }}
+                  style={{ width: '280px', height: '100%' }}
               />
             </Flex>
             <Stack spacing={4}>

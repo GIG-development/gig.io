@@ -70,11 +70,7 @@ const components = {
   },
   Button: {
     baseStyle: {
-      rounded: 'full',
-      /*
-      border: '1px solid black',
-      boxShadow: '4px 4px 0 0 black'
-      */
+      rounded: 'full'
     },
     variants: {
       'outline': {
@@ -251,17 +247,6 @@ export const theme = extendTheme({
     global: (props: StyleFunctionProps) => ({
       body: {
         bg: props.colorMode === 'dark' ? 'white' : 'white'
-      },
-      input: {/*
-        _hover: {
-          boxShadow: '4px 4px 0 0 black !important',
-          backgroundColor: 'white'
-        },
-        _focus: {
-          boxShadow: '4px 4px 0 0 black !important',
-          backgroundColor: 'white'
-        },
-        border: '1px solid black !important' */
       },
       h1: {
         color: props.colorMode === 'dark' ? 'brand.black' : 'brand.black'

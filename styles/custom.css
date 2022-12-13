@@ -1,8 +1,4 @@
 .btn{
-    /*
-    border: 1px solid black;
-    box-shadow: 4px 4px 0 0 black;
-    */
     border-radius: 9999px;
     background-color: #CEAFFF;
     color: white;
@@ -13,25 +9,6 @@
 }
 .btn:hover{
     background-color: #BE94FF;
-}
-
-@media screen and (min-width: 1024px){
-    /*Header
-    #__next > div:nth-child(1) {
-        position: absolute;
-        width: 100%;
-        transform: translateX(-50%);
-        left: 50%;
-    }*/
-    /*Main content block
-    #__next > div:nth-child(2) > main {
-        padding-top: 120px;
-    }
-    #__next > #home > #main-hero > div,
-    #__next > #creadores > #main-hero > div{
-        padding-top: 0px;
-        overflow: hidden;
-    }*/
 }
 
 /*Header search input*/
@@ -46,28 +23,7 @@
     overflow: hidden;
 }
 
-/* Slider 
-#home > main > header > div > div > div > div > div > a > span > img {
-    min-width: calc(100% - 8px) !important;
-    max-width: calc(100% - 8px) !important;
-    min-height: calc(100% - 8px) !important;
-    max-height: calc(100% - 8px) !important;
-    border: 1px solid black !important;
-    border-radius: 4px !important;
-    box-shadow: 4px 4px 0 0 black !important;
-}
-*/
-
-/*Subastas
-
-#home>main>div.chakra-stack:nth-child(3)>div>div:nth-child(1)>div>div>div {
-    border: 1px solid black !important;
-    border-radius: 4px !important;
-    box-shadow: 4px 4px 0 0 black !important;
-}
-#home>main>div.chakra-stack:nth-child(3)>div>div:nth-child(1)>div>div>div > a > span > img {
-    border-bottom: 1px solid black !important;
-}*/
+/*Subastas*/
 #home>main>div.chakra-stack:nth-child(3)>div>div:nth-child(1)>div>div>div > div > div > span,
 #home>main>div.chakra-stack:nth-child(3)>div>div:nth-child(1)>div>div>div > div > div > div {
     width: 100%;
@@ -75,10 +31,6 @@
     justify-content: center;
 }
 #home>main>div.chakra-stack:nth-child(3)>div>div:nth-child(1)>div>div>div > div > div > a.chakra-link {
-    /*
-    border: 1px solid black;
-    box-shadow: 4px 4px 0 0 black;
-    */
     border-radius: 9999px;
     background-color: #CEAFFF;
     color: white;
@@ -92,30 +44,14 @@
 }
 
 
-/*Featured
-#home>main>div.chakra-stack:nth-child(4)>div:nth-child(2) > div > div{
-    border: 1px solid black !important;
-    border-radius: 4px !important;
-    box-shadow: 4px 4px 0 0 black !important;
-}
-#home>main>div.chakra-stack:nth-child(4)>div:nth-child(2) > div > div > a > span > img {
-    border-bottom: 1px solid black !important;
-}*/
+/*Featured*/
 #home>main>div.chakra-stack:nth-child(4)>div:nth-child(2) > div > div > div.chakra-stack > div > span,
 #home>main>div.chakra-stack:nth-child(4)>div:nth-child(2) > div > div > div.chakra-stack > div > div {
     width: 100%;
     text-align: center;
     justify-content: center;
-    /*
-    border: 1px solid black !important;
-    border-radius: 4px !important;
-    */
 }
 #home>main>div.chakra-stack:nth-child(4)>div:nth-child(2) > div > div > div.chakra-stack > div > a.chakra-link{
-    /*
-    border: 1px solid black;
-    box-shadow: 4px 4px 0 0 black;
-    */
     border-radius: 9999px;
     background-color: #CEAFFF;
     color: white;
@@ -143,33 +79,7 @@
     transform: rotate(45deg);
 }
 
-/*EXPLORE
-#explore main aside form > div:nth-child(1) button {
-    border: 1px solid black;
-    border-radius: 4px;
-    box-shadow: 4px 4px 0 0 black;
-}
-#explore main > div:nth-child(2) > div > div:nth-child(1) > div > div > div:nth-child(2) button {
-    border: 1px solid black;
-    border-radius: 4px;
-    box-shadow: 4px 4px 0 0 black;
-}
-#explore main aside label.chakra-checkbox {
-    border: 1px solid black;
-    border-radius: 4px;
-}
-#explore main aside label.chakra-checkbox:hover {
-    box-shadow: 4px 4px 0 0 black;
-}
-#explore main > div:nth-child(2) > div > div:nth-child(2) > div > div{
-    border: 1px solid black;
-    border-radius: 4px;
-    box-shadow: 4px 4px 0 0 black;
-}
-#explore main > div:nth-child(2) > div > div:nth-child(2) > div > div > a > span > img {
-    border-bottom: 1px solid black !important;
-}
-*/
+/*EXPLORE*/
 #explore main > div:nth-child(2) > div > div:nth-child(2){
     align-items: flex-start !important;
 }
@@ -187,17 +97,4 @@
     padding: 12px 24px;
     text-align: center;
     justify-content: center;
-}
-/*
-#explore main > div:nth-child(2) > div > div:nth-child(2) > div.chakra-stack > div {
-    border: none !important;
-    box-shadow: none !important;
-}
-*/
-
-/*Creadores*/
-@media screen and (min-width: 1024px){
-    #creadores #main-hero img {
-        width: 70%;
-    }
 }

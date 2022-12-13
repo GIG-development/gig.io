@@ -40,7 +40,7 @@ const Creadores: NextPage = () => (
         />
         <Stack spacing={6} my={20}>
 
-          <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
+          <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10} alignItems={'center'}>
               <Stack spacing={4}>
                   <Heading as={'h2'} variant={'subtitle'}>Decodificamos juntos tus ideas</Heading>
                   <Text color={'gray.500'} fontSize={{base: 'sm', md: 'md'}}>
@@ -61,7 +61,7 @@ const Creadores: NextPage = () => (
           </SimpleGrid>
 
           
-          <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10} pt={12}>
+          <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10} pt={12} alignItems={'center'}>
             <Flex textAlign={'center'} justifyContent={'center'}>
               <Lottie
                   loop={true}
@@ -157,7 +157,7 @@ const Creadores: NextPage = () => (
       <LargeLayout>
         <Stack spacing={6} my={20}>
 
-          <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
+          <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10} alignItems={'center'}>
               <Stack spacing={4}>
                   <Heading as={'h2'} variant={'subtitle'}>Promoción en medios masivos</Heading>
                   <Text color={'gray.500'} fontSize={{base: 'sm', md: 'md'}}>
@@ -174,7 +174,7 @@ const Creadores: NextPage = () => (
               </Flex>
           </SimpleGrid>
 
-          <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10} pt={12}>
+          <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10} pt={12} alignItems={'center'}>
             <Flex textAlign={'center'} justifyContent={'center'}>
               <Lottie
                   loop={true}

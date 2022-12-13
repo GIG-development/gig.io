@@ -1,9 +1,9 @@
 .btn{
     /*
     border: 1px solid black;
-    border-radius: 4px;
     box-shadow: 4px 4px 0 0 black;
     */
+    border-radius: 9999px;
     background-color: #CEAFFF;
     color: white;
     font-weight: bold;

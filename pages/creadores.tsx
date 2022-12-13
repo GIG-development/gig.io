@@ -23,17 +23,17 @@ import PapacheLentes from '../public/img/animaciones/papache_lentes.json'
 const tfButton = <><button data-tf-popup="eyQRCt11" data-tf-hide-headers data-tf-iframe-props="title=Registration Form" data-tf-medium="snippet" className="btn">Inicia el viaje aquí</button><script src="//embed.typeform.com/next/embed.js"></script></>
     
 const Creadores: NextPage = () => (
-  <div id="creadores">
-    <AnimatedHero 
-      bg={'/img/home/main_hero_bg.jpg'}
-      ctaLine_1={'GIG'}
-      ctaLine_2={'Labs'}
-      description={'Revela tu creatividad y únete a la primera comunidad de talento latino basado en NFTs. Sé parte de esta era creativa y genera impacto mientras creas un mejor futuro.'}
-      isSpecialButton={true}
-      specialButton={tfButton}
-      animation={NFTLaliAnimation}
-    />
-    <LargeLayout>
+    <div id="creadores">
+      <AnimatedHero 
+        bg={'/img/home/main_hero_bg.jpg'}
+        ctaLine_1={'GIG'}
+        ctaLine_2={'Labs'}
+        description={'Revela tu creatividad y únete a la primera comunidad de talento latino basado en NFTs. Sé parte de esta era creativa y genera impacto mientras creas un mejor futuro.'}
+        isSpecialButton={true}
+        specialButton={tfButton}
+        animation={NFTLaliAnimation}
+      />
+      <LargeLayout>
         <Head
             title="Creadores"
             description="Gana más por tu talento y pertenece a una gran comunidad de líderes, coleccionistas, inversionistas y creadores de la web3."
@@ -82,10 +82,49 @@ const Creadores: NextPage = () => (
             </Stack>
           </SimpleGrid>
 
-          <Heading as={'h2'} variant={'subtitle'} mt={20}>Ser parte de la comunidad te da Beneficios</Heading>
-          <Grid templateColumns={{base: '1fr', md: 'repeat(4, 1fr)'}} gap={4} mb={20}>
-            <Box textAlign={'center'}>
-              <Flex textAlign={'center'} justifyContent={'center'}>
+        </Stack>
+          
+      </LargeLayout>
+
+      <Stack spacing={12} mb={10} backgroundColor={'gray.100'} w={'full'} id='home__section-video'>
+        <LargeLayout>
+
+            <Heading as={'h2'} variant={'subtitle'} mt={20}>Ser parte de la comunidad te da Beneficios</Heading>
+            <Grid templateColumns={{base: '1fr', md: 'repeat(4, 1fr)'}} gap={4} mb={20}>
+              <Box textAlign={'center'}>
+                <Flex textAlign={'center'} justifyContent={'center'}>
+                    <Image
+                        rounded={'md'}
+                        alt={'Creadores'}
+                        src={'/img/familia/uri.png'}
+                        objectFit={'cover'}
+                        maxW={"180px"}
+                    />
+                </Flex>
+                <Heading as={'h2'} variant="heading2">
+                Experiencias inmersivas
+                </Heading>
+                <Text fontSize={{base: 'xs', md: 'sm'}}>
+                </Text>
+              </Box>
+              <Box textAlign={'center'}>
+                <Flex textAlign={'center'} justifyContent={'center'}>
+                    <Image
+                        rounded={'md'}
+                        alt={'Creadores'}
+                        src={'/img/familia/uri.png'}
+                        objectFit={'cover'}
+                        maxW={"180px"}
+                    />
+                </Flex>
+                <Heading as={'h2'} variant="heading2">
+                Accesos preferenciales 
+                </Heading>
+                <Text fontSize={{base: 'xs', md: 'sm'}}>
+                </Text>
+              </Box>
+              <Box textAlign={'center'}>
+                <Flex textAlign={'center'} justifyContent={'center'}>
                   <Image
                       rounded={'md'}
                       alt={'Creadores'}
@@ -93,15 +132,15 @@ const Creadores: NextPage = () => (
                       objectFit={'cover'}
                       maxW={"180px"}
                   />
-              </Flex>
-              <Heading as={'h2'} variant="heading2">
-              Experiencias inmersivas
-              </Heading>
-              <Text fontSize={{base: 'xs', md: 'sm'}}>
-              </Text>
-            </Box>
-            <Box textAlign={'center'}>
-              <Flex textAlign={'center'} justifyContent={'center'}>
+                </Flex>
+                <Heading as={'h2'} variant="heading2">
+                Descuentos a exposiciones
+                </Heading>
+                <Text fontSize={{base: 'xs', md: 'sm'}}>
+                </Text>
+              </Box>
+              <Box textAlign={'center'}>
+                <Flex textAlign={'center'} justifyContent={'center'}>
                   <Image
                       rounded={'md'}
                       alt={'Creadores'}
@@ -109,46 +148,19 @@ const Creadores: NextPage = () => (
                       objectFit={'cover'}
                       maxW={"180px"}
                   />
-              </Flex>
-              <Heading as={'h2'} variant="heading2">
-              Accesos preferenciales 
-              </Heading>
-              <Text fontSize={{base: 'xs', md: 'sm'}}>
-              </Text>
-            </Box>
-            <Box textAlign={'center'}>
-              <Flex textAlign={'center'} justifyContent={'center'}>
-                <Image
-                    rounded={'md'}
-                    alt={'Creadores'}
-                    src={'/img/familia/uri.png'}
-                    objectFit={'cover'}
-                    maxW={"180px"}
-                />
-              </Flex>
-              <Heading as={'h2'} variant="heading2">
-              Descuentos a exposiciones
-              </Heading>
-              <Text fontSize={{base: 'xs', md: 'sm'}}>
-              </Text>
-            </Box>
-            <Box textAlign={'center'}>
-              <Flex textAlign={'center'} justifyContent={'center'}>
-                <Image
-                    rounded={'md'}
-                    alt={'Creadores'}
-                    src={'/img/familia/uri.png'}
-                    objectFit={'cover'}
-                    maxW={"180px"}
-                />
-              </Flex>
-              <Heading as={'h2'} variant="heading2">
-              Promo en medios masivos y más
-              </Heading>
-              <Text fontSize={{base: 'xs', md: 'sm'}}>
-              </Text>
-            </Box>
-          </Grid>
+                </Flex>
+                <Heading as={'h2'} variant="heading2">
+                Promo en medios masivos y más
+                </Heading>
+                <Text fontSize={{base: 'xs', md: 'sm'}}>
+                </Text>
+              </Box>
+            </Grid>
+        </LargeLayout>
+      </Stack>
+
+      <LargeLayout>
+        <Stack spacing={6} my={20}>
 
           <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
               <Stack spacing={4}>
@@ -210,9 +222,10 @@ const Creadores: NextPage = () => (
               answer={'Prácticamente todos los formatos son bienvenidos: Arte digital, música, esculturas, videos, libros, videos. Coleccionables digitales como objetos, tarjetas, skins, avatares. Videojuegos y lo relativo a ellos. Certificados y títulos. Objetos físicos. Tickets o entradas a eventos. (Nos reservamos el derecho de admitir proyectos que pudieran ir en perjuicio de alguna persona o institución.)'}
             />
           </Accordion>
+
         </Stack>
-    </LargeLayout>
-  </div>
+      </LargeLayout>
+    </div>
 )
 
 export default Creadores

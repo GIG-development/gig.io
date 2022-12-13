@@ -68,7 +68,7 @@ const Creadores: NextPage = () => (
                   loop={true}
                   animationData={CreadoriComoFunciona}
                   play
-                  style={{ width: 'auto', height: '100%' }}
+                  style={{ width: '380px', height: '100%', marginTop: '-70px' }}
               />
             </Flex>
             <Stack spacing={4}>
@@ -82,9 +82,8 @@ const Creadores: NextPage = () => (
             </Stack>
           </SimpleGrid>
 
-          Ser parte de la comunidad te da Beneficios:
-
-          <Grid templateColumns={{base: '1fr', md: 'repeat(4, 1fr)'}} gap={4} mt={20}>
+          <Heading as={'h2'} variant={'subtitle'} mt={20}>Ser parte de la comunidad te da Beneficios</Heading>
+          <Grid templateColumns={{base: '1fr', md: 'repeat(4, 1fr)'}} gap={4} mb={20}>
             <Box textAlign={'center'}>
               <Flex textAlign={'center'} justifyContent={'center'}>
                   <Image
@@ -163,7 +162,7 @@ const Creadores: NextPage = () => (
                     loop={true}
                     animationData={JeiterPromocion}
                     play
-                    style={{ width: 'auto', height: '100%' }}
+                    style={{ width: '280px', height: '100%', marginTop: '-40px' }}
                 />
               </Flex>
           </SimpleGrid>
@@ -174,7 +173,7 @@ const Creadores: NextPage = () => (
                   loop={true}
                   animationData={PapacheLentes}
                   play
-                  style={{ width: 'auto', height: '100%' }}
+                  style={{ width: '280px', height: '100%', marginTop: '-40px' }}
               />
             </Flex>
             <Stack spacing={4}>

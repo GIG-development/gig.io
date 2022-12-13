@@ -80,7 +80,7 @@ const Footer: FC<PropsWithChildren<Props>> = ({
                       alt={'GIG Logo'}
                       w={'150px'}
                       h={'80px'}
-                      src={'./logo_beta_bn.png'}
+                      src={'/logo_beta_bn.png'}
                   />
                 </Link>
               </Box>

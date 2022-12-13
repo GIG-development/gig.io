@@ -16,6 +16,17 @@
     "listTitle3": "Follow Us",
     "copyright": "© 2022 GIG. All Rights Reserved."
   },
+  "404":{
+    "text": "We're sorry, we couldn't find what you were looking for.",
+    "button": "Back to home"
+  },
+  "500":{
+    "text1": "We're sorry, we've had an unexpected error.",
+    "text2": "If the error persists, please report it to",
+    "text3": "or in our",
+    "text4": "contact page.",
+    "button": "Back to home"
+  },
   "home": {
     "mainHero": {
       "ctaLine1": "Empower your",

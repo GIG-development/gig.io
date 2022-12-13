@@ -29,6 +29,17 @@
     "listTitle3": "Síguenos",
     "copyright": "© 2022 GIG. Todos los derechos reservados"
   },
+  "404":{
+    "text": "Lo sentimos, no encontramos lo que estás buscando.",
+    "button": "Volver al inicio"
+  },
+  "500":{
+    "text1": "Lo sentimos, hemos tenido un error.",
+    "text2": "Si el error persiste, por favor repórtalo a",
+    "text3": "o en nuestra",
+    "text4": "página de contacto.",
+    "button": "Volver al inicio"
+  },
   "home": {
     "mainHero": {
       "ctaLine1": "Empodera tu",

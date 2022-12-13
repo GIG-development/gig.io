@@ -98,9 +98,7 @@ function MyApp({ Component, pageProps }: AppProps): JSX.Element {
               locale: router.locale,
               choices: [
                 { label: 'EN', value: 'en' },
-                { label: 'ES', value: 'es-mx' },
-                { label: '日本語', value: 'ja' },
-                { label: '中文', value: 'zh-cn' },
+                { label: 'ES', value: 'es-mx' }
               ]
             }}
             router={{

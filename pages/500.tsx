@@ -7,28 +7,33 @@ import {
 } from '@chakra-ui/react'
 import Head from '../components/Head'
 import LargeLayout from '../layouts/large'
+import environment from '../environment'
 import { NextPage } from 'next'
+import useTranslation from 'next-translate/useTranslation'
 
-const Custom500: NextPage = () => (
-<div id="server-error">
-    <LargeLayout>
-        <Head
-            title="Error 500"
-            description=""
-        />
-        <Stack spacing={6} mb={20} align={'center'}>
-            <Heading variant={'subtitle'} textAlign={'center'}>
-                Lo sentimos, hemos tenido un error
-            </Heading>
-            <Text>
-                Si el error persiste, por favor repórtalo a <Link href='mailto:soporte@gig.io'>soporte@gig.io</Link> o en nuestra <Link href='/contacto'>página de contacto</Link>
-            </Text>
-            <Link href='/'>
-                <Button>Volver al inicio</Button>
-            </Link>
-        </Stack>
-    </LargeLayout>
-</div>
-)
+const Custom500: NextPage = () => {
+    const { t } = useTranslation('components')
+    return (
+        <div id="server-error">
+            <LargeLayout>
+                <Head
+                    title="Error 500"
+                    description=""
+                />
+                <Stack spacing={6} mb={20} align={'center'}>
+                    <Heading variant={'subtitle'} textAlign={'center'}>
+                        {t('500.text1')}
+                    </Heading>
+                    <Text>
+                        {t('500.text2')}{' '}<Link href='mailto:soporte@gig.io'>{environment.REPORT_EMAIL}</Link>{' '}{t('500.text3')}{' '}<Link href='/contacto'>{' '}{t('500.text4')}</Link>
+                    </Text>
+                    <Link href='/'>
+                        <Button>{t('500.button')}</Button>
+                    </Link>
+                </Stack>
+            </LargeLayout>
+        </div>
+    )
+}
 
 export default Custom500

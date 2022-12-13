@@ -111,7 +111,7 @@ const AnimatedHero: FC<PropsWithChildren<Props>> = ({
                             loop={true}
                             animationData={animation}
                             play
-                            style={{ width: 'auto', height: '100%' }}
+                            style={{ width: 'auto', height: '100%', maxWidth: '100%' }}
                         />
                     }
                 </Flex>

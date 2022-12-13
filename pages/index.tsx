@@ -10,6 +10,7 @@ import Hero from '../components/Hero/Hero'
 import SecondaryHero from '../components/Hero/SecondaryHero'
 import Banner from '../components/Banner/Banner'
 import { NextPage } from 'next'
+import useTranslation from 'next-translate/useTranslation'
 import environment from '../environment'
 import LargeLayout from '../layouts/large'
 
@@ -27,14 +28,15 @@ const HomePage: NextPage<Home.Props> = ({
   limit,
   currentAccount,
 }) => {
+  const { t } = useTranslation('components')
   return (
   <div id="home">
     <Hero 
       bg={'/img/home/main_hero_bg.jpg'}
-      ctaLine_1={'Empodera tu'}
-      ctaLine_2={'CREATIVIDAD'}
-      description={'Explora, compra, crea, subasta y vende NFTs de forma fácil, rápida y segura.'}
-      button_1={'Explorar'}
+      ctaLine_1={t('home.mainHero.ctaLine1')}
+      ctaLine_2={t('home.mainHero.ctaLine2')}
+      description={t('home.mainHero.description')}
+      button_1={t('home.mainHero.button')}
       button_1_link={'/explore'}
       image={'/img/home/main_hero_img.png'}
     />

@@ -6,20 +6,16 @@ export const keys = [Trait.Category]
 
 export const values = {
   [Trait.Category]: [
-    'Art',
-    'Collectibles',
-    'Fashion',
-    'Game',
-    'GIFs',
-    'Memes',
-    'Metaverse',
-    'Music',
-    'Photos',
-    'Real-World Assets',
-    'Skins',
-    'Social',
-    'Sports',
-    'Tickets',
-    'Videos',
+    'Arquitecture',
+    'Design',
+    'Digital Art',
+    'Animation',
+    'Illustration',
+    'Generative',
+    'Photography',
+    'Multimedia',
+    'Access',
+    'Gaming',
+    'Fashion'
   ].sort(),
 }

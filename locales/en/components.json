@@ -1,32 +1,49 @@
 {
-    "home": {
-      "mainHero": {
-        "ctaLine1": "Empower your",
-        "ctaLine2": "CREATIVITY",
-        "description": "Explore, buy, create, auction and sell NFTs in a fast, easy and safe way.",
-        "button": "Explore"
-      },
-      "featuredArtists": {
-        "title":"Featured Artists",
-        "artistProfileButton": "See Profile"
-      },
-      "gigLabs": {
-        "title": "GIG Labs",
-        "launchDate": "Launch date:",
-        "dropButton": "See Collection"
-      },
-      "secondaryHero": {
-        "title": "GIG Marketplace",
-        "ctaLine1": "Empowering creative",
-        "ctaLine2": "Souls",
-        "description": "You don't need to be an expert, we're here with you from conceptualizing to the promotion of your NFTs. Just bring your best vibes and join our awesome crypto creatives community.",
-        "button": "How does it work?"
-      },
-      "banner": {
-        "title": "Want to know more?",
-        "text": "We have several tutorials that can help you understand everything more clearly",
-        "button1": "Visita Our Tutorials",
-        "button2": "Frequently Asked Questions"
-      }
+  "footer": {
+    "text": "We're a decentralized platform that empowers creative souls. Collect, create, buy or sell NFTs without the hassle. You don't need to be an expert, just bring your talent and we'll help you out.",
+    "listTitle1": "Navigate",
+    "myProfile":"My Profile",
+    "aboutUs": "About Us",
+    "creators": "Creators",
+    "family": "GIG Family",
+    "glosary": "GIGcionary",
+    "listTitle2": "Support",
+    "tutorials":"Tutorials",
+    "faqs":"FAQs",
+    "terms": "Terms & Conditions",
+    "privacy": "Privacy Policy",
+    "contact": "Contact Us",
+    "listTitle3": "Follow Us",
+    "copyright": "© 2022 GIG. All Rights Reserved."
+  },
+  "home": {
+    "mainHero": {
+      "ctaLine1": "Empower your",
+      "ctaLine2": "CREATIVITY",
+      "description": "Explore, buy, create, auction and sell NFTs in a fast, easy and safe way.",
+      "button": "Explore"
+    },
+    "featuredArtists": {
+      "title":"Featured Artists",
+      "artistProfileButton": "See Profile"
+    },
+    "gigLabs": {
+      "title": "GIG Labs",
+      "launchDate": "Launch date:",
+      "dropButton": "See Collection"
+    },
+    "secondaryHero": {
+      "title": "GIG Marketplace",
+      "ctaLine1": "Empowering CREATIVE",
+      "ctaLine2": "SOULD",
+      "description": "You don't need to be an expert, we're here with you from conceptualizing to the promotion of your NFTs. Just bring your best vibes and join our awesome crypto creatives community.",
+      "button": "How does it work?"
+    },
+    "banner": {
+      "title": "Want to know more?",
+      "text": "We have several tutorials that can help you understand everything more clearly",
+      "button1": "Visita Our Tutorials",
+      "button2": "Frequently Asked Questions"
     }
+  }
 }

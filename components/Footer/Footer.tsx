@@ -14,6 +14,7 @@ import { FaInstagram } from '@react-icons/all-files/fa/FaInstagram';
 import { FaTwitter } from '@react-icons/all-files/fa/FaTwitter';
 import { FaYoutube } from '@react-icons/all-files/fa/FaYoutube';
 import { FC, PropsWithChildren, ReactNode } from 'react'
+import useTranslation from 'next-translate/useTranslation'
   
 const SocialButton = ({
     children,
@@ -62,6 +63,7 @@ type Props = {
 const Footer: FC<PropsWithChildren<Props>> = ({
   userProfileLink
 }) => {
+    const { t } = useTranslation('components')
     return (
       <Box
         bg={useColorModeValue('gray.100', 'gray.900')}
@@ -83,29 +85,27 @@ const Footer: FC<PropsWithChildren<Props>> = ({
                 </Link>
               </Box>
               <Text fontSize={'xs'}>
-                Somos una plataforma descentralizada que empodera almas creativas.
-                Colecciona, crea y comercializa NFTs sin tanto rollo.
-                No necesitas ser experto, solo necesitas tu talente. Nosotros te ayudamos.
+                {t('footer.text')}
               </Text>
             </Stack>
             <Stack align={'flex-start'}>
-              <ListHeader>Navega</ListHeader>
-              <Link href={userProfileLink}>Mi Perfil</Link>
-              <Link href={'/nosotros'}>Sobre Nosotros</Link>
-              <Link href={'/creadores'}>Creadores</Link>
-              <Link href={'/familia-gig'}>Familia GIG</Link>
-              <Link href={'/gigcionario'}>GIGcionario</Link>
+              <ListHeader>{t('footer.listTitle1')}</ListHeader>
+              <Link href={userProfileLink}>{t('footer.myProfile')}</Link>
+              <Link href={'/nosotros'}>{t('footer.aboutUs')}</Link>
+              <Link href={'/creadores'}>{t('footer.creators')}</Link>
+              <Link href={'/familia-gig'}>{t('footer.family')}</Link>
+              <Link href={'/gigcionario'}>{t('footer.glosary')}</Link>
             </Stack>
             <Stack align={'flex-start'}>
-              <ListHeader>Soporte</ListHeader>
-              <Link href={'/tutoriales'}>Tutoriales</Link>
-              <Link href={'/faq'}>Preguntas Frecuentes</Link>
-              <Link href={'/GIG_terminos-y-condiciones.pdf'}>Términos y Condiciones</Link>
-              <Link href={'/GIG_terminos-y-condiciones.pdf'}>Política de Privacidad</Link>
-              <Link href={'/contacto'}>Contáctanos</Link>
+              <ListHeader>{t('footer.listTitle2')}</ListHeader>
+              <Link href={'/tutoriales'}>{t('footer.tutorials')}</Link>
+              <Link href={'/faq'}>{t('footer.faqs')}</Link>
+              <Link href={'/GIG_terminos-y-condiciones.pdf'}>{t('footer.terms')}</Link>
+              <Link href={'/GIG_terminos-y-condiciones.pdf'}>{t('footer.privacy')}</Link>
+              <Link href={'/contacto'}>{t('footer.contact')}</Link>
             </Stack>
             <Stack align={'flex-start'}>
-              <ListHeader>Síguenos</ListHeader>
+              <ListHeader>{t('footer.listTitle3')}</ListHeader>
             
               <Stack direction={'column'} spacing={6} align={'flex-start'}>
                 <Box>
@@ -131,7 +131,7 @@ const Footer: FC<PropsWithChildren<Props>> = ({
           </SimpleGrid>
           
           <Text pt={20} fontSize={'sm'} textAlign={'center'}>
-            © 2022 GIG. Todos los derechos reservados
+            {t('footer.copyright')}
           </Text>
         </Container>
       </Box>

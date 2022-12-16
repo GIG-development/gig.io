@@ -59,7 +59,7 @@ const Drop: FC<PropsWithChildren<Props>> = ({
                 mr={2}
                 mb={2}>
                 <Text fontSize={'sm'} fontWeight="700">
-                    {t('home.gigLabs.launchDate')}: {date}
+                    {t('home.gigDrops.launchDate')}: {date}
                 </Text>
             </Box>
             <Stack direction={{ base: 'column', md: 'row' }} spacing={4}>
@@ -71,7 +71,7 @@ const Drop: FC<PropsWithChildren<Props>> = ({
                     _hover={{
                         bg: 'brand.600',
                     }}>
-                        {t('home.gigLabs.dropButton')}
+                        {t('home.gigDrops.dropButton')}
                     </Button>
                 </Link>
             </Stack>

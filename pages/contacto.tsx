@@ -26,7 +26,7 @@ const Contacto: NextPage = () => {
               </Heading>
               <Text textAlign={'center'}>
                 {t('contact.line1')}<br/>
-                {t('contact.line2', {social: '<b>@holagig</b>', interpolation: { escapeValue: false }})}
+                {t('contact.line2')}{''}<b>@holagig</b>
               </Text>
               <button data-tf-slider="VNmlDfKG" data-tf-hide-headers data-tf-position="right" data-tf-button-color="#BE94FF" data-tf-iframe-props="title=Contact Form" data-tf-chat className='btn'>
                 {t('contact.button')}

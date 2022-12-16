@@ -88,6 +88,8 @@ const Creadores: NextPage = () => {
                 <Heading as={'h2'} variant={'subtitle'}>Simplificamos lo complejo</Heading>
                 <Text color={'gray.500'} fontSize={{base: 'sm', md: 'md'}}>
                 Para que te dediques a lo tuyo. Subir NFTs será más fácil que nunca.
+                <br/><br/>
+                Usamos las bondades de la tecnología a favor de la comunidad mediante la tokenización de los activos, es decir, proyectos, obras físicas, digitales o hasta una idea ganadora la convertimos en token con el que es posible obtener beneficios como participar por premios y exclusivas hasta ingresos y regalías de por vida por la subasta y venta de tus NFTs.
                 </Text>
             </Stack>
             <Flex textAlign={'center'} justifyContent={'center'}>
@@ -112,8 +114,7 @@ const Creadores: NextPage = () => {
             <Stack spacing={4}>
                 <Heading as={'h2'} variant={'subtitle'}>¿Cómo funciona?</Heading>
                 <Text color={'gray.500'} fontSize={{base: 'sm', md: 'md'}}>
-                Somos una plataforma digital que reúne a las grandes mentes de la industria creativa en la Web 3.0. <br/>
-                Usamos las bondades de la tecnología a favor de la comunidad mediante la tokenización de los activos, es decir, proyectos, obras físicas, digitales o hasta una idea ganadora la convertimos en token con el que es posible obtener beneficios como participar por premios y exclusivas hasta ingresos y regalías de por vida por la subasta y venta de tus NFTs. 
+                Somos una plataforma digital que reúne a las grandes mentes de la industria creativa en la Web 3.0.
                 <br/><br/>
                 En GIG todos juegan. La única regla es verificar tu perfil como creativo, ya que nos caracterizamos por cuidar la calidad del material que habita en la plataforma garantizando la seguridad en las transacciones dentro de la plataforma, así como el desarrollo de una sociedad sostenible que busca la vida creativa en cualquier parte del mundo. Para verificarte, solo requieres mandarnos tu material y obras maestras para corroborar que son de tu autoría pues estarás entrando a una comunidad segura y sostenible.
                 Si no tienes experiencia en este campo igual eres bienvenido, te apoyamos en cada fase y con lo que necesites para empezar tu camino digital.
@@ -122,7 +123,7 @@ const Creadores: NextPage = () => {
                 </Text>
             </Stack>
           </SimpleGrid>
-          
+
           <Stack spacing={4}>
               <Heading as={'h2'} variant={'subtitle'}>Una interfaz ganadora</Heading>
               <Text color={'gray.500'} fontSize={{base: 'sm', md: 'md'}}>

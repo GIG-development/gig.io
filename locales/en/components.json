@@ -40,20 +40,20 @@
     },
     "gigLabs": {
       "title": "GIG Labs",
-      "launchDate": "Launch date:",
+      "launchDate": "Launch date",
       "dropButton": "See Collection"
     },
     "secondaryHero": {
       "title": "GIG Marketplace",
       "ctaLine1": "Empowering CREATIVE",
-      "ctaLine2": "SOULD",
+      "ctaLine2": "SOULS",
       "description": "You don't need to be an expert, we're here with you from conceptualizing to the promotion of your NFTs. Just bring your best vibes and join our awesome crypto creatives community.",
       "button": "How does it work?"
     },
     "banner": {
       "title": "Want to know more?",
       "text": "We have several tutorials that can help you understand everything more clearly",
-      "button1": "Visita Our Tutorials",
+      "button1": "Visit Our Tutorials",
       "button2": "Frequently Asked Questions"
     }
   }

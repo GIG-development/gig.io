@@ -115,6 +115,8 @@ const Hero: FC<PropsWithChildren<Props>> = ({
                             src={image}
                             w={{base: '100%', md: 'fit-content'}}
                             maxW={'646px'}
+                            maxH={'646px'}
+                            style={{aspectRatio: '1'}}
                         />       
                     }
                 </Flex>

@@ -108,15 +108,15 @@ const Hero: FC<PropsWithChildren<Props>> = ({
                         </Stack>
                     </Stack>
                 </Flex>
-                <Flex flex={1} minW={'fit-content'}>
+                <Flex flex={1} minW={'fit-content'} alignItems={'center'}>
                     {image!=='' &&
                         <Image
                             alt={'Main Hero Animation'}
                             src={image}
                             w={{base: '100%', md: 'fit-content'}}
-                            maxW={'646px'}
-                            maxH={'646px'}
-                            style={{aspectRatio: '1'}}
+                            maxW={'600px'}
+                            maxH={'600px'}
+                            style={{aspectRatio: 'auto !important'}}
                         />       
                     }
                 </Flex>

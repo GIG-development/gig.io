@@ -16,16 +16,19 @@
     "listTitle3": "Follow Us",
     "copyright": "© 2022 GIG. All Rights Reserved."
   },
-  "404":{
-    "text": "We're sorry, we couldn't find what you were looking for.",
-    "button": "Back to home"
-  },
-  "500":{
-    "text1": "We're sorry, we've had an unexpected error.",
-    "text2": "If the error persists, please report it to",
-    "text3": "or in our",
-    "text4": "contact page.",
-    "button": "Back to home"
+  "error":{
+    "general": "Something went wrong.",
+    "404":{
+      "message": "We're sorry, we couldn't find what you were looking for.",
+      "button": "Back to home"
+    },
+    "500":{
+      "message": "We're sorry, we've had an unexpected error.",
+      "text1": "If the error persists, please report it to",
+      "text2": "or in our",
+      "text3": "contact page.",
+      "button": "Back to home"
+    }
   },
   "home": {
     "mainHero": {
@@ -38,8 +41,8 @@
       "title":"Featured Artists",
       "artistProfileButton": "See Profile"
     },
-    "gigLabs": {
-      "title": "GIG Labs",
+    "gigDrops": {
+      "title": "GIG Drops",
       "launchDate": "Launch date",
       "dropButton": "See Collection"
     },
@@ -56,5 +59,12 @@
       "button1": "Visit Our Tutorials",
       "button2": "Frequently Asked Questions"
     }
+  },
+  "contact":{
+    "title": "Contact",
+    "subtitle": "Do you want have a close encounter of the third kind with the GIG team?",
+    "line1": "Tell us whatever you want,  we're all ears (or eyes?).",
+    "line2": "Find us in social media as {{social}}",
+    "button": "Send a Message"
   }
 }

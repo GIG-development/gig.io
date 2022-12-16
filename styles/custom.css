@@ -84,7 +84,7 @@
 
 /*EXPLORE*/
 #explore aside button {
-    min-width: 200px;
+    width: 100%;
 }
 #explore main > div:nth-child(2) > div > div:nth-child(2){
     align-items: flex-start !important;

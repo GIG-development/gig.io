@@ -19,6 +19,9 @@ const Tutoriales: NextPage = () => (
             <Heading as={'h1'} variant="title">
               Tutoriales
             </Heading>
+            <Text size={'sm'}>
+            Que las trabas no sean una excusa. Sigue estos pasos para que tu camino por el ecosistema cripto sea lo más amigable. Te guíamos en cada fase, verás que la creación de tus NFTs no es cosa de otro universo. 
+            </Text>
             <Heading as={'h2'} variant="subtitle">
               ¿Cómo crear mi perfil?
             </Heading>
@@ -26,12 +29,12 @@ const Tutoriales: NextPage = () => (
               <ol>
                 <li>En el menú, dale clic al botón Iniciar sesión. Para ello requieres tener una wallet (cartera digital) aquí se van a guardar todas tus criptomonedas y tokens.</li>
                 <li>Si no tienes una, elige la de tu preferencia. Sigue los pasos, tendrás que descargar la cartera, ya sea que estés en tu cel o compu, elige en dónde descargar. Añádelo como extensión.</li>
-                <li>Al crear tu cartera, te va a dar una frase semilla y NUNCA la vayas a compartir. Se recomienda que la copies en físico y no en digital. También deberás crear una contraseña para facil acceso a tu wallet.</li>
+                <li>Al crear tu cartera, te va a dar una frase semilla y NUNCA la vayas a compartir. Se recomienda que la copies en físico y no en digital. También deberás crear una contraseña para fácil acceso a tu wallet.</li>
                 <li>De vuelta a lo importante, una vez que diste clic en Inicio, el portal te arrojó las opciones de Wallet a elegir. Deberás conectar esta wallet, así se te generará un perfil y comienza la aventura.</li>
                 <li>Para completar tu perfil, sube una foto de perfil y una imagen para el fondo.</li>
                 <li>Agrega el nombre de Display, o sea el que se mostrará a los usuarios. </li>
                 <li>Tu descripción, cuéntanos quién eres, qué tipo de creatividad es tu favorita, así como el tipo de proyectos que traes.</li>
-                <li>Llena tu correo electrónico para poder contactarte y para recibir notificaciones sobre tus transacciones.</li>
+                <li>Deja tu correo electrónico para poder contactarte y para recibir notificaciones sobre tus transacciones.</li>
                 <li>Ahora llena los campos de redes sociales con tu información.</li>
                 <li>Finalmente compártenos el link a tu web o portafolio. (No te asustes si no tienes un sitio web, puedes enviarnos el link a tus obras maestras)</li>
               </ol>

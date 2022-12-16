@@ -22,13 +22,16 @@ const Custom500: NextPage = () => {
                 />
                 <Stack spacing={6} mb={20} align={'center'}>
                     <Heading variant={'subtitle'} textAlign={'center'}>
-                        {t('500.text1')}
+                        {t('error.500.message')}
                     </Heading>
                     <Text>
-                        {t('500.text2')}{' '}<Link href='mailto:soporte@gig.io'>{environment.REPORT_EMAIL}</Link>{' '}{t('500.text3')}{' '}<Link href='/contacto'>{' '}{t('500.text4')}</Link>
+                        {t('error.500.text1')}{' '}
+                        <Link href='mailto:soporte@gig.io'>{environment.REPORT_EMAIL}</Link>{' '}
+                        {t('error.500.text2')}{' '}
+                        <Link href='/contacto'>{' '}{t('error.500.text3')}</Link>
                     </Text>
                     <Link href='/'>
-                        <Button>{t('500.button')}</Button>
+                        <Button>{t('error.500.button')}</Button>
                     </Link>
                 </Stack>
             </LargeLayout>

@@ -16,7 +16,7 @@ const Nosotros: NextPage = () => (
     <div id="nosotros">
         <LargeLayout>
         <Head
-            title="Sobre Nosotros"
+            title="Nosotros"
             description="Te ayudamos a materializar tu imaginación y monetizar tus proyectos. Estamos contigo desde la ideación, producción, promoción y venta de tus NFTs."
         />
             <Stack spacing={6} mb={20}>
@@ -35,7 +35,6 @@ const Nosotros: NextPage = () => (
                             />
                         </Flex>
                         <Stack spacing={4}>
-                            <Heading as={'h2'} variant={'subtitle'}>Quiénes Somos</Heading>
                             <Text color={'gray.500'} fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
                             Más que una plataforma, somos un ecosistema enfocado en la creación de NFTs en Latinoamérica conformado por mentes creativas, coleccionistas, inversionistas y entusiastas con un objetivo común: <b>Hacer sinergia para empoderarse creando una comunidad Web3 sostenible y autónoma.</b>
                             <br/><br/>
@@ -49,10 +48,10 @@ const Nosotros: NextPage = () => (
                         <Stack spacing={4}>
                             <Heading as={'h2'} variant={'subtitle'}>Manifiesto GIG</Heading>
                             <Text color={'gray.500'} fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
-                                    Conocemos el arduo camino que recorren los creativos para posicionarse en el mercado. Muchas veces darse a conocer y crecer en la industria es como toparse con pared. 
+                                Conocemos el arduo camino que recorren los creativos para posicionarse en el mercado. Muchas veces darse a conocer y crecer en la industria es como toparse con pared. 
                             </Text>
                             <Text color={'gray.500'} fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
-                                    Hay que tener los contactos adecuados, las comisiones suelen ser demasiado altas, a veces el trabajo no se valora de manera justa y encontrar buenos clientes se convierte en una tarea titánica. A esto súmale los típicos comentarios como el clásico “¿Cómo vas a vivir de eso?”
+                                Hay que tener los contactos adecuados, las comisiones suelen ser demasiado altas, a veces el trabajo no se valora de manera justa y encontrar buenos clientes se convierte en una tarea titánica. A esto súmale comentarios desmoralizadores como el clásico “¿Cómo vas a vivir de eso?”
                             </Text>
                             <Text color={'gray.500'} fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
                                 Por eso, queremos que este mensaje llegue a todos los creativos (quienes expresamos nuestra esencia con ocurrencia):
@@ -84,7 +83,7 @@ const Nosotros: NextPage = () => (
                             />
                         </Flex>
                         <Stack spacing={4}>
-                        <Heading as={'h2'} variant={'subtitle'}>Cómo Funciona</Heading>
+                        <Heading as={'h2'} variant={'subtitle'}>¿Cómo Funciona?</Heading>
                         <Text color={'gray.500'} fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
                         Te apoyamos durante todo el recorrido de generación de tus proyectos criptográficos, desde la conceptualización hasta su lanzamiento y promoción. Puedes confiar en la calidad de los activos en nuestra plataforma, ya que verificamos a cada creador para asegurarnos de que tengan una trayectoría sólida y piezas auténticas.
                         </Text>

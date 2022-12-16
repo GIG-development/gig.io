@@ -16,7 +16,7 @@
     "text": "Somos una plataforma descentralizada que empodera almas creativas. Colecciona, crea y comercializa NFTs sin tanto rollo. No necesitas ser experto, solo necesitas tu talente. Nosotros te ayudamos.",
     "listTitle1": "Navega",
     "myProfile":"Mi perfil",
-    "aboutUs": "Sobre Nosotros",
+    "aboutUs": "Nosotros",
     "creators": "Creadores",
     "family": "Familia GIG",
     "glosary": "GIGcionario",
@@ -29,16 +29,19 @@
     "listTitle3": "Síguenos",
     "copyright": "© 2022 GIG. Todos los derechos reservados"
   },
-  "404":{
-    "text": "Lo sentimos, no encontramos lo que estás buscando.",
-    "button": "Volver al inicio"
-  },
-  "500":{
-    "text1": "Lo sentimos, hemos tenido un error.",
-    "text2": "Si el error persiste, por favor repórtalo a",
-    "text3": "o en nuestra",
-    "text4": "página de contacto.",
-    "button": "Volver al inicio"
+  "error": {
+    "general": "Algo ha salido mal.",
+    "404":{
+      "message": "Lo sentimos, no encontramos lo que estás buscando.",
+      "button": "Volver al inicio"
+    },
+    "500":{
+      "message": "Lo sentimos, hemos tenido un error.",
+      "text1": "Si el error persiste, por favor repórtalo a",
+      "text2": "o en nuestra",
+      "text3": "página de contacto.",
+      "button": "Volver al inicio"
+    }
   },
   "home": {
     "mainHero": {
@@ -51,8 +54,8 @@
       "title":"Artistas Destacados",
       "artistProfileButton": "Ver Perfil"
     },
-    "gigLabs": {
-      "title": "GIG Labs",
+    "gigDrops": {
+      "title": "GIG Drops",
       "launchDate": "Lanzamiento",
       "dropButton": "Ver Colección"
     },
@@ -68,6 +71,21 @@
       "text": "Tenemos varios tutoriales que pueden ayudarte a tener todo mas claro",
       "button1": "Visita nuestros tutoriales",
       "button2": "Preguntas frecuentes"
+    }
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "¿Quieres establecer contacto cercano del tercer tipo con el equipo GIG?",
+    "line1": "Cuéntanos lo que quieras. Estamos aquí para escucharte (ó leerte).",
+    "line2": "Encuéntranos en redes sociales como {{social}}",
+    "button": "Escríbenos aquí"
+  },
+  "creadores": {
+    "hero": {
+      "ctaLine1": "GIG Labs",
+      "ctaLine2": "Te estamos buscando",
+      "description": "Tu momento de brillar ha llegado. Destapa tu talento y catapulta tu carrera en la comunidad número uno de talento creativo basado en NFTs.",
+      "button": "Inicia el viaje aquí"
     }
   }
 }

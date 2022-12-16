@@ -31,7 +31,7 @@ const FamiliaGIG: NextPage = () => (
               Familia GIG
             </Heading>
             <Text fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
-                Estás entrando por la puerta dimensional al ecosistema GIG en donde vas a encontrar seres extraordinarios, mentes creativas conviviendo en una comunidad enfocada en la creación de activos digitales que une a nuevos talentos, artistas, coleccionistas e inversores en Latinoamérica.
+                Estás entrando por la puerta dimensional al ecosistema GIG en donde vas a encontrar seres extraordinarios, mentes creativas conviviendo en una comunidad enfocada en la creación de activos digitales que une a nuevos talentos, artistas, coleccionistas e inversionistas en Latinoamérica.
             </Text>
             <Text fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
                 Te presentamos a cada uno de los miembros de nuestra familia para que los conozcas mejor.
@@ -56,7 +56,7 @@ const FamiliaGIG: NextPage = () => (
                         <Box>
                             <Heading as={'h4'} variant={'heading1'} mb={4}><b>NFTLali</b></Heading>
                             <Text fontSize='xs'>
-                            Vivía sola en GIGTOPIA desde el comienzo de los tiempos. Un ser omnipresente que elige mostrarse con forma humana. Habla todos los idiomas de todos los universos (lo hace al mismo tiempo) y suena algo como: BURUDS IJK DSBU, por eso creó a un acompañante muy especial, URI, que con forma de robot es en realidad una extensión de su consciencia, le ayuda a decodificar mensajes y le comunica el punto de vista de otros mundos en desarrollo.
+                            Vivía sola en el GIGverso desde el comienzo de los tiempos. Un ser omnipresente que elige mostrarse con forma humana. Habla todos los idiomas de todos los universos (lo hace al mismo tiempo) y suena algo como: BURUDS IJK DSBU, por eso creó a un acompañante muy especial, URI, que con forma de robot es en realidad una extensión de su consciencia, le ayuda a decodificar mensajes y le comunica el punto de vista de otros mundos en desarrollo.
                             </Text>
                         </Box>
                         <Stack direction={'row'} spacing={12} pt={4}>
@@ -220,7 +220,7 @@ const FamiliaGIG: NextPage = () => (
                         <Box>
                             <Heading as={'h4'} variant={'heading1'} mb={4}><b>Eskeri Popi</b></Heading>
                             <Text fontSize='xs'>
-                            Vive literalmente con el sudor en la frente y en otros lugares (varios). Tiene miedo de lo desconocido, tiene miedo de lo que conoce. Tiene miedo de que le roben lo suyo, tiene miedo de no triunfar, miedo a las lagartijas y a su sombra misma, sobre todo tiene miedo a los NFTs porque son muy nuevos. Cree que puede fallar si migra a la tecnología descentralizada. 
+                            Vive literalmente con el sudor en la frente y en otros lugares (varios). Tiene miedo de lo desconocido, de lo que conoce, miedo a las lagartijas y hasta de su sombra, sobre todo tiene miedo de los NFTs porque son muy nuevos. Tiene la idea de que puede fallar si migra a la tecnología descentralizada.
                             </Text>
                         </Box>
                         <Stack direction={'row'} spacing={12} pt={4}>

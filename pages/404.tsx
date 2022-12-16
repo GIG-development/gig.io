@@ -22,10 +22,10 @@ const Custom404: NextPage = () => {
             <Stack spacing={6} mb={20} align={'center'}>
                 <Image src={'/img/404/404.png'} w={'60%'} alt="404"/>
                 <Heading variant={'subtitle'} textAlign={'center'}>
-                    {t('404.text')}
+                    {t('error.404.message')}
                 </Heading>
                 <Link href='/'>
-                    <Button>{t('404.button')}</Button>
+                    <Button>{t('error.404.button')}</Button>
                 </Link>
             </Stack>
         </LargeLayout>

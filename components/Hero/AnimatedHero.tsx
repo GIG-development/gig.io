@@ -58,7 +58,7 @@ const AnimatedHero: FC<PropsWithChildren<Props>> = ({
                             >
                                 {ctaLine_1}
                             </Text>
-                            {' '}
+                            {' '}<br/>
                             {ctaLine_2!=='' && 
                             <>
                                 <Text

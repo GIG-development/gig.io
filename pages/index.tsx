@@ -40,9 +40,7 @@ const HomePage: NextPage<Home.Props> = ({
       button_1_link={'/explore'}
       image={'/img/home/main_hero_img.png'}
     />
-
     <LargeLayout>
-
       <Stack spacing={6} mt={20} mb={40}>
           <Heading as="h2" variant="subtitle" color="brand.black">
             {t('home.featuredArtists.title')}
@@ -99,12 +97,12 @@ const HomePage: NextPage<Home.Props> = ({
 
       <Stack spacing={12} mb={40}>
           <Heading as="h2" variant="subtitle" color="brand.black" mt={40} mb={10}>
-            {t('home.gigLabs.title')}
+            {t('home.gigDrops.title')}
           </Heading>
           <Drop
             title='GIG Series - Génesis'
             date='1 de Enero 2023'
-            description='GIG Génesis es una colección de personajes de GIGverso que trae una misión: Empoderar almas creativas empezando por LATAM a través de la conexión con líderes de la industria, eventos especiales, drops, experiencias inmersivas y más.'
+            description='GIG Génesis es la primera colección de la familia GIG que trae una misión: Empoderar almas creativas empezando por LATAM a través de la conexión con líderes de la industria creativa y Web3.'
             image='/img/drops/drop-gig-genesis.jpg'
             link='https://gig.io'
           />

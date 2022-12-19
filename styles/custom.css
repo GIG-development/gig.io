@@ -108,3 +108,6 @@
 .slick-next:before, .slick-prev:before {
     color: #000 !important;
 }
+.slick-slider .slick-slide {
+    padding-left: 20px;
+}

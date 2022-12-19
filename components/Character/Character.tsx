@@ -33,7 +33,7 @@ const Character: FC<PropsWithChildren<Props>> = ({
             grow={0}
             shrink={0}
             basis={'100%'}
-            p="10px"
+            p="0 40px"
         >
             <Grid p={{base: 0, md: 4}} gap={8}
                 templateColumns={{

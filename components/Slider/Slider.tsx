@@ -14,6 +14,7 @@ const Slider: FC<HTMLAttributes<any>> = ({ children }) => {
   const [viewportRef, embla] = useEmblaCarousel({
     align: 'start',
     speed: 5,
+    loop: true,
     slidesToScroll: 1,
     inViewThreshold: 1,
     containScroll: 'trimSnaps',

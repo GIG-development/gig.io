@@ -103,7 +103,7 @@
 
 /*SLIDER*/
 .slick-slider .slick-list{
-    padding: 0 !important;
+    padding: 0 20px !important;
 }
 .slick-next:before, .slick-prev:before {
     color: #000 !important;

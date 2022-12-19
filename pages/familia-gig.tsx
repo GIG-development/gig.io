@@ -52,7 +52,7 @@ const FamiliaGIG: NextPage = () => {
                         {t('family.line2')}
                     </Text>
                 </Stack>
-                <Box maxW={{base: '100%', md: '960px'}} margin={'0 auto'}>
+                <Box margin={'0 auto 40px'}>
                     <Slider {...SliderSettings}>
                         <Stack>
                             <Grid p={4} m={'0 40px 0 0'}

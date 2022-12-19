@@ -40,13 +40,12 @@ const Character: FC<PropsWithChildren<Props>> = ({
             }}
             p="10px"
         >
-            <Grid p={{base: 0, md: 4}} m={{base: 0, md: '0 40px 0 0'}}
+            <Grid p={{base: 0, md: 4}} gap={8}
                 templateColumns={{
                     base: 'repeat(1, 1fr)',
                     sm: 'repeat(2, 1fr)',
                     md: '1fr 3fr',
                 }}
-                gap={8}
             >
                 <Lottie
                     loop={true}

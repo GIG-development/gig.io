@@ -62,344 +62,56 @@ const FamiliaGIG: NextPage = () => {
                             powers={[t('family.characters.nftlali.power.power1'), t('family.characters.nftlali.power.power2'), t('family.characters.nftlali.power.power3')]}
                             weaknesses={[t('family.characters.nftlali.weakness.weakness1')]}
                         />
-                        <Stack minW={'340px'}>
-                            <Grid p={4} m={'0 40px 0 0'}
-                                templateColumns={{
-                                    base: 'repeat(1, 1fr)',
-                                    sm: 'repeat(2, 1fr)',
-                                    md: '1fr 3fr',
-                                }}
-                                gap={8}
-                            >
-                                <Lottie
-                                    loop={true}
-                                    animationData={NFTLali}
-                                    play
-                                    style={{ width: 280, height: 280 }}
-                                />
-                                <Stack direction={'column'} >
-                                    <Box>
-                                        <Heading as={'h4'} variant={'heading1'} mb={4}><b>NFTLali</b></Heading>
-                                        <Text fontSize='xs'>
-                                            {t('family.characters.nftlali.description')}
-                                        </Text>
-                                    </Box>
-                                    <Stack direction={'row'} spacing={12} pt={4}>
-                                        <Box>
-                                            <Heading as={'h5'} variant={'heading4'}>{t('family.characters.powers')}</Heading>
-                                            <Text fontSize='xs'>
-                                                {t('family.characters.nftlali.power.power1')}<br/>
-                                                {t('family.characters.nftlali.power.power2')}<br/>
-                                                {t('family.characters.nftlali.power.power3')}
-                                            </Text>
-                                        </Box>
-                                        <Box>
-                                            <Heading as={'h5'} variant={'heading4'}>{t('family.characters.weaknesses')}</Heading>
-                                            <Text fontSize='xs'>
-                                                {t('family.characters.nftlali.weakness.weakness1')}
-                                            </Text>
-                                        </Box>
-                                    </Stack>
-                                </Stack>
-                            </Grid>
-                        </Stack>
-                        <Stack>
-                            <Grid p={4} m={'0 20px'}
-                                templateColumns={{
-                                    base: 'repeat(1, 1fr)',
-                                    sm: 'repeat(2, 1fr)',
-                                    md: '1fr 3fr',
-                                }}
-                                gap={8}
-                            >
-                                <Lottie
-                                    loop={true}
-                                    animationData={MAMADORIS}
-                                    play
-                                    style={{ width: 280, height: 280 }}
-                                />
-                                <Stack direction={'column'} >
-                                    <Box>
-                                        <Heading as={'h4'} variant={'heading1'} mb={4}><b>Mamá Doris</b></Heading>
-                                        <Text fontSize='xs'>
-                                        {t('family.characters.mamadoris.description')}
-                                        </Text>
-                                    </Box>
-                                    <Stack direction={'row'} spacing={12} pt={4}>
-                                        <Box>
-                                            <Heading as={'h5'} variant={'heading4'}>{t('family.characters.powers')}</Heading>
-                                            <Text fontSize='xs'>
-                                            {t('family.characters.mamadoris.power.power1')}<br/>
-                                            {t('family.characters.mamadoris.power.power2')}<br/>
-                                            {t('family.characters.mamadoris.power.power3')}
-                                            </Text>
-                                        </Box>
-                                        <Box>
-                                            <Heading as={'h5'} variant={'heading4'}>{t('family.characters.weaknesses')}</Heading>
-                                            <Text fontSize='xs'>
-                                            {t('family.characters.mamadoris.weakness.weakness1')}<br/>
-                                            {t('family.characters.mamadoris.weakness.weakness2')}
-                                            </Text>
-                                        </Box>
-                                    </Stack>
-                                </Stack>
-                            </Grid>
-                        </Stack>
-                        <Stack>
-                            <Grid p={4} m={'0 20px'}
-                                templateColumns={{
-                                    base: 'repeat(1, 1fr)',
-                                    sm: 'repeat(2, 1fr)',
-                                    md: '1fr 3fr',
-                                }}
-                                gap={8}
-                            >
-                                <Lottie
-                                    loop={true}
-                                    animationData={CREADORI}
-                                    play
-                                    style={{ width: 280, height: 280 }}
-                                />
-                                <Stack direction={'column'} >
-                                    <Box>
-                                        <Heading as={'h4'} variant={'heading1'} mb={4}><b>Creadori Jiménez</b></Heading>
-                                        <Text fontSize='xs'>
-                                        {t('family.characters.creadori.description')}
-                                        </Text>
-                                    </Box>
-                                    <Stack direction={'row'} spacing={12} pt={4}>
-                                        <Box>
-                                            <Heading as={'h5'} variant={'heading4'}>{t('family.characters.powers')}</Heading>
-                                            <Text fontSize='xs'>
-                                            {t('family.characters.creadori.power.power1')}<br/>
-                                            {t('family.characters.creadori.power.power2')}<br/>
-                                            {t('family.characters.creadori.power.power3')}
-                                            </Text>
-                                        </Box>
-                                        <Box>
-                                            <Heading as={'h5'} variant={'heading4'}>{t('family.characters.weaknesses')}</Heading>
-                                            <Text fontSize='xs'>
-                                            {t('family.characters.creadori.weakness.weakness1')}<br/>
-                                            {t('family.characters.creadori.weakness.weakness2')}
-                                            </Text>
-                                        </Box>
-                                    </Stack>
-                                </Stack>
-                            </Grid>
-                        </Stack>
-                        <Stack>
-                            <Grid p={4} m={'0 20px'}
-                                templateColumns={{
-                                    base: 'repeat(1, 1fr)',
-                                    sm: 'repeat(2, 1fr)',
-                                    md: '1fr 3fr',
-                                }}
-                                gap={8}
-                            >
-                                <Lottie
-                                    loop={true}
-                                    animationData={FLIPPER}
-                                    play
-                                    style={{ width: 280, height: 280 }}
-                                />
-                                <Stack direction={'column'} >
-                                    <Box>
-                                        <Heading as={'h4'} variant={'heading1'} mb={4}><b>Flipper</b></Heading>
-                                        <Text fontSize='xs'>
-                                        {t('family.characters.flipper.description')}
-                                        <br/><b>{t('family.characters.flipper.description2')}</b>
-                                        </Text>
-                                    </Box>
-                                    <Stack direction={'row'} spacing={12} pt={4}>
-                                        <Box>
-                                            <Heading as={'h5'} variant={'heading4'}>{t('family.characters.powers')}</Heading>
-                                            <Text fontSize='xs'>
-                                                {t('family.characters.flipper.power.power1')}<br/>
-                                                {t('family.characters.flipper.power.power2')}<br/>
-                                                {t('family.characters.flipper.power.power3')}
-                                            </Text>
-                                        </Box>
-                                        <Box>
-                                            <Heading as={'h5'} variant={'heading4'}>{t('family.characters.weaknesses')}</Heading>
-                                            <Text fontSize='xs'>
-                                                {t('family.characters.flipper.weakness.weakness1')}<br/>
-                                                {t('family.characters.flipper.weakness.weakness2')}
-                                            </Text>
-                                        </Box>
-                                    </Stack>
-                                </Stack>
-                            </Grid>
-                        </Stack>
-                        <Stack>
-                            <Grid p={4} m={'0 20px'}
-                                templateColumns={{
-                                    base: 'repeat(1, 1fr)',
-                                    sm: 'repeat(2, 1fr)',
-                                    md: '1fr 3fr',
-                                }}
-                                gap={8}
-                            >
-                                <Lottie
-                                    loop={true}
-                                    animationData={ESKERI}
-                                    play
-                                    style={{ width: 280, height: 280 }}
-                                />
-                                <Stack direction={'column'} >
-                                    <Box>
-                                        <Heading as={'h4'} variant={'heading1'} mb={4}><b>Eskeri Popi</b></Heading>
-                                        <Text fontSize='xs'>
-                                        {t('family.characters.eskeri.description')}
-                                        </Text>
-                                    </Box>
-                                    <Stack direction={'row'} spacing={12} pt={4}>
-                                        <Box>
-                                            <Heading as={'h5'} variant={'heading4'}>{t('family.characters.powers')}</Heading>
-                                            <Text fontSize='xs'>
-                                                {t('family.characters.eskeri.power.power1')}<br/>
-                                                {t('family.characters.eskeri.power.power2')}<br/>
-                                                {t('family.characters.eskeri.power.power3')}
-                                            </Text>
-                                        </Box>
-                                        <Box>
-                                            <Heading as={'h5'} variant={'heading4'}>{t('family.characters.weaknesses')}</Heading>
-                                            <Text fontSize='xs'>
-                                                {t('family.characters.eskeri.weakness.weakness1')}<br/>
-                                                {t('family.characters.eskeri.weakness.weakness2')}<br/>
-                                                {t('family.characters.eskeri.weakness.weakness3')}
-                                            </Text>
-                                        </Box>
-                                    </Stack>
-                                </Stack>
-                            </Grid>
-                        </Stack>
-                        <Stack>
-                            <Grid p={4} m={'0 20px'}
-                                templateColumns={{
-                                    base: 'repeat(1, 1fr)',
-                                    sm: 'repeat(2, 1fr)',
-                                    md: '1fr 3fr',
-                                }}
-                                gap={8}
-                            >
-                                <Lottie
-                                    loop={true}
-                                    animationData={JEITER}
-                                    play
-                                    style={{ width: 280, height: 280 }}
-                                />
-                                <Stack direction={'column'} >
-                                    <Box>
-                                        <Heading as={'h4'} variant={'heading1'} mb={4}><b>Jeiter Popi</b></Heading>
-                                        <Text fontSize='xs'>
-                                        {t('family.characters.jeiter.description')}
-                                        </Text>
-                                    </Box>
-                                    <Stack direction={'row'} spacing={12} pt={4}>
-                                        <Box>
-                                            <Heading as={'h5'} variant={'heading4'}>{t('family.characters.powers')}</Heading>
-                                            <Text fontSize='xs'>
-                                                {t('family.characters.jeiter.power.power1')}<br/>
-                                                {t('family.characters.jeiter.power.power2')}<br/>
-                                                {t('family.characters.jeiter.power.power3')}
-                                            </Text>
-                                        </Box>
-                                        <Box>
-                                            <Heading as={'h5'} variant={'heading4'}>{t('family.characters.weaknesses')}</Heading>
-                                            <Text fontSize='xs'>
-                                                {t('family.characters.jeiter.weakness.weakness1')}<br/>
-                                                {t('family.characters.jeiter.weakness.weakness2')}
-                                            </Text>
-                                        </Box>
-                                    </Stack>
-                                </Stack>
-                            </Grid>
-                        </Stack>
-                        <Stack>
-                            <Grid p={4} m={'0 20px'}
-                                templateColumns={{
-                                    base: 'repeat(1, 1fr)',
-                                    sm: 'repeat(2, 1fr)',
-                                    md: '1fr 3fr',
-                                }}
-                                gap={8}
-                            >
-                                <Lottie
-                                    loop={true}
-                                    animationData={URI}
-                                    play
-                                    style={{ width: 280, height: 280 }}
-                                />
-                                <Stack direction={'column'} >
-                                    <Box>
-                                        <Heading as={'h4'} variant={'heading1'} mb={4}><b>URI</b></Heading>
-                                        <Text fontSize='xs'>
-                                            {t('family.characters.uri.description')}
-                                        </Text>
-                                    </Box>
-                                    <Stack direction={'row'} spacing={12} pt={4}>
-                                        <Box>
-                                            <Heading as={'h5'} variant={'heading4'}>{t('family.characters.powers')}</Heading>
-                                            <Text fontSize='xs'>
-                                                {t('family.characters.uri.power.power1')}<br/>
-                                                {t('family.characters.uri.power.power2')}<br/>
-                                                {t('family.characters.uri.power.power3')}
-                                            </Text>
-                                        </Box>
-                                        <Box>
-                                            <Heading as={'h5'} variant={'heading4'}>{t('family.characters.weaknesses')}</Heading>
-                                            <Text fontSize='xs'>
-                                                {t('family.characters.uri.weakness.weakness1')}<br/>
-                                                {t('family.characters.uri.weakness.weakness2')}
-                                            </Text>
-                                        </Box>
-                                    </Stack>
-                                </Stack>
-                            </Grid>
-                        </Stack>
-                        <Stack>
-                            <Grid p={4} m={'0 20px'}
-                                templateColumns={{
-                                    base: 'repeat(1, 1fr)',
-                                    sm: 'repeat(2, 1fr)',
-                                    md: '1fr 3fr',
-                                }}
-                                gap={8}
-                            >
-                                <Lottie
-                                    loop={true}
-                                    animationData={PAPACHE}
-                                    play
-                                    style={{ width: 280, height: 280 }}
-                                />
-                                <Stack direction={'column'} >
-                                    <Box>
-                                        <Heading as={'h4'} variant={'heading1'} mb={4}><b>Papá Che</b></Heading>
-                                        <Text fontSize='xs'>
-                                            {t('family.characters.papache.description')}
-                                        </Text>
-                                    </Box>
-                                    <Stack direction={'row'} spacing={12} pt={4}>
-                                        <Box>
-                                            <Heading as={'h5'} variant={'heading4'}>{t('family.characters.powers')}</Heading>
-                                            <Text fontSize='xs'>
-                                                {t('family.characters.papache.power.power1')}<br/>
-                                                {t('family.characters.papache.power.power2')}<br/>
-                                                {t('family.characters.papache.power.power3')}
-                                            </Text>
-                                        </Box>
-                                        <Box>
-                                            <Heading as={'h5'} variant={'heading4'}>{t('family.characters.weaknesses')}</Heading>
-                                            <Text fontSize='xs'>
-                                                {t('family.characters.papache.weakness.weakness1')}<br/>
-                                                {t('family.characters.papache.weakness.weakness2')}<br/>
-                                                {t('family.characters.papache.weakness.weakness3')}
-                                            </Text>
-                                        </Box>
-                                    </Stack>
-                                </Stack>
-                            </Grid>
-                        </Stack>
+                        <Character
+                            name='Mamá Doris'
+                            animation={MAMADORIS}
+                            description={t('family.characters.mamadoris.description')}
+                            powers={[t('family.characters.mamadoris.power.power1'), t('family.characters.mamadoris.power.power2'), t('family.characters.mamadoris.power.power3')]}
+                            weaknesses={[t('family.characters.mamadoris.weakness.weakness1'), t('family.characters.mamadoris.weakness.weakness2')]}
+                        />
+                        <Character
+                            name='Creadori Jiménez'
+                            animation={CREADORI}
+                            description={t('family.characters.creadori.description')}
+                            powers={[t('family.characters.creadori.power.power1'), t('family.characters.creadori.power.power2'), t('family.characters.creadori.power.power3')]}
+                            weaknesses={[t('family.characters.creadori.weakness.weakness1'), t('family.characters.creadori.weakness.weakness2')]}
+                        />
+                        <Character
+                            name='Flipper'
+                            animation={FLIPPER}
+                            description={t('family.characters.flipper.description')}
+                            description2={t('family.characters.flipper.description2')}
+                            powers={[t('family.characters.flipper.power.power1'), t('family.characters.flipper.power.power2'), t('family.characters.flipper.power.power3')]}
+                            weaknesses={[t('family.characters.flipper.weakness.weakness1'), t('family.characters.flipper.weakness.weakness2')]}
+                        />
+                        <Character
+                            name='Eskeri Popi'
+                            animation={ESKERI}
+                            description={t('family.characters.eskeri.description')}
+                            powers={[t('family.characters.eskeri.power.power1'), t('family.characters.eskeri.power.power2'), t('family.characters.eskeri.power.power3')]}
+                            weaknesses={[t('family.characters.eskeri.weakness.weakness1'), t('family.characters.eskeri.weakness.weakness2'), t('family.characters.eskeri.weakness.weakness3')]}
+                        />
+                        <Character
+                            name='Jeiter Popi'
+                            animation={JEITER}
+                            description={t('family.characters.jeiter.description')}
+                            powers={[t('family.characters.jeiter.power.power1'), t('family.characters.jeiter.power.power2'), t('family.characters.jeiter.power.power3')]}
+                            weaknesses={[t('family.characters.jeiter.weakness.weakness1'), t('family.characters.jeiter.weakness.weakness2')]}
+                        />
+                        <Character
+                            name='URI'
+                            animation={URI}
+                            description={t('family.characters.uri.description')}
+                            powers={[t('family.characters.uri.power.power1'), t('family.characters.uri.power.power2'), t('family.characters.uri.power.power3')]}
+                            weaknesses={[t('family.characters.uri.weakness.weakness1'), t('family.characters.uri.weakness.weakness2')]}
+                        />
+                        <Character
+                            name='Papá Che'
+                            animation={PAPACHE}
+                            description={t('family.characters.papache.description')}
+                            powers={[t('family.characters.papache.power.power1'), t('family.characters.papache.power.power2'), t('family.characters.papache.power.power3')]}
+                            weaknesses={[t('family.characters.papache.weakness.weakness1'), t('family.characters.papache.weakness.weakness2'), t('family.characters.papache.weakness.weakness3')]}
+                        />
                     </Slider>
                 </Box>
             </LargeLayout>

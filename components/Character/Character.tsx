@@ -13,6 +13,7 @@ type Props = {
     name: string
     animation: any
     description: string
+    description2?: string
     powers: string[]
     weaknesses: string[]
 }
@@ -21,6 +22,7 @@ const Character: FC<PropsWithChildren<Props>> = ({
     name = '',
     animation = '',
     description = '',
+    description2 = '',
     powers = [],
     weaknesses = []
 }) => {
@@ -48,6 +50,11 @@ const Character: FC<PropsWithChildren<Props>> = ({
                             <Text fontSize='xs'>
                                 {description}
                             </Text>
+                            {description2 != '' && (
+                                <Text fontSize='xs'>
+                                    {description2}
+                                </Text>
+                            )}
                         </Box>
                         <Stack direction={'row'} spacing={12} pt={4}>
                             <Box>

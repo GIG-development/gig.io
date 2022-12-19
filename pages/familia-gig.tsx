@@ -11,7 +11,9 @@ import LargeLayout from '../layouts/large'
 import { NextPage } from 'next'
 import useTranslation from 'next-translate/useTranslation'
 import Lottie from 'react-lottie-player'
-import ReactSlidy from 'react-slidy'
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import { FiChevronLeft } from "@react-icons/all-files/fi/FiChevronLeft";
 import { FiChevronRight } from "@react-icons/all-files/fi/FiChevronRight";
 import NFTLali from '../public/img/animaciones/NFTLALI.json'
@@ -23,34 +25,40 @@ import URI from '../public/img/animaciones/URI.json'
 import JEITER from '../public/img/animaciones/JEITER.json'
 import ESKERI from '../public/img/animaciones/ESKERI.json'
 
-function CustomArrow(emoji) {
+function SampleNextArrow(props) {
+    const { className, style, onClick } = props;
     return (
-      <button style={{
-        background: 'transparent',
-        border: 0,
-        cursor: 'pointer',
-        fontSize: 72,
-        height: '30%',
-        margin: 'auto 10px',
-        padding: 15
-      }}>
-        <span role="img" aria-label="Arrow">
-          {emoji}
-        </span>
-      </button>
-    )
+        <div
+            className={className}
+            style={{ ...style, display: "block", background: "red" }}
+            onClick={onClick}
+        />
+    );
 }
   
-function CustomArrowLeft() {
-    return <CustomArrow emoji={FiChevronLeft} />
-}
-  
-function CustomArrowRight() {
-    return <CustomArrow emoji={FiChevronRight} />
+function SamplePrevArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+        <div
+            className={className}
+            style={{ ...style, display: "block", background: "green" }}
+            onClick={onClick}
+        />
+    );
 }
 
 const FamiliaGIG: NextPage = () => {
     const { t } = useTranslation('components')
+    var SliderSettings = {
+        arrows: true,
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        nextArrow: <SampleNextArrow />,
+        prevArrow: <SamplePrevArrow />
+    }
     return (
         <div id="familia">
             <LargeLayout>
@@ -69,7 +77,7 @@ const FamiliaGIG: NextPage = () => {
                         {t('family.line2')}
                     </Text>
                     <Stack alignItems={'center'}>
-                        <ReactSlidy ArrowLeft={CustomArrowLeft} ArrowRight={CustomArrowRight}>
+                        <Slider {...SliderSettings}>
                             <Grid p={4} alignContent={'center'} mb={10}
                                 templateColumns={{
                                     base: 'repeat(1, 1fr)',
@@ -400,9 +408,7 @@ const FamiliaGIG: NextPage = () => {
                                     </Stack>
                                 </Stack>
                             </Grid>
-
                         </Slider>
-
                     </Stack>
                 </Stack>
             </LargeLayout>

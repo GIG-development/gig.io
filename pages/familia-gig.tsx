@@ -52,8 +52,7 @@ const FamiliaGIG: NextPage = () => {
                         {t('family.line2')}
                     </Text>
                     <Slider {...SliderSettings}>
-                        <Stack alignItems={'center'}>
-                            <Grid p={4} alignContent={'center'} mb={10}
+                            <Grid p={4} align={'center'} justify={'center'} mb={10}
                                 templateColumns={{
                                     base: 'repeat(1, 1fr)',
                                     sm: 'repeat(2, 1fr)',
@@ -93,7 +92,6 @@ const FamiliaGIG: NextPage = () => {
                                     </Stack>
                                 </Stack>
                             </Grid>
-                        </Stack>
                         <Stack alignItems={'center'}>
                             <Grid p={4} alignContent={'center'} mb={10}
                                 templateColumns={{

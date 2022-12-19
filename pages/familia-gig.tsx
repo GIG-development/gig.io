@@ -11,7 +11,7 @@ import LargeLayout from '../layouts/large'
 import { NextPage } from 'next'
 import useTranslation from 'next-translate/useTranslation'
 import Lottie from 'react-lottie-player'
-import Slider from 'react-slidy'
+import ReactSlidy from 'react-slidy'
 import { FiChevronLeft } from "@react-icons/all-files/fi/FiChevronLeft";
 import { FiChevronRight } from "@react-icons/all-files/fi/FiChevronRight";
 import NFTLali from '../public/img/animaciones/NFTLALI.json'
@@ -69,7 +69,7 @@ const FamiliaGIG: NextPage = () => {
                         {t('family.line2')}
                     </Text>
                     <Stack alignItems={'center'}>
-                        <Slider ArrowLeft={CustomArrowLeft} ArrowRight={CustomArrowRight}>
+                        <ReactSlidy ArrowLeft={CustomArrowLeft} ArrowRight={CustomArrowRight}>
                             <Grid p={4} alignContent={'center'} mb={10}
                                 templateColumns={{
                                     base: 'repeat(1, 1fr)',

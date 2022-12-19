@@ -141,6 +141,10 @@ const Creadores: NextPage = () => {
                   <Text color={'gray.500'} fontSize={{base: 'sm', md: 'md'}}>
                   Pon a tus obras maestras a recorrer los mundos y sé parte de esta evolución tecnológica.
                   </Text>
+                  <Heading as={'h2'} variant={'subtitle'}>Una interfaz ganadora</Heading>
+                  <Text color={'gray.500'} fontSize={{base: 'sm', md: 'md'}}>
+                    Tu creatividad llegará a los ojos adecuados. Sube y vende tus proyectos en minutos y fomenta con nosotros la vida creativa en cualquier lugar del mundo. 
+                  </Text>
               </Stack>
           </SimpleGrid>
 
@@ -168,15 +172,15 @@ const Creadores: NextPage = () => {
 
       <Stack spacing={12} mb={10} backgroundColor={'gray.100'} w={'full'} id='creators__section-full'>
         <LargeLayout>
-            <Heading color={'gray.500'} fontSize={{base: 'xl', md: '2xl'}}>
+            <Heading color={'gray.500'} fontSize={{base: 'xl', md: 'xl'}} textAlign='center'>
                 Somos una plataforma digital que reúne a las grandes mentes de la industria creativa en la Web 3.0.
             </Heading>
-            <Heading color={'gray.800'} fontWeight={700} fontSize={{base: 'xl', md: '2xl'}}>
+            <Heading color={'gray.800'} fontWeight={700} fontSize={{base: 'xl', md: 'xl'}} textAlign='center'>
                 Codéate con artistas prestigiosos, coleccionistas, curadores reconocidos y otras mentes creativas como tú
             </Heading>
-            <Box alignItems={'center'}>
+            <Flex justifyContent={'center'}>
               {typeFormButton}
-            </Box>
+            </Flex>
         </LargeLayout>
       </Stack>
 
@@ -200,12 +204,6 @@ const Creadores: NextPage = () => {
             </Stack>
         </SimpleGrid>
 
-        <Stack spacing={4}>
-            <Heading as={'h2'} variant={'subtitle'}>Una interfaz ganadora</Heading>
-            <Text color={'gray.500'} fontSize={{base: 'sm', md: 'md'}}>
-              Tu creatividad llegará a los ojos adecuados. Sube y vende tus proyectos en minutos y fomenta con nosotros la vida creativa en cualquier lugar del mundo. 
-            </Text>
-        </Stack>
         <Stack spacing={6} my={20}>
           <Heading as={'h2'} variant="heading1" pt={20}>
           Preguntas frecuentes

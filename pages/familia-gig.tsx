@@ -11,8 +11,6 @@ import LargeLayout from '../layouts/large'
 import { NextPage } from 'next'
 import useTranslation from 'next-translate/useTranslation'
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import NFTLali from '../public/img/animaciones/NFTLALI.json'
 import MAMADORIS from '../public/img/animaciones/MAMADORIS.json'
 import FLIPPER from '../public/img/animaciones/FLIPPER.json'

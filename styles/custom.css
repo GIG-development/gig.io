@@ -109,3 +109,6 @@
     padding-left: 0px;
     padding: 0 20px;
 }
+.slick-slider .slick-list {
+    padding: 0 !important;
+}

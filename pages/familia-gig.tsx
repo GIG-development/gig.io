@@ -52,10 +52,10 @@ const FamiliaGIG: NextPage = () => {
                         {t('family.line2')}
                     </Text>
                 </Stack>
-                <Box maxW={{base: '100%', md: '720px'}}>
+                <Box maxW={{base: '100%', md: '720px'}} margin={'0 auto'}>
                     <Slider {...SliderSettings}>
                         <Stack>
-                            <Grid p={4} mb={10} alignContent={'center'} alignItems={'center'} justifyContent={'center'} justifyItems={'center'}
+                            <Grid p={4}
                                 templateColumns={{
                                     base: 'repeat(1, 1fr)',
                                     sm: 'repeat(2, 1fr)',

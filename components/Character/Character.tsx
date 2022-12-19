@@ -30,14 +30,7 @@ const Character: FC<PropsWithChildren<Props>> = ({
     const { t } = useTranslation('components')
     return (
         <Flex
-            grow={0}
-            shrink={0}
-            basis={{
-                base: '100%',
-                sm: '50%',
-                md: '33.33%',
-                lg: '25%',
-            }}
+            basis={'100%'}
             p="10px"
         >
             <Grid p={{base: 0, md: 4}} gap={8}

@@ -42,7 +42,7 @@ const Slider: FC<HTMLAttributes<any>> = ({ children }) => {
   }, [embla, onSelect])
 
   return (
-    <Box position="relative" mx="auto" w="full">
+    <Box className='slider' position="relative" mx="auto" w="full">
       <Box w="full" overflow="hidden" ref={viewportRef}>
         <Flex mx="-10px" w="calc(100%+20px)" userSelect="none">
           {children}

@@ -49,11 +49,11 @@ const FamiliaGIG: NextPage = () => {
                         </div>
                         <div>
                             <h1>URI</h1>
-                            <p>{t('family.characters.nftlali.description')}</p>
+                            <p>{t('family.characters.uri.description')}</p>
                         </div>
                         <div>
                             <h1>Flipper</h1>
-                            <p>{t('family.characters.nftlali.description')}</p>
+                            <p>{t('family.characters.flipper.description')}</p>
                         </div>
                     </Slider>
                 </Box>

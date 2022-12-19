@@ -113,7 +113,7 @@ const Creadores: NextPage = () => {
 
           <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10} alignItems={'center'}>
               <Stack spacing={4}>
-                  <Heading as={'h2'} variant={'subtitle'}>Decodificamos juntos tus ideas</Heading>
+                  <Heading as={'h3'} variant={'subtitle'}>Decodificamos juntos tus ideas</Heading>
                   <Text color={'gray.500'} fontSize={{base: 'sm', md: 'md'}}>
                   No necesitas ser experto, estamos contigo desde la conceptualización hasta la promoción de tus NFTs. Solo trae tus ganas de entrar al espacio cripto en una comunidad de creativos geniales.
                   </Text>
@@ -137,7 +137,7 @@ const Creadores: NextPage = () => {
                 />
               </Flex>
               <Stack spacing={4}>
-                  <Heading as={'h2'} variant={'subtitle'}>Promoción en medios masivos</Heading>
+                  <Heading as={'h3'} variant={'subtitle'}>Promoción en medios masivos</Heading>
                   <Text color={'gray.500'} fontSize={{base: 'sm', md: 'md'}}>
                   Pon a tus obras maestras a recorrer los mundos y sé parte de esta evolución tecnológica.
                   </Text>
@@ -150,7 +150,7 @@ const Creadores: NextPage = () => {
 
           <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10} pt={12} alignItems={'center'}>
             <Stack spacing={4}>
-                <Heading as={'h2'} variant={'subtitle'}>Simplificamos lo complejo</Heading>
+                <Heading as={'h3'} variant={'subtitle'}>Simplificamos lo complejo</Heading>
                 <Text color={'gray.500'} fontSize={{base: 'sm', md: 'md'}}>
                 Para que te dediques a lo tuyo. Subir NFTs será más fácil que nunca.
                 <br/><br/>
@@ -172,10 +172,10 @@ const Creadores: NextPage = () => {
 
       <Stack spacing={12} mb={10} backgroundColor={'gray.100'} w={'full'} id='creators__section-full'>
         <LargeLayout>
-            <Heading color={'gray.500'} fontSize={{base: 'xl', md: 'xl'}} textAlign='center'>
+            <Heading color={'gray.500'} fontSize={{base: 'xl', md: 'xl'}} textAlign='center' mb={6}>
                 Somos una plataforma digital que reúne a las grandes mentes de la industria creativa en la Web 3.0.
             </Heading>
-            <Heading color={'gray.800'} fontWeight={700} fontSize={{base: 'xl', md: 'xl'}} textAlign='center'>
+            <Heading color={'gray.800'} fontWeight={700} fontSize={{base: 'xl', md: 'xl'}} textAlign='center' mb={6}>
                 Codéate con artistas prestigiosos, coleccionistas, curadores reconocidos y otras mentes creativas como tú
             </Heading>
             <Flex justifyContent={'center'}>
@@ -196,7 +196,7 @@ const Creadores: NextPage = () => {
               />
             </Flex>
             <Stack spacing={4}>
-                <Heading as={'h2'} variant={'subtitle'}>¿Cómo funciona?</Heading>
+                <Heading as={'h3'} variant={'subtitle'}>¿Cómo funciona?</Heading>
                 <Text color={'gray.500'} fontSize={{base: 'sm', md: 'md'}}>
                 En GIG todos juegan. La única regla es verificar tu perfil como creativo, ya que nos caracterizamos por cuidar la calidad del material que habita en la plataforma garantizando la seguridad en las transacciones dentro de la plataforma, así como el desarrollo de una sociedad sostenible que busca la vida creativa en cualquier parte del mundo. Para verificarte, solo requieres mandarnos tu material y obras maestras para corroborar que son de tu autoría pues estarás entrando a una comunidad segura y sostenible.
                 Si no tienes experiencia en este campo igual eres bienvenido, te apoyamos en cada fase y con lo que necesites para empezar tu camino digital.

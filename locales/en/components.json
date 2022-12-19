@@ -83,101 +83,101 @@
       "powers": "Powers",
       "weaknesses": "Weaknesses",
       "nftlali": {
-        "description": "Vivía sola en el GIGverso desde el comienzo de los tiempos. Un ser omnipresente que elige mostrarse con forma humana. Habla todos los idiomas de todos los universos (lo hace al mismo tiempo) y suena algo como: BURUDS IJK DSBU, por eso creó a un acompañante muy especial, URI, que con forma de robot es en realidad una extensión de su consciencia, le ayuda a decodificar mensajes y le comunica el punto de vista de otros mundos en desarrollo.",
+        "description": "She lived alone in the GIGverse since the beginning of time. An omnipresent being who chooses to appear in human form. He speaks all the languages ​​of all the universes (he does it at the same time) and sounds something like: BURUDS IJK DSBU, that's why he created a very special companion, URI, who in the form of a robot is actually an extension of his consciousness, he it helps decode messages and tells you the point of view of other developing worlds.",
         "power": {
-          "power1": "Inspiración",
-          "power2": "Intención",
-          "power3": "Creatividad"
+          "power1": "Inspiration",
+          "power2": "Intention",
+          "power3": "Creativity"
         },
         "weakness": {
-          "weakness1": "Adivina... ninguna"
+          "weakness1": "Guess... none"
         }
       },
       "mamadoris": {
-        "description": "No es una deidad, pero como si lo fuera en el mundo del arte y la creatividad. Curadora culta, intelectual, en tendencia. Se regodea con los ponentes número 1 del sector, toda una mujer de mundo. Dedicada en cuerpo y alma a identificar las mejores piezas y a ofrecerlas al mejor postor y por si fuera poco, es madre y los tiene bien alimentados (bebiendo jugos cold press y galletas cero gluten).",
+        "description": "It is not a deity, but as if it were in the world of art and creativity. Cultured, intellectual, trending curator. She gloats over the number 1 speakers in the sector, a true woman of the world. Dedicated in body and soul to identifying the best pieces and offering them to the highest bidder and as if that were not enough, she is a mother and keeps them well fed (drinking cold press juices and zero gluten cookies).",
         "power": {
-          "power1": "Vista de águila",
-          "power2": "Zipper de opiniones",
-          "power3": "Pase VIP"
+          "power1": "Eagle Sight",
+          "power2": "Opinions Zipper",
+          "power3": "VIP Pass"
         },
         "weakness": {
-          "weakness1": "Torbellino de anulación",
-          "weakness2": "Egoitis - Inflamación del ego"
+          "weakness1": "Nullification Whirlwind",
+          "weakness2": "Egotitis - Ego Inflamation"
         }
       },
       "creadori": {
-        "description": "Tiene el don de materializar la imaginación. Apasionado por la libertad de expresión, se transforma en cada uno de los seres creativos del universo, de esta manera absorbe todas las capacidades que le llegan del espacio. Al entrar en estado de trance creativo, se expresa a través de sus herramientas maestras.",
+        "description": "He has the gift of materializing the imagination. Passionate about freedom of expression, he transforms into each of the creative beings in the universe, thus absorbing all the capacities that come to him from space. By entering a state of creative trance, he expresses himself through his master tools.",
         "power": {
           "power1": "Art Attack",
-          "power2": "Creación mágica",
-          "power3": "Onda innovadora"
+          "power2": "Magic Creation",
+          "power3": "Innovative Wave"
         },
         "weakness": {
-          "weakness1": "Puño de duda",
-          "weakness2": "Golpe de locura"
+          "weakness1": "Doubt Punch",
+          "weakness2": "Stroke of Insanity"
         }
       },
       "flipper": {
-        "description": "Érase un hombre que se convirtió en pez y vive más contento y ambicioso. Se dedica a comprar barato y vender caro. Un martes cualquiera, le cayó el Chahuistle y se empezó a convertir en un bonito delfín. Le gusta ajuarearse y disfruta la vida de lujos y despilfarro. A la fecha nadie sabe si un castigo lo llevó a convertirse en lo que ahora es o si se clavó tanto que su mente superó la matrix. ",
-        "description2": "Próxima meta: Convertirse en ballena.",
+        "description": "There was a man who became a fish and lives happier and more ambitious. It is dedicated to buying low and selling high. On any given Tuesday, the Chahuistle fell on him and he began to turn into a beautiful dolphin. He likes to dress up and enjoys a life of luxury and waste. To date no one knows if a punishment led him to become what he is now or if he got so stuck that his mind overcame the matrix.",
+        "description2": "Next target: becoming a whale.",
         "power": {
-          "power1": "Cartera jugosa",
-          "power2": "Olfato de perro",
-          "power3": "Colmillo de oro"
+          "power1": "Juicy Wallet",
+          "power2": "Dog Smell",
+          "power3": "Golden Fang"
         },
         "weakness": {
-          "weakness1": "Impulsividad",
-          "weakness2": "Orejas de burro"
+          "weakness1": "Impulsiveness",
+          "weakness2": "Donkey Ears"
         }
       },
       "eskeri": {
-        "description": "Vive literalmente con el sudor en la frente y en otros lugares (varios). Tiene miedo de lo desconocido, de lo que conoce, miedo a las lagartijas y hasta de su sombra, sobre todo tiene miedo de los NFTs porque son muy nuevos. Tiene la idea de que puede fallar si migra a la tecnología descentralizada.",
+        "description": "He literally lives with sweat on his forehead and in other (several) places. He is afraid of the unknown, of what he knows, afraid of lizards and even of his shadow, above all he is afraid of NFTs because they are very new. You have the idea that you can fail if you migrate to decentralized technology.",
         "power": {
-          "power1": "Incertidumbre",
-          "power2": "Lluvia de lágrimas",
-          "power3": "Soledad"
+          "power1": "Uncertainty",
+          "power2": "Tear Rain",
+          "power3": "Loneliness"
         },
         "weakness": {
-          "weakness1": "Golpe de fé",
-          "weakness2": "Onda innovadora",
-          "weakness3": "Golpe descapitalizador"
+          "weakness1": "Stroke of Faith",
+          "weakness2": "Innovative Wave",
+          "weakness3": "Decapitalizing Punch"
         }
       },
       "jeiter": {
-        "description": "Clavado en la matrix. Este querido “hater” se hace siempre presente en las comunidades, demostrando su rechazo y repulsión por lo que desconoce y va en contra de sus ideas. Por cada diez palabras, mínimo tres son de odio. Haciéndonos amigos, nos dimos cuenta que debajo de esa gruesa capa de ira, se esconde un pequeño niño inseguro, envidioso y con falta de amor.",
+        "description": "Stuck in the matrix. This beloved hater is always present in the communities, demonstrating his rejection and revulsion for what he does not know and goes against his ideas. For every ten words, at least three are hateful. Becoming friends, we realized that under that thick layer of anger, hides an insecure, envious and unloving little boy.",
         "power": {
-          "power1": "Odio extremo",
-          "power2": "Meteorito de comments",
-          "power3": "Puño negativo"
+          "power1": "Extreme Hate",
+          "power2": "Comments Meteorite",
+          "power3": "Negative Punch"
         },
         "weakness": {
-          "weakness1": "Ceguera",
-          "weakness2": "Golpe de razonamiento"
+          "weakness1": "Blindness",
+          "weakness2": "Stroke of Reasoning"
         }
       },
       "uri": {
-        "description": "Pequeñín en tamaño, majestuoso de pensamiento. Sus procesos son calculados, tan es así que tiene un margen de error prácticamente nulo, digamos que es como un Google transuniversal. Casi siempre lo podrás encontrar cerca de TLALI (su creadora). Se susurran al oído cual enamorados, pero más allá de eso, URI es consciencia-mensajero-acompañante de la gran deidad.",
+        "description": "Tiny in size, majestic in thought. Its processes are calculated, so much so that it has a practically zero margin of error, let's say it's like a transuniversal Google. You can almost always find it near TLALI (its creator). They whisper in each other's ears like lovers, but beyond that, URI is the consciousness-messenger-companion of the great deity.",
         "power": {
-          "power1": "Antimateria",
-          "power2": "Teletransportación",
-          "power3": "Pepe grillo"
+          "power1": "Antimatter",
+          "power2": "Teleportation",
+          "power3": "Jiminy Cricket"
         },
         "weakness": {
-          "weakness1": "Pisotón",
-          "weakness2": "Sobrecarga"
+          "weakness1": "Stomp",
+          "weakness2": "Overload"
         }
       },
       "papache": {
-        "description": "Si quieres encontrar el tesoro es a Papá Che a quién debes llamar. Lo suyo es hallar lo mejor de lo mejor, la crema y nata de los proyectos, que no solamente guarda en los recovecos de su habitación, sino que los muestra sin tapujos a su comunidad. Obsesionado por encontrar y compartir genialidades creativas fuera de lo común.",
+        "description": "If you want to find the treasure, Papa Che is the one you should call. His thing is to find the best of the best, the crème de la crème of the projects, which he not only keeps in the recesses of his room, but also shows them openly to his community. Obsessed with finding and sharing offbeat creative genius.",
         "power": {
-          "power1": "Exhibicionista de colecciones",
-          "power2": "Empoderador",
-          "power3": "Dopamina suprema"
+          "power1": "Collections Exhibitionist",
+          "power2": "Empowering",
+          "power3": "Supreme Dopamine"
         },
         "weakness": {
-          "weakness1": "Explosiones súbitas",
-          "weakness2": "Pérdida de criterio",
-          "weakness3": "Acumulador"
+          "weakness1": "Sudden Explosions",
+          "weakness2": "Loss of Judgment",
+          "weakness3": "Accumulator"
         }
       }
     }
@@ -185,40 +185,40 @@
   "faqs": {
     "title": "Frequently Asked Questions",
     "question1": {
-      "question": "¿Necesito tener una cartera digital y criptomonedas?",
-      "answer": "Así es por el momento. De “wallet” aceptamos Metamask, Coinbase y Wallet Connect. Próximamente podrás subir tus NFTs sin necesitar tener estos elementos, ya que generaremos una “wallet” en automático y podrás pagar y recibir pagos en tu moneda nacional."
+      "question": "Do I need to have a digital wallet and cryptocurrencies?",
+      "answer": "That's how it is for the moment. We accept Metamask, Coinbase and Wallet Connect. Soon you will be able to upload your NFTs without needing to have these elements, since we will generate a wallet automatically and you will be able to pay and receive payments in your national currency."
     },
     "question2": {
-      "question": "¿Hay algo que tengo que pagar por subir y comprar NFTs?",
-      "answer": "Debido a que empezaremos trabajando con la red de Ethereum, se debe pagar una tarifa de gas al subir y comprar tokens no fungibles, (monto por generar las transacciones). Optimizando el manejo de nuestra plataforma, muy pronto podrás subir NFTs sin necesidad de pagar esta tarifa, gracias a una técnica llamada Lazy Minting."
+      "question": "Is there anything I have to pay to upload and buy NFTs?",
+      "answer": "Because we will start working with the Ethereum network, a gas fee must be paid when uploading and buying non-fungible tokens, (amount for generating the transactions). By optimizing the management of our platform, very soon you will be able to upload NFTs without having to pay this fee, thanks to a technique called Lazy Minting."
     },
     "question3": {
-      "question": "¿Qué blockchain soportan?",
-      "answer": "Por el momento Ethereum y más adelante añadiremos otras como Polygon."
+      "question": "What blockchain do you support?",
+      "answer": "For the moment Ethereum and later we will add others like Polygon."
     },
     "question4": {
-      "question": "¿Puedo pagar con pesos / fiat?",
-      "answer": "Por el momento solo se puede pagar con ETH o WETH, pero muy pronto podrás pagar con tu tarjeta de débito o crédito en pesos o cualquier otra moneda internacional."
+      "question": "Can I pay with pesos / fiat?",
+      "answer": "At the moment you can only pay with ETH or WETH, but very soon you will be able to pay with your debit or credit card in pesos or any other international currency."
     },
     "question5": {
-      "question": "¿Cuál es la tarifa (fee) de transacción?",
-      "answer": "Estamos haciendo pruebas para poder crear un ecosistema en donde todos estemos contentos. De momento cobramos el 10% de las transacciones, pero estamos abiertos a tus sugerencias."
+      "question": "What is the transaction fee?",
+      "answer": "We are doing tests to be able to create an ecosystem where we are all happy. At the moment we charge 10% of the transactions, but we are open to your suggestions."
     },
     "question6": {
-      "question": "¿Puedo modificar mi NFT después de crearlo?",
-      "answer": "De momento no se puede, ya que al crear tu NFT o serie de NFTs, ésta se publica en Ethereum y no es editable una vez publicada."
+      "question": "Can I modify my NFT after creating it?",
+      "answer": "At the moment it is not possible, since when you create your NFT or series of NFTs, it is published on Ethereum and it is not editable once published."
     },
     "question7": {
-      "question": "¿Cómo me contacto para soporte técnico?",
-      "answer": "Estamos atentos a tu llamado en soporte@gig.io"
+      "question": "How do I contact for technical support?",
+      "answer": "We are waiting for your call at soporte@gig.io"
     },
     "question8": {
-      "question": "¿Cómo retirar fondos?",
-      "answer": "Si recibes fondos a travês de una venta, estos llegaran directo al wallet que tienes asociado a tu cuenta."
+      "question": "How to withdraw funds?",
+      "answer": "If you receive funds through a sale, they will go directly to the wallet that you have associated with your account."
     },
     "question9": {
-      "question": "¿Mis NFTs pueden aparecer en otro marketplace?",
-      "answer": "Sí. Cualquier Marketplace que soporte Ethereum puede listar tus NFTs. Si acuñaste / minteaste con nosotros, tus tokens no fungibles aparecerán dentro de una colección abierta de GIG."
+      "question": "Can my NFTs appear on another marketplace?",
+      "answer": "Yes. Any Marketplace that supports Ethereum can list your NFTs. If you minted/minted with us, your non-fungible tokens will appear within an open GIG collection."
     },
     "footerLine1": "If you have any other doubt, please visit",
     "footerLine2": "our tutorials",
@@ -228,168 +228,168 @@
     "title": "GIGcionary",
     "terms": {
       "term1": {
-        "term": "NFT (Token No Fungible)",
-        "definition": "Los tokens son elementos que representan información de un activo ya sea físico o digital. Esta representación vive en cadena de bloque a través de piezas de código. Los tokens no fungibles, no se pueden dividir ni cambiar entre sí, ya que no hay dos con el mismo valor. No es posible fraccionarse o intercambiarse. Los NFTs pueden representar cualquier cosa, literal, desde una pieza de arte hasta entradas a eventos exclusivos."
+        "term": "NFT (Non-Fungible Token)",
+        "definition": "Tokens are elements that represent information of an asset, whether physical or digital. This representation lives on the block chain through pieces of code. Non-fungible tokens cannot be divided or exchanged with each other, since no two have the same value. It is not possible to split or exchange. NFTs can represent literally anything from a piece of art to tickets to exclusive events."
       },
       "term2": {
         "term": "Blockchain",
-        "definition": "¿Tuviste alguna clase de Contabilidad en donde había libros de ingresos y egresos? Quizás nunca lo has visto, la cadena de bloques es básicamente eso, un libro mayor alojado en una red pública en donde se registran todas las transacciones de activos digitales. No se puede modificar por organismos centralizados, ni se puede borrar o modificar su información. Es transparente y eficaz."
+        "definition": "Did you have any kind of Accounting where there were books of income and expenses? Perhaps you have never seen it, the chain of blocks is basically that, a ledger hosted on a public network where all transactions of digital assets are recorded. It cannot be modified by centralized organizations, nor can your information be deleted or modified. It is transparent and effective."
       },
       "term3": {
-        "term": "Contrato Inteligente",
-        "definition": "Programas que se ejecutan en la “blockchain” o red de bloques a través de reglas de código, se ejecutan de manera automática cuando se cumplen condiciones predeterminadas, es decir al pasar A, como consecuencia sucede B, de esta manera se evita la participación de intermediarios."
+        "term": "Smart Contract",
+        "definition": "Programs that are executed in the blockchain or network of blocks through code rules, are executed automatically when predetermined conditions are met, that is, when A happens, B happens as a consequence, in this way the participation of intermediaries."
       },
       "term4": {
         "term": "Drop",
-        "definition": "El lanzamiento de una colección de NFTs. Se anuncia la fecha y hora, tan emocionante como la cuenta regresiva en Año Nuevo, solo que aquí, los inversionistas pueden cumplir de inmediato su propósito de adquirir dicho token. Se asocia a una edición limitada de coleccionables."
+        "definition": "The launch of a collection of NFTs. The date and time is announced, as exciting as the countdown to the New Year, only here, investors can immediately fulfill their purpose of acquiring said token. It is associated with a limited edition of collectibles."
       },
       "term5": {
-        "term": "Criptomoneda",
-        "definition": "Son activos digitales que están cifrados, o sea no es algo físico, son registros de transacciones que se realizan en una cadena de bloques. Con las criptomonedas también se pueden hacer pagos pero solamente electrónicos."
+        "term": "Cryptocurrency",
+        "definition": "They are digital assets that are encrypted, that is, it is not something physical, they are records of transactions that are carried out in a chain of blocks. With cryptocurrencies you can also make payments but only electronically."
       },
       "term6": {
         "term": "Wallet",
-        "definition": "Algo así como la cartera que traes en el bolsillo más una especie de paypal, solo que para criptomonedas. Lo que se almacena en este software y/o hardware es la clave pública y privada de dichas criptomonedas. La “wallet” permite enviar o recibir pagos."
+        "definition": "Something like the wallet you carry in your pocket plus a kind of paypal, only for cryptocurrencies. What is stored in this software and/or hardware is the public and private key of said cryptocurrencies. The wallet allows you to send or receive payments."
       },
       "term7": {
-        "term": "Rareza",
-        "definition": "La rareza es un atributo que se le da a un token no fungible, según lo especial y único sea determinados rasgos, se analizan sus combinaciones y cuántas veces se repiten dichos rasgos en la colección. El nivel de rareza determina en parte su valor, así que entre más raro, mejor."
+        "term": "Rarity",
+        "definition": "Rarity is an attribute that is given to a non-fungible token, depending on how special and unique certain traits are, their combinations are analyzed and how many times these traits are repeated in the collection. The level of rarity partly determines its value, so the rarer the better."
       },
       "term8": {
         "term": "Web 3.0 (Web3)",
-        "definition": "Se refiere a la evolución del internet, en donde la participación del usuario es completa. Antes solo había recepción de los mensajes y actividad dentro de plataformas centralizadas, la diferencia radica en la descentralización del internet sucediendo en cadenas de bloque. Los usuarios pueden interactuar a distancia con inteligencia artificial y tecnología de aprendizaje automático; lo más importante, sin intermediarios."
+        "definition": "It refers to the evolution of the internet, where user participation is complete. Before there was only reception of messages and activity within centralized platforms, the difference lies in the decentralization of the internet happening in block chains. Users can remotely interact with artificial intelligence and machine learning technology; most importantly, without intermediaries."
       },
       "term9": {
         "term": "DAO",
-        "definition": "Organización Autónoma Descentralizada. Es una estructura o forma de organización basada en blockchain, la cual depende de contratos inteligentes. Se caracterizan por tener mayor transparencia, autonomía y seguridad, al mismo no están reguladas por organismos dentro de la ley."
+        "definition": "Decentralized Autonomous Organization. It is a structure or form of organization based on blockchain, which depends on smart contracts. They are characterized by having greater transparency, autonomy and security, at the same time they are not regulated by organizations within the law."
       },
       "term10": {
         "term": "Ethereum",
-        "definition": "Es una red de cadena descentralizada en la que se pueden tener criptomonedas, realizar pagos sin pasar por organismos como el Banco y construir aplicaciones digitales. No es necesario compartir datos personales. Su criptomoneda es ETH."
+        "definition": "It is a decentralized chain network in which you can have cryptocurrencies, make payments without going through organizations such as the Bank, and build digital applications. No need to share personal data. Its cryptocurrency is ETH."
       },
       "term11": {
         "term": "ETH",
-        "definition": "Ether (ETH) es la moneda digital o token que funciona para la red Ethereum, cadena de bloques pública. Se registra en un libro mayor, de manera transparente y no se puede modificar."
+        "definition": "Ether (ETH) is the digital currency or token that works for the Ethereum network, public block chain. It is recorded in a ledger, transparently and cannot be modified."
       },
       "term12": {
         "term": "WETH",
-        "definition": "WETH viene de las siglas “wrapped Ether”, en español “Ether Envuelto”, su finalidad es intercambiar Ether por otros tokens ERC-20. WETH no es más que un smart contract que cuenta con una estructura de datos ya preestablecida."
+        "definition": "WETH comes from the acronym “wrapped Ether”, in Spanish “Ether Wrapped”, its purpose is to exchange Ether for other ERC-20 tokens. WETH is nothing more than a smart contract that has a pre-established data structure."
       },
       "term13": {
         "term": "Mint",
-        "definition": "En inglés significa “acuñar”, que es imprimir y sellar metales por medio de un troquel. En el ecosistema cripto, se refiere a la acción de crear un certificado para un activo y subirlo a la blockchain a través de contratos inteligentes, por eso decimos que los tokens no fungibles o NFTs se “mintean”."
+        "definition": "In English it means “coin”, which is to print and stamp metals by means of a die. In the crypto ecosystem, it refers to the action of creating a certificate for an asset and uploading it to the blockchain through smart contracts, which is why we say that non-fungible tokens or NFTs are “minted”."
       },
       "term14": {
         "term": "Hash",
-        "definition": "No es el popular Hashtag #, el hash en el sistema criptográfico es una cadena de texto en código que se crea en la blockchain que toma datos para generar identificadores únicos que no se pueden repetir ni modificar, por tanto garantiza la seguridad digital. Se ve como números y letras de una longitud determinada. ¡Imagina todas las combinaciones posibles!"
+        "definition": "It is not the popular Hashtag #, the hash in the cryptographic system is a coded text string that is created in the blockchain that takes data to generate unique identifiers that cannot be repeated or modified, therefore guaranteeing digital security. It looks like numbers and letters of a certain length. Imagine all the possible combinations!"
       },
       "term15": {
         "term": "Gas Fee",
-        "definition": "El gas fee o tarifa de gas es la comisión que se debe pagar para que suceda una transacción en Ethereum. Recordemos, para poder “mintear” un token no fungible, es necesario que los validadores confirmen las transacciones en la cadena de bloques y así poder ejecutar el contrato."
+        "definition": "The gas fee or gas fee is the commission that must be paid for a transaction to take place in Ethereum. Let's remember, in order to “mine” a non-fungible token, it is necessary for the validators to confirm the transactions in the block chain and thus be able to execute the contract."
       },
       "term16": {
         "term": "Transaction Fee",
-        "definition": "Estas se refieren a las tarifas que cobra el marketplace cuando se operan NFTs. Principalmente cuando los usuarios realizan una transacción de compra o venta."
+        "definition": "These refer to the fees charged by the marketplace when NFTs are traded. Mainly when users make a purchase or sale transaction."
       },
       "term17": {
         "term": "Royalties",
-        "definition": "Las regalías que se pagan a los creadores. Lo maravilloso es que en el mundo de los tokens no fungibles hablamos de regalías perpetuas, ya que cada vez que se venda dicho NFT, el autor se llevará el porcentaje de dicha venta que se haya establecido previamente en el contrato inteligente. Estas comisiones se establecen alrededor del 5% al 10% del valor del token."
+        "definition": "Royalties paid to creators. The wonderful thing is that in the world of non-fungible tokens we are talking about perpetual royalties, since each time said NFT is sold, the author will take the percentage of said sale that has been previously established in the smart contract. These fees are set around 5% to 10% of the token value."
       }
     }
   },
   "about": {
     "title": "About Us",
     "block1": {
-      "line1": "Más que una plataforma, somos un ecosistema enfocado en la creación de NFTs en Latinoamérica conformado por mentes creativas, coleccionistas, inversionistas y entusiastas con un objetivo común:",
-      "line2": "Hacer sinergia para empoderarse creando una comunidad Web3 sostenible y autónoma.",
-      "line3": "Somos un marketplace en donde hay música, arte visual, diseño, videojuegos, avatares, podcast, experiencias sensoriales, artículos de moda y mucho más. Un mundo en donde la creatividad está de fiesta."
+      "line1": "More than a platform, we are an ecosystem focused on the creation of NFTs in Latin America made up of creative minds, collectors, investors and enthusiasts with a common goal:",
+      "line2": "Make synergy to empower yourself by creating a sustainable and autonomous Web3 community.",
+      "line3": "We are a marketplace where there is music, visual art, design, video games, avatars, podcasts, sensory experiences, fashion items and much more. A world where creativity is celebrating."
     },
     "manifesto": {
       "title": "GIG Manifesto",
-      "line1": "Conocemos el arduo camino que recorren los creativos para posicionarse en el mercado. Muchas veces darse a conocer y crecer en la industria es como toparse con pared.",
-      "line2": "Hay que tener los contactos adecuados, las comisiones suelen ser demasiado altas, a veces el trabajo no se valora de manera justa y encontrar buenos clientes se convierte en una tarea titánica. A esto súmale comentarios desmoralizadores como el clásico “¿Cómo vas a vivir de eso?”",
-      "line3": "Por eso, queremos que este mensaje llegue a todos los creativos (quienes expresamos nuestra esencia con ocurrencia):",
-      "line4": "Vivir de lo que nos apasiona es posible y no solo eso, también es redituable."
+      "line1": "We know the arduous path creatives go through to position themselves in the market. Many times making yourself known and growing in the industry is like running into a wall.",
+      "line2": "You have to have the right contacts, the commissions are usually too high, sometimes the work is not valued fairly and finding good clients becomes a daunting task. Add to this demoralizing comments like the classic “How are you going to live on that?”",
+      "line3": "For this reason, we want this message to reach all creatives (who express our essence witty):",
+      "line4": "Living from what we are passionate about is possible and not only that, it is also profitable."
     },
     "howItWorks": {
       "title": "How It Works",
-      "line1": "Te apoyamos durante todo el recorrido de generación de tus proyectos criptográficos, desde la conceptualización hasta su lanzamiento y promoción. Puedes confiar en la calidad de los activos en nuestra plataforma, ya que verificamos a cada creador para asegurarnos de que tengan una trayectoría sólida y piezas auténticas.",
-      "line2": "Trabajamos en simplificar los procesos para que puedas enfocarte en desarrollar tus proyectos y crecer tus colecciones."
+      "line1": "We support you throughout the generation journey of your cryptographic projects, from conceptualization to its launch and promotion. You can trust the quality of the assets on our platform as we vette each creator to ensure they have a solid track record and authentic pieces.",
+      "line2": "We work to simplify the processes so that you can focus on developing your projects and growing your collections."
     },
     "block2": {
-      "line1": "Aprovecha las oportunidades de ser visto por cientos de millones de personas gracias a la colaboración con medios masivos y participa en eventos de la industria de la tecnología y espectáculos.",
-      "line2": "Crea lo que imaginas en tus propios términos. ¿Preparado?"
+      "line1": "Take advantage of the opportunities to be seen by hundreds of millions of people thanks to the collaboration with mass media and participate in events of the technology industry and entertainment.",
+      "line2": "Create what you imagine on your own terms. Prepared?"
     }
   },
   "tutorials": {
     "title": "Tutorials",
-    "line1": "Que las trabas no sean una excusa. Sigue estos pasos para que tu camino por el ecosistema cripto sea lo más amigable. Te guíamos en cada fase, verás que la creación de tus NFTs no es cosa de otro universo.",
+    "line1": "That the obstacles are not an excuse. Follow these steps so that your path through the crypto ecosystem is as friendly as possible. We guide you in each phase, you will see that the creation of your NFTs is not something from another universe.",
     "tutorial1": {
       "title": "How to create my profile?", 
       "steps": {
-        "step1": "En el menú, dale clic al botón Iniciar sesión. Para ello requieres tener una wallet (cartera digital) aquí se van a guardar todas tus criptomonedas y tokens.",
-        "step2": "Si no tienes una, elige la de tu preferencia. Sigue los pasos, tendrás que descargar la cartera, ya sea que estés en tu cel o compu, elige en dónde descargar. Añádelo como extensión.",
-        "step3": "Al crear tu cartera, te va a dar una frase semilla y NUNCA la vayas a compartir. Se recomienda que la copies en físico y no en digital. También deberás crear una contraseña para fácil acceso a tu wallet.",
-        "step4": "De vuelta a lo importante, una vez que diste clic en Inicio, el portal te arrojó las opciones de Wallet a elegir. Deberás conectar esta wallet, así se te generará un perfil y comienza la aventura.",
-        "step5": "Para completar tu perfil, sube una foto de perfil y una imagen para el fondo.",
-        "step6": "Agrega el nombre de Display, o sea el que se mostrará a los usuarios.",
-        "step7": "Tu descripción, cuéntanos quién eres, qué tipo de creatividad es tu favorita, así como el tipo de proyectos que traes.",
-        "step8": "Deja tu correo electrónico para poder contactarte y para recibir notificaciones sobre tus transacciones.",
-        "step9": "Ahora llena los campos de redes sociales con tu información.",
-        "step10": "Finalmente compártenos el link a tu web o portafolio. (No te asustes si no tienes un sitio web, puedes enviarnos el link a tus obras maestras)"
+        "step1": "In the menu, click the Login button. For this you need to have a wallet (digital wallet) here all your cryptocurrencies and tokens will be stored.",
+        "step2": "If you don't have one, choose the one you prefer. Follow the steps, you will have to download the wallet, whether you are on your cell phone or computer, choose where to download. Add it as an extension.",
+        "step3": "When creating your portfolio, he is going to give you a seed phrase and NEVER share it. It is recommended that you copy it physically and not digitally. You will also need to create a password for easy access to your wallet.",
+        "step4": "Back to the point, once you clicked Start, the portal gave you the Wallet options to choose from. You must connect this wallet, so a profile will be generated for you and the adventure begins.",
+        "step5": "To complete your profile, upload a profile photo and a background image.",
+        "step6": "Add the Display name, that is, the one that will be shown to users.",
+        "step7": "Your description, tell us who you are, what type of creativity is your favorite, as well as the type of projects you bring.",
+        "step8": "Leave your email so we can contact you and receive notifications about your transactions.",
+        "step9": "Now fill in the social media fields with your information.",
+        "step10": "Finally, share the link to your website or portfolio. (Don't panic if you don't have a website, you can send us the link to your masterpieces)"
       }
     },
     "tutorial2": {
       "title": "How to verify my profile?", 
       "steps": {
-        "step1": "Para verificar tu perfil es necesario que primero lo hayas completado según los pasos de creación.",
+        "step1": "To verify your profile it is necessary that you have first completed it according to the creation steps.",
         "step2": {
-          "line1": "Luego, deberás llenar los datos que solicitamos en el ",
-          "line2": "siguiente formulario.",
-          "line3": "en nuestra sección de creadores."
+          "line1": "Then, you must fill in the information that we request in the ",
+          "line2": "following form.",
+          "line3": "in our creators section."
         },
-        "step3": "Deberás ingresar la dirección de tu “wallet”. Si no te la sabes, dirígete al ícono de tu perfil, da clic en Wallet y ahí podrás encontrar a dirección.",
-        "step4": "Una vez que hayas ingresado la dirección de tu Wallet, envía el formulario y listo.",
-        "step5": "Buenas noticias, eso significa que ya tenemos tu información para poder verificar tu cuenta. En breve recibirás una notificación y podrás acceder a las funciones de creación en nuestra plataforma. Si no compartiste un link con referencias de tu trabajo, ten a la mano tus proyectos ya que es posible que te los solicitemos. Si aún te quedan dudas contáctanos al correo electrónico"
+        "step3": "You must enter the address of your “wallet”. If you don't know it, go to your profile icon, click on Wallet and there you can find the address.",
+        "step4": "Once you've entered your Wallet address, submit the form and you're done.",
+        "step5": "Good news, that means we already have your information so we can verify your account. Soon you will receive a notification and you will be able to access the creation functions on our platform. If you did not share a link with references to your work, have your projects handy as we may request them. If you still have questions, contact us by email"
       }
     },
     "tutorial3": {
       "title": "How to mint new NFTs?", 
       "steps": {
         "step1": {
-          "line1": "Es fundamental que tu perfil esté verificado si quieres crear NFTs. Para nosotros es muy importante realizar los filtros necesarios para cuidar la calidad del contenido. Para verificar tu perfil es necesario que primero hayas completado el",
-          "line2": "siguiente formulario."
+          "line1": "It is essential that your profile is verified if you want to create NFTs. For us it is very important to carry out the necessary filters to take care of the quality of the content. To verify your profile it is necessary that you have first completed the",
+          "line2": "following form."
         },
         "step2": {
-          "line1": "En el menú principal, haz click en",
-          "line2": "Crear"
+          "line1": "In the main menu, click on",
+          "line2": "Create"
         },
-        "step3": "Esto te llevará a la página en donde puedes subir tus obras digitales. Tienes dos opciones: Individual o Múltiple. La primera te permite crear una sola copia, mientras que la opción múltiple, te permitirá crear varias copias del mismo arte.",
-        "step4": "Ahora carga tu futuro NFT, el cual puede ser JPG, PNG, GIF, WEBP, WEBM o MP4 con un peso máximo de 100 MB",
+        "step3": "This will take you to the page where you can upload your digital works. You have two options: Single or Multiple. The first allows you to create a single copy, while the multiple option will allow you to create multiple copies of the same art.",
+        "step4": "Now upload your future NFT, which can be JPG, PNG, GIF, WEBP, WEBM or MP4 with a maximum size of 100 MB",
         "step5": {
-          "line1": "Una vez que subiste tu archivo digital puedes llenar los datos referentes a dicho NFT. Recuerda que la calidad de los mismos te ayudará a darle promoción, así que piensa muy bien en:",
-          "line2": "Un título que sea descriptivo.",
-          "line3": "Una Descripción. ¿No se te ocurre? Cuéntanos en qué te inspiraste, cómo surgió la idea y qué quieres hacer con tu NFT (en caso de que tenga alguna utilidad).",
-          "line4":"Monto de las regalías que quieres obtener a raíz de la venta perpetua de tu NFT.",
-          "line5": "Elige la categoría en donde tu token no fungible va a habitar."
+          "line1": "Once you uploaded your digital file you can fill in the data referring to said NFT. Remember that their quality will help you promote them, so think carefully about:",
+          "line2": "A title that is descriptive.",
+          "line3": "A description. Doesn't it occur to you? Tell us what inspired you, how the idea came about, and what you want to do with your NFT (in case it has any use).",
+          "line4": "Amount of royalties you want to obtain from the perpetual sale of your NFT.",
+          "line5": "Choose the category where your non-fungible token will live."
         },
-        "step6": "Al confirmar la creación se te abrirá una ventana de tu wallet, ahí deberás hacer clic en Confirmar. Estarás completando la operación y ¡listo! con esto es más que suficiente para tener tus NFTs en la plataforma.",
-        "step7": "Recuerda que la creación siempre va a generar una comisión por gas, por lo tanto es importante que tengas ya criptomonedas en tu wallet."
+        "step6": "When confirming the creation, a window of your wallet will open, there you must click on Confirm. You will be completing the operation and that's it! with this it is more than enough to have your NFTs on the platform.",
+        "step7": "Remember that the creation will always generate a commission for gas, therefore it is important that you already have cryptocurrencies in your wallet."
       }
     },
     "tutorial4": {
       "title": "I want to buy NFTs.", 
       "steps": {
-        "step1": "Da clic en el botón del menú que dice Explorar, te llevará a la página con los NFTs verificados. Algunos de éstos estarán disponibles en modo subasta y otros en venta. Para aquellos que estén bajo subasta, en el precio deberás poner lo que estás dispuesto a pagar. Es fundamental que tengas un balance en tu perfil para que puedas realizar las transacciones que quieras.",
-        "step2": "Ojo: Fíjate muy bien en qué moneda está cotizado, no te vayas a hacer bolas. Vas a requerir tener comprado WETH en tu cuenta porque con esta criptomoneda estaremos realizando las operaciones."
+        "step1": "Click on the menu button that says Explore, it will take you to the page with verified NFTs. Some of these will be available in auction mode and others for sale. For those that are under auction, in the price you must put what you are willing to pay. It is essential that you have a balance in your profile so that you can make the transactions you want.",
+        "step2": "Be careful: pay close attention to the currency in which it is quoted, do not go to make balls. You will need to have purchased WETH in your account because with this cryptocurrency we will be carrying out the operations."
       }
     },
     "tutorial5": {
       "title": "I want to sell NFTs.", 
       "steps": {
-        "step1": "Es tan sencillo como subir productos a otros mercados digitales en mercados como Amazon, Mercado Libre o EBay. Una vez que tienes cargado tu NFT, si lo quieres vender es indispensable que des clic en el botón: Poner a la venta, de lo contrario, solo va a estar en exhibición. Finalmente, deberás ponerle precio a tu trabajo. Tú lo determinas. Recuerda que puedes basarte en el mercado para que sea una cantidad razonable y que al mismo tiempo ganes lo que desees. Como último paso, deberás seleccionar si lo pondrás a la venta o como subasta.",
-        "step2": "Y así empieza la magia.",
-        "step3": "Nota: Debes de tomar en cuenta las blockchain con que serán compatibles, dependiendo de ello también se determinarán las comisiones."
+        "step1": "It is as simple as uploading products to other digital markets in markets such as Amazon, Mercado Libre or EBay. Once you have loaded your NFT, if you want to sell it, it is essential that you click on the button: Put for sale, otherwise, it will only be on display. Finally, you will have to put a price on your work. You determine it. Remember that you can base yourself on the market to make it a reasonable amount and at the same time earn what you want. As the last step, you must select whether you will put it up for sale or as an auction.",
+        "step2": "And so the magic begins.",
+        "step3": "Note: You must take into account the blockchain with which they will be compatible, depending on which the commissions will also be determined."
       }
     }
   }

@@ -40,7 +40,7 @@ const FamiliaGIG: NextPage = () => {
                         {t('family.line2')}
                     </Text>
                     <Stack alignItems={'center'}>
-                        <Grid py={4}
+                        <Grid p={4} alignContent={'center'} mb={10}
                             templateColumns={{
                                 base: 'repeat(1, 1fr)',
                                 sm: 'repeat(2, 1fr)',
@@ -55,7 +55,7 @@ const FamiliaGIG: NextPage = () => {
                                 play
                                 style={{ width: 280, height: 280 }}
                             />
-                            <Stack direction={'column'} pt={10}>
+                            <Stack direction={'column'} >
                                 <Box>
                                     <Heading as={'h4'} variant={'heading1'} mb={4}><b>NFTLali</b></Heading>
                                     <Text fontSize='xs'>
@@ -80,7 +80,7 @@ const FamiliaGIG: NextPage = () => {
                                 </Stack>
                             </Stack>
                         </Grid>
-                        <Grid py={4}
+                        <Grid p={4} alignContent={'center'} mb={10}
                             templateColumns={{
                                 base: 'repeat(1, 1fr)',
                                 sm: 'repeat(2, 1fr)',
@@ -95,7 +95,7 @@ const FamiliaGIG: NextPage = () => {
                                 play
                                 style={{ width: 280, height: 280 }}
                             />
-                            <Stack direction={'column'} pt={10}>
+                            <Stack direction={'column'} >
                                 <Box>
                                     <Heading as={'h4'} variant={'heading1'} mb={4}><b>Mamá Doris</b></Heading>
                                     <Text fontSize='xs'>
@@ -121,7 +121,7 @@ const FamiliaGIG: NextPage = () => {
                                 </Stack>
                             </Stack>
                         </Grid>
-                        <Grid py={4}
+                        <Grid p={4} alignContent={'center'} mb={10}
                             templateColumns={{
                                 base: 'repeat(1, 1fr)',
                                 sm: 'repeat(2, 1fr)',
@@ -136,7 +136,7 @@ const FamiliaGIG: NextPage = () => {
                                 play
                                 style={{ width: 280, height: 280 }}
                             />
-                            <Stack direction={'column'} pt={10}>
+                            <Stack direction={'column'} >
                                 <Box>
                                     <Heading as={'h4'} variant={'heading1'} mb={4}><b>Creadori Jiménez</b></Heading>
                                     <Text fontSize='xs'>
@@ -162,7 +162,7 @@ const FamiliaGIG: NextPage = () => {
                                 </Stack>
                             </Stack>
                         </Grid>
-                        <Grid py={4}
+                        <Grid p={4} alignContent={'center'} mb={10}
                             templateColumns={{
                                 base: 'repeat(1, 1fr)',
                                 sm: 'repeat(2, 1fr)',
@@ -177,7 +177,7 @@ const FamiliaGIG: NextPage = () => {
                                 play
                                 style={{ width: 280, height: 280 }}
                             />
-                            <Stack direction={'column'} pt={10}>
+                            <Stack direction={'column'} >
                                 <Box>
                                     <Heading as={'h4'} variant={'heading1'} mb={4}><b>Flipper</b></Heading>
                                     <Text fontSize='xs'>
@@ -204,7 +204,7 @@ const FamiliaGIG: NextPage = () => {
                                 </Stack>
                             </Stack>
                         </Grid>
-                        <Grid py={4}
+                        <Grid p={4} alignContent={'center'} mb={10}
                             templateColumns={{
                                 base: 'repeat(1, 1fr)',
                                 sm: 'repeat(2, 1fr)',
@@ -219,7 +219,7 @@ const FamiliaGIG: NextPage = () => {
                                 play
                                 style={{ width: 280, height: 280 }}
                             />
-                            <Stack direction={'column'} pt={10}>
+                            <Stack direction={'column'} >
                                 <Box>
                                     <Heading as={'h4'} variant={'heading1'} mb={4}><b>Eskeri Popi</b></Heading>
                                     <Text fontSize='xs'>
@@ -246,7 +246,7 @@ const FamiliaGIG: NextPage = () => {
                                 </Stack>
                             </Stack>
                         </Grid>
-                        <Grid py={4}
+                        <Grid p={4} alignContent={'center'} mb={10}
                             templateColumns={{
                                 base: 'repeat(1, 1fr)',
                                 sm: 'repeat(2, 1fr)',
@@ -261,7 +261,7 @@ const FamiliaGIG: NextPage = () => {
                                 play
                                 style={{ width: 280, height: 280 }}
                             />
-                            <Stack direction={'column'} pt={10}>
+                            <Stack direction={'column'} >
                                 <Box>
                                     <Heading as={'h4'} variant={'heading1'} mb={4}><b>Jeiter Popi</b></Heading>
                                     <Text fontSize='xs'>
@@ -287,7 +287,7 @@ const FamiliaGIG: NextPage = () => {
                                 </Stack>
                             </Stack>
                         </Grid>
-                        <Grid py={4}
+                        <Grid p={4} alignContent={'center'} mb={10}
                             templateColumns={{
                                 base: 'repeat(1, 1fr)',
                                 sm: 'repeat(2, 1fr)',
@@ -302,7 +302,7 @@ const FamiliaGIG: NextPage = () => {
                                 play
                                 style={{ width: 280, height: 280 }}
                             />
-                            <Stack direction={'column'} pt={10}>
+                            <Stack direction={'column'} >
                                 <Box>
                                     <Heading as={'h4'} variant={'heading1'} mb={4}><b>URI</b></Heading>
                                     <Text fontSize='xs'>
@@ -328,7 +328,7 @@ const FamiliaGIG: NextPage = () => {
                                 </Stack>
                             </Stack>
                         </Grid>
-                        <Grid py={4}
+                        <Grid p={4} alignContent={'center'} mb={10}
                             templateColumns={{
                                 base: 'repeat(1, 1fr)',
                                 sm: 'repeat(2, 1fr)',
@@ -343,7 +343,7 @@ const FamiliaGIG: NextPage = () => {
                                 play
                                 style={{ width: 280, height: 280 }}
                             />
-                            <Stack direction={'column'} pt={10}>
+                            <Stack direction={'column'} >
                                 <Box>
                                     <Heading as={'h4'} variant={'heading1'} mb={4}><b>Papá Che</b></Heading>
                                     <Text fontSize='xs'>

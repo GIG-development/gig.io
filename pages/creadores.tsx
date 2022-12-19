@@ -166,14 +166,17 @@ const Creadores: NextPage = () => {
           
       </LargeLayout>
 
-      <Stack spacing={12} mb={10} backgroundColor={'gray.100'} w={'full'}>
+      <Stack spacing={12} mb={10} backgroundColor={'gray.100'} w={'full'} id='creators__section-full'>
         <LargeLayout>
-            <Text color={'gray.500'} fontSize={{base: 'sm', md: 'md'}}>
+            <Heading color={'gray.500'} fontSize={{base: 'xl', md: '2xl'}}>
                 Somos una plataforma digital que reúne a las grandes mentes de la industria creativa en la Web 3.0.
-            </Text>
-            <Text color={'gray.800'} fontWeight={700} fontSize={{base: 'sm', md: 'md'}}>
+            </Heading>
+            <Heading color={'gray.800'} fontWeight={700} fontSize={{base: 'xl', md: '2xl'}}>
                 Codéate con artistas prestigiosos, coleccionistas, curadores reconocidos y otras mentes creativas como tú
-            </Text>
+            </Heading>
+            <Box alignItems={'center'}>
+              {typeFormButton}
+            </Box>
         </LargeLayout>
       </Stack>
 

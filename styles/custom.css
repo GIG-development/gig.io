@@ -78,6 +78,21 @@
     transform: rotate(45deg);
 }
 
+/*Secondary Hero in Creators */
+#creators__section-full{
+    position: relative;
+}
+#creators__section-full::after{
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: calc(50% - 20px);
+    width: 40px;
+    height: 40px;
+    background-color: #F3F4F6;
+    transform: rotate(45deg);
+}
+
 /*EXPLORE*/
 #explore aside button {
     width: 100%;

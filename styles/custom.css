@@ -102,6 +102,9 @@
 }
 
 /*SLIDER*/
+.slick-slider .slick-list{
+    padding: 0 !important;
+}
 .slick-next:before, .slick-prev:before {
     color: #000 !important;
 }

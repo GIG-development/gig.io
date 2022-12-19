@@ -2,11 +2,11 @@ import {
     Button,
     Flex,
     Heading,
-    Link,
     Stack,
     Text,
     useBreakpointValue
 } from '@chakra-ui/react'
+import Link from '../Link/Link'
 import { FC, PropsWithChildren, ReactElement } from 'react'
 import Lottie from 'react-lottie-player';
 

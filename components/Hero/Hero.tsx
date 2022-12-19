@@ -3,11 +3,11 @@ import {
     Flex,
     Heading,
     Image,
-    Link,
     Stack,
     Text,
     useBreakpointValue
 } from '@chakra-ui/react'
+import Link from '../Link/Link'
 import { FC, PropsWithChildren, ReactElement } from 'react'
 
 type Props = {

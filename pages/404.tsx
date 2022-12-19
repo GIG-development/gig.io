@@ -1,10 +1,10 @@
 import {
     Button,
     Heading,
-    Image, 
-    Link,
+    Image,
     Stack
 } from '@chakra-ui/react'
+import Link from '../components/Link/Link'
 import Head from '../components/Head'
 import LargeLayout from '../layouts/large'
 import { NextPage } from 'next'

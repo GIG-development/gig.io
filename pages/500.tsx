@@ -1,10 +1,10 @@
 import {
     Button,
     Heading,
-    Link,
     Text,
     Stack
 } from '@chakra-ui/react'
+import Link from '../components/Link/Link'
 import Head from '../components/Head'
 import LargeLayout from '../layouts/large'
 import environment from '../environment'

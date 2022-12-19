@@ -3,7 +3,6 @@ import {
     Flex,
     Box,
     Heading,
-    Link,
     Text,
     Button,
     Image,
@@ -20,6 +19,7 @@ import {
     AspectRatio,
     useBreakpointValue
 } from '@chakra-ui/react'
+import Link from '../Link/Link'
 import { FC, PropsWithChildren } from 'react'
 
 type Props = {

@@ -1,9 +1,9 @@
 import {
   Heading,
-  Link,
   Stack,
   Text
 } from '@chakra-ui/react'
+import Link from '../components/Link/Link'
 import Head from '../components/Head'
 import LargeLayout from '../layouts/large'
 import { NextPage } from 'next'

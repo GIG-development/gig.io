@@ -1,9 +1,9 @@
 import {
   Accordion,
-  Link,
   Heading, 
   Stack
 } from '@chakra-ui/react'
+import Link from '../components/Link/Link'
 import Head from '../components/Head'
 import AccordionItem from '../components/AccordionItem/AccordionItem'
 import LargeLayout from '../layouts/large'

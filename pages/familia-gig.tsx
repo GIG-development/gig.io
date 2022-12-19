@@ -25,7 +25,7 @@ import URI from '../public/img/animaciones/URI.json'
 import JEITER from '../public/img/animaciones/JEITER.json'
 import ESKERI from '../public/img/animaciones/ESKERI.json'
 
-function SampleNextArrow(props) {
+function SampleNextArrow(props: any) {
     const { className, style, onClick } = props;
     return (
         <div
@@ -36,7 +36,7 @@ function SampleNextArrow(props) {
     );
 }
   
-function SamplePrevArrow(props) {
+function SamplePrevArrow(props: any) {
     const { className, style, onClick } = props;
     return (
         <div

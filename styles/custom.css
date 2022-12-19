@@ -100,3 +100,8 @@
     text-align: center;
     justify-content: center;
 }
+
+/*SLIDER*/
+.slick-next:before, .slick-prev:before {
+    color: #000;
+}

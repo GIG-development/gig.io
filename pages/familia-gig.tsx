@@ -29,6 +29,7 @@ const FamiliaGIG: NextPage = () => {
         arrows: true,
         dots: true,
         infinite: true,
+        centerMode: true,
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1

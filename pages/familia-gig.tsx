@@ -55,7 +55,7 @@ const FamiliaGIG: NextPage = () => {
                 <Box maxW={{base: '100%', md: '960px'}} margin={'0 auto'}>
                     <Slider {...SliderSettings}>
                         <Stack>
-                            <Grid p={4} m={'0 20px'}
+                            <Grid p={4} m={'0 40px 0 0'}
                                 templateColumns={{
                                     base: 'repeat(1, 1fr)',
                                     sm: 'repeat(2, 1fr)',

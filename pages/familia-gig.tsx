@@ -52,46 +52,46 @@ const FamiliaGIG: NextPage = () => {
                         {t('family.line2')}
                     </Text>
                     <Slider {...SliderSettings}>
-                            <Grid p={4} align={'center'} justify={'center'} mb={10}
-                                templateColumns={{
-                                    base: 'repeat(1, 1fr)',
-                                    sm: 'repeat(2, 1fr)',
-                                    md: '1fr 3fr',
-                                }}
-                                gap={8}
-                                maxW={'720px'}
-                            >
-                                <Lottie
-                                    loop={true}
-                                    animationData={NFTLali}
-                                    play
-                                    style={{ width: 280, height: 280 }}
-                                />
-                                <Stack direction={'column'} >
+                        <Grid p={4} mb={10} alignContent={'center'} alignItems={'center'} justifyContent={'center'} justifyItems={'center'}
+                            templateColumns={{
+                                base: 'repeat(1, 1fr)',
+                                sm: 'repeat(2, 1fr)',
+                                md: '1fr 3fr',
+                            }}
+                            gap={8}
+                            maxW={'720px'}
+                        >
+                            <Lottie
+                                loop={true}
+                                animationData={NFTLali}
+                                play
+                                style={{ width: 280, height: 280 }}
+                            />
+                            <Stack direction={'column'} >
+                                <Box>
+                                    <Heading as={'h4'} variant={'heading1'} mb={4}><b>NFTLali</b></Heading>
+                                    <Text fontSize='xs'>
+                                        {t('family.characters.nftlali.description')}
+                                    </Text>
+                                </Box>
+                                <Stack direction={'row'} spacing={12} pt={4}>
                                     <Box>
-                                        <Heading as={'h4'} variant={'heading1'} mb={4}><b>NFTLali</b></Heading>
+                                        <Heading as={'h5'} variant={'heading4'}>{t('family.characters.powers')}</Heading>
                                         <Text fontSize='xs'>
-                                            {t('family.characters.nftlali.description')}
+                                            {t('family.characters.nftlali.power.power1')}<br/>
+                                            {t('family.characters.nftlali.power.power2')}<br/>
+                                            {t('family.characters.nftlali.power.power3')}
                                         </Text>
                                     </Box>
-                                    <Stack direction={'row'} spacing={12} pt={4}>
-                                        <Box>
-                                            <Heading as={'h5'} variant={'heading4'}>{t('family.characters.powers')}</Heading>
-                                            <Text fontSize='xs'>
-                                                {t('family.characters.nftlali.power.power1')}<br/>
-                                                {t('family.characters.nftlali.power.power2')}<br/>
-                                                {t('family.characters.nftlali.power.power3')}
-                                            </Text>
-                                        </Box>
-                                        <Box>
-                                            <Heading as={'h5'} variant={'heading4'}>{t('family.characters.weaknesses')}</Heading>
-                                            <Text fontSize='xs'>
-                                                {t('family.characters.nftlali.weakness.weakness1')}
-                                            </Text>
-                                        </Box>
-                                    </Stack>
+                                    <Box>
+                                        <Heading as={'h5'} variant={'heading4'}>{t('family.characters.weaknesses')}</Heading>
+                                        <Text fontSize='xs'>
+                                            {t('family.characters.nftlali.weakness.weakness1')}
+                                        </Text>
+                                    </Box>
                                 </Stack>
-                            </Grid>
+                            </Stack>
+                        </Grid>
                         <Stack alignItems={'center'}>
                             <Grid p={4} alignContent={'center'} mb={10}
                                 templateColumns={{

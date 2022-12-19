@@ -47,7 +47,7 @@ function SamplePrevArrow(props: any) {
 
 const FamiliaGIG: NextPage = () => {
     const { t } = useTranslation('components')
-    var SliderSettings = {
+    const SliderSettings = {
         arrows: true,
         dots: true,
         infinite: true,

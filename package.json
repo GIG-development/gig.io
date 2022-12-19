@@ -13,6 +13,9 @@
     "deployTestnet": "curl -X POST https://api.vercel.com/v1/integrations/deploy/prj_U4rUq93h2ds6Tkt5HX6pF9mZUsqi/bwgu6Pol1o"
   },
   "dependencies": {
+    "@apollo/client": "^3.5.9",
+    "@bugsnag/js": "^7.18.0",
+    "@bugsnag/plugin-react": "^7.18.0",
     "@chakra-ui/react": "^1.8.8",
     "@nft/api-graphql": "^1.0.0-beta.7",
     "@nft/chat": "^0.1.8",
@@ -39,6 +42,7 @@
     "nextjs-google-analytics": "^1.2.1",
     "nprogress": "^0.2.0",
     "numbro": "^2.3.6",
+    "raw-body": "^2.5.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-cookie": "^4.1.1",

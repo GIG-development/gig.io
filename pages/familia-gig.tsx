@@ -6,11 +6,11 @@ import {
   useBreakpointValue
 } from '@chakra-ui/react'
 import Head from '../components/Head'
+import Slider from 'components/Slider/Slider'
 import Character from 'components/Character/Character'
 import LargeLayout from '../layouts/large'
 import { NextPage } from 'next'
 import useTranslation from 'next-translate/useTranslation'
-import Slider from "react-slick";
 import NFTLali from '../public/img/animaciones/NFTLALI.json'
 import MAMADORIS from '../public/img/animaciones/MAMADORIS.json'
 import FLIPPER from '../public/img/animaciones/FLIPPER.json'
@@ -22,15 +22,6 @@ import ESKERI from '../public/img/animaciones/ESKERI.json'
 
 const FamiliaGIG: NextPage = () => {
     const { t } = useTranslation('components')
-    const SliderSettings = {
-        arrows: true,
-        dots: false,
-        infinite: true,
-        centerMode: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1
-    }
     return (
         <div id="familia">
             <LargeLayout>
@@ -50,7 +41,7 @@ const FamiliaGIG: NextPage = () => {
                     </Text>
                 </Stack>
                 <Box maxW={'720px'} margin={'0 auto 40px'}>
-                    <Slider {...SliderSettings}>
+                    <Slider>
                         <Character
                             name='NFTLali'
                             animation={NFTLali}

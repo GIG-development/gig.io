@@ -30,6 +30,8 @@ const Character: FC<PropsWithChildren<Props>> = ({
     const { t } = useTranslation('components')
     return (
         <Flex
+            grow={0}
+            shrink={0}
             basis={'100%'}
             p="10px"
         >

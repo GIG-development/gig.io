@@ -47,14 +47,75 @@ const Creadores: NextPage = () => {
       />
       <LargeLayout>
         <Stack spacing={6} my={20}>
+
+        <Grid templateColumns={{base: '1fr', md: 'repeat(4, 1fr)'}} gap={4} mb={20}>
+            <Box textAlign={'center'}>
+              <Flex textAlign={'center'} justifyContent={'center'}>
+                  <Image
+                      alt={'Beneficios'}
+                      src={'/img/creadores/experiencias.png'}
+                      objectFit={'cover'}
+                      maxW={"180px"}
+                  />
+              </Flex>
+              <Text as={'h2'} variant="heading2">
+              Experiencias inmersivas
+              </Text>
+              <Text fontSize={{base: 'xs', md: 'sm'}}>
+              </Text>
+            </Box>
+            <Box textAlign={'center'}>
+              <Flex textAlign={'center'} justifyContent={'center'}>
+                  <Image
+                      alt={'Beneficios'}
+                      src={'/img/creadores/accesos.png'}
+                      objectFit={'cover'}
+                      maxW={"180px"}
+                  />
+              </Flex>
+              <Text as={'h2'} variant="heading2">
+              Accesos preferenciales 
+              </Text>
+              <Text fontSize={{base: 'xs', md: 'sm'}}>
+              </Text>
+            </Box>
+            <Box textAlign={'center'}>
+              <Flex textAlign={'center'} justifyContent={'center'}>
+                <Image
+                    alt={'Beneficios'}
+                    src={'/img/creadores/descuentos.png'}
+                    objectFit={'cover'}
+                    maxW={"180px"}
+                />
+              </Flex>
+              <Text as={'h2'} variant="heading2">
+              Descuentos a exposiciones
+              </Text>
+              <Text fontSize={{base: 'xs', md: 'sm'}}>
+              </Text>
+            </Box>
+            <Box textAlign={'center'}>
+              <Flex textAlign={'center'} justifyContent={'center'}>
+                <Image
+                    alt={'Beneficios'}
+                    src={'/img/creadores/difusion.png'}
+                    objectFit={'cover'}
+                    maxW={"180px"}
+                />
+              </Flex>
+              <Text as={'h2'} variant="heading2">
+              Promo en medios masivos y más
+              </Text>
+              <Text fontSize={{base: 'xs', md: 'sm'}}>
+              </Text>
+            </Box>
+          </Grid>
+
           <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10} alignItems={'center'}>
               <Stack spacing={4}>
                   <Heading as={'h2'} variant={'subtitle'}>Decodificamos juntos tus ideas</Heading>
                   <Text color={'gray.500'} fontSize={{base: 'sm', md: 'md'}}>
                   No necesitas ser experto, estamos contigo desde la conceptualización hasta la promoción de tus NFTs. Solo trae tus ganas de entrar al espacio cripto en una comunidad de creativos geniales.
-                  </Text>
-                  <Text color={'gray.800'} fontWeight={700} fontSize={{base: 'sm', md: 'md'}}>
-                  Codéate con artistas prestigiosos, coleccionistas, curadores reconocidos y otras mentes creativas como tú
                   </Text>
               </Stack>
               <Flex textAlign={'center'} justifyContent={'center'}>
@@ -101,8 +162,24 @@ const Creadores: NextPage = () => {
               />
             </Flex>
           </SimpleGrid>
+        </Stack>
           
-          <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10} pt={12} alignItems={'center'}>
+      </LargeLayout>
+
+      <Stack spacing={12} mb={10} backgroundColor={'gray.100'} w={'full'}>
+        <LargeLayout>
+            <Text color={'gray.500'} fontSize={{base: 'sm', md: 'md'}}>
+                Somos una plataforma digital que reúne a las grandes mentes de la industria creativa en la Web 3.0.
+            </Text>
+            <Text color={'gray.800'} fontWeight={700} fontSize={{base: 'sm', md: 'md'}}>
+                Codéate con artistas prestigiosos, coleccionistas, curadores reconocidos y otras mentes creativas como tú
+            </Text>
+        </LargeLayout>
+      </Stack>
+
+      <LargeLayout>
+
+        <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10} pt={12} alignItems={'center'}>
             <Flex textAlign={'center'} justifyContent={'center'}>
               <Lottie
                   loop={true}
@@ -114,99 +191,19 @@ const Creadores: NextPage = () => {
             <Stack spacing={4}>
                 <Heading as={'h2'} variant={'subtitle'}>¿Cómo funciona?</Heading>
                 <Text color={'gray.500'} fontSize={{base: 'sm', md: 'md'}}>
-                Somos una plataforma digital que reúne a las grandes mentes de la industria creativa en la Web 3.0.
-                <br/><br/>
                 En GIG todos juegan. La única regla es verificar tu perfil como creativo, ya que nos caracterizamos por cuidar la calidad del material que habita en la plataforma garantizando la seguridad en las transacciones dentro de la plataforma, así como el desarrollo de una sociedad sostenible que busca la vida creativa en cualquier parte del mundo. Para verificarte, solo requieres mandarnos tu material y obras maestras para corroborar que son de tu autoría pues estarás entrando a una comunidad segura y sostenible.
                 Si no tienes experiencia en este campo igual eres bienvenido, te apoyamos en cada fase y con lo que necesites para empezar tu camino digital.
-                <br/><br/>
-                Fomenta con nosotros la vida creativa en cualquier lugar del mundo. 
                 </Text>
             </Stack>
-          </SimpleGrid>
+        </SimpleGrid>
 
-          <Stack spacing={4}>
-              <Heading as={'h2'} variant={'subtitle'}>Una interfaz ganadora</Heading>
-              <Text color={'gray.500'} fontSize={{base: 'sm', md: 'md'}}>
-                Tu creatividad llegará a los ojos adecuados. Sube y vende tus proyectos en minutos y sé parte de esta evolución tecnológica
-              </Text>
-          </Stack>
-
+        <Stack spacing={4}>
+            <Heading as={'h2'} variant={'subtitle'}>Una interfaz ganadora</Heading>
+            <Text color={'gray.500'} fontSize={{base: 'sm', md: 'md'}}>
+              Tu creatividad llegará a los ojos adecuados. Sube y vende tus proyectos en minutos y fomenta con nosotros la vida creativa en cualquier lugar del mundo. 
+            </Text>
         </Stack>
-          
-      </LargeLayout>
-
-      <Stack spacing={12} mb={10} backgroundColor={'gray.100'} w={'full'} id='home__section-video'>
-        <LargeLayout>
-            <Grid templateColumns={{base: '1fr', md: 'repeat(4, 1fr)'}} gap={4} mb={20}>
-              <Box textAlign={'center'}>
-                <Flex textAlign={'center'} justifyContent={'center'}>
-                    <Image
-                        alt={'Beneficios'}
-                        src={'/img/familia/uri.png'}
-                        objectFit={'cover'}
-                        maxW={"180px"}
-                    />
-                </Flex>
-                <Heading as={'h2'} variant="heading2">
-                Experiencias inmersivas
-                </Heading>
-                <Text fontSize={{base: 'xs', md: 'sm'}}>
-                </Text>
-              </Box>
-              <Box textAlign={'center'}>
-                <Flex textAlign={'center'} justifyContent={'center'}>
-                    <Image
-                        alt={'Beneficios'}
-                        src={'/img/familia/uri.png'}
-                        objectFit={'cover'}
-                        maxW={"180px"}
-                    />
-                </Flex>
-                <Heading as={'h2'} variant="heading2">
-                Accesos preferenciales 
-                </Heading>
-                <Text fontSize={{base: 'xs', md: 'sm'}}>
-                </Text>
-              </Box>
-              <Box textAlign={'center'}>
-                <Flex textAlign={'center'} justifyContent={'center'}>
-                  <Image
-                      alt={'Beneficios'}
-                      src={'/img/familia/uri.png'}
-                      objectFit={'cover'}
-                      maxW={"180px"}
-                  />
-                </Flex>
-                <Heading as={'h2'} variant="heading2">
-                Descuentos a exposiciones
-                </Heading>
-                <Text fontSize={{base: 'xs', md: 'sm'}}>
-                </Text>
-              </Box>
-              <Box textAlign={'center'}>
-                <Flex textAlign={'center'} justifyContent={'center'}>
-                  <Image
-                      alt={'Beneficios'}
-                      src={'/img/familia/uri.png'}
-                      objectFit={'cover'}
-                      maxW={"180px"}
-                  />
-                </Flex>
-                <Heading as={'h2'} variant="heading2">
-                Promo en medios masivos y más
-                </Heading>
-                <Text fontSize={{base: 'xs', md: 'sm'}}>
-                </Text>
-              </Box>
-            </Grid>
-        </LargeLayout>
-      </Stack>
-
-      <LargeLayout>
         <Stack spacing={6} my={20}>
-
-          
-
           <Heading as={'h2'} variant="heading1" pt={20}>
           Preguntas frecuentes
           </Heading>
@@ -232,12 +229,15 @@ const Creadores: NextPage = () => {
               answer={'Prácticamente todos los formatos son bienvenidos: Arte digital, música, esculturas, videos, libros, videos. Coleccionables digitales como objetos, tarjetas, skins, avatares. Videojuegos y lo relativo a ellos. Certificados y títulos. Objetos físicos. Tickets o entradas a eventos. (Nos reservamos el derecho de admitir proyectos que pudieran ir en perjuicio de alguna persona o institución.)'}
             />
           </Accordion>
-
         </Stack>
         
-        <Heading as={'h2'} variant="heading1" pt={20} textAlign={'center'}>
-          Somos GIG.<br/>Empoderando mentes creativas.
+        <Heading as={'h2'} variant="heading1" pt={4} textAlign={'center'}>
+          Somos GIG.
         </Heading>
+        <Heading as={'h2'} variant="heading2" textAlign={'center'}>
+          Empoderando mentes creativas.
+        </Heading>
+        
       </LargeLayout>
     </div>
   )

@@ -24,7 +24,7 @@ const FamiliaGIG: NextPage = () => {
     const { t } = useTranslation('components')
     const SliderSettings = {
         arrows: true,
-        dots: true,
+        dots: false,
         infinite: true,
         centerMode: true,
         speed: 500,

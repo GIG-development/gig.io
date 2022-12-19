@@ -102,10 +102,28 @@
 }
 
 /*SLIDER*/
-.slick-next:before, .slick-prev:before {
-    color: #000 !important;
+.slick-slider {
+    position: relative;
+    overflow: hidden;
+}
+button.slick-arrow {
+    position: absolute;
+    top: 50%;
+}
+.slick-arrow.slick-prev {
+    left: 0;
+}
+.slick-arrow.slick-prev::before {
+    content: '<'
+}
+.slick-arrow.slick-next {
+    right: 0;
+}
+.slick-arrow.slick-next::before {
+    content: '>'
 }
 .slick-slider .slick-slide {
+    float: left;
     padding-left: 0px;
     padding: 0 20px;
 }

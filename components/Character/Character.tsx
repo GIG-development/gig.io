@@ -54,7 +54,7 @@ const Character: FC<PropsWithChildren<Props>> = ({
                                 <Heading as={'h5'} variant={'heading4'}>{t('family.characters.powers')}</Heading>
                                 {powers.map(p=>{
                                     return (
-                                        <Text fontSize='xs'>{p}</Text>
+                                        <Text key={p} fontSize='xs'>{p}</Text>
                                     )
                                 })}
                             </Box>
@@ -62,7 +62,7 @@ const Character: FC<PropsWithChildren<Props>> = ({
                                 <Heading as={'h5'} variant={'heading4'}>{t('family.characters.weaknesses')}</Heading>
                                 {weaknesses.map(w=>{
                                     return (
-                                        <Text fontSize='xs'>{w}</Text>
+                                        <Text key={w} fontSize='xs'>{w}</Text>
                                     )
                                 })}
                             </Box>

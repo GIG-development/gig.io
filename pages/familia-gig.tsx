@@ -23,23 +23,23 @@ import URI from '../public/img/animaciones/URI.json'
 import JEITER from '../public/img/animaciones/JEITER.json'
 import ESKERI from '../public/img/animaciones/ESKERI.json'
 
-function SampleNextArrow(props: any) {
+function NextArrow(props: any) {
     const { className, style, onClick } = props;
     return (
         <div
             className={className}
-            style={{ ...style, display: "block", background: "red" }}
+            style={{ ...style, display: "block", background: "black" }}
             onClick={onClick}
         />
     );
 }
   
-function SamplePrevArrow(props: any) {
+function PrevArrow(props: any) {
     const { className, style, onClick } = props;
     return (
         <div
             className={className}
-            style={{ ...style, display: "block", background: "green" }}
+            style={{ ...style, display: "block", background: "black" }}
             onClick={onClick}
         />
     );
@@ -54,8 +54,8 @@ const FamiliaGIG: NextPage = () => {
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
-        nextArrow: <SampleNextArrow />,
-        prevArrow: <SamplePrevArrow />
+        nextArrow: <NextArrow />,
+        prevArrow: <PrevArrow />
     }
     return (
         <div id="familia">
@@ -74,8 +74,8 @@ const FamiliaGIG: NextPage = () => {
                     <Text fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
                         {t('family.line2')}
                     </Text>
-                    <Stack alignItems={'center'}>
-                        <Slider {...SliderSettings}>
+                    <Slider {...SliderSettings}>
+                        <Stack alignItems={'center'}>
                             <Grid p={4} alignContent={'center'} mb={10}
                                 templateColumns={{
                                     base: 'repeat(1, 1fr)',
@@ -116,6 +116,8 @@ const FamiliaGIG: NextPage = () => {
                                     </Stack>
                                 </Stack>
                             </Grid>
+                        </Stack>
+                        <Stack alignItems={'center'}>
                             <Grid p={4} alignContent={'center'} mb={10}
                                 templateColumns={{
                                     base: 'repeat(1, 1fr)',
@@ -157,6 +159,8 @@ const FamiliaGIG: NextPage = () => {
                                     </Stack>
                                 </Stack>
                             </Grid>
+                        </Stack>
+                        <Stack alignItems={'center'}>
                             <Grid p={4} alignContent={'center'} mb={10}
                                 templateColumns={{
                                     base: 'repeat(1, 1fr)',
@@ -198,6 +202,8 @@ const FamiliaGIG: NextPage = () => {
                                     </Stack>
                                 </Stack>
                             </Grid>
+                        </Stack>
+                        <Stack alignItems={'center'}>
                             <Grid p={4} alignContent={'center'} mb={10}
                                 templateColumns={{
                                     base: 'repeat(1, 1fr)',
@@ -240,6 +246,8 @@ const FamiliaGIG: NextPage = () => {
                                     </Stack>
                                 </Stack>
                             </Grid>
+                        </Stack>
+                        <Stack alignItems={'center'}>
                             <Grid p={4} alignContent={'center'} mb={10}
                                 templateColumns={{
                                     base: 'repeat(1, 1fr)',
@@ -282,6 +290,8 @@ const FamiliaGIG: NextPage = () => {
                                     </Stack>
                                 </Stack>
                             </Grid>
+                        </Stack>
+                        <Stack alignItems={'center'}>
                             <Grid p={4} alignContent={'center'} mb={10}
                                 templateColumns={{
                                     base: 'repeat(1, 1fr)',
@@ -323,6 +333,8 @@ const FamiliaGIG: NextPage = () => {
                                     </Stack>
                                 </Stack>
                             </Grid>
+                        </Stack>
+                        <Stack alignItems={'center'}>
                             <Grid p={4} alignContent={'center'} mb={10}
                                 templateColumns={{
                                     base: 'repeat(1, 1fr)',
@@ -364,6 +376,8 @@ const FamiliaGIG: NextPage = () => {
                                     </Stack>
                                 </Stack>
                             </Grid>
+                        </Stack>
+                        <Stack alignItems={'center'}>
                             <Grid p={4} alignContent={'center'} mb={10}
                                 templateColumns={{
                                     base: 'repeat(1, 1fr)',
@@ -406,8 +420,8 @@ const FamiliaGIG: NextPage = () => {
                                     </Stack>
                                 </Stack>
                             </Grid>
-                        </Slider>
-                    </Stack>
+                        </Stack>
+                    </Slider>
                 </Stack>
             </LargeLayout>
         </div>

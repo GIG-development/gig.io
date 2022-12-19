@@ -29,7 +29,17 @@ const Character: FC<PropsWithChildren<Props>> = ({
 }) => {
     const { t } = useTranslation('components')
     return (
-        <Flex className='gig-character'>
+        <Flex
+            grow={0}
+            shrink={0}
+            basis={{
+                base: '100%',
+                sm: '50%',
+                md: '33.33%',
+                lg: '25%',
+            }}
+            p="10px"
+        >
             <Grid p={{base: 0, md: 4}} m={{base: 0, md: '0 40px 0 0'}}
                 templateColumns={{
                     base: 'repeat(1, 1fr)',

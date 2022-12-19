@@ -45,15 +45,15 @@ const FamiliaGIG: NextPage = () => {
                     <Slider {...SliderSettings}>
                         <div>
                             <h1>NFTLali</h1>
-                            <p>{p('family.characters.nftlali.description')}</p>
+                            <p>{t('family.characters.nftlali.description')}</p>
                         </div>
                         <div>
                             <h1>URI</h1>
-                            <p>{p('family.characters.nftlali.description')}</p>
+                            <p>{t('family.characters.nftlali.description')}</p>
                         </div>
                         <div>
                             <h1>Flipper</h1>
-                            <p>{p('family.characters.nftlali.description')}</p>
+                            <p>{t('family.characters.nftlali.description')}</p>
                         </div>
                     </Slider>
                 </Box>

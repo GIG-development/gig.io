@@ -23,28 +23,6 @@ import URI from '../public/img/animaciones/URI.json'
 import JEITER from '../public/img/animaciones/JEITER.json'
 import ESKERI from '../public/img/animaciones/ESKERI.json'
 
-function NextArrow(props: any) {
-    const { className, style, onClick } = props;
-    return (
-        <div
-            className={className}
-            style={{ ...style, display: "block", background: "black" }}
-            onClick={onClick}
-        />
-    );
-}
-  
-function PrevArrow(props: any) {
-    const { className, style, onClick } = props;
-    return (
-        <div
-            className={className}
-            style={{ ...style, display: "block", background: "black" }}
-            onClick={onClick}
-        />
-    );
-}
-
 const FamiliaGIG: NextPage = () => {
     const { t } = useTranslation('components')
     const SliderSettings = {
@@ -53,9 +31,7 @@ const FamiliaGIG: NextPage = () => {
         infinite: true,
         speed: 500,
         slidesToShow: 1,
-        slidesToScroll: 1,
-        nextArrow: <NextArrow />,
-        prevArrow: <PrevArrow />
+        slidesToScroll: 1
     }
     return (
         <div id="familia">

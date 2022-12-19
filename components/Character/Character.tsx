@@ -29,8 +29,8 @@ const Character: FC<PropsWithChildren<Props>> = ({
     const { t } = useTranslation('components')
     return (
         <div className='gig-character'>
-            <Stack minW={'340px'}>
-                <Grid p={4} m={{base: '0', md: '0 40px 0 0'}}
+            <Stack>
+                <Grid p={{base: 0, md: 4}} m={{base: 0, md: '0 40px 0 0'}}
                     templateColumns={{
                         base: 'repeat(1, 1fr)',
                         sm: 'repeat(2, 1fr)',
@@ -46,7 +46,9 @@ const Character: FC<PropsWithChildren<Props>> = ({
                     />
                     <Stack direction={'column'} >
                         <Box>
-                            <Heading as={'h4'} variant={'heading1'} mb={4}><b>{name}</b></Heading>
+                            <Heading as={'h4'} variant={'heading1'} mb={4}>
+                                <b>{name}</b>
+                            </Heading>
                             <Text fontSize='xs'>
                                 {description}
                             </Text>

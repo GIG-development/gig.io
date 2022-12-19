@@ -111,3 +111,12 @@
 .slick-slider .slick-slide {
     padding-left: 20px;
 }
+@media screen and (max-width: 768px) {
+    .slick-slider .slick-list{
+        padding: 0 !important;
+    }
+    .slick-slider .slick-slide {
+        padding-left: 0px;
+        padding: 20px;
+    }
+}

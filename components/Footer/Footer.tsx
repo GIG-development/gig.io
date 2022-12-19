@@ -3,13 +3,13 @@ import {
     chakra,
     Container,
     Image,
-    Link,
     SimpleGrid,
     Stack,
     Text,
     VisuallyHidden,
     useColorModeValue,
 } from '@chakra-ui/react';
+import Link from '../Link/Link'
 import { FaInstagram } from '@react-icons/all-files/fa/FaInstagram';
 import { FaTwitter } from '@react-icons/all-files/fa/FaTwitter';
 import { FaYoutube } from '@react-icons/all-files/fa/FaYoutube';
@@ -21,7 +21,7 @@ const SocialButton = ({
     label,
     href,
   }: {
-    children: ReactNode;
+    children?: ReactNode;
     label: string;
     href: string;
   }) => {
@@ -46,22 +46,22 @@ const SocialButton = ({
         {children}
       </chakra.button>
     );
-  };
+};
   
-  const ListHeader = ({ children }: { children: ReactNode }) => {
+const ListHeader = ({ children }: { children?: ReactNode }) => {
     return (
       <Text fontWeight={'700'} fontSize={'lg'} mb={2}>
         {children}
       </Text>
     );
-  };
+};
 
 type Props = {
   userProfileLink: string
 }
   
 const Footer: FC<PropsWithChildren<Props>> = ({
-  userProfileLink
+  userProfileLink = '/login'
 }) => {
     const { t } = useTranslation('components')
     return (

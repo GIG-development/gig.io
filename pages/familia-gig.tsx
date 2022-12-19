@@ -7,6 +7,7 @@ import {
   useBreakpointValue
 } from '@chakra-ui/react'
 import Head from '../components/Head'
+import Character from 'components/Character/Character'
 import LargeLayout from '../layouts/large'
 import { NextPage } from 'next'
 import useTranslation from 'next-translate/useTranslation'
@@ -54,6 +55,13 @@ const FamiliaGIG: NextPage = () => {
                 </Stack>
                 <Box maxW={'720px'} margin={'0 auto 40px'}>
                     <Slider {...SliderSettings}>
+                        <Character
+                            name='NFTLali'
+                            animation={NFTLali}
+                            description={t('family.characters.nftlali.description')}
+                            powers={[t('family.characters.nftlali.power.power1'), t('family.characters.nftlali.power.power2'), t('family.characters.nftlali.power.power3')]}
+                            weaknesses={[t('family.characters.nftlali.weakness.weakness1')]}
+                        />
                         <Stack minW={'340px'}>
                             <Grid p={4} m={'0 40px 0 0'}
                                 templateColumns={{

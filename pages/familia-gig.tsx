@@ -14,8 +14,6 @@ import Lottie from 'react-lottie-player'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { FiChevronLeft } from "@react-icons/all-files/fi/FiChevronLeft";
-import { FiChevronRight } from "@react-icons/all-files/fi/FiChevronRight";
 import NFTLali from '../public/img/animaciones/NFTLALI.json'
 import MAMADORIS from '../public/img/animaciones/MAMADORIS.json'
 import FLIPPER from '../public/img/animaciones/FLIPPER.json'

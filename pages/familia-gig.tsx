@@ -10,7 +10,6 @@ import Character from 'components/Character/Character'
 import LargeLayout from '../layouts/large'
 import { NextPage } from 'next'
 import useTranslation from 'next-translate/useTranslation'
-import Lottie from 'react-lottie-player'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";

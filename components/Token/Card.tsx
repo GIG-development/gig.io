@@ -1,7 +1,6 @@
 import { Flex, Heading, Stack } from '@chakra-ui/react'
 import { BigNumber } from '@ethersproject/bignumber'
 import { useMemo, VFC } from 'react'
-import { Standard } from '../../graphql'
 import Link from '../Link/Link'
 import SaleAuctionCardFooter from '../Sales/Auction/CardFooter'
 import SaleDirectCardFooter from '../Sales/Direct/CardFooter'
@@ -12,7 +11,7 @@ import TokenMedia from './Media'
 export type Props = {
   asset: {
     id: string
-    standard: Standard
+    standard: any
     name: string
     image: string
     unlockedContent: { url: string; mimetype: string | null } | null

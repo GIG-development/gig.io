@@ -6,7 +6,7 @@ import environment from './environment'
 
 const connectors = {
   email: new EmailConnector({
-    apiKey: environment.MAGIC_API_KEY,
+    apiKey: 'pk_live_CE27413B2AF21F5E',
     options: {
       network: {
         rpcUrl: environment.PUBLIC_ETHEREUM_PROVIDER,

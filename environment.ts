@@ -16,7 +16,7 @@ type Environment = {
   BUGSNAG_API_KEY?: string
   BASE_URL: string
   UPLOAD_URL: string
-  MAGIC_API_KEY: string
+  MAGIC_API_KEY?: string
 }
 
 // ethereum provider
